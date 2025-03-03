@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Users/Hp/Programming/\u0421++/ConcurrentProcesses/Practice1/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/Hp/Programming/\u0421++/ConcurrentProcesses/Practice1",
+	"dir-top-bld" : "C:/Users/Hp/Programming/\u0421++/ConcurrentProcesses/Practice1/cmake-build-debug",
+	"dir-top-src" : "C:/Users/Hp/Programming/\u0421++/ConcurrentProcesses/Practice1",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/Hp/Programming/\u0421++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task2_2.dir"
+}
