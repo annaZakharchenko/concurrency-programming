@@ -43,22 +43,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Task1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Task1-Debug-bc4090c0a45365d767e8.json",
+					"jsonFile" : "target-Task1-Debug-ebc1335cb74cc1d07c2b.json",
 					"name" : "Task1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Task2_1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Task2_1-Debug-19fed2b0aaa7d19a53db.json",
-					"name" : "Task2_1",
+					"id" : "Task2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Task2-Debug-d1c290b1bb5ade07fbe5.json",
+					"name" : "Task2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Task2_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Task2_2-Debug-1383314cefe3cb7f0941.json",
-					"name" : "Task2_2",
+					"id" : "Task3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Task3-Debug-fd9a0d104260b4d5dc36.json",
+					"name" : "Task3",
 					"projectIndex" : 0
 				}
 			]

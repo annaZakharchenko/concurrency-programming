@@ -1,5 +1,5 @@
 C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task1.dir
-C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task2_1.dir
-C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task2_2.dir
+C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task2.dir
+C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task3.dir
 C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
