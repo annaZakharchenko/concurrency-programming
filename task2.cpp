@@ -18,7 +18,9 @@ void multiplyWithDelay(int number, const std::string& threadName) {
 }
 
 int main() {
-    int number = 10;
+    int number;
+    std::cout << "Enter number: ";
+    std::cin >> number;
 
     std::thread thread1(multiplyWithDelay, number, "A");
     thread1.join();

@@ -91834,7 +91834,9 @@ void multiplyWithDelay(int number) {
 }
 
 int main() {
-    int number = 10;
+    int number;
+    std:: cout << "Enter number: ";
+    std::cin >> number;
     std::thread thread(multiplyWithDelay, number);
     thread.join();
     return 0;
