@@ -151,6 +151,11 @@ CMakeFiles\Task1.dir\task1.cpp.obj.ddi: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ostream.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/istream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/thread \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/stop_token \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic \
@@ -176,11 +181,6 @@ CMakeFiles\Task1.dir\task1.cpp.obj.ddi: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/chrono \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/sstream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/sstream.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_algo.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/algorithmfwd.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_heap.h \

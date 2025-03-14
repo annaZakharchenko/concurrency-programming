@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include <thread>
 #include <chrono>
 
@@ -13,13 +14,13 @@ int main() {
     int constant;
     int numThreads;
 
-    std::cout << "Enter the number of elements in the vector:";
+    std::cout << "Enter the number of elements in the vector: ";
     std::cin >> n;
 
-    std::cout << "Enter the constant to multiply by:";
+    std::cout << "Enter the constant to multiply by: ";
     std::cin >> constant;
 
-    std::cout << "Enter the number of threads to use (max " << std::thread::hardware_concurrency() << "):";
+    std::cout << "Enter the number of threads to use (max " << std::thread::hardware_concurrency() << "): ";
     std::cin >> numThreads;
 
     if (numThreads < 1 || numThreads > std::thread::hardware_concurrency()) {
@@ -28,19 +29,15 @@ int main() {
     }
 
     std::vector<int> vec(n, 1);
-
     int chunkSize = n / numThreads;
     std::vector<std::thread> threads;
-
 
     for (int i = 0; i < numThreads; ++i) {
         int startIdx = i * chunkSize;
         int endIdx = (i == numThreads - 1) ? n : (i + 1) * chunkSize;
 
-
         threads.push_back(std::thread(multiplyByConstant, std::ref(vec), startIdx, endIdx, constant));
     }
-
 
     for (auto& th : threads) {
         th.join();

@@ -1,25 +1,29 @@
 #include <iostream>
 #include <thread>
 
-void multiply(int a, int b, int &result) {
-    result = a * b;
+using namespace std;
+
+int mult(int a, int b)
+{
+    return a * b;
 }
 
-int main() {
+int main()
+{
     int a, b;
     int result;
 
-    std::cout << "Enter first number:";
-    std::cin >> a;
-    std::cout << "Enter second number:";
-    std::cin >> b;
+    cout << "\nEnter first number: " << endl;
+    cin >> a;
+    cout << "Enter second number: " << endl;
 
-    std::thread th(multiply, a, b, std::ref(result));
+    cin >> b;
 
-    th.join();
+    thread t([&result, a, b]()
+             { result = mult(a, b); });
 
-    std::cout << "Result: " << result << std::endl;
+    t.join();
 
-
+    cout << "Result: " << result << endl;
     return 0;
 }
