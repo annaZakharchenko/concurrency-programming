@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include <algorithm>
 
 struct Month {
@@ -8,14 +7,16 @@ struct Month {
 };
 
 int main() {
-    std::vector<Month> months = {
+    Month months[] = {
         {"January", -5}, {"February", -2}, {"March", 5},
         {"April", 10}, {"May", 15}, {"June", 20},
         {"July", 25}, {"August", 23}, {"September", 18},
         {"October", 10}, {"November", 5}, {"December", -1}
     };
 
-    std::sort(months.begin(), months.end(),
+    int num_months = sizeof(months) / sizeof(months[0]);
+
+    std::sort(months, months + num_months,
         [](const Month& m1, const Month& m2) {
             return m1.avg_temp < m2.avg_temp;
         });

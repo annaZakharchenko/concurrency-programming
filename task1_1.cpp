@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include <algorithm>
 
 struct Student {
@@ -8,16 +7,16 @@ struct Student {
 };
 
 int main() {
-    std::vector<Student> students = {
+    Student students[] = {
         {"Alice", 85}, {"Michael", 80}, {"Anna", 95}, {"Maksym", 87}, {"Eve", 88}
     };
 
-    auto max_student = std::max_element(students.begin(), students.end(),
+    auto max_student = std::max_element(std::begin(students), std::end(students),
         [](const Student& s1, const Student& s2) {
             return s1.score < s2.score;
         });
 
-    if (max_student != students.end()) {
+    if (max_student != std::end(students)) {
         std::cout << "Student with highest score:\nName: " << max_student->name
                   << "\nScore: " << max_student->score << "\n";
     }
