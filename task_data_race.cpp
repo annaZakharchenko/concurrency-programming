@@ -1,37 +1,40 @@
 #include <iostream>
+#include <atomic>
 #include <mutex>
 #include <thread>
-#include <condition_variable>
 
 using namespace std;
 
-struct Node {
+struct Number {
     int data;
-    Node* prev;
-    Node* next;
+    atomic<Number*> prev;
+    atomic<Number*> next;
 
-    Node(int val) : data(val), prev(nullptr), next(nullptr) {}
+    Number(int val) : data(val), prev(nullptr), next(nullptr) {}
 };
 
 class DoublyLinkedList {
 private:
-    Node* head;
-    Node* tail;
+    atomic<Number*> head;
+    atomic<Number*> tail;
     mutable mutex mtx;
 
 public:
     DoublyLinkedList() : head(nullptr), tail(nullptr) {}
 
     void insertAtEnd(int value) {
-        lock_guard<mutex> lock(mtx);
+        Number* newNumber = new Number(value);
 
-        Node* newNode = new Node(value);
-        if (!head) {
-            head = tail = newNode;
+        lock_guard<mutex> lock(mtx);
+        Number* oldTail = tail.load();
+
+        if (!oldTail) {
+            head.store(newNumber);
+            tail.store(newNumber);
         } else {
-            tail->next = newNode;
-            newNode->prev = tail;
-            tail = newNode;
+            oldTail->next.store(newNumber);
+            newNumber->prev.store(oldTail);
+            tail.store(newNumber);
         }
     }
 
@@ -39,18 +42,18 @@ public:
         lock_guard<mutex> lock(mtx);
 
         cout << "List from head to tail: ";
-        Node* temp = head;
+        Number* temp = head.load();
         while (temp) {
             cout << temp->data << " ";
-            temp = temp->next;
+            temp = temp->next.load();
         }
         cout << endl;
 
         cout << "List from tail to head: ";
-        temp = tail;
+        temp = tail.load();
         while (temp) {
             cout << temp->data << " ";
-            temp = temp->prev;
+            temp = temp->prev.load();
         }
         cout << endl;
     }
@@ -58,74 +61,37 @@ public:
     void deleteElement(int value) {
         lock_guard<mutex> lock(mtx);
 
-        Node* temp = head;
+        Number* temp = head.load();
         while (temp) {
             if (temp->data == value) {
-                if (temp->prev) temp->prev->next = temp->next;
-                if (temp->next) temp->next->prev = temp->prev;
+                Number* prevNumber = temp->prev.load();
+                Number* nextNumber = temp->next.load();
 
-                if (temp == head) head = temp->next;
-                if (temp == tail) tail = temp->prev;
+                if (prevNumber) prevNumber->next.store(nextNumber);
+                if (nextNumber) nextNumber->prev.store(prevNumber);
+
+                if (temp == head.load()) head.store(nextNumber);
+                if (temp == tail.load()) tail.store(prevNumber);
 
                 delete temp;
                 return;
             }
-            temp = temp->next;
-        }
-    }
-
-    void insertBefore(int newValue, int existingValue) {
-        lock_guard<mutex> lock(mtx);
-
-        Node* temp = head;
-        while (temp) {
-            if (temp->data == existingValue) {
-                Node* newNode = new Node(newValue);
-                newNode->next = temp;
-                newNode->prev = temp->prev;
-
-                if (temp->prev) temp->prev->next = newNode;
-                temp->prev = newNode;
-
-                if (temp == head) head = newNode;
-                return;
-            }
-            temp = temp->next;
-        }
-    }
-
-    void insertAfter(int newValue, int existingValue) {
-        lock_guard<mutex> lock(mtx);
-
-        Node* temp = head;
-        while (temp) {
-            if (temp->data == existingValue) {
-                Node* newNode = new Node(newValue);
-                newNode->prev = temp;
-                newNode->next = temp->next;
-
-                if (temp->next) temp->next->prev = newNode;
-                temp->next = newNode;
-
-                if (temp == tail) tail = newNode;
-                return;
-            }
-            temp = temp->next;
+            temp = temp->next.load();
         }
     }
 
     bool isSymmetric() const {
         lock_guard<mutex> lock(mtx);
 
-        Node* left = head;
-        Node* right = tail;
+        Number* left = head.load();
+        Number* right = tail.load();
 
         while (left && right) {
             if (left->data != right->data) {
                 return false;
             }
-            left = left->next;
-            right = right->prev;
+            left = left->next.load();
+            right = right->prev.load();
         }
 
         return left == nullptr && right == nullptr;
@@ -133,10 +99,10 @@ public:
 
     ~DoublyLinkedList() {
         lock_guard<mutex> lock(mtx);
-        Node* temp = head;
+        Number* temp = head.load();
         while (temp) {
-            Node* toDelete = temp;
-            temp = temp->next;
+            Number* toDelete = temp;
+            temp = temp->next.load();
             delete toDelete;
         }
     }
@@ -161,24 +127,6 @@ void testDelete(DoublyLinkedList& list) {
     list.deleteElement(value);
 }
 
-void testInsertBefore(DoublyLinkedList& list) {
-    int newValue, existingValue;
-    cout << "Enter new value to insert before: ";
-    cin >> newValue;
-    cout << "Enter existing value before which to insert: ";
-    cin >> existingValue;
-    list.insertBefore(newValue, existingValue);
-}
-
-void testInsertAfter(DoublyLinkedList& list) {
-    int newValue, existingValue;
-    cout << "Enter new value to insert after: ";
-    cin >> newValue;
-    cout << "Enter existing value after which to insert: ";
-    cin >> existingValue;
-    list.insertAfter(newValue, existingValue);
-}
-
 void testSymmetry(DoublyLinkedList& list) {
     cout << "Is the list symmetric? " << (list.isSymmetric() ? "Yes" : "No") << endl;
 }
@@ -193,16 +141,6 @@ int main() {
 
     thread t2(testDelete, ref(list));
     t2.join();
-
-    list.display();
-
-    thread t3(testInsertBefore, ref(list));
-    t3.join();
-
-    list.display();
-
-    thread t4(testInsertAfter, ref(list));
-    t4.join();
 
     list.display();
 
