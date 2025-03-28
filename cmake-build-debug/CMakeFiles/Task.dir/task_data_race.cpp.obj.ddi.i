@@ -42466,33 +42466,24 @@ namespace std
 
 }
 # 2 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task_data_race.cpp" 2
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 1 3
-# 32 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic" 1 3
+# 35 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic" 3
        
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-# 43 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 1 3
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+# 36 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic" 3
+# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic" 3
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
+# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
        
-# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
+# 49 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic" 2 3
 
-
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 1 3
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_base.h" 1 3
+# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_base.h" 3
        
-# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_base.h" 3
 
 
 
-
-
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint" 1 3
-# 32 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint" 3
-       
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint" 3
-# 45 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint" 3
 # 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h" 1 3 4
 # 9 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h" 3 4
 # 1 "C:/mingw64/x86_64-w64-mingw32/include/stdint.h" 1 3 4
@@ -42539,9 +42530,32 @@ __extension__ typedef unsigned long long uint_fast64_t;
 __extension__ typedef long long intmax_t;
 __extension__ typedef unsigned long long uintmax_t;
 # 10 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h" 2 3 4
-# 46 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint" 2 3
+# 38 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_base.h" 2 3
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_lockfree_defines.h" 1 3
+# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_lockfree_defines.h" 3
+       
+# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_lockfree_defines.h" 3
+# 39 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_base.h" 2 3
 
 
+
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 1 3
+# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 3
+       
+# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 3
+
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
+# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
+       
+# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
+# 36 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 2 3
+
+
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint" 1 3
+# 32 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint" 3
+       
+# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint" 3
+# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint" 3
 namespace std
 {
 
@@ -42582,3645 +42596,8 @@ namespace std
   using ::uintptr_t;
 # 142 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint" 3
 }
-# 41 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 2 3
-
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
-# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-       
-# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-# 44 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 2 3
-
-namespace std
-{
-
-# 59 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
-  template<intmax_t _Pn>
-    struct __static_sign
-    : integral_constant<intmax_t, (_Pn < 0) ? -1 : 1>
-    { };
-
-  template<intmax_t _Pn>
-    struct __static_abs
-    : integral_constant<intmax_t, _Pn * __static_sign<_Pn>::value>
-    { };
-
-  template<intmax_t _Pn, intmax_t _Qn>
-    struct __static_gcd
-    : __static_gcd<_Qn, (_Pn % _Qn)>
-    { };
-
-  template<intmax_t _Pn>
-    struct __static_gcd<_Pn, 0>
-    : integral_constant<intmax_t, __static_abs<_Pn>::value>
-    { };
-
-  template<intmax_t _Qn>
-    struct __static_gcd<0, _Qn>
-    : integral_constant<intmax_t, __static_abs<_Qn>::value>
-    { };
-
-
-
-
-
-
-
-  template<intmax_t _Pn, intmax_t _Qn>
-    struct __safe_multiply
-    {
-    private:
-      static const uintmax_t __c = uintmax_t(1) << (sizeof(intmax_t) * 4);
-
-      static const uintmax_t __a0 = __static_abs<_Pn>::value % __c;
-      static const uintmax_t __a1 = __static_abs<_Pn>::value / __c;
-      static const uintmax_t __b0 = __static_abs<_Qn>::value % __c;
-      static const uintmax_t __b1 = __static_abs<_Qn>::value / __c;
-
-      static_assert(__a1 == 0 || __b1 == 0,
-      "overflow in multiplication");
-      static_assert(__a0 * __b1 + __b0 * __a1 < (__c >> 1),
-      "overflow in multiplication");
-      static_assert(__b0 * __a0 <= 0x7fffffffffffffffLL,
-      "overflow in multiplication");
-      static_assert((__a0 * __b1 + __b0 * __a1) * __c
-      <= 0x7fffffffffffffffLL - __b0 * __a0,
-      "overflow in multiplication");
-
-    public:
-      static const intmax_t value = _Pn * _Qn;
-    };
-
-
-
-  template<uintmax_t __hi1, uintmax_t __lo1, uintmax_t __hi2, uintmax_t __lo2>
-    struct __big_less
-    : integral_constant<bool, (__hi1 < __hi2
-          || (__hi1 == __hi2 && __lo1 < __lo2))>
-    { };
-
-  template<uintmax_t __hi1, uintmax_t __lo1, uintmax_t __hi2, uintmax_t __lo2>
-    struct __big_add
-    {
-      static constexpr uintmax_t __lo = __lo1 + __lo2;
-      static constexpr uintmax_t __hi = (__hi1 + __hi2 +
-      (__lo1 + __lo2 < __lo1));
-    };
-
-
-  template<uintmax_t __hi1, uintmax_t __lo1, uintmax_t __hi2, uintmax_t __lo2>
-    struct __big_sub
-    {
-      static_assert(!__big_less<__hi1, __lo1, __hi2, __lo2>::value,
-      "Internal library error");
-      static constexpr uintmax_t __lo = __lo1 - __lo2;
-      static constexpr uintmax_t __hi = (__hi1 - __hi2 -
-      (__lo1 < __lo2));
-    };
-
-
-  template<uintmax_t __x, uintmax_t __y>
-    struct __big_mul
-    {
-    private:
-      static constexpr uintmax_t __c = uintmax_t(1) << (sizeof(intmax_t) * 4);
-      static constexpr uintmax_t __x0 = __x % __c;
-      static constexpr uintmax_t __x1 = __x / __c;
-      static constexpr uintmax_t __y0 = __y % __c;
-      static constexpr uintmax_t __y1 = __y / __c;
-      static constexpr uintmax_t __x0y0 = __x0 * __y0;
-      static constexpr uintmax_t __x0y1 = __x0 * __y1;
-      static constexpr uintmax_t __x1y0 = __x1 * __y0;
-      static constexpr uintmax_t __x1y1 = __x1 * __y1;
-      static constexpr uintmax_t __mix = __x0y1 + __x1y0;
-      static constexpr uintmax_t __mix_lo = __mix * __c;
-      static constexpr uintmax_t __mix_hi
-      = __mix / __c + ((__mix < __x0y1) ? __c : 0);
-      typedef __big_add<__mix_hi, __mix_lo, __x1y1, __x0y0> _Res;
-    public:
-      static constexpr uintmax_t __hi = _Res::__hi;
-      static constexpr uintmax_t __lo = _Res::__lo;
-    };
-
-
-
-  template<uintmax_t __n1, uintmax_t __n0, uintmax_t __d>
-    struct __big_div_impl
-    {
-    private:
-      static_assert(__d >= (uintmax_t(1) << (sizeof(intmax_t) * 8 - 1)),
-      "Internal library error");
-      static_assert(__n1 < __d, "Internal library error");
-      static constexpr uintmax_t __c = uintmax_t(1) << (sizeof(intmax_t) * 4);
-      static constexpr uintmax_t __d1 = __d / __c;
-      static constexpr uintmax_t __d0 = __d % __c;
-
-      static constexpr uintmax_t __q1x = __n1 / __d1;
-      static constexpr uintmax_t __r1x = __n1 % __d1;
-      static constexpr uintmax_t __m = __q1x * __d0;
-      static constexpr uintmax_t __r1y = __r1x * __c + __n0 / __c;
-      static constexpr uintmax_t __r1z = __r1y + __d;
-      static constexpr uintmax_t __r1
-      = ((__r1y < __m) ? ((__r1z >= __d) && (__r1z < __m))
-  ? (__r1z + __d) : __r1z : __r1y) - __m;
-      static constexpr uintmax_t __q1
-      = __q1x - ((__r1y < __m)
-   ? ((__r1z >= __d) && (__r1z < __m)) ? 2 : 1 : 0);
-      static constexpr uintmax_t __q0x = __r1 / __d1;
-      static constexpr uintmax_t __r0x = __r1 % __d1;
-      static constexpr uintmax_t __n = __q0x * __d0;
-      static constexpr uintmax_t __r0y = __r0x * __c + __n0 % __c;
-      static constexpr uintmax_t __r0z = __r0y + __d;
-      static constexpr uintmax_t __r0
-      = ((__r0y < __n) ? ((__r0z >= __d) && (__r0z < __n))
-  ? (__r0z + __d) : __r0z : __r0y) - __n;
-      static constexpr uintmax_t __q0
-      = __q0x - ((__r0y < __n) ? ((__r0z >= __d)
-      && (__r0z < __n)) ? 2 : 1 : 0);
-
-    public:
-      static constexpr uintmax_t __quot = __q1 * __c + __q0;
-      static constexpr uintmax_t __rem = __r0;
-
-    private:
-      typedef __big_mul<__quot, __d> _Prod;
-      typedef __big_add<_Prod::__hi, _Prod::__lo, 0, __rem> _Sum;
-      static_assert(_Sum::__hi == __n1 && _Sum::__lo == __n0,
-      "Internal library error");
-  };
-
-  template<uintmax_t __n1, uintmax_t __n0, uintmax_t __d>
-    struct __big_div
-    {
-    private:
-      static_assert(__d != 0, "Internal library error");
-      static_assert(sizeof (uintmax_t) == sizeof (unsigned long long),
-      "This library calls __builtin_clzll on uintmax_t, which "
-      "is unsafe on your platform. Please complain to "
-      "http://gcc.gnu.org/bugzilla/");
-      static constexpr int __shift = __builtin_clzll(__d);
-      static constexpr int __coshift_ = sizeof(uintmax_t) * 8 - __shift;
-      static constexpr int __coshift = (__shift != 0) ? __coshift_ : 0;
-      static constexpr uintmax_t __c1 = uintmax_t(1) << __shift;
-      static constexpr uintmax_t __c2 = uintmax_t(1) << __coshift;
-      static constexpr uintmax_t __new_d = __d * __c1;
-      static constexpr uintmax_t __new_n0 = __n0 * __c1;
-      static constexpr uintmax_t __n1_shifted = (__n1 % __d) * __c1;
-      static constexpr uintmax_t __n0_top = (__shift != 0) ? (__n0 / __c2) : 0;
-      static constexpr uintmax_t __new_n1 = __n1_shifted + __n0_top;
-      typedef __big_div_impl<__new_n1, __new_n0, __new_d> _Res;
-
-    public:
-      static constexpr uintmax_t __quot_hi = __n1 / __d;
-      static constexpr uintmax_t __quot_lo = _Res::__quot;
-      static constexpr uintmax_t __rem = _Res::__rem / __c1;
-
-    private:
-      typedef __big_mul<__quot_lo, __d> _P0;
-      typedef __big_mul<__quot_hi, __d> _P1;
-      typedef __big_add<_P0::__hi, _P0::__lo, _P1::__lo, __rem> _Sum;
-
-      static_assert(_P1::__hi == 0, "Internal library error");
-      static_assert(_Sum::__hi >= _P0::__hi, "Internal library error");
-
-      static_assert(_Sum::__hi == __n1 && _Sum::__lo == __n0,
-      "Internal library error");
-      static_assert(__rem < __d, "Internal library error");
-    };
-# 268 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
-  template<intmax_t _Num, intmax_t _Den = 1>
-    struct ratio
-    {
-      static_assert(_Den != 0, "denominator cannot be zero");
-      static_assert(_Num >= -0x7fffffffffffffffLL && _Den >= -0x7fffffffffffffffLL,
-      "out of range");
-
-
-      static constexpr intmax_t num =
-        _Num * __static_sign<_Den>::value / __static_gcd<_Num, _Den>::value;
-
-      static constexpr intmax_t den =
-        __static_abs<_Den>::value / __static_gcd<_Num, _Den>::value;
-
-      typedef ratio<num, den> type;
-    };
-# 295 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
-  template<typename _Tp>
-    struct __is_ratio
-    : std::false_type
-    { };
-
-  template<intmax_t _Num, intmax_t _Den>
-    struct __is_ratio<ratio<_Num, _Den>>
-    : std::true_type
-    { };
-
-
-  template<typename _Tp>
-    constexpr bool __is_ratio_v = false;
-  template<intmax_t _Num, intmax_t _Den>
-    constexpr bool __is_ratio_v<ratio<_Num, _Den>> = true;
-
-
-  template<typename _R1, typename _R2>
-    constexpr bool
-    __are_both_ratios() noexcept
-    {
-
-      if constexpr (__is_ratio_v<_R1>)
- if constexpr (__is_ratio_v<_R2>)
-   return true;
-      return false;
-
-
-
-    }
-
-  template<typename _R1, typename _R2>
-    struct __ratio_multiply
-    {
-      static_assert(std::__are_both_ratios<_R1, _R2>(),
-      "both template arguments must be a std::ratio");
-
-    private:
-      static const intmax_t __gcd1 =
-        __static_gcd<_R1::num, _R2::den>::value;
-      static const intmax_t __gcd2 =
-        __static_gcd<_R2::num, _R1::den>::value;
-
-    public:
-      typedef ratio<
-        __safe_multiply<(_R1::num / __gcd1),
-                        (_R2::num / __gcd2)>::value,
-        __safe_multiply<(_R1::den / __gcd2),
-                        (_R2::den / __gcd1)>::value> type;
-
-      static constexpr intmax_t num = type::num;
-      static constexpr intmax_t den = type::den;
-    };
-# 360 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
-  template<typename _R1, typename _R2>
-    using ratio_multiply = typename __ratio_multiply<_R1, _R2>::type;
-
-
-
-  template<typename _R1, typename _R2>
-    struct __ratio_divide
-    {
-      static_assert(_R2::num != 0, "division by 0");
-
-      typedef typename __ratio_multiply<
-        _R1,
-        ratio<_R2::den, _R2::num>>::type type;
-
-      static constexpr intmax_t num = type::num;
-      static constexpr intmax_t den = type::den;
-    };
-# 389 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
-  template<typename _R1, typename _R2>
-    using ratio_divide = typename __ratio_divide<_R1, _R2>::type;
-
-
-  template<typename _R1, typename _R2>
-    struct ratio_equal
-    : integral_constant<bool, _R1::num == _R2::num && _R1::den == _R2::den>
-    {
-      static_assert(std::__are_both_ratios<_R1, _R2>(),
-      "both template arguments must be a std::ratio");
-    };
-
-
-  template<typename _R1, typename _R2>
-    struct ratio_not_equal
-    : integral_constant<bool, !ratio_equal<_R1, _R2>::value>
-    { };
-
-
-
-
-  template<typename _R1, typename _R2,
-           typename _Left = __big_mul<_R1::num,_R2::den>,
-           typename _Right = __big_mul<_R2::num,_R1::den> >
-    struct __ratio_less_impl_1
-    : integral_constant<bool, __big_less<_Left::__hi, _Left::__lo,
-           _Right::__hi, _Right::__lo>::value>
-    { };
-
-  template<typename _R1, typename _R2,
-    bool = (_R1::num == 0 || _R2::num == 0
-     || (__static_sign<_R1::num>::value
-         != __static_sign<_R2::num>::value)),
-    bool = (__static_sign<_R1::num>::value == -1
-     && __static_sign<_R2::num>::value == -1)>
-    struct __ratio_less_impl
-    : __ratio_less_impl_1<_R1, _R2>::type
-    { };
-
-  template<typename _R1, typename _R2>
-    struct __ratio_less_impl<_R1, _R2, true, false>
-    : integral_constant<bool, _R1::num < _R2::num>
-    { };
-
-  template<typename _R1, typename _R2>
-    struct __ratio_less_impl<_R1, _R2, false, true>
-    : __ratio_less_impl_1<ratio<-_R2::num, _R2::den>,
-           ratio<-_R1::num, _R1::den> >::type
-    { };
-
-
-
-
-  template<typename _R1, typename _R2>
-    struct ratio_less
-    : __ratio_less_impl<_R1, _R2>::type
-    {
-      static_assert(std::__are_both_ratios<_R1, _R2>(),
-      "both template arguments must be a std::ratio");
-    };
-
-
-  template<typename _R1, typename _R2>
-    struct ratio_less_equal
-    : integral_constant<bool, !ratio_less<_R2, _R1>::value>
-    { };
-
-
-  template<typename _R1, typename _R2>
-    struct ratio_greater
-    : integral_constant<bool, ratio_less<_R2, _R1>::value>
-    { };
-
-
-  template<typename _R1, typename _R2>
-    struct ratio_greater_equal
-    : integral_constant<bool, !ratio_less<_R1, _R2>::value>
-    { };
-
-
-  template <typename _R1, typename _R2>
-    inline constexpr bool ratio_equal_v = ratio_equal<_R1, _R2>::value;
-  template <typename _R1, typename _R2>
-    inline constexpr bool ratio_not_equal_v = ratio_not_equal<_R1, _R2>::value;
-  template <typename _R1, typename _R2>
-    inline constexpr bool ratio_less_v = ratio_less<_R1, _R2>::value;
-  template <typename _R1, typename _R2>
-    inline constexpr bool ratio_less_equal_v
-      = ratio_less_equal<_R1, _R2>::value;
-  template <typename _R1, typename _R2>
-    inline constexpr bool ratio_greater_v = ratio_greater<_R1, _R2>::value;
-  template <typename _R1, typename _R2>
-    inline constexpr bool ratio_greater_equal_v
-      = ratio_greater_equal<_R1, _R2>::value;
-
-
-
-
-  template<typename _R1, typename _R2,
-      bool = (_R1::num >= 0),
-      bool = (_R2::num >= 0),
-      bool = ratio_less<ratio<__static_abs<_R1::num>::value, _R1::den>,
-        ratio<__static_abs<_R2::num>::value, _R2::den> >::value>
-    struct __ratio_add_impl
-    {
-    private:
-      typedef typename __ratio_add_impl<
-        ratio<-_R1::num, _R1::den>,
-        ratio<-_R2::num, _R2::den> >::type __t;
-    public:
-      typedef ratio<-__t::num, __t::den> type;
-    };
-
-
-  template<typename _R1, typename _R2, bool __b>
-    struct __ratio_add_impl<_R1, _R2, true, true, __b>
-    {
-    private:
-      static constexpr uintmax_t __g = __static_gcd<_R1::den, _R2::den>::value;
-      static constexpr uintmax_t __d2 = _R2::den / __g;
-      typedef __big_mul<_R1::den, __d2> __d;
-      typedef __big_mul<_R1::num, _R2::den / __g> __x;
-      typedef __big_mul<_R2::num, _R1::den / __g> __y;
-      typedef __big_add<__x::__hi, __x::__lo, __y::__hi, __y::__lo> __n;
-      static_assert(__n::__hi >= __x::__hi, "Internal library error");
-      typedef __big_div<__n::__hi, __n::__lo, __g> __ng;
-      static constexpr uintmax_t __g2 = __static_gcd<__ng::__rem, __g>::value;
-      typedef __big_div<__n::__hi, __n::__lo, __g2> __n_final;
-      static_assert(__n_final::__rem == 0, "Internal library error");
-      static_assert(__n_final::__quot_hi == 0 &&
-        __n_final::__quot_lo <= 0x7fffffffffffffffLL, "overflow in addition");
-      typedef __big_mul<_R1::den / __g2, __d2> __d_final;
-      static_assert(__d_final::__hi == 0 &&
-        __d_final::__lo <= 0x7fffffffffffffffLL, "overflow in addition");
-    public:
-      typedef ratio<__n_final::__quot_lo, __d_final::__lo> type;
-    };
-
-  template<typename _R1, typename _R2>
-    struct __ratio_add_impl<_R1, _R2, false, true, true>
-    : __ratio_add_impl<_R2, _R1>
-    { };
-
-
-  template<typename _R1, typename _R2>
-    struct __ratio_add_impl<_R1, _R2, true, false, false>
-    {
-    private:
-      static constexpr uintmax_t __g = __static_gcd<_R1::den, _R2::den>::value;
-      static constexpr uintmax_t __d2 = _R2::den / __g;
-      typedef __big_mul<_R1::den, __d2> __d;
-      typedef __big_mul<_R1::num, _R2::den / __g> __x;
-      typedef __big_mul<-_R2::num, _R1::den / __g> __y;
-      typedef __big_sub<__x::__hi, __x::__lo, __y::__hi, __y::__lo> __n;
-      typedef __big_div<__n::__hi, __n::__lo, __g> __ng;
-      static constexpr uintmax_t __g2 = __static_gcd<__ng::__rem, __g>::value;
-      typedef __big_div<__n::__hi, __n::__lo, __g2> __n_final;
-      static_assert(__n_final::__rem == 0, "Internal library error");
-      static_assert(__n_final::__quot_hi == 0 &&
-        __n_final::__quot_lo <= 0x7fffffffffffffffLL, "overflow in addition");
-      typedef __big_mul<_R1::den / __g2, __d2> __d_final;
-      static_assert(__d_final::__hi == 0 &&
-        __d_final::__lo <= 0x7fffffffffffffffLL, "overflow in addition");
-    public:
-      typedef ratio<__n_final::__quot_lo, __d_final::__lo> type;
-    };
-
-  template<typename _R1, typename _R2>
-    struct __ratio_add
-    {
-      static_assert(std::__are_both_ratios<_R1, _R2>(),
-      "both template arguments must be a std::ratio");
-
-      typedef typename __ratio_add_impl<_R1, _R2>::type type;
-      static constexpr intmax_t num = type::num;
-      static constexpr intmax_t den = type::den;
-    };
-# 578 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
-  template<typename _R1, typename _R2>
-    using ratio_add = typename __ratio_add<_R1, _R2>::type;
-
-
-
-  template<typename _R1, typename _R2>
-    struct __ratio_subtract
-    {
-      typedef typename __ratio_add<
-        _R1,
-        ratio<-_R2::num, _R2::den>>::type type;
-
-      static constexpr intmax_t num = type::num;
-      static constexpr intmax_t den = type::den;
-    };
-# 605 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
-  template<typename _R1, typename _R2>
-    using ratio_subtract = typename __ratio_subtract<_R1, _R2>::type;
-# 618 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
-  using atto = ratio< 1, 1000000000000000000>;
-  using femto = ratio< 1, 1000000000000000>;
-  using pico = ratio< 1, 1000000000000>;
-  using nano = ratio< 1, 1000000000>;
-  using micro = ratio< 1, 1000000>;
-  using milli = ratio< 1, 1000>;
-  using centi = ratio< 1, 100>;
-  using deci = ratio< 1, 10>;
-  using deca = ratio< 10, 1>;
-  using hecto = ratio< 100, 1>;
-  using kilo = ratio< 1000, 1>;
-  using mega = ratio< 1000000, 1>;
-  using giga = ratio< 1000000000, 1>;
-  using tera = ratio< 1000000000000, 1>;
-  using peta = ratio< 1000000000000000, 1>;
-  using exa = ratio< 1000000000000000000, 1>;
-# 646 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
-
-}
-# 38 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 2 3
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 1 3
-# 40 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-       
-# 41 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-# 158 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-namespace std
-{
-
-
-
-
-
-
-
-  enum float_round_style
-  {
-    round_indeterminate = -1,
-    round_toward_zero = 0,
-    round_to_nearest = 1,
-    round_toward_infinity = 2,
-    round_toward_neg_infinity = 3
-  };
-
-
-
-
-
-
-
-  enum float_denorm_style
-  {
-
-    denorm_indeterminate = -1,
-
-    denorm_absent = 0,
-
-    denorm_present = 1
-  };
-# 202 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-  struct __numeric_limits_base
-  {
-
-
-    static constexpr bool is_specialized = false;
-
-
-
-
-    static constexpr int digits = 0;
-
-
-    static constexpr int digits10 = 0;
-
-
-
-
-    static constexpr int max_digits10 = 0;
-
-
-
-    static constexpr bool is_signed = false;
-
-
-    static constexpr bool is_integer = false;
-
-
-
-
-    static constexpr bool is_exact = false;
-
-
-
-    static constexpr int radix = 0;
-
-
-
-    static constexpr int min_exponent = 0;
-
-
-
-    static constexpr int min_exponent10 = 0;
-
-
-
-
-    static constexpr int max_exponent = 0;
-
-
-
-    static constexpr int max_exponent10 = 0;
-
-
-    static constexpr bool has_infinity = false;
-
-
-
-    static constexpr bool has_quiet_NaN = false;
-
-
-
-    static constexpr bool has_signaling_NaN = false;
-
-
-    static constexpr float_denorm_style has_denorm = denorm_absent;
-
-
-
-    static constexpr bool has_denorm_loss = false;
-
-
-
-    static constexpr bool is_iec559 = false;
-
-
-
-
-    static constexpr bool is_bounded = false;
-# 288 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-    static constexpr bool is_modulo = false;
-
-
-    static constexpr bool traps = false;
-
-
-    static constexpr bool tinyness_before = false;
-
-
-
-
-    static constexpr float_round_style round_style =
-          round_toward_zero;
-  };
-# 311 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-  template<typename _Tp>
-    struct numeric_limits : public __numeric_limits_base
-    {
-
-
-      static constexpr _Tp
-      min() noexcept { return _Tp(); }
-
-
-      static constexpr _Tp
-      max() noexcept { return _Tp(); }
-
-
-
-
-      static constexpr _Tp
-      lowest() noexcept { return _Tp(); }
-
-
-
-
-      static constexpr _Tp
-      epsilon() noexcept { return _Tp(); }
-
-
-      static constexpr _Tp
-      round_error() noexcept { return _Tp(); }
-
-
-      static constexpr _Tp
-      infinity() noexcept { return _Tp(); }
-
-
-
-      static constexpr _Tp
-      quiet_NaN() noexcept { return _Tp(); }
-
-
-
-      static constexpr _Tp
-      signaling_NaN() noexcept { return _Tp(); }
-
-
-
-
-      static constexpr _Tp
-      denorm_min() noexcept { return _Tp(); }
-    };
-
-
-
-
-  template<typename _Tp>
-    struct numeric_limits<const _Tp>
-    : public numeric_limits<_Tp> { };
-
-  template<typename _Tp>
-    struct numeric_limits<volatile _Tp>
-    : public numeric_limits<_Tp> { };
-
-  template<typename _Tp>
-    struct numeric_limits<const volatile _Tp>
-    : public numeric_limits<_Tp> { };
-# 383 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-  template<>
-    struct numeric_limits<bool>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr bool
-      min() noexcept { return false; }
-
-      static constexpr bool
-      max() noexcept { return true; }
-
-
-      static constexpr bool
-      lowest() noexcept { return min(); }
-
-      static constexpr int digits = 1;
-      static constexpr int digits10 = 0;
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = false;
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr bool
-      epsilon() noexcept { return false; }
-
-      static constexpr bool
-      round_error() noexcept { return false; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr bool
-      infinity() noexcept { return false; }
-
-      static constexpr bool
-      quiet_NaN() noexcept { return false; }
-
-      static constexpr bool
-      signaling_NaN() noexcept { return false; }
-
-      static constexpr bool
-      denorm_min() noexcept { return false; }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = false;
-
-
-
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<char>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr char
-      min() noexcept { return (((char)(-1) < 0) ? -(((char)(-1) < 0) ? (((((char)1 << ((sizeof(char) * 8 - ((char)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char)0) - 1 : (char)0); }
-
-      static constexpr char
-      max() noexcept { return (((char)(-1) < 0) ? (((((char)1 << ((sizeof(char) * 8 - ((char)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char)0); }
-
-
-      static constexpr char
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits = (sizeof(char) * 8 - ((char)(-1) < 0));
-      static constexpr int digits10 = ((sizeof(char) * 8 - ((char)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = ((char)(-1) < 0);
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr char
-      epsilon() noexcept { return 0; }
-
-      static constexpr char
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr
-      char infinity() noexcept { return char(); }
-
-      static constexpr char
-      quiet_NaN() noexcept { return char(); }
-
-      static constexpr char
-      signaling_NaN() noexcept { return char(); }
-
-      static constexpr char
-      denorm_min() noexcept { return static_cast<char>(0); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = !is_signed;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<signed char>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr signed char
-      min() noexcept { return -0x7f - 1; }
-
-      static constexpr signed char
-      max() noexcept { return 0x7f; }
-
-
-      static constexpr signed char
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits = (sizeof(signed char) * 8 - ((signed char)(-1) < 0));
-      static constexpr int digits10
-       = ((sizeof(signed char) * 8 - ((signed char)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = true;
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr signed char
-      epsilon() noexcept { return 0; }
-
-      static constexpr signed char
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr signed char
-      infinity() noexcept { return static_cast<signed char>(0); }
-
-      static constexpr signed char
-      quiet_NaN() noexcept { return static_cast<signed char>(0); }
-
-      static constexpr signed char
-      signaling_NaN() noexcept
-      { return static_cast<signed char>(0); }
-
-      static constexpr signed char
-      denorm_min() noexcept
-      { return static_cast<signed char>(0); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = false;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<unsigned char>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr unsigned char
-      min() noexcept { return 0; }
-
-      static constexpr unsigned char
-      max() noexcept { return 0x7f * 2U + 1; }
-
-
-      static constexpr unsigned char
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits
-       = (sizeof(unsigned char) * 8 - ((unsigned char)(-1) < 0));
-      static constexpr int digits10
-       = ((sizeof(unsigned char) * 8 - ((unsigned char)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = false;
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr unsigned char
-      epsilon() noexcept { return 0; }
-
-      static constexpr unsigned char
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr unsigned char
-      infinity() noexcept
-      { return static_cast<unsigned char>(0); }
-
-      static constexpr unsigned char
-      quiet_NaN() noexcept
-      { return static_cast<unsigned char>(0); }
-
-      static constexpr unsigned char
-      signaling_NaN() noexcept
-      { return static_cast<unsigned char>(0); }
-
-      static constexpr unsigned char
-      denorm_min() noexcept
-      { return static_cast<unsigned char>(0); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = true;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<wchar_t>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr wchar_t
-      min() noexcept { return (((wchar_t)(-1) < 0) ? -(((wchar_t)(-1) < 0) ? (((((wchar_t)1 << ((sizeof(wchar_t) * 8 - ((wchar_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(wchar_t)0) - 1 : (wchar_t)0); }
-
-      static constexpr wchar_t
-      max() noexcept { return (((wchar_t)(-1) < 0) ? (((((wchar_t)1 << ((sizeof(wchar_t) * 8 - ((wchar_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(wchar_t)0); }
-
-
-      static constexpr wchar_t
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits = (sizeof(wchar_t) * 8 - ((wchar_t)(-1) < 0));
-      static constexpr int digits10
-       = ((sizeof(wchar_t) * 8 - ((wchar_t)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = ((wchar_t)(-1) < 0);
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr wchar_t
-      epsilon() noexcept { return 0; }
-
-      static constexpr wchar_t
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr wchar_t
-      infinity() noexcept { return wchar_t(); }
-
-      static constexpr wchar_t
-      quiet_NaN() noexcept { return wchar_t(); }
-
-      static constexpr wchar_t
-      signaling_NaN() noexcept { return wchar_t(); }
-
-      static constexpr wchar_t
-      denorm_min() noexcept { return wchar_t(); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = !is_signed;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-
-  template<>
-    struct numeric_limits<char8_t>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr char8_t
-      min() noexcept { return (((char8_t)(-1) < 0) ? -(((char8_t)(-1) < 0) ? (((((char8_t)1 << ((sizeof(char8_t) * 8 - ((char8_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char8_t)0) - 1 : (char8_t)0); }
-
-      static constexpr char8_t
-      max() noexcept { return (((char8_t)(-1) < 0) ? (((((char8_t)1 << ((sizeof(char8_t) * 8 - ((char8_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char8_t)0); }
-
-      static constexpr char8_t
-      lowest() noexcept { return min(); }
-
-      static constexpr int digits = (sizeof(char8_t) * 8 - ((char8_t)(-1) < 0));
-      static constexpr int digits10 = ((sizeof(char8_t) * 8 - ((char8_t)(-1) < 0)) * 643L / 2136);
-      static constexpr int max_digits10 = 0;
-      static constexpr bool is_signed = ((char8_t)(-1) < 0);
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr char8_t
-      epsilon() noexcept { return 0; }
-
-      static constexpr char8_t
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
- = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr char8_t
-      infinity() noexcept { return char8_t(); }
-
-      static constexpr char8_t
-      quiet_NaN() noexcept { return char8_t(); }
-
-      static constexpr char8_t
-      signaling_NaN() noexcept { return char8_t(); }
-
-      static constexpr char8_t
-      denorm_min() noexcept { return char8_t(); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = !is_signed;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
- = round_toward_zero;
-    };
-
-
-
-
-  template<>
-    struct numeric_limits<char16_t>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr char16_t
-      min() noexcept { return (((char16_t)(-1) < 0) ? -(((char16_t)(-1) < 0) ? (((((char16_t)1 << ((sizeof(char16_t) * 8 - ((char16_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char16_t)0) - 1 : (char16_t)0); }
-
-      static constexpr char16_t
-      max() noexcept { return (((char16_t)(-1) < 0) ? (((((char16_t)1 << ((sizeof(char16_t) * 8 - ((char16_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char16_t)0); }
-
-      static constexpr char16_t
-      lowest() noexcept { return min(); }
-
-      static constexpr int digits = (sizeof(char16_t) * 8 - ((char16_t)(-1) < 0));
-      static constexpr int digits10 = ((sizeof(char16_t) * 8 - ((char16_t)(-1) < 0)) * 643L / 2136);
-      static constexpr int max_digits10 = 0;
-      static constexpr bool is_signed = ((char16_t)(-1) < 0);
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr char16_t
-      epsilon() noexcept { return 0; }
-
-      static constexpr char16_t
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr char16_t
-      infinity() noexcept { return char16_t(); }
-
-      static constexpr char16_t
-      quiet_NaN() noexcept { return char16_t(); }
-
-      static constexpr char16_t
-      signaling_NaN() noexcept { return char16_t(); }
-
-      static constexpr char16_t
-      denorm_min() noexcept { return char16_t(); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = !is_signed;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<char32_t>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr char32_t
-      min() noexcept { return (((char32_t)(-1) < 0) ? -(((char32_t)(-1) < 0) ? (((((char32_t)1 << ((sizeof(char32_t) * 8 - ((char32_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char32_t)0) - 1 : (char32_t)0); }
-
-      static constexpr char32_t
-      max() noexcept { return (((char32_t)(-1) < 0) ? (((((char32_t)1 << ((sizeof(char32_t) * 8 - ((char32_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char32_t)0); }
-
-      static constexpr char32_t
-      lowest() noexcept { return min(); }
-
-      static constexpr int digits = (sizeof(char32_t) * 8 - ((char32_t)(-1) < 0));
-      static constexpr int digits10 = ((sizeof(char32_t) * 8 - ((char32_t)(-1) < 0)) * 643L / 2136);
-      static constexpr int max_digits10 = 0;
-      static constexpr bool is_signed = ((char32_t)(-1) < 0);
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr char32_t
-      epsilon() noexcept { return 0; }
-
-      static constexpr char32_t
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr char32_t
-      infinity() noexcept { return char32_t(); }
-
-      static constexpr char32_t
-      quiet_NaN() noexcept { return char32_t(); }
-
-      static constexpr char32_t
-      signaling_NaN() noexcept { return char32_t(); }
-
-      static constexpr char32_t
-      denorm_min() noexcept { return char32_t(); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = !is_signed;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style = round_toward_zero;
-    };
-
-
-
-  template<>
-    struct numeric_limits<short>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr short
-      min() noexcept { return -0x7fff - 1; }
-
-      static constexpr short
-      max() noexcept { return 0x7fff; }
-
-
-      static constexpr short
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits = (sizeof(short) * 8 - ((short)(-1) < 0));
-      static constexpr int digits10 = ((sizeof(short) * 8 - ((short)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = true;
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr short
-      epsilon() noexcept { return 0; }
-
-      static constexpr short
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr short
-      infinity() noexcept { return short(); }
-
-      static constexpr short
-      quiet_NaN() noexcept { return short(); }
-
-      static constexpr short
-      signaling_NaN() noexcept { return short(); }
-
-      static constexpr short
-      denorm_min() noexcept { return short(); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = false;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<unsigned short>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr unsigned short
-      min() noexcept { return 0; }
-
-      static constexpr unsigned short
-      max() noexcept { return 0x7fff * 2U + 1; }
-
-
-      static constexpr unsigned short
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits
-       = (sizeof(unsigned short) * 8 - ((unsigned short)(-1) < 0));
-      static constexpr int digits10
-       = ((sizeof(unsigned short) * 8 - ((unsigned short)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = false;
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr unsigned short
-      epsilon() noexcept { return 0; }
-
-      static constexpr unsigned short
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr unsigned short
-      infinity() noexcept
-      { return static_cast<unsigned short>(0); }
-
-      static constexpr unsigned short
-      quiet_NaN() noexcept
-      { return static_cast<unsigned short>(0); }
-
-      static constexpr unsigned short
-      signaling_NaN() noexcept
-      { return static_cast<unsigned short>(0); }
-
-      static constexpr unsigned short
-      denorm_min() noexcept
-      { return static_cast<unsigned short>(0); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = true;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<int>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr int
-      min() noexcept { return -0x7fffffff - 1; }
-
-      static constexpr int
-      max() noexcept { return 0x7fffffff; }
-
-
-      static constexpr int
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits = (sizeof(int) * 8 - ((int)(-1) < 0));
-      static constexpr int digits10 = ((sizeof(int) * 8 - ((int)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = true;
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr int
-      epsilon() noexcept { return 0; }
-
-      static constexpr int
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr int
-      infinity() noexcept { return static_cast<int>(0); }
-
-      static constexpr int
-      quiet_NaN() noexcept { return static_cast<int>(0); }
-
-      static constexpr int
-      signaling_NaN() noexcept { return static_cast<int>(0); }
-
-      static constexpr int
-      denorm_min() noexcept { return static_cast<int>(0); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = false;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<unsigned int>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr unsigned int
-      min() noexcept { return 0; }
-
-      static constexpr unsigned int
-      max() noexcept { return 0x7fffffff * 2U + 1; }
-
-
-      static constexpr unsigned int
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits
-       = (sizeof(unsigned int) * 8 - ((unsigned int)(-1) < 0));
-      static constexpr int digits10
-       = ((sizeof(unsigned int) * 8 - ((unsigned int)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = false;
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr unsigned int
-      epsilon() noexcept { return 0; }
-
-      static constexpr unsigned int
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr unsigned int
-      infinity() noexcept { return static_cast<unsigned int>(0); }
-
-      static constexpr unsigned int
-      quiet_NaN() noexcept
-      { return static_cast<unsigned int>(0); }
-
-      static constexpr unsigned int
-      signaling_NaN() noexcept
-      { return static_cast<unsigned int>(0); }
-
-      static constexpr unsigned int
-      denorm_min() noexcept
-      { return static_cast<unsigned int>(0); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = true;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<long>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr long
-      min() noexcept { return -0x7fffffffL - 1; }
-
-      static constexpr long
-      max() noexcept { return 0x7fffffffL; }
-
-
-      static constexpr long
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits = (sizeof(long) * 8 - ((long)(-1) < 0));
-      static constexpr int digits10 = ((sizeof(long) * 8 - ((long)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = true;
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr long
-      epsilon() noexcept { return 0; }
-
-      static constexpr long
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr long
-      infinity() noexcept { return static_cast<long>(0); }
-
-      static constexpr long
-      quiet_NaN() noexcept { return static_cast<long>(0); }
-
-      static constexpr long
-      signaling_NaN() noexcept { return static_cast<long>(0); }
-
-      static constexpr long
-      denorm_min() noexcept { return static_cast<long>(0); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = false;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<unsigned long>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr unsigned long
-      min() noexcept { return 0; }
-
-      static constexpr unsigned long
-      max() noexcept { return 0x7fffffffL * 2UL + 1; }
-
-
-      static constexpr unsigned long
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits
-       = (sizeof(unsigned long) * 8 - ((unsigned long)(-1) < 0));
-      static constexpr int digits10
-       = ((sizeof(unsigned long) * 8 - ((unsigned long)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = false;
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr unsigned long
-      epsilon() noexcept { return 0; }
-
-      static constexpr unsigned long
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr unsigned long
-      infinity() noexcept
-      { return static_cast<unsigned long>(0); }
-
-      static constexpr unsigned long
-      quiet_NaN() noexcept
-      { return static_cast<unsigned long>(0); }
-
-      static constexpr unsigned long
-      signaling_NaN() noexcept
-      { return static_cast<unsigned long>(0); }
-
-      static constexpr unsigned long
-      denorm_min() noexcept
-      { return static_cast<unsigned long>(0); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = true;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<long long>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr long long
-      min() noexcept { return -0x7fffffffffffffffLL - 1; }
-
-      static constexpr long long
-      max() noexcept { return 0x7fffffffffffffffLL; }
-
-
-      static constexpr long long
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits
-       = (sizeof(long long) * 8 - ((long long)(-1) < 0));
-      static constexpr int digits10
-       = ((sizeof(long long) * 8 - ((long long)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = true;
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr long long
-      epsilon() noexcept { return 0; }
-
-      static constexpr long long
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr long long
-      infinity() noexcept { return static_cast<long long>(0); }
-
-      static constexpr long long
-      quiet_NaN() noexcept { return static_cast<long long>(0); }
-
-      static constexpr long long
-      signaling_NaN() noexcept
-      { return static_cast<long long>(0); }
-
-      static constexpr long long
-      denorm_min() noexcept { return static_cast<long long>(0); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = false;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-
-
-  template<>
-    struct numeric_limits<unsigned long long>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr unsigned long long
-      min() noexcept { return 0; }
-
-      static constexpr unsigned long long
-      max() noexcept { return 0x7fffffffffffffffLL * 2ULL + 1; }
-
-
-      static constexpr unsigned long long
-      lowest() noexcept { return min(); }
-
-
-      static constexpr int digits
-       = (sizeof(unsigned long long) * 8 - ((unsigned long long)(-1) < 0));
-      static constexpr int digits10
-       = ((sizeof(unsigned long long) * 8 - ((unsigned long long)(-1) < 0)) * 643L / 2136);
-
-      static constexpr int max_digits10 = 0;
-
-      static constexpr bool is_signed = false;
-      static constexpr bool is_integer = true;
-      static constexpr bool is_exact = true;
-      static constexpr int radix = 2;
-
-      static constexpr unsigned long long
-      epsilon() noexcept { return 0; }
-
-      static constexpr unsigned long long
-      round_error() noexcept { return 0; }
-
-      static constexpr int min_exponent = 0;
-      static constexpr int min_exponent10 = 0;
-      static constexpr int max_exponent = 0;
-      static constexpr int max_exponent10 = 0;
-
-      static constexpr bool has_infinity = false;
-      static constexpr bool has_quiet_NaN = false;
-      static constexpr bool has_signaling_NaN = false;
-      static constexpr float_denorm_style has_denorm
-       = denorm_absent;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr unsigned long long
-      infinity() noexcept
-      { return static_cast<unsigned long long>(0); }
-
-      static constexpr unsigned long long
-      quiet_NaN() noexcept
-      { return static_cast<unsigned long long>(0); }
-
-      static constexpr unsigned long long
-      signaling_NaN() noexcept
-      { return static_cast<unsigned long long>(0); }
-
-      static constexpr unsigned long long
-      denorm_min() noexcept
-      { return static_cast<unsigned long long>(0); }
-
-      static constexpr bool is_iec559 = false;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = true;
-
-      static constexpr bool traps = true;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
-       = round_toward_zero;
-    };
-# 1637 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-  __extension__ template<> struct numeric_limits<__int128> { static constexpr bool is_specialized = true; static constexpr __int128 min() noexcept { return (((__int128)(-1) < 0) ? -(((__int128)(-1) < 0) ? (((((__int128)1 << ((128 - ((__int128)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(__int128)0) - 1 : (__int128)0); } static constexpr __int128 max() noexcept { return (((__int128)(-1) < 0) ? (((((__int128)1 << ((128 - ((__int128)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(__int128)0); } static constexpr int digits = 128 - 1; static constexpr int digits10 = (128 - 1) * 643L / 2136; static constexpr bool is_signed = true; static constexpr bool is_integer = true; static constexpr bool is_exact = true; static constexpr int radix = 2; static constexpr __int128 epsilon() noexcept { return 0; } static constexpr __int128 round_error() noexcept { return 0; } static constexpr __int128 lowest() noexcept { return min(); } static constexpr int max_digits10 = 0; static constexpr int min_exponent = 0; static constexpr int min_exponent10 = 0; static constexpr int max_exponent = 0; static constexpr int max_exponent10 = 0; static constexpr bool has_infinity = false; static constexpr bool has_quiet_NaN = false; static constexpr bool has_signaling_NaN = false; static constexpr float_denorm_style has_denorm = denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr __int128 infinity() noexcept { return static_cast<__int128>(0); } static constexpr __int128 quiet_NaN() noexcept { return static_cast<__int128>(0); } static constexpr __int128 signaling_NaN() noexcept { return static_cast<__int128>(0); } static constexpr __int128 denorm_min() noexcept { return static_cast<__int128>(0); } static constexpr bool is_iec559 = false; static constexpr bool is_bounded = true; static constexpr bool is_modulo = false; static constexpr bool traps = true; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_toward_zero; }; __extension__ template<> struct numeric_limits<unsigned __int128> { static constexpr bool is_specialized = true; static constexpr unsigned __int128 min() noexcept { return 0; } static constexpr unsigned __int128 max() noexcept { return (((unsigned __int128)(-1) < 0) ? (((((unsigned __int128)1 << ((128 - ((unsigned __int128)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(unsigned __int128)0); } static constexpr unsigned __int128 lowest() noexcept { return min(); } static constexpr int max_digits10 = 0; static constexpr int digits = 128; static constexpr int digits10 = 128 * 643L / 2136; static constexpr bool is_signed = false; static constexpr bool is_integer = true; static constexpr bool is_exact = true; static constexpr int radix = 2; static constexpr unsigned __int128 epsilon() noexcept { return 0; } static constexpr unsigned __int128 round_error() noexcept { return 0; } static constexpr int min_exponent = 0; static constexpr int min_exponent10 = 0; static constexpr int max_exponent = 0; static constexpr int max_exponent10 = 0; static constexpr bool has_infinity = false; static constexpr bool has_quiet_NaN = false; static constexpr bool has_signaling_NaN = false; static constexpr float_denorm_style has_denorm = denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr unsigned __int128 infinity() noexcept { return static_cast<unsigned __int128>(0); } static constexpr unsigned __int128 quiet_NaN() noexcept { return static_cast<unsigned __int128>(0); } static constexpr unsigned __int128 signaling_NaN() noexcept { return static_cast<unsigned __int128>(0); } static constexpr unsigned __int128 denorm_min() noexcept { return static_cast<unsigned __int128>(0); } static constexpr bool is_iec559 = false; static constexpr bool is_bounded = true; static constexpr bool is_modulo = true; static constexpr bool traps = true; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_toward_zero; };
-# 1669 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-  template<>
-    struct numeric_limits<float>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr float
-      min() noexcept { return 1.17549435082228750796873653722224568e-38F; }
-
-      static constexpr float
-      max() noexcept { return 3.40282346638528859811704183484516925e+38F; }
-
-
-      static constexpr float
-      lowest() noexcept { return -3.40282346638528859811704183484516925e+38F; }
-
-
-      static constexpr int digits = 24;
-      static constexpr int digits10 = 6;
-
-      static constexpr int max_digits10
-  = (2 + (24) * 643L / 2136);
-
-      static constexpr bool is_signed = true;
-      static constexpr bool is_integer = false;
-      static constexpr bool is_exact = false;
-      static constexpr int radix = 2;
-
-      static constexpr float
-      epsilon() noexcept { return 1.19209289550781250000000000000000000e-7F; }
-
-      static constexpr float
-      round_error() noexcept { return 0.5F; }
-
-      static constexpr int min_exponent = (-125);
-      static constexpr int min_exponent10 = (-37);
-      static constexpr int max_exponent = 128;
-      static constexpr int max_exponent10 = 38;
-
-      static constexpr bool has_infinity = 1;
-      static constexpr bool has_quiet_NaN = 1;
-      static constexpr bool has_signaling_NaN = has_quiet_NaN;
-      static constexpr float_denorm_style has_denorm
- = bool(1) ? denorm_present : denorm_absent;
-      static constexpr bool has_denorm_loss
-       = false;
-
-      static constexpr float
-      infinity() noexcept { return __builtin_huge_valf(); }
-
-      static constexpr float
-      quiet_NaN() noexcept { return __builtin_nanf(""); }
-
-      static constexpr float
-      signaling_NaN() noexcept { return __builtin_nansf(""); }
-
-      static constexpr float
-      denorm_min() noexcept { return 1.40129846432481707092372958328991613e-45F; }
-
-      static constexpr bool is_iec559
- = has_infinity && has_quiet_NaN && has_denorm == denorm_present;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = false;
-
-      static constexpr bool traps = false;
-      static constexpr bool tinyness_before
-       = false;
-      static constexpr float_round_style round_style
-       = round_to_nearest;
-    };
-
-
-
-
-
-
-  template<>
-    struct numeric_limits<double>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr double
-      min() noexcept { return double(2.22507385850720138309023271733240406e-308L); }
-
-      static constexpr double
-      max() noexcept { return double(1.79769313486231570814527423731704357e+308L); }
-
-
-      static constexpr double
-      lowest() noexcept { return -double(1.79769313486231570814527423731704357e+308L); }
-
-
-      static constexpr int digits = 53;
-      static constexpr int digits10 = 15;
-
-      static constexpr int max_digits10
-  = (2 + (53) * 643L / 2136);
-
-      static constexpr bool is_signed = true;
-      static constexpr bool is_integer = false;
-      static constexpr bool is_exact = false;
-      static constexpr int radix = 2;
-
-      static constexpr double
-      epsilon() noexcept { return double(2.22044604925031308084726333618164062e-16L); }
-
-      static constexpr double
-      round_error() noexcept { return 0.5; }
-
-      static constexpr int min_exponent = (-1021);
-      static constexpr int min_exponent10 = (-307);
-      static constexpr int max_exponent = 1024;
-      static constexpr int max_exponent10 = 308;
-
-      static constexpr bool has_infinity = 1;
-      static constexpr bool has_quiet_NaN = 1;
-      static constexpr bool has_signaling_NaN = has_quiet_NaN;
-      static constexpr float_denorm_style has_denorm
- = bool(1) ? denorm_present : denorm_absent;
-      static constexpr bool has_denorm_loss
-        = false;
-
-      static constexpr double
-      infinity() noexcept { return __builtin_huge_val(); }
-
-      static constexpr double
-      quiet_NaN() noexcept { return __builtin_nan(""); }
-
-      static constexpr double
-      signaling_NaN() noexcept { return __builtin_nans(""); }
-
-      static constexpr double
-      denorm_min() noexcept { return double(4.94065645841246544176568792868221372e-324L); }
-
-      static constexpr bool is_iec559
- = has_infinity && has_quiet_NaN && has_denorm == denorm_present;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = false;
-
-      static constexpr bool traps = false;
-      static constexpr bool tinyness_before
-       = false;
-      static constexpr float_round_style round_style
-       = round_to_nearest;
-    };
-
-
-
-
-
-
-  template<>
-    struct numeric_limits<long double>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr long double
-      min() noexcept { return 3.36210314311209350626267781732175260e-4932L; }
-
-      static constexpr long double
-      max() noexcept { return 1.18973149535723176502126385303097021e+4932L; }
-
-
-      static constexpr long double
-      lowest() noexcept { return -1.18973149535723176502126385303097021e+4932L; }
-
-
-      static constexpr int digits = 64;
-      static constexpr int digits10 = 18;
-
-      static constexpr int max_digits10
-  = (2 + (64) * 643L / 2136);
-
-      static constexpr bool is_signed = true;
-      static constexpr bool is_integer = false;
-      static constexpr bool is_exact = false;
-      static constexpr int radix = 2;
-
-      static constexpr long double
-      epsilon() noexcept { return 1.08420217248550443400745280086994171e-19L; }
-
-      static constexpr long double
-      round_error() noexcept { return 0.5L; }
-
-      static constexpr int min_exponent = (-16381);
-      static constexpr int min_exponent10 = (-4931);
-      static constexpr int max_exponent = 16384;
-      static constexpr int max_exponent10 = 4932;
-
-      static constexpr bool has_infinity = 1;
-      static constexpr bool has_quiet_NaN = 1;
-      static constexpr bool has_signaling_NaN = has_quiet_NaN;
-      static constexpr float_denorm_style has_denorm
- = bool(1) ? denorm_present : denorm_absent;
-      static constexpr bool has_denorm_loss
- = false;
-
-      static constexpr long double
-      infinity() noexcept { return __builtin_huge_vall(); }
-
-      static constexpr long double
-      quiet_NaN() noexcept { return __builtin_nanl(""); }
-
-      static constexpr long double
-      signaling_NaN() noexcept { return __builtin_nansl(""); }
-
-      static constexpr long double
-      denorm_min() noexcept { return 3.64519953188247460252840593361941982e-4951L; }
-
-      static constexpr bool is_iec559
- = has_infinity && has_quiet_NaN && has_denorm == denorm_present;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = false;
-
-      static constexpr bool traps = false;
-      static constexpr bool tinyness_before =
-      false;
-      static constexpr float_round_style round_style =
-            round_to_nearest;
-    };
-# 1989 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-__extension__ template<> struct numeric_limits<_Float32> { static constexpr bool is_specialized = true; static constexpr _Float32 min() noexcept { return 1.17549435082228750796873653722224568e-38F32; } static constexpr _Float32 max() noexcept { return 3.40282346638528859811704183484516925e+38F32; } static constexpr _Float32 lowest() noexcept { return -3.40282346638528859811704183484516925e+38F32; } static constexpr int digits = 24; static constexpr int digits10 = 6; static constexpr int max_digits10 = (2 + (24) * 643L / 2136); static constexpr bool is_signed = true; static constexpr bool is_integer = false; static constexpr bool is_exact = false; static constexpr int radix = 2; static constexpr _Float32 epsilon() noexcept { return 1.19209289550781250000000000000000000e-7F32; } static constexpr _Float32 round_error() noexcept { return 0.5F32; } static constexpr int min_exponent = (-125); static constexpr int min_exponent10 = (-37); static constexpr int max_exponent = 128; static constexpr int max_exponent10 = 38; static constexpr bool has_infinity = 1; static constexpr bool has_quiet_NaN = 1; static constexpr bool has_signaling_NaN = has_quiet_NaN; static constexpr float_denorm_style has_denorm = bool(1) ? denorm_present : denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr _Float32 infinity() noexcept { return __builtin_huge_valf32(); } static constexpr _Float32 quiet_NaN() noexcept { return __builtin_nanf32(""); } static constexpr _Float32 signaling_NaN() noexcept { return __builtin_nansf32(""); } static constexpr _Float32 denorm_min() noexcept { return 1.40129846432481707092372958328991613e-45F32; } static constexpr bool is_iec559 = has_infinity && has_quiet_NaN && has_denorm == denorm_present; static constexpr bool is_bounded = true; static constexpr bool is_modulo = false; static constexpr bool traps = false; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_to_nearest; };
-
-
-__extension__ template<> struct numeric_limits<_Float64> { static constexpr bool is_specialized = true; static constexpr _Float64 min() noexcept { return 2.22507385850720138309023271733240406e-308F64; } static constexpr _Float64 max() noexcept { return 1.79769313486231570814527423731704357e+308F64; } static constexpr _Float64 lowest() noexcept { return -1.79769313486231570814527423731704357e+308F64; } static constexpr int digits = 53; static constexpr int digits10 = 15; static constexpr int max_digits10 = (2 + (53) * 643L / 2136); static constexpr bool is_signed = true; static constexpr bool is_integer = false; static constexpr bool is_exact = false; static constexpr int radix = 2; static constexpr _Float64 epsilon() noexcept { return 2.22044604925031308084726333618164062e-16F64; } static constexpr _Float64 round_error() noexcept { return 0.5F64; } static constexpr int min_exponent = (-1021); static constexpr int min_exponent10 = (-307); static constexpr int max_exponent = 1024; static constexpr int max_exponent10 = 308; static constexpr bool has_infinity = 1; static constexpr bool has_quiet_NaN = 1; static constexpr bool has_signaling_NaN = has_quiet_NaN; static constexpr float_denorm_style has_denorm = bool(1) ? denorm_present : denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr _Float64 infinity() noexcept { return __builtin_huge_valf64(); } static constexpr _Float64 quiet_NaN() noexcept { return __builtin_nanf64(""); } static constexpr _Float64 signaling_NaN() noexcept { return __builtin_nansf64(""); } static constexpr _Float64 denorm_min() noexcept { return 4.94065645841246544176568792868221372e-324F64; } static constexpr bool is_iec559 = has_infinity && has_quiet_NaN && has_denorm == denorm_present; static constexpr bool is_bounded = true; static constexpr bool is_modulo = false; static constexpr bool traps = false; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_to_nearest; };
-
-
-__extension__ template<> struct numeric_limits<_Float128> { static constexpr bool is_specialized = true; static constexpr _Float128 min() noexcept { return 3.36210314311209350626267781732175260e-4932F128; } static constexpr _Float128 max() noexcept { return 1.18973149535723176508575932662800702e+4932F128; } static constexpr _Float128 lowest() noexcept { return -1.18973149535723176508575932662800702e+4932F128; } static constexpr int digits = 113; static constexpr int digits10 = 33; static constexpr int max_digits10 = (2 + (113) * 643L / 2136); static constexpr bool is_signed = true; static constexpr bool is_integer = false; static constexpr bool is_exact = false; static constexpr int radix = 2; static constexpr _Float128 epsilon() noexcept { return 1.92592994438723585305597794258492732e-34F128; } static constexpr _Float128 round_error() noexcept { return 0.5F128; } static constexpr int min_exponent = (-16381); static constexpr int min_exponent10 = (-4931); static constexpr int max_exponent = 16384; static constexpr int max_exponent10 = 4932; static constexpr bool has_infinity = 1; static constexpr bool has_quiet_NaN = 1; static constexpr bool has_signaling_NaN = has_quiet_NaN; static constexpr float_denorm_style has_denorm = bool(1) ? denorm_present : denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr _Float128 infinity() noexcept { return __builtin_huge_valf128(); } static constexpr _Float128 quiet_NaN() noexcept { return __builtin_nanf128(""); } static constexpr _Float128 signaling_NaN() noexcept { return __builtin_nansf128(""); } static constexpr _Float128 denorm_min() noexcept { return 6.47517511943802511092443895822764655e-4966F128; } static constexpr bool is_iec559 = has_infinity && has_quiet_NaN && has_denorm == denorm_present; static constexpr bool is_bounded = true; static constexpr bool is_modulo = false; static constexpr bool traps = false; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_to_nearest; };
-# 2087 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-  __extension__
-  template<>
-    struct numeric_limits<__float128>
-    {
-      static constexpr bool is_specialized = true;
-
-      static constexpr __float128
-      min() noexcept
-      {
-
-
-
-
- return __extension__ 0x1.0p-16382Q;
-
-      }
-
-      static constexpr __float128
-      max() noexcept
-      {
-
-
-
-
-
-
-
- return __extension__ 0x1.ffffffffffffffffffffffffffffp+16383Q;
-
-      }
-
-      static constexpr __float128
-      lowest() noexcept
-      { return -max(); }
-
-      static constexpr int digits = 113;
-      static constexpr int digits10 = 33;
-
-      static constexpr int max_digits10 = 35;
-
-      static constexpr bool is_signed = true;
-      static constexpr bool is_integer = false;
-      static constexpr bool is_exact = false;
-      static constexpr int radix = 2;
-
-      static constexpr __float128
-      epsilon() noexcept
-      { return double(1.9259299443872359e-34); }
-
-      static constexpr __float128
-      round_error() noexcept { return 0.5; }
-
-      static constexpr int min_exponent = -16381;
-      static constexpr int min_exponent10 = -4931;
-      static constexpr int max_exponent = 16384;
-      static constexpr int max_exponent10 = 4932;
-
-      static constexpr bool has_infinity = 1;
-      static constexpr bool has_quiet_NaN = 1;
-
-
-      static constexpr bool has_signaling_NaN = true;
-
-
-
-      static constexpr float_denorm_style has_denorm
- = denorm_present;
-      static constexpr bool has_denorm_loss = false;
-
-      static constexpr __float128
-      infinity() noexcept
-      { return __builtin_huge_val(); }
-
-      static constexpr __float128
-      quiet_NaN() noexcept
-      { return __builtin_nan(""); }
-
-      static constexpr __float128
-      signaling_NaN() noexcept
-      {
-
- return __builtin_nansq("");
-
-
-
-
-
-      }
-
-      static constexpr __float128
-      denorm_min() noexcept
-      {
-
-
-
-
- return __extension__ 0x1.0p-16494Q;
-
-      }
-
-      static constexpr bool is_iec559 = has_signaling_NaN;
-      static constexpr bool is_bounded = true;
-      static constexpr bool is_modulo = false;
-
-      static constexpr bool traps = false;
-      static constexpr bool tinyness_before = false;
-      static constexpr float_round_style round_style
- = round_to_nearest;
-# 2218 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
-    };
-
-
-
-
-}
-# 40 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 2 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ctime" 1 3
-# 39 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ctime" 3
-       
-# 40 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ctime" 3
-# 58 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ctime" 3
-namespace std
-{
-  using ::clock_t;
-  using ::time_t;
-  using ::tm;
-
-  using ::clock;
-  using ::difftime;
-  using ::mktime;
-  using ::time;
-  using ::asctime;
-  using ::ctime;
-  using ::gmtime;
-  using ::localtime;
-  using ::strftime;
-}
-
-
-
-namespace std
-{
-  using ::timespec;
-  using ::timespec_get;
-}
-# 41 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 2 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/parse_numbers.h" 1 3
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/parse_numbers.h" 3
-       
-# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/parse_numbers.h" 3
-# 42 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/parse_numbers.h" 3
-namespace std
-{
-
-
-namespace __parse_int
-{
-  template<unsigned _Base, char _Dig>
-    struct _Digit;
-
-  template<unsigned _Base>
-    struct _Digit<_Base, '0'> : integral_constant<unsigned, 0>
-    {
-      using __valid = true_type;
-    };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, '1'> : integral_constant<unsigned, 1>
-    {
-      using __valid = true_type;
-    };
-
-  template<unsigned _Base, unsigned _Val>
-    struct _Digit_impl : integral_constant<unsigned, _Val>
-    {
-      static_assert(_Base > _Val, "invalid digit");
-      using __valid = true_type;
-    };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, '2'> : _Digit_impl<_Base, 2>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, '3'> : _Digit_impl<_Base, 3>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, '4'> : _Digit_impl<_Base, 4>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, '5'> : _Digit_impl<_Base, 5>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, '6'> : _Digit_impl<_Base, 6>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, '7'> : _Digit_impl<_Base, 7>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, '8'> : _Digit_impl<_Base, 8>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, '9'> : _Digit_impl<_Base, 9>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'a'> : _Digit_impl<_Base, 0xa>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'A'> : _Digit_impl<_Base, 0xa>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'b'> : _Digit_impl<_Base, 0xb>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'B'> : _Digit_impl<_Base, 0xb>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'c'> : _Digit_impl<_Base, 0xc>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'C'> : _Digit_impl<_Base, 0xc>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'd'> : _Digit_impl<_Base, 0xd>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'D'> : _Digit_impl<_Base, 0xd>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'e'> : _Digit_impl<_Base, 0xe>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'E'> : _Digit_impl<_Base, 0xe>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'f'> : _Digit_impl<_Base, 0xf>
-    { };
-
-  template<unsigned _Base>
-    struct _Digit<_Base, 'F'> : _Digit_impl<_Base, 0xf>
-    { };
-
-
-  template<unsigned _Base>
-    struct _Digit<_Base, '\''> : integral_constant<unsigned, 0>
-    {
-      using __valid = false_type;
-    };
-
-
-
-  template<unsigned long long _Val>
-    using __ull_constant = integral_constant<unsigned long long, _Val>;
-
-  template<unsigned _Base, char _Dig, char... _Digs>
-    struct _Power_help
-    {
-      using __next = typename _Power_help<_Base, _Digs...>::type;
-      using __valid_digit = typename _Digit<_Base, _Dig>::__valid;
-      using type
- = __ull_constant<__next::value * (__valid_digit{} ? _Base : 1ULL)>;
-    };
-
-  template<unsigned _Base, char _Dig>
-    struct _Power_help<_Base, _Dig>
-    {
-      using __valid_digit = typename _Digit<_Base, _Dig>::__valid;
-      using type = __ull_constant<__valid_digit::value>;
-    };
-
-  template<unsigned _Base, char... _Digs>
-    struct _Power : _Power_help<_Base, _Digs...>::type
-    { };
-
-  template<unsigned _Base>
-    struct _Power<_Base> : __ull_constant<0>
-    { };
-
-
-
-  template<unsigned _Base, unsigned long long _Pow, char _Dig, char... _Digs>
-    struct _Number_help
-    {
-      using __digit = _Digit<_Base, _Dig>;
-      using __valid_digit = typename __digit::__valid;
-      using __next = _Number_help<_Base,
-      __valid_digit::value ? _Pow / _Base : _Pow,
-      _Digs...>;
-      using type = __ull_constant<_Pow * __digit::value + __next::type::value>;
-      static_assert((type::value / _Pow) == __digit::value,
-      "integer literal does not fit in unsigned long long");
-    };
-
-
-  template<unsigned _Base, unsigned long long _Pow, char _Dig, char..._Digs>
-    struct _Number_help<_Base, _Pow, '\'', _Dig, _Digs...>
-    : _Number_help<_Base, _Pow, _Dig, _Digs...>
-    { };
-
-
-  template<unsigned _Base, char _Dig>
-    struct _Number_help<_Base, 1ULL, _Dig>
-    {
-      using type = __ull_constant<_Digit<_Base, _Dig>::value>;
-    };
-
-  template<unsigned _Base, char... _Digs>
-    struct _Number
-    : _Number_help<_Base, _Power<_Base, _Digs...>::value, _Digs...>::type
-    { };
-
-  template<unsigned _Base>
-    struct _Number<_Base>
-    : __ull_constant<0>
-    { };
-
-
-
-  template<char... _Digs>
-    struct _Parse_int;
-
-  template<char... _Digs>
-    struct _Parse_int<'0', 'b', _Digs...>
-    : _Number<2U, _Digs...>::type
-    { };
-
-  template<char... _Digs>
-    struct _Parse_int<'0', 'B', _Digs...>
-    : _Number<2U, _Digs...>::type
-    { };
-
-  template<char... _Digs>
-    struct _Parse_int<'0', 'x', _Digs...>
-    : _Number<16U, _Digs...>::type
-    { };
-
-  template<char... _Digs>
-    struct _Parse_int<'0', 'X', _Digs...>
-    : _Number<16U, _Digs...>::type
-    { };
-
-  template<char... _Digs>
-    struct _Parse_int<'0', _Digs...>
-    : _Number<8U, _Digs...>::type
-    { };
-
-  template<char... _Digs>
-    struct _Parse_int
-    : _Number<10U, _Digs...>::type
-    { };
-
-}
-
-
-namespace __select_int
-{
-  template<unsigned long long _Val, typename... _Ints>
-    struct _Select_int_base;
-
-  template<unsigned long long _Val, typename _IntType, typename... _Ints>
-    struct _Select_int_base<_Val, _IntType, _Ints...>
-    : __conditional_t<(_Val <= __gnu_cxx::__int_traits<_IntType>::__max),
-        integral_constant<_IntType, (_IntType)_Val>,
-        _Select_int_base<_Val, _Ints...>>
-    { };
-
-  template<unsigned long long _Val>
-    struct _Select_int_base<_Val>
-    { };
-
-  template<char... _Digs>
-    using _Select_int = typename _Select_int_base<
- __parse_int::_Parse_int<_Digs...>::value,
- unsigned char,
- unsigned short,
- unsigned int,
- unsigned long,
- unsigned long long
-      >::type;
-
-}
-
-
-}
-# 42 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 2 3
-
-
-
-
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
-# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-       
-# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 2 3
-
-namespace std
-{
-
-
-
-  namespace filesystem { struct __file_clock; };
-
-
-  namespace chrono
-  {
-
-
-
-
-    template<typename _Rep, typename _Period = ratio<1>>
-      class duration;
-
-
-    template<typename _Clock, typename _Dur = typename _Clock::duration>
-      class time_point;
-
-  }
-# 79 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-  template<typename _CT, typename _Period1, typename _Period2, typename = void>
-    struct __duration_common_type
-    { };
-
-  template<typename _CT, typename _Period1, typename _Period2>
-    struct __duration_common_type<_CT, _Period1, _Period2,
-      __void_t<typename _CT::type>>
-    {
-    private:
-      using __gcd_num = __static_gcd<_Period1::num, _Period2::num>;
-      using __gcd_den = __static_gcd<_Period1::den, _Period2::den>;
-      using __cr = typename _CT::type;
-      using __r = ratio<__gcd_num::value,
-   (_Period1::den / __gcd_den::value) * _Period2::den>;
-
-    public:
-      using type = chrono::duration<__cr, typename __r::type>;
-    };
-
-
-
-
-
-
-
-  template<typename _Rep1, typename _Period1, typename _Rep2, typename _Period2>
-    struct common_type<chrono::duration<_Rep1, _Period1>,
-         chrono::duration<_Rep2, _Period2>>
-    : __duration_common_type<common_type<_Rep1, _Rep2>,
-        typename _Period1::type,
-        typename _Period2::type>
-    { };
-
-
-  template<typename _Rep, typename _Period>
-    struct common_type<chrono::duration<_Rep, _Period>,
-         chrono::duration<_Rep, _Period>>
-    {
-      using type = chrono::duration<typename common_type<_Rep>::type,
-        typename _Period::type>;
-    };
-
-
-  template<typename _Rep, typename _Period>
-    struct common_type<chrono::duration<_Rep, _Period>>
-    {
-      using type = chrono::duration<typename common_type<_Rep>::type,
-        typename _Period::type>;
-    };
-
-
-
-
-
-
-  template<typename _CT, typename _Clock, typename = void>
-    struct __timepoint_common_type
-    { };
-
-  template<typename _CT, typename _Clock>
-    struct __timepoint_common_type<_CT, _Clock, __void_t<typename _CT::type>>
-    {
-      using type = chrono::time_point<_Clock, typename _CT::type>;
-    };
-
-
-
-
-
-
-
-  template<typename _Clock, typename _Duration1, typename _Duration2>
-    struct common_type<chrono::time_point<_Clock, _Duration1>,
-         chrono::time_point<_Clock, _Duration2>>
-    : __timepoint_common_type<common_type<_Duration1, _Duration2>, _Clock>
-    { };
-
-
-  template<typename _Clock, typename _Duration>
-    struct common_type<chrono::time_point<_Clock, _Duration>,
-         chrono::time_point<_Clock, _Duration>>
-    { using type = chrono::time_point<_Clock, _Duration>; };
-
-
-  template<typename _Clock, typename _Duration>
-    struct common_type<chrono::time_point<_Clock, _Duration>>
-    { using type = chrono::time_point<_Clock, _Duration>; };
-
-
-
-
-  namespace chrono
-  {
-
-
-
-
-
-
-    template<typename _ToDur, typename _CF, typename _CR,
-      bool _NumIsOne = false, bool _DenIsOne = false>
-      struct __duration_cast_impl
-      {
- template<typename _Rep, typename _Period>
-   static constexpr _ToDur
-   __cast(const duration<_Rep, _Period>& __d)
-   {
-     typedef typename _ToDur::rep __to_rep;
-     return _ToDur(static_cast<__to_rep>(static_cast<_CR>(__d.count())
-       * static_cast<_CR>(_CF::num)
-       / static_cast<_CR>(_CF::den)));
-   }
-      };
-
-    template<typename _ToDur, typename _CF, typename _CR>
-      struct __duration_cast_impl<_ToDur, _CF, _CR, true, true>
-      {
- template<typename _Rep, typename _Period>
-   static constexpr _ToDur
-   __cast(const duration<_Rep, _Period>& __d)
-   {
-     typedef typename _ToDur::rep __to_rep;
-     return _ToDur(static_cast<__to_rep>(__d.count()));
-   }
-      };
-
-    template<typename _ToDur, typename _CF, typename _CR>
-      struct __duration_cast_impl<_ToDur, _CF, _CR, true, false>
-      {
- template<typename _Rep, typename _Period>
-   static constexpr _ToDur
-   __cast(const duration<_Rep, _Period>& __d)
-   {
-     typedef typename _ToDur::rep __to_rep;
-     return _ToDur(static_cast<__to_rep>(
-       static_cast<_CR>(__d.count()) / static_cast<_CR>(_CF::den)));
-   }
-      };
-
-    template<typename _ToDur, typename _CF, typename _CR>
-      struct __duration_cast_impl<_ToDur, _CF, _CR, false, true>
-      {
- template<typename _Rep, typename _Period>
-   static constexpr _ToDur
-   __cast(const duration<_Rep, _Period>& __d)
-   {
-     typedef typename _ToDur::rep __to_rep;
-     return _ToDur(static_cast<__to_rep>(
-       static_cast<_CR>(__d.count()) * static_cast<_CR>(_CF::num)));
-   }
-      };
-
-    template<typename _Tp>
-      struct __is_duration
-      : std::false_type
-      { };
-
-    template<typename _Rep, typename _Period>
-      struct __is_duration<duration<_Rep, _Period>>
-      : std::true_type
-      { };
-
-    template<typename _Tp>
-      using __enable_if_is_duration
- = typename enable_if<__is_duration<_Tp>::value, _Tp>::type;
-
-    template<typename _Tp>
-      using __disable_if_is_duration
- = typename enable_if<!__is_duration<_Tp>::value, _Tp>::type;
-
-
-    template<typename _Tp>
-      inline constexpr bool __is_duration_v = false;
-    template<typename _Rep, typename _Period>
-      inline constexpr bool __is_duration_v<duration<_Rep, _Period>> = true;
-    template<typename _Tp>
-      inline constexpr bool __is_time_point_v = false;
-    template<typename _Clock, typename _Dur>
-      inline constexpr bool __is_time_point_v<time_point<_Clock, _Dur>> = true;
-# 272 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _ToDur, typename _Rep, typename _Period>
-      [[__nodiscard__]]
-      constexpr __enable_if_is_duration<_ToDur>
-      duration_cast(const duration<_Rep, _Period>& __d)
-      {
-
- if constexpr (is_same_v<_ToDur, duration<_Rep, _Period>>)
-   return __d;
- else
-   {
-
-   using __to_period = typename _ToDur::period;
-   using __to_rep = typename _ToDur::rep;
-   using __cf = ratio_divide<_Period, __to_period>;
-   using __cr = typename common_type<__to_rep, _Rep, intmax_t>::type;
-   using __dc = __duration_cast_impl<_ToDur, __cf, __cr,
-         __cf::num == 1, __cf::den == 1>;
-   return __dc::__cast(__d);
-
-   }
-
-      }
-# 306 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _Rep>
-      struct treat_as_floating_point
-      : is_floating_point<_Rep>
-      { };
-
-
-    template <typename _Rep>
-      inline constexpr bool treat_as_floating_point_v =
- treat_as_floating_point<_Rep>::value;
-
-    template<>
-      inline constexpr bool treat_as_floating_point_v<int> = false;
-    template<>
-      inline constexpr bool treat_as_floating_point_v<long> = false;
-    template<>
-      inline constexpr bool treat_as_floating_point_v<long long> = false;
-    template<>
-      inline constexpr bool treat_as_floating_point_v<float> = true;
-    template<>
-      inline constexpr bool treat_as_floating_point_v<double> = true;
-    template<>
-      inline constexpr bool treat_as_floating_point_v<long double> = true;
-
-
-
-
-    template<typename _Tp>
-      inline constexpr bool is_clock_v = false;
-
-    template<typename _Tp>
-      requires requires {
- typename _Tp::rep;
- typename _Tp::period;
- typename _Tp::duration;
- typename _Tp::time_point::clock;
- typename _Tp::time_point::duration;
- { &_Tp::is_steady } -> same_as<const bool*>;
- { _Tp::now() } -> same_as<typename _Tp::time_point>;
- requires same_as<typename _Tp::duration,
-    duration<typename _Tp::rep, typename _Tp::period>>;
- requires same_as<typename _Tp::time_point::duration,
-    typename _Tp::duration>;
-      }
-    inline constexpr bool is_clock_v<_Tp> = true;
-# 369 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _Tp>
-      struct is_clock
-      : bool_constant<is_clock_v<_Tp>>
-      { };
-# 386 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _ToDur, typename _Rep, typename _Period>
-      [[nodiscard]] constexpr __enable_if_is_duration<_ToDur>
-      floor(const duration<_Rep, _Period>& __d)
-      {
- auto __to = chrono::duration_cast<_ToDur>(__d);
- if (__to > __d)
-   return __to - _ToDur{1};
- return __to;
-      }
-# 406 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _ToDur, typename _Rep, typename _Period>
-      [[nodiscard]] constexpr __enable_if_is_duration<_ToDur>
-      ceil(const duration<_Rep, _Period>& __d)
-      {
- auto __to = chrono::duration_cast<_ToDur>(__d);
- if (__to < __d)
-   return __to + _ToDur{1};
- return __to;
-      }
-# 427 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template <typename _ToDur, typename _Rep, typename _Period>
-      [[nodiscard]] constexpr
-      enable_if_t<
- __and_<__is_duration<_ToDur>,
-        __not_<treat_as_floating_point<typename _ToDur::rep>>>::value,
- _ToDur>
-      round(const duration<_Rep, _Period>& __d)
-      {
- _ToDur __t0 = chrono::floor<_ToDur>(__d);
- _ToDur __t1 = __t0 + _ToDur{1};
- auto __diff0 = __d - __t0;
- auto __diff1 = __t1 - __d;
- if (__diff0 == __diff1)
-   {
-     if (__t0.count() & 1)
-       return __t1;
-     return __t0;
-   }
- else if (__diff0 < __diff1)
-   return __t0;
- return __t1;
-      }
-
-
-
-
-
-
-
-    template<typename _Rep, typename _Period>
-      [[nodiscard]] constexpr
-      enable_if_t<numeric_limits<_Rep>::is_signed, duration<_Rep, _Period>>
-      abs(duration<_Rep, _Period> __d)
-      {
- if (__d >= __d.zero())
-   return __d;
- return -__d;
-      }
-
-
-    namespace __detail { using chrono::ceil; }
-# 494 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _Rep>
-      struct duration_values
-      {
- static constexpr _Rep
- zero() noexcept
- { return _Rep(0); }
-
- static constexpr _Rep
- max() noexcept
- { return numeric_limits<_Rep>::max(); }
-
- static constexpr _Rep
- min() noexcept
- { return numeric_limits<_Rep>::lowest(); }
-      };
-
-    template<typename _Rep, typename _Period>
-      class duration
-      {
- static_assert(!__is_duration<_Rep>::value,
-        "rep cannot be a std::chrono::duration");
- static_assert(__is_ratio<_Period>::value,
-        "period must be a specialization of std::ratio");
- static_assert(_Period::num > 0, "period must be positive");
-
- template<typename _Rep2>
-   using __is_float = treat_as_floating_point<_Rep2>;
-
- static constexpr intmax_t
- _S_gcd(intmax_t __m, intmax_t __n) noexcept
- {
-
-
-
-   do
-     {
-       intmax_t __rem = __m % __n;
-       __m = __n;
-       __n = __rem;
-     }
-   while (__n != 0);
-   return __m;
-
-
-
-
-
- }
-
-
-
-
-
- template<typename _R1, typename _R2,
-   intmax_t __gcd1 = _S_gcd(_R1::num, _R2::num),
-   intmax_t __gcd2 = _S_gcd(_R1::den, _R2::den)>
-   using __divide = ratio<(_R1::num / __gcd1) * (_R2::den / __gcd2),
-     (_R1::den / __gcd2) * (_R2::num / __gcd1)>;
-
-
- template<typename _Period2>
-   using __is_harmonic
-     = __bool_constant<__divide<_Period2, _Period>::den == 1>;
-
-      public:
-
- using rep = _Rep;
- using period = typename _Period::type;
-
-
- constexpr duration() = default;
-
- duration(const duration&) = default;
-
-
-
- template<typename _Rep2, typename = _Require<
-   is_convertible<const _Rep2&, rep>,
-   __or_<__is_float<rep>, __not_<__is_float<_Rep2>>>>>
-   constexpr explicit duration(const _Rep2& __rep)
-   : __r(static_cast<rep>(__rep)) { }
-
- template<typename _Rep2, typename _Period2, typename = _Require<
-   is_convertible<const _Rep2&, rep>,
-   __or_<__is_float<rep>,
-         __and_<__is_harmonic<_Period2>,
-         __not_<__is_float<_Rep2>>>>>>
-   constexpr duration(const duration<_Rep2, _Period2>& __d)
-   : __r(duration_cast<duration>(__d).count()) { }
-
- ~duration() = default;
- duration& operator=(const duration&) = default;
-
-
- constexpr rep
- count() const
- { return __r; }
-
-
-
- constexpr duration<typename common_type<rep>::type, period>
- operator+() const
- { return duration<typename common_type<rep>::type, period>(__r); }
-
- constexpr duration<typename common_type<rep>::type, period>
- operator-() const
- { return duration<typename common_type<rep>::type, period>(-__r); }
-
- constexpr duration&
- operator++()
- {
-   ++__r;
-   return *this;
- }
-
- constexpr duration
- operator++(int)
- { return duration(__r++); }
-
- constexpr duration&
- operator--()
- {
-   --__r;
-   return *this;
- }
-
- constexpr duration
- operator--(int)
- { return duration(__r--); }
-
- constexpr duration&
- operator+=(const duration& __d)
- {
-   __r += __d.count();
-   return *this;
- }
-
- constexpr duration&
- operator-=(const duration& __d)
- {
-   __r -= __d.count();
-   return *this;
- }
-
- constexpr duration&
- operator*=(const rep& __rhs)
- {
-   __r *= __rhs;
-   return *this;
- }
-
- constexpr duration&
- operator/=(const rep& __rhs)
- {
-   __r /= __rhs;
-   return *this;
- }
-
-
- template<typename _Rep2 = rep>
-   constexpr
-   __enable_if_t<!treat_as_floating_point<_Rep2>::value, duration&>
-   operator%=(const rep& __rhs)
-   {
-     __r %= __rhs;
-     return *this;
-   }
-
- template<typename _Rep2 = rep>
-   constexpr
-   __enable_if_t<!treat_as_floating_point<_Rep2>::value, duration&>
-   operator%=(const duration& __d)
-   {
-     __r %= __d.count();
-     return *this;
-   }
-
-
- static constexpr duration
- zero() noexcept
- { return duration(duration_values<rep>::zero()); }
-
- static constexpr duration
- min() noexcept
- { return duration(duration_values<rep>::min()); }
-
- static constexpr duration
- max() noexcept
- { return duration(duration_values<rep>::max()); }
-
-      private:
- rep __r;
-      };
-
-
-
-
-
-    template<typename _Rep1, typename _Period1,
-      typename _Rep2, typename _Period2>
-      constexpr typename common_type<duration<_Rep1, _Period1>,
-         duration<_Rep2, _Period2>>::type
-      operator+(const duration<_Rep1, _Period1>& __lhs,
-  const duration<_Rep2, _Period2>& __rhs)
-      {
- typedef duration<_Rep1, _Period1> __dur1;
- typedef duration<_Rep2, _Period2> __dur2;
- typedef typename common_type<__dur1,__dur2>::type __cd;
- return __cd(__cd(__lhs).count() + __cd(__rhs).count());
-      }
-
-
-    template<typename _Rep1, typename _Period1,
-      typename _Rep2, typename _Period2>
-      constexpr typename common_type<duration<_Rep1, _Period1>,
-         duration<_Rep2, _Period2>>::type
-      operator-(const duration<_Rep1, _Period1>& __lhs,
-  const duration<_Rep2, _Period2>& __rhs)
-      {
- typedef duration<_Rep1, _Period1> __dur1;
- typedef duration<_Rep2, _Period2> __dur2;
- typedef typename common_type<__dur1,__dur2>::type __cd;
- return __cd(__cd(__lhs).count() - __cd(__rhs).count());
-      }
-# 727 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _Rep1, typename _Rep2,
-      typename _CRep = typename common_type<_Rep1, _Rep2>::type>
-      using __common_rep_t = typename
- enable_if<is_convertible<const _Rep2&, _CRep>::value, _CRep>::type;
-# 739 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _Rep1, typename _Period, typename _Rep2>
-      constexpr duration<__common_rep_t<_Rep1, _Rep2>, _Period>
-      operator*(const duration<_Rep1, _Period>& __d, const _Rep2& __s)
-      {
- typedef duration<typename common_type<_Rep1, _Rep2>::type, _Period>
-   __cd;
- return __cd(__cd(__d).count() * __s);
-      }
-
-    template<typename _Rep1, typename _Rep2, typename _Period>
-      constexpr duration<__common_rep_t<_Rep2, _Rep1>, _Period>
-      operator*(const _Rep1& __s, const duration<_Rep2, _Period>& __d)
-      { return __d * __s; }
-
-    template<typename _Rep1, typename _Period, typename _Rep2>
-      constexpr
-      duration<__common_rep_t<_Rep1, __disable_if_is_duration<_Rep2>>, _Period>
-      operator/(const duration<_Rep1, _Period>& __d, const _Rep2& __s)
-      {
- typedef duration<typename common_type<_Rep1, _Rep2>::type, _Period>
-   __cd;
- return __cd(__cd(__d).count() / __s);
-      }
-
-    template<typename _Rep1, typename _Period1,
-      typename _Rep2, typename _Period2>
-      constexpr typename common_type<_Rep1, _Rep2>::type
-      operator/(const duration<_Rep1, _Period1>& __lhs,
-  const duration<_Rep2, _Period2>& __rhs)
-      {
- typedef duration<_Rep1, _Period1> __dur1;
- typedef duration<_Rep2, _Period2> __dur2;
- typedef typename common_type<__dur1,__dur2>::type __cd;
- return __cd(__lhs).count() / __cd(__rhs).count();
-      }
-
-
-    template<typename _Rep1, typename _Period, typename _Rep2>
-      constexpr
-      duration<__common_rep_t<_Rep1, __disable_if_is_duration<_Rep2>>, _Period>
-      operator%(const duration<_Rep1, _Period>& __d, const _Rep2& __s)
-      {
- typedef duration<typename common_type<_Rep1, _Rep2>::type, _Period>
-   __cd;
- return __cd(__cd(__d).count() % __s);
-      }
-
-    template<typename _Rep1, typename _Period1,
-      typename _Rep2, typename _Period2>
-      constexpr typename common_type<duration<_Rep1, _Period1>,
-         duration<_Rep2, _Period2>>::type
-      operator%(const duration<_Rep1, _Period1>& __lhs,
-  const duration<_Rep2, _Period2>& __rhs)
-      {
- typedef duration<_Rep1, _Period1> __dur1;
- typedef duration<_Rep2, _Period2> __dur2;
- typedef typename common_type<__dur1,__dur2>::type __cd;
- return __cd(__cd(__lhs).count() % __cd(__rhs).count());
-      }
-# 807 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _Rep1, typename _Period1,
-      typename _Rep2, typename _Period2>
-      constexpr bool
-      operator==(const duration<_Rep1, _Period1>& __lhs,
-   const duration<_Rep2, _Period2>& __rhs)
-      {
- typedef duration<_Rep1, _Period1> __dur1;
- typedef duration<_Rep2, _Period2> __dur2;
- typedef typename common_type<__dur1,__dur2>::type __ct;
- return __ct(__lhs).count() == __ct(__rhs).count();
-      }
-
-    template<typename _Rep1, typename _Period1,
-      typename _Rep2, typename _Period2>
-      constexpr bool
-      operator<(const duration<_Rep1, _Period1>& __lhs,
-  const duration<_Rep2, _Period2>& __rhs)
-      {
- typedef duration<_Rep1, _Period1> __dur1;
- typedef duration<_Rep2, _Period2> __dur2;
- typedef typename common_type<__dur1,__dur2>::type __ct;
- return __ct(__lhs).count() < __ct(__rhs).count();
-      }
-
-
-    template<typename _Rep1, typename _Period1,
-      typename _Rep2, typename _Period2>
-      requires three_way_comparable<common_type_t<_Rep1, _Rep2>>
-      constexpr auto
-      operator<=>(const duration<_Rep1, _Period1>& __lhs,
-    const duration<_Rep2, _Period2>& __rhs)
-      {
- using __ct = common_type_t<duration<_Rep1, _Period1>,
-       duration<_Rep2, _Period2>>;
- return __ct(__lhs).count() <=> __ct(__rhs).count();
-      }
-# 852 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _Rep1, typename _Period1,
-      typename _Rep2, typename _Period2>
-      constexpr bool
-      operator<=(const duration<_Rep1, _Period1>& __lhs,
-   const duration<_Rep2, _Period2>& __rhs)
-      { return !(__rhs < __lhs); }
-
-    template<typename _Rep1, typename _Period1,
-      typename _Rep2, typename _Period2>
-      constexpr bool
-      operator>(const duration<_Rep1, _Period1>& __lhs,
-  const duration<_Rep2, _Period2>& __rhs)
-      { return __rhs < __lhs; }
-
-    template<typename _Rep1, typename _Period1,
-      typename _Rep2, typename _Period2>
-      constexpr bool
-      operator>=(const duration<_Rep1, _Period1>& __lhs,
-   const duration<_Rep2, _Period2>& __rhs)
-      { return !(__lhs < __rhs); }
-# 888 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    using nanoseconds = duration<int64_t, nano>;
-
-
-    using microseconds = duration<int64_t, micro>;
-
-
-    using milliseconds = duration<int64_t, milli>;
-
-
-    using seconds = duration<int64_t>;
-
-
-    using minutes = duration<int64_t, ratio< 60>>;
-
-
-    using hours = duration<int64_t, ratio<3600>>;
-
-
-
-    using days = duration<int64_t, ratio<86400>>;
-
-
-    using weeks = duration<int64_t, ratio<604800>>;
-
-
-    using years = duration<int64_t, ratio<31556952>>;
-
-
-    using months = duration<int64_t, ratio<2629746>>;
-
-
-
-
-    template<typename _Clock, typename _Dur>
-      class time_point
-      {
- static_assert(__is_duration<_Dur>::value,
-     "duration must be a specialization of std::chrono::duration");
-
-      public:
- typedef _Clock clock;
- typedef _Dur duration;
- typedef typename duration::rep rep;
- typedef typename duration::period period;
-
- constexpr time_point() : __d(duration::zero())
- { }
-
- constexpr explicit time_point(const duration& __dur)
- : __d(__dur)
- { }
-
-
- template<typename _Dur2,
-   typename = _Require<is_convertible<_Dur2, _Dur>>>
-   constexpr time_point(const time_point<clock, _Dur2>& __t)
-   : __d(__t.time_since_epoch())
-   { }
-
-
- constexpr duration
- time_since_epoch() const
- { return __d; }
-
-
- constexpr time_point&
- operator++()
- {
-   ++__d;
-   return *this;
- }
-
- constexpr time_point
- operator++(int)
- { return time_point{__d++}; }
-
- constexpr time_point&
- operator--()
- {
-   --__d;
-   return *this;
- }
-
- constexpr time_point
- operator--(int)
- { return time_point{__d--}; }
-
-
-
- constexpr time_point&
- operator+=(const duration& __dur)
- {
-   __d += __dur;
-   return *this;
- }
-
- constexpr time_point&
- operator-=(const duration& __dur)
- {
-   __d -= __dur;
-   return *this;
- }
-
-
- static constexpr time_point
- min() noexcept
- { return time_point(duration::min()); }
-
- static constexpr time_point
- max() noexcept
- { return time_point(duration::max()); }
-
-      private:
- duration __d;
-      };
-# 1016 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _ToDur, typename _Clock, typename _Dur>
-      [[__nodiscard__]] constexpr
-      __enable_if_t<__is_duration<_ToDur>::value, time_point<_Clock, _ToDur>>
-      time_point_cast(const time_point<_Clock, _Dur>& __t)
-      {
- typedef time_point<_Clock, _ToDur> __time_point;
- return __time_point(duration_cast<_ToDur>(__t.time_since_epoch()));
-      }
-# 1038 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _ToDur, typename _Clock, typename _Dur>
-      [[nodiscard]] constexpr
-      enable_if_t<__is_duration_v<_ToDur>, time_point<_Clock, _ToDur>>
-      floor(const time_point<_Clock, _Dur>& __tp)
-      {
- return time_point<_Clock, _ToDur>{
-     chrono::floor<_ToDur>(__tp.time_since_epoch())};
-      }
-# 1059 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _ToDur, typename _Clock, typename _Dur>
-      [[nodiscard]] constexpr
-      enable_if_t<__is_duration_v<_ToDur>, time_point<_Clock, _ToDur>>
-      ceil(const time_point<_Clock, _Dur>& __tp)
-      {
- return time_point<_Clock, _ToDur>{
-     chrono::ceil<_ToDur>(__tp.time_since_epoch())};
-      }
-# 1081 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _ToDur, typename _Clock, typename _Dur>
-      [[nodiscard]] constexpr
-      enable_if_t<__is_duration_v<_ToDur>
-      && !treat_as_floating_point_v<typename _ToDur::rep>,
-    time_point<_Clock, _ToDur>>
-      round(const time_point<_Clock, _Dur>& __tp)
-      {
- return time_point<_Clock, _ToDur>{
-     chrono::round<_ToDur>(__tp.time_since_epoch())};
-      }
-
-
-
-
-
-
-    template<typename _Clock, typename _Dur1,
-      typename _Rep2, typename _Period2>
-      constexpr time_point<_Clock,
- typename common_type<_Dur1, duration<_Rep2, _Period2>>::type>
-      operator+(const time_point<_Clock, _Dur1>& __lhs,
-  const duration<_Rep2, _Period2>& __rhs)
-      {
- typedef duration<_Rep2, _Period2> __dur2;
- typedef typename common_type<_Dur1,__dur2>::type __ct;
- typedef time_point<_Clock, __ct> __time_point;
- return __time_point(__lhs.time_since_epoch() + __rhs);
-      }
-
-
-    template<typename _Rep1, typename _Period1,
-      typename _Clock, typename _Dur2>
-      constexpr time_point<_Clock,
- typename common_type<duration<_Rep1, _Period1>, _Dur2>::type>
-      operator+(const duration<_Rep1, _Period1>& __lhs,
-  const time_point<_Clock, _Dur2>& __rhs)
-      {
- typedef duration<_Rep1, _Period1> __dur1;
- typedef typename common_type<__dur1,_Dur2>::type __ct;
- typedef time_point<_Clock, __ct> __time_point;
- return __time_point(__rhs.time_since_epoch() + __lhs);
-      }
-
-
-    template<typename _Clock, typename _Dur1,
-      typename _Rep2, typename _Period2>
-      constexpr time_point<_Clock,
- typename common_type<_Dur1, duration<_Rep2, _Period2>>::type>
-      operator-(const time_point<_Clock, _Dur1>& __lhs,
-  const duration<_Rep2, _Period2>& __rhs)
-      {
- typedef duration<_Rep2, _Period2> __dur2;
- typedef typename common_type<_Dur1,__dur2>::type __ct;
- typedef time_point<_Clock, __ct> __time_point;
- return __time_point(__lhs.time_since_epoch() -__rhs);
-      }
-
-
-    template<typename _Clock, typename _Dur1, typename _Dur2>
-      constexpr typename common_type<_Dur1, _Dur2>::type
-      operator-(const time_point<_Clock, _Dur1>& __lhs,
-  const time_point<_Clock, _Dur2>& __rhs)
-      { return __lhs.time_since_epoch() - __rhs.time_since_epoch(); }
-
-
-
-
-
-
-
-    template<typename _Clock, typename _Dur1, typename _Dur2>
-      constexpr bool
-      operator==(const time_point<_Clock, _Dur1>& __lhs,
-   const time_point<_Clock, _Dur2>& __rhs)
-      { return __lhs.time_since_epoch() == __rhs.time_since_epoch(); }
-
-
-    template<typename _Clock, typename _Dur1,
-      three_way_comparable_with<_Dur1> _Dur2>
-      constexpr auto
-      operator<=>(const time_point<_Clock, _Dur1>& __lhs,
-    const time_point<_Clock, _Dur2>& __rhs)
-      { return __lhs.time_since_epoch() <=> __rhs.time_since_epoch(); }
-# 1172 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    template<typename _Clock, typename _Dur1, typename _Dur2>
-      constexpr bool
-      operator<(const time_point<_Clock, _Dur1>& __lhs,
-  const time_point<_Clock, _Dur2>& __rhs)
-      { return __lhs.time_since_epoch() < __rhs.time_since_epoch(); }
-
-    template<typename _Clock, typename _Dur1, typename _Dur2>
-      constexpr bool
-      operator<=(const time_point<_Clock, _Dur1>& __lhs,
-   const time_point<_Clock, _Dur2>& __rhs)
-      { return !(__rhs < __lhs); }
-
-    template<typename _Clock, typename _Dur1, typename _Dur2>
-      constexpr bool
-      operator>(const time_point<_Clock, _Dur1>& __lhs,
-  const time_point<_Clock, _Dur2>& __rhs)
-      { return __rhs < __lhs; }
-
-    template<typename _Clock, typename _Dur1, typename _Dur2>
-      constexpr bool
-      operator>=(const time_point<_Clock, _Dur1>& __lhs,
-   const time_point<_Clock, _Dur2>& __rhs)
-      { return !(__lhs < __rhs); }
-# 1217 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-inline namespace _V2 {
-
-
-
-
-
-
-
-    struct system_clock
-    {
-      typedef chrono::nanoseconds duration;
-      typedef duration::rep rep;
-      typedef duration::period period;
-      typedef chrono::time_point<system_clock, duration> time_point;
-
-      static_assert(system_clock::duration::min()
-      < system_clock::duration::zero(),
-      "a clock's minimum duration cannot be less than its epoch");
-
-      static constexpr bool is_steady = false;
-
-      static time_point
-      now() noexcept;
-
-
-      static std::time_t
-      to_time_t(const time_point& __t) noexcept
-      {
- return std::time_t(duration_cast<chrono::seconds>
-      (__t.time_since_epoch()).count());
-      }
-
-      static time_point
-      from_time_t(std::time_t __t) noexcept
-      {
- typedef chrono::time_point<system_clock, seconds> __from;
- return time_point_cast<system_clock::duration>
-        (__from(chrono::seconds(__t)));
-      }
-    };
-# 1265 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    struct steady_clock
-    {
-      typedef chrono::nanoseconds duration;
-      typedef duration::rep rep;
-      typedef duration::period period;
-      typedef chrono::time_point<steady_clock, duration> time_point;
-
-      static constexpr bool is_steady = true;
-
-      static time_point
-      now() noexcept;
-    };
-# 1287 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-    using high_resolution_clock = system_clock;
-
-}
-
-
-
-
-    template<typename _Duration>
-      using sys_time = time_point<system_clock, _Duration>;
-    using sys_seconds = sys_time<seconds>;
-    using sys_days = sys_time<days>;
-
-    using file_clock = ::std::filesystem::__file_clock;
-
-    template<typename _Duration>
-      using file_time = time_point<file_clock, _Duration>;
-
-    template<> struct is_clock<system_clock> : true_type { };
-    template<> struct is_clock<steady_clock> : true_type { };
-    template<> struct is_clock<file_clock> : true_type { };
-
-    template<> inline constexpr bool is_clock_v<system_clock> = true;
-    template<> inline constexpr bool is_clock_v<steady_clock> = true;
-    template<> inline constexpr bool is_clock_v<file_clock> = true;
-
-
-  }
-
-
-  inline namespace literals
-  {
-# 1342 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
-  inline namespace chrono_literals
-  {
-
-
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wliteral-suffix"
-
-    template<typename _Dur, char... _Digits>
-      constexpr _Dur __check_overflow()
-      {
- using _Val = __parse_int::_Parse_int<_Digits...>;
- constexpr typename _Dur::rep __repval = _Val::value;
- static_assert(__repval >= 0 && __repval == _Val::value,
-        "literal value cannot be represented by duration type");
- return _Dur(__repval);
-      }
-
-
-
-    constexpr chrono::duration<long double, ratio<3600,1>>
-    operator""h(long double __hours)
-    { return chrono::duration<long double, ratio<3600,1>>{__hours}; }
-
-
-    template <char... _Digits>
-      constexpr chrono::hours
-      operator""h()
-      { return __check_overflow<chrono::hours, _Digits...>(); }
-
-
-    constexpr chrono::duration<long double, ratio<60,1>>
-    operator""min(long double __mins)
-    { return chrono::duration<long double, ratio<60,1>>{__mins}; }
-
-
-    template <char... _Digits>
-      constexpr chrono::minutes
-      operator""min()
-      { return __check_overflow<chrono::minutes, _Digits...>(); }
-
-
-    constexpr chrono::duration<long double>
-    operator""s(long double __secs)
-    { return chrono::duration<long double>{__secs}; }
-
-
-    template <char... _Digits>
-      constexpr chrono::seconds
-      operator""s()
-      { return __check_overflow<chrono::seconds, _Digits...>(); }
-
-
-    constexpr chrono::duration<long double, milli>
-    operator""ms(long double __msecs)
-    { return chrono::duration<long double, milli>{__msecs}; }
-
-
-    template <char... _Digits>
-      constexpr chrono::milliseconds
-      operator""ms()
-      { return __check_overflow<chrono::milliseconds, _Digits...>(); }
-
-
-    constexpr chrono::duration<long double, micro>
-    operator""us(long double __usecs)
-    { return chrono::duration<long double, micro>{__usecs}; }
-
-
-    template <char... _Digits>
-      constexpr chrono::microseconds
-      operator""us()
-      { return __check_overflow<chrono::microseconds, _Digits...>(); }
-
-
-    constexpr chrono::duration<long double, nano>
-    operator""ns(long double __nsecs)
-    { return chrono::duration<long double, nano>{__nsecs}; }
-
-
-    template <char... _Digits>
-      constexpr chrono::nanoseconds
-      operator""ns()
-      { return __check_overflow<chrono::nanoseconds, _Digits...>(); }
-
-#pragma GCC diagnostic pop
-
-  }
-  }
-
-  namespace chrono
-  {
-    using namespace literals::chrono_literals;
-  }
-
-
-
-  namespace filesystem
-  {
-    struct __file_clock
-    {
-      using duration = chrono::nanoseconds;
-      using rep = duration::rep;
-      using period = duration::period;
-      using time_point = chrono::time_point<__file_clock>;
-      static constexpr bool is_steady = false;
-
-      static time_point
-      now() noexcept
-      { return _S_from_sys(chrono::system_clock::now()); }
-
-
-      template<typename _Dur>
- static
- chrono::file_time<common_type_t<_Dur, chrono::seconds>>
- from_sys(const chrono::sys_time<_Dur>& __t) noexcept
- { return _S_from_sys(__t); }
-
-
-      template<typename _Dur>
- static
- chrono::sys_time<common_type_t<_Dur, chrono::seconds>>
- to_sys(const chrono::file_time<_Dur>& __t) noexcept
- { return _S_to_sys(__t); }
-
-
-    private:
-      using __sys_clock = chrono::system_clock;
-
-
-
-
-      static constexpr chrono::seconds _S_epoch_diff{6437664000};
-
-    protected:
-
-      template<typename _Dur>
- static
- chrono::time_point<__file_clock, common_type_t<_Dur, chrono::seconds>>
- _S_from_sys(const chrono::time_point<__sys_clock, _Dur>& __t) noexcept
- {
-   using _CDur = common_type_t<_Dur, chrono::seconds>;
-   using __file_time = chrono::time_point<__file_clock, _CDur>;
-   return __file_time{__t.time_since_epoch()} - _S_epoch_diff;
- }
-
-
-      template<typename _Dur>
- static
- chrono::time_point<__sys_clock, common_type_t<_Dur, chrono::seconds>>
- _S_to_sys(const chrono::time_point<__file_clock, _Dur>& __t) noexcept
- {
-   using _CDur = common_type_t<_Dur, chrono::seconds>;
-   using __sys_time = chrono::time_point<__sys_clock, _CDur>;
-   return __sys_time{__t.time_since_epoch()} + _S_epoch_diff;
- }
-    };
-  }
-
-
-
-}
-# 44 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 2 3
-
-
-
+# 39 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 2 3
+# 51 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 3
 # 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/std_mutex.h" 1 3
 # 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/std_mutex.h" 3
        
@@ -46411,813 +42788,8 @@ namespace std
 
 
 }
-# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 2 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unique_lock.h" 1 3
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unique_lock.h" 3
-       
-# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unique_lock.h" 3
-# 44 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unique_lock.h" 3
-namespace std
-{
+# 52 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 2 3
 
-# 59 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unique_lock.h" 3
-  template<typename _Mutex>
-    class unique_lock
-    {
-    public:
-      typedef _Mutex mutex_type;
-
-      unique_lock() noexcept
-      : _M_device(0), _M_owns(false)
-      { }
-
-      [[__nodiscard__]]
-      explicit unique_lock(mutex_type& __m)
-      : _M_device(std::__addressof(__m)), _M_owns(false)
-      {
- lock();
- _M_owns = true;
-      }
-
-      unique_lock(mutex_type& __m, defer_lock_t) noexcept
-      : _M_device(std::__addressof(__m)), _M_owns(false)
-      { }
-
-      [[__nodiscard__]]
-      unique_lock(mutex_type& __m, try_to_lock_t)
-      : _M_device(std::__addressof(__m)), _M_owns(_M_device->try_lock())
-      { }
-
-      [[__nodiscard__]]
-      unique_lock(mutex_type& __m, adopt_lock_t) noexcept
-      : _M_device(std::__addressof(__m)), _M_owns(true)
-      {
-
-      }
-
-      template<typename _Clock, typename _Duration>
- [[__nodiscard__]]
- unique_lock(mutex_type& __m,
-      const chrono::time_point<_Clock, _Duration>& __atime)
- : _M_device(std::__addressof(__m)),
-   _M_owns(_M_device->try_lock_until(__atime))
- { }
-
-      template<typename _Rep, typename _Period>
- [[__nodiscard__]]
- unique_lock(mutex_type& __m,
-      const chrono::duration<_Rep, _Period>& __rtime)
- : _M_device(std::__addressof(__m)),
-   _M_owns(_M_device->try_lock_for(__rtime))
- { }
-
-      ~unique_lock()
-      {
- if (_M_owns)
-   unlock();
-      }
-
-      unique_lock(const unique_lock&) = delete;
-      unique_lock& operator=(const unique_lock&) = delete;
-
-      unique_lock(unique_lock&& __u) noexcept
-      : _M_device(__u._M_device), _M_owns(__u._M_owns)
-      {
- __u._M_device = 0;
- __u._M_owns = false;
-      }
-
-      unique_lock& operator=(unique_lock&& __u) noexcept
-      {
- if(_M_owns)
-   unlock();
-
- unique_lock(std::move(__u)).swap(*this);
-
- __u._M_device = 0;
- __u._M_owns = false;
-
- return *this;
-      }
-
-      void
-      lock()
-      {
- if (!_M_device)
-   __throw_system_error(int(errc::operation_not_permitted));
- else if (_M_owns)
-   __throw_system_error(int(errc::resource_deadlock_would_occur));
- else
-   {
-     _M_device->lock();
-     _M_owns = true;
-   }
-      }
-
-      [[__nodiscard__]]
-      bool
-      try_lock()
-      {
- if (!_M_device)
-   __throw_system_error(int(errc::operation_not_permitted));
- else if (_M_owns)
-   __throw_system_error(int(errc::resource_deadlock_would_occur));
- else
-   {
-     _M_owns = _M_device->try_lock();
-     return _M_owns;
-   }
-      }
-
-      template<typename _Clock, typename _Duration>
- [[__nodiscard__]]
- bool
- try_lock_until(const chrono::time_point<_Clock, _Duration>& __atime)
- {
-   if (!_M_device)
-     __throw_system_error(int(errc::operation_not_permitted));
-   else if (_M_owns)
-     __throw_system_error(int(errc::resource_deadlock_would_occur));
-   else
-     {
-       _M_owns = _M_device->try_lock_until(__atime);
-       return _M_owns;
-     }
- }
-
-      template<typename _Rep, typename _Period>
- [[__nodiscard__]]
- bool
- try_lock_for(const chrono::duration<_Rep, _Period>& __rtime)
- {
-   if (!_M_device)
-     __throw_system_error(int(errc::operation_not_permitted));
-   else if (_M_owns)
-     __throw_system_error(int(errc::resource_deadlock_would_occur));
-   else
-     {
-       _M_owns = _M_device->try_lock_for(__rtime);
-       return _M_owns;
-     }
-  }
-
-      void
-      unlock()
-      {
- if (!_M_owns)
-   __throw_system_error(int(errc::operation_not_permitted));
- else if (_M_device)
-   {
-     _M_device->unlock();
-     _M_owns = false;
-   }
-      }
-
-      void
-      swap(unique_lock& __u) noexcept
-      {
- std::swap(_M_device, __u._M_device);
- std::swap(_M_owns, __u._M_owns);
-      }
-
-      mutex_type*
-      release() noexcept
-      {
- mutex_type* __ret = _M_device;
- _M_device = 0;
- _M_owns = false;
- return __ret;
-      }
-
-      [[__nodiscard__]]
-      bool
-      owns_lock() const noexcept
-      { return _M_owns; }
-
-      explicit operator bool() const noexcept
-      { return owns_lock(); }
-
-      [[__nodiscard__]]
-      mutex_type*
-      mutex() const noexcept
-      { return _M_device; }
-
-    private:
-      mutex_type* _M_device;
-      bool _M_owns;
-    };
-
-
-
-  template<typename _Mutex>
-    inline void
-    swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) noexcept
-    { __x.swap(__y); }
-
-
-}
-# 49 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 2 3
-# 60 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
-# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-       
-# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-# 61 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 2 3
-
-namespace std
-{
-
-# 75 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-  class __recursive_mutex_base
-  {
-  protected:
-    typedef __gthread_recursive_mutex_t __native_type;
-
-    __recursive_mutex_base(const __recursive_mutex_base&) = delete;
-    __recursive_mutex_base& operator=(const __recursive_mutex_base&) = delete;
-
-
-    __native_type _M_mutex = (pthread_mutex_t)-3;
-
-    __recursive_mutex_base() = default;
-# 99 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-  };
-# 111 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-  class recursive_mutex : private __recursive_mutex_base
-  {
-  public:
-    typedef __native_type* native_handle_type;
-
-    recursive_mutex() = default;
-    ~recursive_mutex() = default;
-
-    recursive_mutex(const recursive_mutex&) = delete;
-    recursive_mutex& operator=(const recursive_mutex&) = delete;
-
-    void
-    lock()
-    {
-      int __e = __gthread_recursive_mutex_lock(&_M_mutex);
-
-
-      if (__e)
- __throw_system_error(__e);
-    }
-
-    [[__nodiscard__]]
-    bool
-    try_lock() noexcept
-    {
-
-      return !__gthread_recursive_mutex_trylock(&_M_mutex);
-    }
-
-    void
-    unlock()
-    {
-
-      __gthread_recursive_mutex_unlock(&_M_mutex);
-    }
-
-    native_handle_type
-    native_handle() noexcept
-    { return &_M_mutex; }
-  };
-
-
-
-
-  template<typename _Derived>
-    class __timed_mutex_impl
-    {
-    protected:
-      template<typename _Rep, typename _Period>
- bool
- _M_try_lock_for(const chrono::duration<_Rep, _Period>& __rtime)
- {
-
-
-
-   using __clock = chrono::system_clock;
-
-
-   auto __rt = chrono::duration_cast<__clock::duration>(__rtime);
-   if (ratio_greater<__clock::period, _Period>())
-     ++__rt;
-   return _M_try_lock_until(__clock::now() + __rt);
- }
-
-      template<typename _Duration>
- bool
- _M_try_lock_until(const chrono::time_point<chrono::system_clock,
-         _Duration>& __atime)
- {
-   auto __s = chrono::time_point_cast<chrono::seconds>(__atime);
-   auto __ns = chrono::duration_cast<chrono::nanoseconds>(__atime - __s);
-
-   __gthread_time_t __ts = {
-     static_cast<std::time_t>(__s.time_since_epoch().count()),
-     static_cast<long>(__ns.count())
-   };
-
-   return static_cast<_Derived*>(this)->_M_timedlock(__ts);
- }
-# 210 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-      template<typename _Clock, typename _Duration>
- bool
- _M_try_lock_until(const chrono::time_point<_Clock, _Duration>& __atime)
- {
-
-   static_assert(chrono::is_clock_v<_Clock>);
-
-
-
-
-   auto __now = _Clock::now();
-   do {
-     auto __rtime = __atime - __now;
-     if (_M_try_lock_for(__rtime))
-       return true;
-     __now = _Clock::now();
-   } while (__atime > __now);
-   return false;
- }
-    };
-# 240 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-  class timed_mutex
-  : private __mutex_base, public __timed_mutex_impl<timed_mutex>
-  {
-  public:
-    typedef __native_type* native_handle_type;
-
-    timed_mutex() = default;
-    ~timed_mutex() = default;
-
-    timed_mutex(const timed_mutex&) = delete;
-    timed_mutex& operator=(const timed_mutex&) = delete;
-
-    void
-    lock()
-    {
-      int __e = __gthread_mutex_lock(&_M_mutex);
-
-
-      if (__e)
- __throw_system_error(__e);
-    }
-
-    [[__nodiscard__]]
-    bool
-    try_lock() noexcept
-    {
-
-      return !__gthread_mutex_trylock(&_M_mutex);
-    }
-
-    template <class _Rep, class _Period>
-      [[__nodiscard__]]
-      bool
-      try_lock_for(const chrono::duration<_Rep, _Period>& __rtime)
-      { return _M_try_lock_for(__rtime); }
-
-    template <class _Clock, class _Duration>
-      [[__nodiscard__]]
-      bool
-      try_lock_until(const chrono::time_point<_Clock, _Duration>& __atime)
-      { return _M_try_lock_until(__atime); }
-
-    void
-    unlock()
-    {
-
-      __gthread_mutex_unlock(&_M_mutex);
-    }
-
-    native_handle_type
-    native_handle() noexcept
-    { return &_M_mutex; }
-
-    private:
-      friend class __timed_mutex_impl<timed_mutex>;
-
-      bool
-      _M_timedlock(const __gthread_time_t& __ts)
-      { return !__gthread_mutex_timedlock(&_M_mutex, &__ts); }
-
-
-
-
-
-
-  };
-# 317 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-  class recursive_timed_mutex
-  : private __recursive_mutex_base,
-    public __timed_mutex_impl<recursive_timed_mutex>
-  {
-  public:
-    typedef __native_type* native_handle_type;
-
-    recursive_timed_mutex() = default;
-    ~recursive_timed_mutex() = default;
-
-    recursive_timed_mutex(const recursive_timed_mutex&) = delete;
-    recursive_timed_mutex& operator=(const recursive_timed_mutex&) = delete;
-
-    void
-    lock()
-    {
-      int __e = __gthread_recursive_mutex_lock(&_M_mutex);
-
-
-      if (__e)
- __throw_system_error(__e);
-    }
-
-    [[__nodiscard__]]
-    bool
-    try_lock() noexcept
-    {
-
-      return !__gthread_recursive_mutex_trylock(&_M_mutex);
-    }
-
-    template <class _Rep, class _Period>
-      [[__nodiscard__]]
-      bool
-      try_lock_for(const chrono::duration<_Rep, _Period>& __rtime)
-      { return _M_try_lock_for(__rtime); }
-
-    template <class _Clock, class _Duration>
-      [[__nodiscard__]]
-      bool
-      try_lock_until(const chrono::time_point<_Clock, _Duration>& __atime)
-      { return _M_try_lock_until(__atime); }
-
-    void
-    unlock()
-    {
-
-      __gthread_recursive_mutex_unlock(&_M_mutex);
-    }
-
-    native_handle_type
-    native_handle() noexcept
-    { return &_M_mutex; }
-
-    private:
-      friend class __timed_mutex_impl<recursive_timed_mutex>;
-
-      bool
-      _M_timedlock(const __gthread_time_t& __ts)
-      { return !__gthread_recursive_mutex_timedlock(&_M_mutex, &__ts); }
-
-
-
-
-
-
-  };
-# 564 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-  namespace __detail
-  {
-
-    template<typename _Lockable>
-      inline int
-      __try_lock_impl(_Lockable& __l)
-      {
- if (unique_lock<_Lockable> __lock{__l, try_to_lock})
-   {
-     __lock.release();
-     return -1;
-   }
- else
-   return 0;
-      }
-
-
-
-    template<typename _L0, typename... _Lockables>
-      inline int
-      __try_lock_impl(_L0& __l0, _Lockables&... __lockables)
-      {
-
- if constexpr ((is_same_v<_L0, _Lockables> && ...))
-   {
-     constexpr int _Np = 1 + sizeof...(_Lockables);
-     unique_lock<_L0> __locks[_Np] = {
-  {__l0, defer_lock}, {__lockables, defer_lock}...
-     };
-     for (int __i = 0; __i < _Np; ++__i)
-       {
-  if (!__locks[__i].try_lock())
-    {
-      const int __failed = __i;
-      while (__i--)
-        __locks[__i].unlock();
-      return __failed;
-    }
-       }
-     for (auto& __l : __locks)
-       __l.release();
-     return -1;
-   }
- else
-
- if (unique_lock<_L0> __lock{__l0, try_to_lock})
-   {
-     int __idx = __detail::__try_lock_impl(__lockables...);
-     if (__idx == -1)
-       {
-  __lock.release();
-  return -1;
-       }
-     return __idx + 1;
-   }
- else
-   return 0;
-      }
-
-  }
-# 636 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-  template<typename _L1, typename _L2, typename... _L3>
-    [[__nodiscard__]]
-    inline int
-    try_lock(_L1& __l1, _L2& __l2, _L3&... __l3)
-    {
-      return __detail::__try_lock_impl(__l1, __l2, __l3...);
-    }
-
-
-  namespace __detail
-  {
-
-
-
-
-
-    template<typename _L0, typename... _L1>
-      void
-      __lock_impl(int& __i, int __depth, _L0& __l0, _L1&... __l1)
-      {
- while (__i >= __depth)
-   {
-     if (__i == __depth)
-       {
-  int __failed = 1;
-  {
-    unique_lock<_L0> __first(__l0);
-    __failed += __detail::__try_lock_impl(__l1...);
-    if (!__failed)
-      {
-        __i = -1;
-        __first.release();
-        return;
-      }
-  }
-
-  __gthread_yield();
-
-  constexpr auto __n = 1 + sizeof...(_L1);
-  __i = (__depth + __failed) % __n;
-       }
-     else
-       __detail::__lock_impl(__i, __depth + 1, __l1..., __l0);
-   }
-      }
-
-  }
-# 696 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-  template<typename _L1, typename _L2, typename... _L3>
-    void
-    lock(_L1& __l1, _L2& __l2, _L3&... __l3)
-    {
-
-      if constexpr (is_same_v<_L1, _L2> && (is_same_v<_L1, _L3> && ...))
- {
-   constexpr int _Np = 2 + sizeof...(_L3);
-   unique_lock<_L1> __locks[] = {
-       {__l1, defer_lock}, {__l2, defer_lock}, {__l3, defer_lock}...
-   };
-   int __first = 0;
-   do {
-     __locks[__first].lock();
-     for (int __j = 1; __j < _Np; ++__j)
-       {
-  const int __idx = (__first + __j) % _Np;
-  if (!__locks[__idx].try_lock())
-    {
-      for (int __k = __j; __k != 0; --__k)
-        __locks[(__first + __k - 1) % _Np].unlock();
-      __first = __idx;
-      break;
-    }
-       }
-   } while (!__locks[__first].owns_lock());
-
-   for (auto& __l : __locks)
-     __l.release();
- }
-      else
-
- {
-   int __i = 0;
-   __detail::__lock_impl(__i, 0, __l1, __l2, __l3...);
- }
-    }
-# 743 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-  template<typename... _MutexTypes>
-    class scoped_lock
-    {
-    public:
-
-      [[nodiscard]]
-      explicit scoped_lock(_MutexTypes&... __m) : _M_devices(std::tie(__m...))
-      { std::lock(__m...); }
-
-      [[nodiscard]]
-      explicit scoped_lock(adopt_lock_t, _MutexTypes&... __m) noexcept
-      : _M_devices(std::tie(__m...))
-      { }
-
-      ~scoped_lock()
-      { std::apply([](auto&... __m) { (__m.unlock(), ...); }, _M_devices); }
-
-      scoped_lock(const scoped_lock&) = delete;
-      scoped_lock& operator=(const scoped_lock&) = delete;
-
-    private:
-      tuple<_MutexTypes&...> _M_devices;
-    };
-
-  template<>
-    class scoped_lock<>
-    {
-    public:
-      explicit scoped_lock() = default;
-      explicit scoped_lock(adopt_lock_t) noexcept { }
-      ~scoped_lock() = default;
-
-      scoped_lock(const scoped_lock&) = delete;
-      scoped_lock& operator=(const scoped_lock&) = delete;
-    };
-
-  template<typename _Mutex>
-    class scoped_lock<_Mutex>
-    {
-    public:
-      using mutex_type = _Mutex;
-
-      [[nodiscard]]
-      explicit scoped_lock(mutex_type& __m) : _M_device(__m)
-      { _M_device.lock(); }
-
-      [[nodiscard]]
-      explicit scoped_lock(adopt_lock_t, mutex_type& __m) noexcept
-      : _M_device(__m)
-      { }
-
-      ~scoped_lock()
-      { _M_device.unlock(); }
-
-      scoped_lock(const scoped_lock&) = delete;
-      scoped_lock& operator=(const scoped_lock&) = delete;
-
-    private:
-      mutex_type& _M_device;
-    };
-
-
-
-
-  struct once_flag
-  {
-    constexpr once_flag() noexcept = default;
-
-
-    once_flag(const once_flag&) = delete;
-
-    once_flag& operator=(const once_flag&) = delete;
-
-  private:
-
-
-    __gthread_once_t _M_once = 0;
-
-    struct _Prepare_execution;
-
-    template<typename _Callable, typename... _Args>
-      friend void
-      call_once(once_flag& __once, _Callable&& __f, _Args&&... __args);
-  };
-
-
-
-
-
-  extern __thread void* __once_callable;
-  extern __thread void (*__once_call)();
-
-
-  struct once_flag::_Prepare_execution
-  {
-    template<typename _Callable>
-      explicit
-      _Prepare_execution(_Callable& __c)
-      {
-
- __once_callable = std::__addressof(__c);
-
- __once_call = [] { (*static_cast<_Callable*>(__once_callable))(); };
-      }
-
-    ~_Prepare_execution()
-    {
-
-      __once_callable = nullptr;
-      __once_call = nullptr;
-    }
-
-    _Prepare_execution(const _Prepare_execution&) = delete;
-    _Prepare_execution& operator=(const _Prepare_execution&) = delete;
-  };
-# 900 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-  extern "C" void __once_proxy(void);
-
-
-  template<typename _Callable, typename... _Args>
-    void
-    call_once(once_flag& __once, _Callable&& __f, _Args&&... __args)
-    {
-
-      auto __callable = [&] {
-   std::__invoke(std::forward<_Callable>(__f),
-   std::forward<_Args>(__args)...);
-      };
-
-      once_flag::_Prepare_execution __exec(__callable);
-
-
-      if (int __e = __gthread_once(&__once._M_once, &__once_proxy))
- __throw_system_error(__e);
-    }
-# 1021 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
-
-}
-# 3 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task_data_race.cpp" 2
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/thread" 1 3
-# 32 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/thread" 3
-       
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/thread" 3
-# 42 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/thread" 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/stop_token" 1 3
-# 35 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/stop_token" 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
-# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-       
-# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-# 36 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/stop_token" 2 3
-
-
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic" 1 3
-# 35 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic" 3
-       
-# 36 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic" 3
-# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic" 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
-# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-       
-# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-# 49 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic" 2 3
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_base.h" 1 3
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_base.h" 3
-       
-# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_base.h" 3
-
-
-
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_lockfree_defines.h" 1 3
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_lockfree_defines.h" 3
-       
-# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_lockfree_defines.h" 3
-# 39 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_base.h" 2 3
-
-
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 1 3
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 3
-       
-# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 3
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
-# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-       
-# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-# 36 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 2 3
-# 53 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_wait.h" 3
 namespace std
 {
 
@@ -51147,7 +46719,4430 @@ namespace std
 # 1793 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/atomic" 3
 
 }
-# 40 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/stop_token" 2 3
+# 3 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task_data_race.cpp" 2
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 1 3
+# 32 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+       
+# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+# 43 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 1 3
+# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+       
+# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+
+
+
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 1 3
+# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+       
+# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+# 43 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
+# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
+       
+# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
+# 44 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 2 3
+
+namespace std
+{
+
+# 59 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+  template<intmax_t _Pn>
+    struct __static_sign
+    : integral_constant<intmax_t, (_Pn < 0) ? -1 : 1>
+    { };
+
+  template<intmax_t _Pn>
+    struct __static_abs
+    : integral_constant<intmax_t, _Pn * __static_sign<_Pn>::value>
+    { };
+
+  template<intmax_t _Pn, intmax_t _Qn>
+    struct __static_gcd
+    : __static_gcd<_Qn, (_Pn % _Qn)>
+    { };
+
+  template<intmax_t _Pn>
+    struct __static_gcd<_Pn, 0>
+    : integral_constant<intmax_t, __static_abs<_Pn>::value>
+    { };
+
+  template<intmax_t _Qn>
+    struct __static_gcd<0, _Qn>
+    : integral_constant<intmax_t, __static_abs<_Qn>::value>
+    { };
+
+
+
+
+
+
+
+  template<intmax_t _Pn, intmax_t _Qn>
+    struct __safe_multiply
+    {
+    private:
+      static const uintmax_t __c = uintmax_t(1) << (sizeof(intmax_t) * 4);
+
+      static const uintmax_t __a0 = __static_abs<_Pn>::value % __c;
+      static const uintmax_t __a1 = __static_abs<_Pn>::value / __c;
+      static const uintmax_t __b0 = __static_abs<_Qn>::value % __c;
+      static const uintmax_t __b1 = __static_abs<_Qn>::value / __c;
+
+      static_assert(__a1 == 0 || __b1 == 0,
+      "overflow in multiplication");
+      static_assert(__a0 * __b1 + __b0 * __a1 < (__c >> 1),
+      "overflow in multiplication");
+      static_assert(__b0 * __a0 <= 0x7fffffffffffffffLL,
+      "overflow in multiplication");
+      static_assert((__a0 * __b1 + __b0 * __a1) * __c
+      <= 0x7fffffffffffffffLL - __b0 * __a0,
+      "overflow in multiplication");
+
+    public:
+      static const intmax_t value = _Pn * _Qn;
+    };
+
+
+
+  template<uintmax_t __hi1, uintmax_t __lo1, uintmax_t __hi2, uintmax_t __lo2>
+    struct __big_less
+    : integral_constant<bool, (__hi1 < __hi2
+          || (__hi1 == __hi2 && __lo1 < __lo2))>
+    { };
+
+  template<uintmax_t __hi1, uintmax_t __lo1, uintmax_t __hi2, uintmax_t __lo2>
+    struct __big_add
+    {
+      static constexpr uintmax_t __lo = __lo1 + __lo2;
+      static constexpr uintmax_t __hi = (__hi1 + __hi2 +
+      (__lo1 + __lo2 < __lo1));
+    };
+
+
+  template<uintmax_t __hi1, uintmax_t __lo1, uintmax_t __hi2, uintmax_t __lo2>
+    struct __big_sub
+    {
+      static_assert(!__big_less<__hi1, __lo1, __hi2, __lo2>::value,
+      "Internal library error");
+      static constexpr uintmax_t __lo = __lo1 - __lo2;
+      static constexpr uintmax_t __hi = (__hi1 - __hi2 -
+      (__lo1 < __lo2));
+    };
+
+
+  template<uintmax_t __x, uintmax_t __y>
+    struct __big_mul
+    {
+    private:
+      static constexpr uintmax_t __c = uintmax_t(1) << (sizeof(intmax_t) * 4);
+      static constexpr uintmax_t __x0 = __x % __c;
+      static constexpr uintmax_t __x1 = __x / __c;
+      static constexpr uintmax_t __y0 = __y % __c;
+      static constexpr uintmax_t __y1 = __y / __c;
+      static constexpr uintmax_t __x0y0 = __x0 * __y0;
+      static constexpr uintmax_t __x0y1 = __x0 * __y1;
+      static constexpr uintmax_t __x1y0 = __x1 * __y0;
+      static constexpr uintmax_t __x1y1 = __x1 * __y1;
+      static constexpr uintmax_t __mix = __x0y1 + __x1y0;
+      static constexpr uintmax_t __mix_lo = __mix * __c;
+      static constexpr uintmax_t __mix_hi
+      = __mix / __c + ((__mix < __x0y1) ? __c : 0);
+      typedef __big_add<__mix_hi, __mix_lo, __x1y1, __x0y0> _Res;
+    public:
+      static constexpr uintmax_t __hi = _Res::__hi;
+      static constexpr uintmax_t __lo = _Res::__lo;
+    };
+
+
+
+  template<uintmax_t __n1, uintmax_t __n0, uintmax_t __d>
+    struct __big_div_impl
+    {
+    private:
+      static_assert(__d >= (uintmax_t(1) << (sizeof(intmax_t) * 8 - 1)),
+      "Internal library error");
+      static_assert(__n1 < __d, "Internal library error");
+      static constexpr uintmax_t __c = uintmax_t(1) << (sizeof(intmax_t) * 4);
+      static constexpr uintmax_t __d1 = __d / __c;
+      static constexpr uintmax_t __d0 = __d % __c;
+
+      static constexpr uintmax_t __q1x = __n1 / __d1;
+      static constexpr uintmax_t __r1x = __n1 % __d1;
+      static constexpr uintmax_t __m = __q1x * __d0;
+      static constexpr uintmax_t __r1y = __r1x * __c + __n0 / __c;
+      static constexpr uintmax_t __r1z = __r1y + __d;
+      static constexpr uintmax_t __r1
+      = ((__r1y < __m) ? ((__r1z >= __d) && (__r1z < __m))
+  ? (__r1z + __d) : __r1z : __r1y) - __m;
+      static constexpr uintmax_t __q1
+      = __q1x - ((__r1y < __m)
+   ? ((__r1z >= __d) && (__r1z < __m)) ? 2 : 1 : 0);
+      static constexpr uintmax_t __q0x = __r1 / __d1;
+      static constexpr uintmax_t __r0x = __r1 % __d1;
+      static constexpr uintmax_t __n = __q0x * __d0;
+      static constexpr uintmax_t __r0y = __r0x * __c + __n0 % __c;
+      static constexpr uintmax_t __r0z = __r0y + __d;
+      static constexpr uintmax_t __r0
+      = ((__r0y < __n) ? ((__r0z >= __d) && (__r0z < __n))
+  ? (__r0z + __d) : __r0z : __r0y) - __n;
+      static constexpr uintmax_t __q0
+      = __q0x - ((__r0y < __n) ? ((__r0z >= __d)
+      && (__r0z < __n)) ? 2 : 1 : 0);
+
+    public:
+      static constexpr uintmax_t __quot = __q1 * __c + __q0;
+      static constexpr uintmax_t __rem = __r0;
+
+    private:
+      typedef __big_mul<__quot, __d> _Prod;
+      typedef __big_add<_Prod::__hi, _Prod::__lo, 0, __rem> _Sum;
+      static_assert(_Sum::__hi == __n1 && _Sum::__lo == __n0,
+      "Internal library error");
+  };
+
+  template<uintmax_t __n1, uintmax_t __n0, uintmax_t __d>
+    struct __big_div
+    {
+    private:
+      static_assert(__d != 0, "Internal library error");
+      static_assert(sizeof (uintmax_t) == sizeof (unsigned long long),
+      "This library calls __builtin_clzll on uintmax_t, which "
+      "is unsafe on your platform. Please complain to "
+      "http://gcc.gnu.org/bugzilla/");
+      static constexpr int __shift = __builtin_clzll(__d);
+      static constexpr int __coshift_ = sizeof(uintmax_t) * 8 - __shift;
+      static constexpr int __coshift = (__shift != 0) ? __coshift_ : 0;
+      static constexpr uintmax_t __c1 = uintmax_t(1) << __shift;
+      static constexpr uintmax_t __c2 = uintmax_t(1) << __coshift;
+      static constexpr uintmax_t __new_d = __d * __c1;
+      static constexpr uintmax_t __new_n0 = __n0 * __c1;
+      static constexpr uintmax_t __n1_shifted = (__n1 % __d) * __c1;
+      static constexpr uintmax_t __n0_top = (__shift != 0) ? (__n0 / __c2) : 0;
+      static constexpr uintmax_t __new_n1 = __n1_shifted + __n0_top;
+      typedef __big_div_impl<__new_n1, __new_n0, __new_d> _Res;
+
+    public:
+      static constexpr uintmax_t __quot_hi = __n1 / __d;
+      static constexpr uintmax_t __quot_lo = _Res::__quot;
+      static constexpr uintmax_t __rem = _Res::__rem / __c1;
+
+    private:
+      typedef __big_mul<__quot_lo, __d> _P0;
+      typedef __big_mul<__quot_hi, __d> _P1;
+      typedef __big_add<_P0::__hi, _P0::__lo, _P1::__lo, __rem> _Sum;
+
+      static_assert(_P1::__hi == 0, "Internal library error");
+      static_assert(_Sum::__hi >= _P0::__hi, "Internal library error");
+
+      static_assert(_Sum::__hi == __n1 && _Sum::__lo == __n0,
+      "Internal library error");
+      static_assert(__rem < __d, "Internal library error");
+    };
+# 268 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+  template<intmax_t _Num, intmax_t _Den = 1>
+    struct ratio
+    {
+      static_assert(_Den != 0, "denominator cannot be zero");
+      static_assert(_Num >= -0x7fffffffffffffffLL && _Den >= -0x7fffffffffffffffLL,
+      "out of range");
+
+
+      static constexpr intmax_t num =
+        _Num * __static_sign<_Den>::value / __static_gcd<_Num, _Den>::value;
+
+      static constexpr intmax_t den =
+        __static_abs<_Den>::value / __static_gcd<_Num, _Den>::value;
+
+      typedef ratio<num, den> type;
+    };
+# 295 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+  template<typename _Tp>
+    struct __is_ratio
+    : std::false_type
+    { };
+
+  template<intmax_t _Num, intmax_t _Den>
+    struct __is_ratio<ratio<_Num, _Den>>
+    : std::true_type
+    { };
+
+
+  template<typename _Tp>
+    constexpr bool __is_ratio_v = false;
+  template<intmax_t _Num, intmax_t _Den>
+    constexpr bool __is_ratio_v<ratio<_Num, _Den>> = true;
+
+
+  template<typename _R1, typename _R2>
+    constexpr bool
+    __are_both_ratios() noexcept
+    {
+
+      if constexpr (__is_ratio_v<_R1>)
+ if constexpr (__is_ratio_v<_R2>)
+   return true;
+      return false;
+
+
+
+    }
+
+  template<typename _R1, typename _R2>
+    struct __ratio_multiply
+    {
+      static_assert(std::__are_both_ratios<_R1, _R2>(),
+      "both template arguments must be a std::ratio");
+
+    private:
+      static const intmax_t __gcd1 =
+        __static_gcd<_R1::num, _R2::den>::value;
+      static const intmax_t __gcd2 =
+        __static_gcd<_R2::num, _R1::den>::value;
+
+    public:
+      typedef ratio<
+        __safe_multiply<(_R1::num / __gcd1),
+                        (_R2::num / __gcd2)>::value,
+        __safe_multiply<(_R1::den / __gcd2),
+                        (_R2::den / __gcd1)>::value> type;
+
+      static constexpr intmax_t num = type::num;
+      static constexpr intmax_t den = type::den;
+    };
+# 360 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+  template<typename _R1, typename _R2>
+    using ratio_multiply = typename __ratio_multiply<_R1, _R2>::type;
+
+
+
+  template<typename _R1, typename _R2>
+    struct __ratio_divide
+    {
+      static_assert(_R2::num != 0, "division by 0");
+
+      typedef typename __ratio_multiply<
+        _R1,
+        ratio<_R2::den, _R2::num>>::type type;
+
+      static constexpr intmax_t num = type::num;
+      static constexpr intmax_t den = type::den;
+    };
+# 389 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+  template<typename _R1, typename _R2>
+    using ratio_divide = typename __ratio_divide<_R1, _R2>::type;
+
+
+  template<typename _R1, typename _R2>
+    struct ratio_equal
+    : integral_constant<bool, _R1::num == _R2::num && _R1::den == _R2::den>
+    {
+      static_assert(std::__are_both_ratios<_R1, _R2>(),
+      "both template arguments must be a std::ratio");
+    };
+
+
+  template<typename _R1, typename _R2>
+    struct ratio_not_equal
+    : integral_constant<bool, !ratio_equal<_R1, _R2>::value>
+    { };
+
+
+
+
+  template<typename _R1, typename _R2,
+           typename _Left = __big_mul<_R1::num,_R2::den>,
+           typename _Right = __big_mul<_R2::num,_R1::den> >
+    struct __ratio_less_impl_1
+    : integral_constant<bool, __big_less<_Left::__hi, _Left::__lo,
+           _Right::__hi, _Right::__lo>::value>
+    { };
+
+  template<typename _R1, typename _R2,
+    bool = (_R1::num == 0 || _R2::num == 0
+     || (__static_sign<_R1::num>::value
+         != __static_sign<_R2::num>::value)),
+    bool = (__static_sign<_R1::num>::value == -1
+     && __static_sign<_R2::num>::value == -1)>
+    struct __ratio_less_impl
+    : __ratio_less_impl_1<_R1, _R2>::type
+    { };
+
+  template<typename _R1, typename _R2>
+    struct __ratio_less_impl<_R1, _R2, true, false>
+    : integral_constant<bool, _R1::num < _R2::num>
+    { };
+
+  template<typename _R1, typename _R2>
+    struct __ratio_less_impl<_R1, _R2, false, true>
+    : __ratio_less_impl_1<ratio<-_R2::num, _R2::den>,
+           ratio<-_R1::num, _R1::den> >::type
+    { };
+
+
+
+
+  template<typename _R1, typename _R2>
+    struct ratio_less
+    : __ratio_less_impl<_R1, _R2>::type
+    {
+      static_assert(std::__are_both_ratios<_R1, _R2>(),
+      "both template arguments must be a std::ratio");
+    };
+
+
+  template<typename _R1, typename _R2>
+    struct ratio_less_equal
+    : integral_constant<bool, !ratio_less<_R2, _R1>::value>
+    { };
+
+
+  template<typename _R1, typename _R2>
+    struct ratio_greater
+    : integral_constant<bool, ratio_less<_R2, _R1>::value>
+    { };
+
+
+  template<typename _R1, typename _R2>
+    struct ratio_greater_equal
+    : integral_constant<bool, !ratio_less<_R1, _R2>::value>
+    { };
+
+
+  template <typename _R1, typename _R2>
+    inline constexpr bool ratio_equal_v = ratio_equal<_R1, _R2>::value;
+  template <typename _R1, typename _R2>
+    inline constexpr bool ratio_not_equal_v = ratio_not_equal<_R1, _R2>::value;
+  template <typename _R1, typename _R2>
+    inline constexpr bool ratio_less_v = ratio_less<_R1, _R2>::value;
+  template <typename _R1, typename _R2>
+    inline constexpr bool ratio_less_equal_v
+      = ratio_less_equal<_R1, _R2>::value;
+  template <typename _R1, typename _R2>
+    inline constexpr bool ratio_greater_v = ratio_greater<_R1, _R2>::value;
+  template <typename _R1, typename _R2>
+    inline constexpr bool ratio_greater_equal_v
+      = ratio_greater_equal<_R1, _R2>::value;
+
+
+
+
+  template<typename _R1, typename _R2,
+      bool = (_R1::num >= 0),
+      bool = (_R2::num >= 0),
+      bool = ratio_less<ratio<__static_abs<_R1::num>::value, _R1::den>,
+        ratio<__static_abs<_R2::num>::value, _R2::den> >::value>
+    struct __ratio_add_impl
+    {
+    private:
+      typedef typename __ratio_add_impl<
+        ratio<-_R1::num, _R1::den>,
+        ratio<-_R2::num, _R2::den> >::type __t;
+    public:
+      typedef ratio<-__t::num, __t::den> type;
+    };
+
+
+  template<typename _R1, typename _R2, bool __b>
+    struct __ratio_add_impl<_R1, _R2, true, true, __b>
+    {
+    private:
+      static constexpr uintmax_t __g = __static_gcd<_R1::den, _R2::den>::value;
+      static constexpr uintmax_t __d2 = _R2::den / __g;
+      typedef __big_mul<_R1::den, __d2> __d;
+      typedef __big_mul<_R1::num, _R2::den / __g> __x;
+      typedef __big_mul<_R2::num, _R1::den / __g> __y;
+      typedef __big_add<__x::__hi, __x::__lo, __y::__hi, __y::__lo> __n;
+      static_assert(__n::__hi >= __x::__hi, "Internal library error");
+      typedef __big_div<__n::__hi, __n::__lo, __g> __ng;
+      static constexpr uintmax_t __g2 = __static_gcd<__ng::__rem, __g>::value;
+      typedef __big_div<__n::__hi, __n::__lo, __g2> __n_final;
+      static_assert(__n_final::__rem == 0, "Internal library error");
+      static_assert(__n_final::__quot_hi == 0 &&
+        __n_final::__quot_lo <= 0x7fffffffffffffffLL, "overflow in addition");
+      typedef __big_mul<_R1::den / __g2, __d2> __d_final;
+      static_assert(__d_final::__hi == 0 &&
+        __d_final::__lo <= 0x7fffffffffffffffLL, "overflow in addition");
+    public:
+      typedef ratio<__n_final::__quot_lo, __d_final::__lo> type;
+    };
+
+  template<typename _R1, typename _R2>
+    struct __ratio_add_impl<_R1, _R2, false, true, true>
+    : __ratio_add_impl<_R2, _R1>
+    { };
+
+
+  template<typename _R1, typename _R2>
+    struct __ratio_add_impl<_R1, _R2, true, false, false>
+    {
+    private:
+      static constexpr uintmax_t __g = __static_gcd<_R1::den, _R2::den>::value;
+      static constexpr uintmax_t __d2 = _R2::den / __g;
+      typedef __big_mul<_R1::den, __d2> __d;
+      typedef __big_mul<_R1::num, _R2::den / __g> __x;
+      typedef __big_mul<-_R2::num, _R1::den / __g> __y;
+      typedef __big_sub<__x::__hi, __x::__lo, __y::__hi, __y::__lo> __n;
+      typedef __big_div<__n::__hi, __n::__lo, __g> __ng;
+      static constexpr uintmax_t __g2 = __static_gcd<__ng::__rem, __g>::value;
+      typedef __big_div<__n::__hi, __n::__lo, __g2> __n_final;
+      static_assert(__n_final::__rem == 0, "Internal library error");
+      static_assert(__n_final::__quot_hi == 0 &&
+        __n_final::__quot_lo <= 0x7fffffffffffffffLL, "overflow in addition");
+      typedef __big_mul<_R1::den / __g2, __d2> __d_final;
+      static_assert(__d_final::__hi == 0 &&
+        __d_final::__lo <= 0x7fffffffffffffffLL, "overflow in addition");
+    public:
+      typedef ratio<__n_final::__quot_lo, __d_final::__lo> type;
+    };
+
+  template<typename _R1, typename _R2>
+    struct __ratio_add
+    {
+      static_assert(std::__are_both_ratios<_R1, _R2>(),
+      "both template arguments must be a std::ratio");
+
+      typedef typename __ratio_add_impl<_R1, _R2>::type type;
+      static constexpr intmax_t num = type::num;
+      static constexpr intmax_t den = type::den;
+    };
+# 578 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+  template<typename _R1, typename _R2>
+    using ratio_add = typename __ratio_add<_R1, _R2>::type;
+
+
+
+  template<typename _R1, typename _R2>
+    struct __ratio_subtract
+    {
+      typedef typename __ratio_add<
+        _R1,
+        ratio<-_R2::num, _R2::den>>::type type;
+
+      static constexpr intmax_t num = type::num;
+      static constexpr intmax_t den = type::den;
+    };
+# 605 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+  template<typename _R1, typename _R2>
+    using ratio_subtract = typename __ratio_subtract<_R1, _R2>::type;
+# 618 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+  using atto = ratio< 1, 1000000000000000000>;
+  using femto = ratio< 1, 1000000000000000>;
+  using pico = ratio< 1, 1000000000000>;
+  using nano = ratio< 1, 1000000000>;
+  using micro = ratio< 1, 1000000>;
+  using milli = ratio< 1, 1000>;
+  using centi = ratio< 1, 100>;
+  using deci = ratio< 1, 10>;
+  using deca = ratio< 10, 1>;
+  using hecto = ratio< 100, 1>;
+  using kilo = ratio< 1000, 1>;
+  using mega = ratio< 1000000, 1>;
+  using giga = ratio< 1000000000, 1>;
+  using tera = ratio< 1000000000000, 1>;
+  using peta = ratio< 1000000000000000, 1>;
+  using exa = ratio< 1000000000000000000, 1>;
+# 646 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ratio" 3
+
+}
+# 38 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 2 3
+
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 1 3
+# 40 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+       
+# 41 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+# 158 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+namespace std
+{
+
+
+
+
+
+
+
+  enum float_round_style
+  {
+    round_indeterminate = -1,
+    round_toward_zero = 0,
+    round_to_nearest = 1,
+    round_toward_infinity = 2,
+    round_toward_neg_infinity = 3
+  };
+
+
+
+
+
+
+
+  enum float_denorm_style
+  {
+
+    denorm_indeterminate = -1,
+
+    denorm_absent = 0,
+
+    denorm_present = 1
+  };
+# 202 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+  struct __numeric_limits_base
+  {
+
+
+    static constexpr bool is_specialized = false;
+
+
+
+
+    static constexpr int digits = 0;
+
+
+    static constexpr int digits10 = 0;
+
+
+
+
+    static constexpr int max_digits10 = 0;
+
+
+
+    static constexpr bool is_signed = false;
+
+
+    static constexpr bool is_integer = false;
+
+
+
+
+    static constexpr bool is_exact = false;
+
+
+
+    static constexpr int radix = 0;
+
+
+
+    static constexpr int min_exponent = 0;
+
+
+
+    static constexpr int min_exponent10 = 0;
+
+
+
+
+    static constexpr int max_exponent = 0;
+
+
+
+    static constexpr int max_exponent10 = 0;
+
+
+    static constexpr bool has_infinity = false;
+
+
+
+    static constexpr bool has_quiet_NaN = false;
+
+
+
+    static constexpr bool has_signaling_NaN = false;
+
+
+    static constexpr float_denorm_style has_denorm = denorm_absent;
+
+
+
+    static constexpr bool has_denorm_loss = false;
+
+
+
+    static constexpr bool is_iec559 = false;
+
+
+
+
+    static constexpr bool is_bounded = false;
+# 288 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+    static constexpr bool is_modulo = false;
+
+
+    static constexpr bool traps = false;
+
+
+    static constexpr bool tinyness_before = false;
+
+
+
+
+    static constexpr float_round_style round_style =
+          round_toward_zero;
+  };
+# 311 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+  template<typename _Tp>
+    struct numeric_limits : public __numeric_limits_base
+    {
+
+
+      static constexpr _Tp
+      min() noexcept { return _Tp(); }
+
+
+      static constexpr _Tp
+      max() noexcept { return _Tp(); }
+
+
+
+
+      static constexpr _Tp
+      lowest() noexcept { return _Tp(); }
+
+
+
+
+      static constexpr _Tp
+      epsilon() noexcept { return _Tp(); }
+
+
+      static constexpr _Tp
+      round_error() noexcept { return _Tp(); }
+
+
+      static constexpr _Tp
+      infinity() noexcept { return _Tp(); }
+
+
+
+      static constexpr _Tp
+      quiet_NaN() noexcept { return _Tp(); }
+
+
+
+      static constexpr _Tp
+      signaling_NaN() noexcept { return _Tp(); }
+
+
+
+
+      static constexpr _Tp
+      denorm_min() noexcept { return _Tp(); }
+    };
+
+
+
+
+  template<typename _Tp>
+    struct numeric_limits<const _Tp>
+    : public numeric_limits<_Tp> { };
+
+  template<typename _Tp>
+    struct numeric_limits<volatile _Tp>
+    : public numeric_limits<_Tp> { };
+
+  template<typename _Tp>
+    struct numeric_limits<const volatile _Tp>
+    : public numeric_limits<_Tp> { };
+# 383 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+  template<>
+    struct numeric_limits<bool>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr bool
+      min() noexcept { return false; }
+
+      static constexpr bool
+      max() noexcept { return true; }
+
+
+      static constexpr bool
+      lowest() noexcept { return min(); }
+
+      static constexpr int digits = 1;
+      static constexpr int digits10 = 0;
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = false;
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr bool
+      epsilon() noexcept { return false; }
+
+      static constexpr bool
+      round_error() noexcept { return false; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr bool
+      infinity() noexcept { return false; }
+
+      static constexpr bool
+      quiet_NaN() noexcept { return false; }
+
+      static constexpr bool
+      signaling_NaN() noexcept { return false; }
+
+      static constexpr bool
+      denorm_min() noexcept { return false; }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = false;
+
+
+
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<char>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr char
+      min() noexcept { return (((char)(-1) < 0) ? -(((char)(-1) < 0) ? (((((char)1 << ((sizeof(char) * 8 - ((char)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char)0) - 1 : (char)0); }
+
+      static constexpr char
+      max() noexcept { return (((char)(-1) < 0) ? (((((char)1 << ((sizeof(char) * 8 - ((char)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char)0); }
+
+
+      static constexpr char
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits = (sizeof(char) * 8 - ((char)(-1) < 0));
+      static constexpr int digits10 = ((sizeof(char) * 8 - ((char)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = ((char)(-1) < 0);
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr char
+      epsilon() noexcept { return 0; }
+
+      static constexpr char
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr
+      char infinity() noexcept { return char(); }
+
+      static constexpr char
+      quiet_NaN() noexcept { return char(); }
+
+      static constexpr char
+      signaling_NaN() noexcept { return char(); }
+
+      static constexpr char
+      denorm_min() noexcept { return static_cast<char>(0); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = !is_signed;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<signed char>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr signed char
+      min() noexcept { return -0x7f - 1; }
+
+      static constexpr signed char
+      max() noexcept { return 0x7f; }
+
+
+      static constexpr signed char
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits = (sizeof(signed char) * 8 - ((signed char)(-1) < 0));
+      static constexpr int digits10
+       = ((sizeof(signed char) * 8 - ((signed char)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = true;
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr signed char
+      epsilon() noexcept { return 0; }
+
+      static constexpr signed char
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr signed char
+      infinity() noexcept { return static_cast<signed char>(0); }
+
+      static constexpr signed char
+      quiet_NaN() noexcept { return static_cast<signed char>(0); }
+
+      static constexpr signed char
+      signaling_NaN() noexcept
+      { return static_cast<signed char>(0); }
+
+      static constexpr signed char
+      denorm_min() noexcept
+      { return static_cast<signed char>(0); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = false;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<unsigned char>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr unsigned char
+      min() noexcept { return 0; }
+
+      static constexpr unsigned char
+      max() noexcept { return 0x7f * 2U + 1; }
+
+
+      static constexpr unsigned char
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits
+       = (sizeof(unsigned char) * 8 - ((unsigned char)(-1) < 0));
+      static constexpr int digits10
+       = ((sizeof(unsigned char) * 8 - ((unsigned char)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = false;
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr unsigned char
+      epsilon() noexcept { return 0; }
+
+      static constexpr unsigned char
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr unsigned char
+      infinity() noexcept
+      { return static_cast<unsigned char>(0); }
+
+      static constexpr unsigned char
+      quiet_NaN() noexcept
+      { return static_cast<unsigned char>(0); }
+
+      static constexpr unsigned char
+      signaling_NaN() noexcept
+      { return static_cast<unsigned char>(0); }
+
+      static constexpr unsigned char
+      denorm_min() noexcept
+      { return static_cast<unsigned char>(0); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = true;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<wchar_t>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr wchar_t
+      min() noexcept { return (((wchar_t)(-1) < 0) ? -(((wchar_t)(-1) < 0) ? (((((wchar_t)1 << ((sizeof(wchar_t) * 8 - ((wchar_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(wchar_t)0) - 1 : (wchar_t)0); }
+
+      static constexpr wchar_t
+      max() noexcept { return (((wchar_t)(-1) < 0) ? (((((wchar_t)1 << ((sizeof(wchar_t) * 8 - ((wchar_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(wchar_t)0); }
+
+
+      static constexpr wchar_t
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits = (sizeof(wchar_t) * 8 - ((wchar_t)(-1) < 0));
+      static constexpr int digits10
+       = ((sizeof(wchar_t) * 8 - ((wchar_t)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = ((wchar_t)(-1) < 0);
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr wchar_t
+      epsilon() noexcept { return 0; }
+
+      static constexpr wchar_t
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr wchar_t
+      infinity() noexcept { return wchar_t(); }
+
+      static constexpr wchar_t
+      quiet_NaN() noexcept { return wchar_t(); }
+
+      static constexpr wchar_t
+      signaling_NaN() noexcept { return wchar_t(); }
+
+      static constexpr wchar_t
+      denorm_min() noexcept { return wchar_t(); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = !is_signed;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+
+  template<>
+    struct numeric_limits<char8_t>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr char8_t
+      min() noexcept { return (((char8_t)(-1) < 0) ? -(((char8_t)(-1) < 0) ? (((((char8_t)1 << ((sizeof(char8_t) * 8 - ((char8_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char8_t)0) - 1 : (char8_t)0); }
+
+      static constexpr char8_t
+      max() noexcept { return (((char8_t)(-1) < 0) ? (((((char8_t)1 << ((sizeof(char8_t) * 8 - ((char8_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char8_t)0); }
+
+      static constexpr char8_t
+      lowest() noexcept { return min(); }
+
+      static constexpr int digits = (sizeof(char8_t) * 8 - ((char8_t)(-1) < 0));
+      static constexpr int digits10 = ((sizeof(char8_t) * 8 - ((char8_t)(-1) < 0)) * 643L / 2136);
+      static constexpr int max_digits10 = 0;
+      static constexpr bool is_signed = ((char8_t)(-1) < 0);
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr char8_t
+      epsilon() noexcept { return 0; }
+
+      static constexpr char8_t
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+ = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr char8_t
+      infinity() noexcept { return char8_t(); }
+
+      static constexpr char8_t
+      quiet_NaN() noexcept { return char8_t(); }
+
+      static constexpr char8_t
+      signaling_NaN() noexcept { return char8_t(); }
+
+      static constexpr char8_t
+      denorm_min() noexcept { return char8_t(); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = !is_signed;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+ = round_toward_zero;
+    };
+
+
+
+
+  template<>
+    struct numeric_limits<char16_t>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr char16_t
+      min() noexcept { return (((char16_t)(-1) < 0) ? -(((char16_t)(-1) < 0) ? (((((char16_t)1 << ((sizeof(char16_t) * 8 - ((char16_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char16_t)0) - 1 : (char16_t)0); }
+
+      static constexpr char16_t
+      max() noexcept { return (((char16_t)(-1) < 0) ? (((((char16_t)1 << ((sizeof(char16_t) * 8 - ((char16_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char16_t)0); }
+
+      static constexpr char16_t
+      lowest() noexcept { return min(); }
+
+      static constexpr int digits = (sizeof(char16_t) * 8 - ((char16_t)(-1) < 0));
+      static constexpr int digits10 = ((sizeof(char16_t) * 8 - ((char16_t)(-1) < 0)) * 643L / 2136);
+      static constexpr int max_digits10 = 0;
+      static constexpr bool is_signed = ((char16_t)(-1) < 0);
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr char16_t
+      epsilon() noexcept { return 0; }
+
+      static constexpr char16_t
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr char16_t
+      infinity() noexcept { return char16_t(); }
+
+      static constexpr char16_t
+      quiet_NaN() noexcept { return char16_t(); }
+
+      static constexpr char16_t
+      signaling_NaN() noexcept { return char16_t(); }
+
+      static constexpr char16_t
+      denorm_min() noexcept { return char16_t(); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = !is_signed;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<char32_t>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr char32_t
+      min() noexcept { return (((char32_t)(-1) < 0) ? -(((char32_t)(-1) < 0) ? (((((char32_t)1 << ((sizeof(char32_t) * 8 - ((char32_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char32_t)0) - 1 : (char32_t)0); }
+
+      static constexpr char32_t
+      max() noexcept { return (((char32_t)(-1) < 0) ? (((((char32_t)1 << ((sizeof(char32_t) * 8 - ((char32_t)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(char32_t)0); }
+
+      static constexpr char32_t
+      lowest() noexcept { return min(); }
+
+      static constexpr int digits = (sizeof(char32_t) * 8 - ((char32_t)(-1) < 0));
+      static constexpr int digits10 = ((sizeof(char32_t) * 8 - ((char32_t)(-1) < 0)) * 643L / 2136);
+      static constexpr int max_digits10 = 0;
+      static constexpr bool is_signed = ((char32_t)(-1) < 0);
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr char32_t
+      epsilon() noexcept { return 0; }
+
+      static constexpr char32_t
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr char32_t
+      infinity() noexcept { return char32_t(); }
+
+      static constexpr char32_t
+      quiet_NaN() noexcept { return char32_t(); }
+
+      static constexpr char32_t
+      signaling_NaN() noexcept { return char32_t(); }
+
+      static constexpr char32_t
+      denorm_min() noexcept { return char32_t(); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = !is_signed;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style = round_toward_zero;
+    };
+
+
+
+  template<>
+    struct numeric_limits<short>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr short
+      min() noexcept { return -0x7fff - 1; }
+
+      static constexpr short
+      max() noexcept { return 0x7fff; }
+
+
+      static constexpr short
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits = (sizeof(short) * 8 - ((short)(-1) < 0));
+      static constexpr int digits10 = ((sizeof(short) * 8 - ((short)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = true;
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr short
+      epsilon() noexcept { return 0; }
+
+      static constexpr short
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr short
+      infinity() noexcept { return short(); }
+
+      static constexpr short
+      quiet_NaN() noexcept { return short(); }
+
+      static constexpr short
+      signaling_NaN() noexcept { return short(); }
+
+      static constexpr short
+      denorm_min() noexcept { return short(); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = false;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<unsigned short>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr unsigned short
+      min() noexcept { return 0; }
+
+      static constexpr unsigned short
+      max() noexcept { return 0x7fff * 2U + 1; }
+
+
+      static constexpr unsigned short
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits
+       = (sizeof(unsigned short) * 8 - ((unsigned short)(-1) < 0));
+      static constexpr int digits10
+       = ((sizeof(unsigned short) * 8 - ((unsigned short)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = false;
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr unsigned short
+      epsilon() noexcept { return 0; }
+
+      static constexpr unsigned short
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr unsigned short
+      infinity() noexcept
+      { return static_cast<unsigned short>(0); }
+
+      static constexpr unsigned short
+      quiet_NaN() noexcept
+      { return static_cast<unsigned short>(0); }
+
+      static constexpr unsigned short
+      signaling_NaN() noexcept
+      { return static_cast<unsigned short>(0); }
+
+      static constexpr unsigned short
+      denorm_min() noexcept
+      { return static_cast<unsigned short>(0); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = true;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<int>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr int
+      min() noexcept { return -0x7fffffff - 1; }
+
+      static constexpr int
+      max() noexcept { return 0x7fffffff; }
+
+
+      static constexpr int
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits = (sizeof(int) * 8 - ((int)(-1) < 0));
+      static constexpr int digits10 = ((sizeof(int) * 8 - ((int)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = true;
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr int
+      epsilon() noexcept { return 0; }
+
+      static constexpr int
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr int
+      infinity() noexcept { return static_cast<int>(0); }
+
+      static constexpr int
+      quiet_NaN() noexcept { return static_cast<int>(0); }
+
+      static constexpr int
+      signaling_NaN() noexcept { return static_cast<int>(0); }
+
+      static constexpr int
+      denorm_min() noexcept { return static_cast<int>(0); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = false;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<unsigned int>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr unsigned int
+      min() noexcept { return 0; }
+
+      static constexpr unsigned int
+      max() noexcept { return 0x7fffffff * 2U + 1; }
+
+
+      static constexpr unsigned int
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits
+       = (sizeof(unsigned int) * 8 - ((unsigned int)(-1) < 0));
+      static constexpr int digits10
+       = ((sizeof(unsigned int) * 8 - ((unsigned int)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = false;
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr unsigned int
+      epsilon() noexcept { return 0; }
+
+      static constexpr unsigned int
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr unsigned int
+      infinity() noexcept { return static_cast<unsigned int>(0); }
+
+      static constexpr unsigned int
+      quiet_NaN() noexcept
+      { return static_cast<unsigned int>(0); }
+
+      static constexpr unsigned int
+      signaling_NaN() noexcept
+      { return static_cast<unsigned int>(0); }
+
+      static constexpr unsigned int
+      denorm_min() noexcept
+      { return static_cast<unsigned int>(0); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = true;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<long>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr long
+      min() noexcept { return -0x7fffffffL - 1; }
+
+      static constexpr long
+      max() noexcept { return 0x7fffffffL; }
+
+
+      static constexpr long
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits = (sizeof(long) * 8 - ((long)(-1) < 0));
+      static constexpr int digits10 = ((sizeof(long) * 8 - ((long)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = true;
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr long
+      epsilon() noexcept { return 0; }
+
+      static constexpr long
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr long
+      infinity() noexcept { return static_cast<long>(0); }
+
+      static constexpr long
+      quiet_NaN() noexcept { return static_cast<long>(0); }
+
+      static constexpr long
+      signaling_NaN() noexcept { return static_cast<long>(0); }
+
+      static constexpr long
+      denorm_min() noexcept { return static_cast<long>(0); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = false;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<unsigned long>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr unsigned long
+      min() noexcept { return 0; }
+
+      static constexpr unsigned long
+      max() noexcept { return 0x7fffffffL * 2UL + 1; }
+
+
+      static constexpr unsigned long
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits
+       = (sizeof(unsigned long) * 8 - ((unsigned long)(-1) < 0));
+      static constexpr int digits10
+       = ((sizeof(unsigned long) * 8 - ((unsigned long)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = false;
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr unsigned long
+      epsilon() noexcept { return 0; }
+
+      static constexpr unsigned long
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr unsigned long
+      infinity() noexcept
+      { return static_cast<unsigned long>(0); }
+
+      static constexpr unsigned long
+      quiet_NaN() noexcept
+      { return static_cast<unsigned long>(0); }
+
+      static constexpr unsigned long
+      signaling_NaN() noexcept
+      { return static_cast<unsigned long>(0); }
+
+      static constexpr unsigned long
+      denorm_min() noexcept
+      { return static_cast<unsigned long>(0); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = true;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<long long>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr long long
+      min() noexcept { return -0x7fffffffffffffffLL - 1; }
+
+      static constexpr long long
+      max() noexcept { return 0x7fffffffffffffffLL; }
+
+
+      static constexpr long long
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits
+       = (sizeof(long long) * 8 - ((long long)(-1) < 0));
+      static constexpr int digits10
+       = ((sizeof(long long) * 8 - ((long long)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = true;
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr long long
+      epsilon() noexcept { return 0; }
+
+      static constexpr long long
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr long long
+      infinity() noexcept { return static_cast<long long>(0); }
+
+      static constexpr long long
+      quiet_NaN() noexcept { return static_cast<long long>(0); }
+
+      static constexpr long long
+      signaling_NaN() noexcept
+      { return static_cast<long long>(0); }
+
+      static constexpr long long
+      denorm_min() noexcept { return static_cast<long long>(0); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = false;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+
+
+  template<>
+    struct numeric_limits<unsigned long long>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr unsigned long long
+      min() noexcept { return 0; }
+
+      static constexpr unsigned long long
+      max() noexcept { return 0x7fffffffffffffffLL * 2ULL + 1; }
+
+
+      static constexpr unsigned long long
+      lowest() noexcept { return min(); }
+
+
+      static constexpr int digits
+       = (sizeof(unsigned long long) * 8 - ((unsigned long long)(-1) < 0));
+      static constexpr int digits10
+       = ((sizeof(unsigned long long) * 8 - ((unsigned long long)(-1) < 0)) * 643L / 2136);
+
+      static constexpr int max_digits10 = 0;
+
+      static constexpr bool is_signed = false;
+      static constexpr bool is_integer = true;
+      static constexpr bool is_exact = true;
+      static constexpr int radix = 2;
+
+      static constexpr unsigned long long
+      epsilon() noexcept { return 0; }
+
+      static constexpr unsigned long long
+      round_error() noexcept { return 0; }
+
+      static constexpr int min_exponent = 0;
+      static constexpr int min_exponent10 = 0;
+      static constexpr int max_exponent = 0;
+      static constexpr int max_exponent10 = 0;
+
+      static constexpr bool has_infinity = false;
+      static constexpr bool has_quiet_NaN = false;
+      static constexpr bool has_signaling_NaN = false;
+      static constexpr float_denorm_style has_denorm
+       = denorm_absent;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr unsigned long long
+      infinity() noexcept
+      { return static_cast<unsigned long long>(0); }
+
+      static constexpr unsigned long long
+      quiet_NaN() noexcept
+      { return static_cast<unsigned long long>(0); }
+
+      static constexpr unsigned long long
+      signaling_NaN() noexcept
+      { return static_cast<unsigned long long>(0); }
+
+      static constexpr unsigned long long
+      denorm_min() noexcept
+      { return static_cast<unsigned long long>(0); }
+
+      static constexpr bool is_iec559 = false;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = true;
+
+      static constexpr bool traps = true;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+       = round_toward_zero;
+    };
+# 1637 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+  __extension__ template<> struct numeric_limits<__int128> { static constexpr bool is_specialized = true; static constexpr __int128 min() noexcept { return (((__int128)(-1) < 0) ? -(((__int128)(-1) < 0) ? (((((__int128)1 << ((128 - ((__int128)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(__int128)0) - 1 : (__int128)0); } static constexpr __int128 max() noexcept { return (((__int128)(-1) < 0) ? (((((__int128)1 << ((128 - ((__int128)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(__int128)0); } static constexpr int digits = 128 - 1; static constexpr int digits10 = (128 - 1) * 643L / 2136; static constexpr bool is_signed = true; static constexpr bool is_integer = true; static constexpr bool is_exact = true; static constexpr int radix = 2; static constexpr __int128 epsilon() noexcept { return 0; } static constexpr __int128 round_error() noexcept { return 0; } static constexpr __int128 lowest() noexcept { return min(); } static constexpr int max_digits10 = 0; static constexpr int min_exponent = 0; static constexpr int min_exponent10 = 0; static constexpr int max_exponent = 0; static constexpr int max_exponent10 = 0; static constexpr bool has_infinity = false; static constexpr bool has_quiet_NaN = false; static constexpr bool has_signaling_NaN = false; static constexpr float_denorm_style has_denorm = denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr __int128 infinity() noexcept { return static_cast<__int128>(0); } static constexpr __int128 quiet_NaN() noexcept { return static_cast<__int128>(0); } static constexpr __int128 signaling_NaN() noexcept { return static_cast<__int128>(0); } static constexpr __int128 denorm_min() noexcept { return static_cast<__int128>(0); } static constexpr bool is_iec559 = false; static constexpr bool is_bounded = true; static constexpr bool is_modulo = false; static constexpr bool traps = true; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_toward_zero; }; __extension__ template<> struct numeric_limits<unsigned __int128> { static constexpr bool is_specialized = true; static constexpr unsigned __int128 min() noexcept { return 0; } static constexpr unsigned __int128 max() noexcept { return (((unsigned __int128)(-1) < 0) ? (((((unsigned __int128)1 << ((128 - ((unsigned __int128)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(unsigned __int128)0); } static constexpr unsigned __int128 lowest() noexcept { return min(); } static constexpr int max_digits10 = 0; static constexpr int digits = 128; static constexpr int digits10 = 128 * 643L / 2136; static constexpr bool is_signed = false; static constexpr bool is_integer = true; static constexpr bool is_exact = true; static constexpr int radix = 2; static constexpr unsigned __int128 epsilon() noexcept { return 0; } static constexpr unsigned __int128 round_error() noexcept { return 0; } static constexpr int min_exponent = 0; static constexpr int min_exponent10 = 0; static constexpr int max_exponent = 0; static constexpr int max_exponent10 = 0; static constexpr bool has_infinity = false; static constexpr bool has_quiet_NaN = false; static constexpr bool has_signaling_NaN = false; static constexpr float_denorm_style has_denorm = denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr unsigned __int128 infinity() noexcept { return static_cast<unsigned __int128>(0); } static constexpr unsigned __int128 quiet_NaN() noexcept { return static_cast<unsigned __int128>(0); } static constexpr unsigned __int128 signaling_NaN() noexcept { return static_cast<unsigned __int128>(0); } static constexpr unsigned __int128 denorm_min() noexcept { return static_cast<unsigned __int128>(0); } static constexpr bool is_iec559 = false; static constexpr bool is_bounded = true; static constexpr bool is_modulo = true; static constexpr bool traps = true; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_toward_zero; };
+# 1669 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+  template<>
+    struct numeric_limits<float>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr float
+      min() noexcept { return 1.17549435082228750796873653722224568e-38F; }
+
+      static constexpr float
+      max() noexcept { return 3.40282346638528859811704183484516925e+38F; }
+
+
+      static constexpr float
+      lowest() noexcept { return -3.40282346638528859811704183484516925e+38F; }
+
+
+      static constexpr int digits = 24;
+      static constexpr int digits10 = 6;
+
+      static constexpr int max_digits10
+  = (2 + (24) * 643L / 2136);
+
+      static constexpr bool is_signed = true;
+      static constexpr bool is_integer = false;
+      static constexpr bool is_exact = false;
+      static constexpr int radix = 2;
+
+      static constexpr float
+      epsilon() noexcept { return 1.19209289550781250000000000000000000e-7F; }
+
+      static constexpr float
+      round_error() noexcept { return 0.5F; }
+
+      static constexpr int min_exponent = (-125);
+      static constexpr int min_exponent10 = (-37);
+      static constexpr int max_exponent = 128;
+      static constexpr int max_exponent10 = 38;
+
+      static constexpr bool has_infinity = 1;
+      static constexpr bool has_quiet_NaN = 1;
+      static constexpr bool has_signaling_NaN = has_quiet_NaN;
+      static constexpr float_denorm_style has_denorm
+ = bool(1) ? denorm_present : denorm_absent;
+      static constexpr bool has_denorm_loss
+       = false;
+
+      static constexpr float
+      infinity() noexcept { return __builtin_huge_valf(); }
+
+      static constexpr float
+      quiet_NaN() noexcept { return __builtin_nanf(""); }
+
+      static constexpr float
+      signaling_NaN() noexcept { return __builtin_nansf(""); }
+
+      static constexpr float
+      denorm_min() noexcept { return 1.40129846432481707092372958328991613e-45F; }
+
+      static constexpr bool is_iec559
+ = has_infinity && has_quiet_NaN && has_denorm == denorm_present;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = false;
+
+      static constexpr bool traps = false;
+      static constexpr bool tinyness_before
+       = false;
+      static constexpr float_round_style round_style
+       = round_to_nearest;
+    };
+
+
+
+
+
+
+  template<>
+    struct numeric_limits<double>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr double
+      min() noexcept { return double(2.22507385850720138309023271733240406e-308L); }
+
+      static constexpr double
+      max() noexcept { return double(1.79769313486231570814527423731704357e+308L); }
+
+
+      static constexpr double
+      lowest() noexcept { return -double(1.79769313486231570814527423731704357e+308L); }
+
+
+      static constexpr int digits = 53;
+      static constexpr int digits10 = 15;
+
+      static constexpr int max_digits10
+  = (2 + (53) * 643L / 2136);
+
+      static constexpr bool is_signed = true;
+      static constexpr bool is_integer = false;
+      static constexpr bool is_exact = false;
+      static constexpr int radix = 2;
+
+      static constexpr double
+      epsilon() noexcept { return double(2.22044604925031308084726333618164062e-16L); }
+
+      static constexpr double
+      round_error() noexcept { return 0.5; }
+
+      static constexpr int min_exponent = (-1021);
+      static constexpr int min_exponent10 = (-307);
+      static constexpr int max_exponent = 1024;
+      static constexpr int max_exponent10 = 308;
+
+      static constexpr bool has_infinity = 1;
+      static constexpr bool has_quiet_NaN = 1;
+      static constexpr bool has_signaling_NaN = has_quiet_NaN;
+      static constexpr float_denorm_style has_denorm
+ = bool(1) ? denorm_present : denorm_absent;
+      static constexpr bool has_denorm_loss
+        = false;
+
+      static constexpr double
+      infinity() noexcept { return __builtin_huge_val(); }
+
+      static constexpr double
+      quiet_NaN() noexcept { return __builtin_nan(""); }
+
+      static constexpr double
+      signaling_NaN() noexcept { return __builtin_nans(""); }
+
+      static constexpr double
+      denorm_min() noexcept { return double(4.94065645841246544176568792868221372e-324L); }
+
+      static constexpr bool is_iec559
+ = has_infinity && has_quiet_NaN && has_denorm == denorm_present;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = false;
+
+      static constexpr bool traps = false;
+      static constexpr bool tinyness_before
+       = false;
+      static constexpr float_round_style round_style
+       = round_to_nearest;
+    };
+
+
+
+
+
+
+  template<>
+    struct numeric_limits<long double>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr long double
+      min() noexcept { return 3.36210314311209350626267781732175260e-4932L; }
+
+      static constexpr long double
+      max() noexcept { return 1.18973149535723176502126385303097021e+4932L; }
+
+
+      static constexpr long double
+      lowest() noexcept { return -1.18973149535723176502126385303097021e+4932L; }
+
+
+      static constexpr int digits = 64;
+      static constexpr int digits10 = 18;
+
+      static constexpr int max_digits10
+  = (2 + (64) * 643L / 2136);
+
+      static constexpr bool is_signed = true;
+      static constexpr bool is_integer = false;
+      static constexpr bool is_exact = false;
+      static constexpr int radix = 2;
+
+      static constexpr long double
+      epsilon() noexcept { return 1.08420217248550443400745280086994171e-19L; }
+
+      static constexpr long double
+      round_error() noexcept { return 0.5L; }
+
+      static constexpr int min_exponent = (-16381);
+      static constexpr int min_exponent10 = (-4931);
+      static constexpr int max_exponent = 16384;
+      static constexpr int max_exponent10 = 4932;
+
+      static constexpr bool has_infinity = 1;
+      static constexpr bool has_quiet_NaN = 1;
+      static constexpr bool has_signaling_NaN = has_quiet_NaN;
+      static constexpr float_denorm_style has_denorm
+ = bool(1) ? denorm_present : denorm_absent;
+      static constexpr bool has_denorm_loss
+ = false;
+
+      static constexpr long double
+      infinity() noexcept { return __builtin_huge_vall(); }
+
+      static constexpr long double
+      quiet_NaN() noexcept { return __builtin_nanl(""); }
+
+      static constexpr long double
+      signaling_NaN() noexcept { return __builtin_nansl(""); }
+
+      static constexpr long double
+      denorm_min() noexcept { return 3.64519953188247460252840593361941982e-4951L; }
+
+      static constexpr bool is_iec559
+ = has_infinity && has_quiet_NaN && has_denorm == denorm_present;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = false;
+
+      static constexpr bool traps = false;
+      static constexpr bool tinyness_before =
+      false;
+      static constexpr float_round_style round_style =
+            round_to_nearest;
+    };
+# 1989 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+__extension__ template<> struct numeric_limits<_Float32> { static constexpr bool is_specialized = true; static constexpr _Float32 min() noexcept { return 1.17549435082228750796873653722224568e-38F32; } static constexpr _Float32 max() noexcept { return 3.40282346638528859811704183484516925e+38F32; } static constexpr _Float32 lowest() noexcept { return -3.40282346638528859811704183484516925e+38F32; } static constexpr int digits = 24; static constexpr int digits10 = 6; static constexpr int max_digits10 = (2 + (24) * 643L / 2136); static constexpr bool is_signed = true; static constexpr bool is_integer = false; static constexpr bool is_exact = false; static constexpr int radix = 2; static constexpr _Float32 epsilon() noexcept { return 1.19209289550781250000000000000000000e-7F32; } static constexpr _Float32 round_error() noexcept { return 0.5F32; } static constexpr int min_exponent = (-125); static constexpr int min_exponent10 = (-37); static constexpr int max_exponent = 128; static constexpr int max_exponent10 = 38; static constexpr bool has_infinity = 1; static constexpr bool has_quiet_NaN = 1; static constexpr bool has_signaling_NaN = has_quiet_NaN; static constexpr float_denorm_style has_denorm = bool(1) ? denorm_present : denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr _Float32 infinity() noexcept { return __builtin_huge_valf32(); } static constexpr _Float32 quiet_NaN() noexcept { return __builtin_nanf32(""); } static constexpr _Float32 signaling_NaN() noexcept { return __builtin_nansf32(""); } static constexpr _Float32 denorm_min() noexcept { return 1.40129846432481707092372958328991613e-45F32; } static constexpr bool is_iec559 = has_infinity && has_quiet_NaN && has_denorm == denorm_present; static constexpr bool is_bounded = true; static constexpr bool is_modulo = false; static constexpr bool traps = false; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_to_nearest; };
+
+
+__extension__ template<> struct numeric_limits<_Float64> { static constexpr bool is_specialized = true; static constexpr _Float64 min() noexcept { return 2.22507385850720138309023271733240406e-308F64; } static constexpr _Float64 max() noexcept { return 1.79769313486231570814527423731704357e+308F64; } static constexpr _Float64 lowest() noexcept { return -1.79769313486231570814527423731704357e+308F64; } static constexpr int digits = 53; static constexpr int digits10 = 15; static constexpr int max_digits10 = (2 + (53) * 643L / 2136); static constexpr bool is_signed = true; static constexpr bool is_integer = false; static constexpr bool is_exact = false; static constexpr int radix = 2; static constexpr _Float64 epsilon() noexcept { return 2.22044604925031308084726333618164062e-16F64; } static constexpr _Float64 round_error() noexcept { return 0.5F64; } static constexpr int min_exponent = (-1021); static constexpr int min_exponent10 = (-307); static constexpr int max_exponent = 1024; static constexpr int max_exponent10 = 308; static constexpr bool has_infinity = 1; static constexpr bool has_quiet_NaN = 1; static constexpr bool has_signaling_NaN = has_quiet_NaN; static constexpr float_denorm_style has_denorm = bool(1) ? denorm_present : denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr _Float64 infinity() noexcept { return __builtin_huge_valf64(); } static constexpr _Float64 quiet_NaN() noexcept { return __builtin_nanf64(""); } static constexpr _Float64 signaling_NaN() noexcept { return __builtin_nansf64(""); } static constexpr _Float64 denorm_min() noexcept { return 4.94065645841246544176568792868221372e-324F64; } static constexpr bool is_iec559 = has_infinity && has_quiet_NaN && has_denorm == denorm_present; static constexpr bool is_bounded = true; static constexpr bool is_modulo = false; static constexpr bool traps = false; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_to_nearest; };
+
+
+__extension__ template<> struct numeric_limits<_Float128> { static constexpr bool is_specialized = true; static constexpr _Float128 min() noexcept { return 3.36210314311209350626267781732175260e-4932F128; } static constexpr _Float128 max() noexcept { return 1.18973149535723176508575932662800702e+4932F128; } static constexpr _Float128 lowest() noexcept { return -1.18973149535723176508575932662800702e+4932F128; } static constexpr int digits = 113; static constexpr int digits10 = 33; static constexpr int max_digits10 = (2 + (113) * 643L / 2136); static constexpr bool is_signed = true; static constexpr bool is_integer = false; static constexpr bool is_exact = false; static constexpr int radix = 2; static constexpr _Float128 epsilon() noexcept { return 1.92592994438723585305597794258492732e-34F128; } static constexpr _Float128 round_error() noexcept { return 0.5F128; } static constexpr int min_exponent = (-16381); static constexpr int min_exponent10 = (-4931); static constexpr int max_exponent = 16384; static constexpr int max_exponent10 = 4932; static constexpr bool has_infinity = 1; static constexpr bool has_quiet_NaN = 1; static constexpr bool has_signaling_NaN = has_quiet_NaN; static constexpr float_denorm_style has_denorm = bool(1) ? denorm_present : denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr _Float128 infinity() noexcept { return __builtin_huge_valf128(); } static constexpr _Float128 quiet_NaN() noexcept { return __builtin_nanf128(""); } static constexpr _Float128 signaling_NaN() noexcept { return __builtin_nansf128(""); } static constexpr _Float128 denorm_min() noexcept { return 6.47517511943802511092443895822764655e-4966F128; } static constexpr bool is_iec559 = has_infinity && has_quiet_NaN && has_denorm == denorm_present; static constexpr bool is_bounded = true; static constexpr bool is_modulo = false; static constexpr bool traps = false; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_to_nearest; };
+# 2087 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+  __extension__
+  template<>
+    struct numeric_limits<__float128>
+    {
+      static constexpr bool is_specialized = true;
+
+      static constexpr __float128
+      min() noexcept
+      {
+
+
+
+
+ return __extension__ 0x1.0p-16382Q;
+
+      }
+
+      static constexpr __float128
+      max() noexcept
+      {
+
+
+
+
+
+
+
+ return __extension__ 0x1.ffffffffffffffffffffffffffffp+16383Q;
+
+      }
+
+      static constexpr __float128
+      lowest() noexcept
+      { return -max(); }
+
+      static constexpr int digits = 113;
+      static constexpr int digits10 = 33;
+
+      static constexpr int max_digits10 = 35;
+
+      static constexpr bool is_signed = true;
+      static constexpr bool is_integer = false;
+      static constexpr bool is_exact = false;
+      static constexpr int radix = 2;
+
+      static constexpr __float128
+      epsilon() noexcept
+      { return double(1.9259299443872359e-34); }
+
+      static constexpr __float128
+      round_error() noexcept { return 0.5; }
+
+      static constexpr int min_exponent = -16381;
+      static constexpr int min_exponent10 = -4931;
+      static constexpr int max_exponent = 16384;
+      static constexpr int max_exponent10 = 4932;
+
+      static constexpr bool has_infinity = 1;
+      static constexpr bool has_quiet_NaN = 1;
+
+
+      static constexpr bool has_signaling_NaN = true;
+
+
+
+      static constexpr float_denorm_style has_denorm
+ = denorm_present;
+      static constexpr bool has_denorm_loss = false;
+
+      static constexpr __float128
+      infinity() noexcept
+      { return __builtin_huge_val(); }
+
+      static constexpr __float128
+      quiet_NaN() noexcept
+      { return __builtin_nan(""); }
+
+      static constexpr __float128
+      signaling_NaN() noexcept
+      {
+
+ return __builtin_nansq("");
+
+
+
+
+
+      }
+
+      static constexpr __float128
+      denorm_min() noexcept
+      {
+
+
+
+
+ return __extension__ 0x1.0p-16494Q;
+
+      }
+
+      static constexpr bool is_iec559 = has_signaling_NaN;
+      static constexpr bool is_bounded = true;
+      static constexpr bool is_modulo = false;
+
+      static constexpr bool traps = false;
+      static constexpr bool tinyness_before = false;
+      static constexpr float_round_style round_style
+ = round_to_nearest;
+# 2218 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits" 3
+    };
+
+
+
+
+}
+# 40 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 2 3
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ctime" 1 3
+# 39 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ctime" 3
+       
+# 40 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ctime" 3
+# 58 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ctime" 3
+namespace std
+{
+  using ::clock_t;
+  using ::time_t;
+  using ::tm;
+
+  using ::clock;
+  using ::difftime;
+  using ::mktime;
+  using ::time;
+  using ::asctime;
+  using ::ctime;
+  using ::gmtime;
+  using ::localtime;
+  using ::strftime;
+}
+
+
+
+namespace std
+{
+  using ::timespec;
+  using ::timespec_get;
+}
+# 41 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 2 3
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/parse_numbers.h" 1 3
+# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/parse_numbers.h" 3
+       
+# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/parse_numbers.h" 3
+# 42 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/parse_numbers.h" 3
+namespace std
+{
+
+
+namespace __parse_int
+{
+  template<unsigned _Base, char _Dig>
+    struct _Digit;
+
+  template<unsigned _Base>
+    struct _Digit<_Base, '0'> : integral_constant<unsigned, 0>
+    {
+      using __valid = true_type;
+    };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, '1'> : integral_constant<unsigned, 1>
+    {
+      using __valid = true_type;
+    };
+
+  template<unsigned _Base, unsigned _Val>
+    struct _Digit_impl : integral_constant<unsigned, _Val>
+    {
+      static_assert(_Base > _Val, "invalid digit");
+      using __valid = true_type;
+    };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, '2'> : _Digit_impl<_Base, 2>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, '3'> : _Digit_impl<_Base, 3>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, '4'> : _Digit_impl<_Base, 4>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, '5'> : _Digit_impl<_Base, 5>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, '6'> : _Digit_impl<_Base, 6>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, '7'> : _Digit_impl<_Base, 7>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, '8'> : _Digit_impl<_Base, 8>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, '9'> : _Digit_impl<_Base, 9>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'a'> : _Digit_impl<_Base, 0xa>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'A'> : _Digit_impl<_Base, 0xa>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'b'> : _Digit_impl<_Base, 0xb>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'B'> : _Digit_impl<_Base, 0xb>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'c'> : _Digit_impl<_Base, 0xc>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'C'> : _Digit_impl<_Base, 0xc>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'd'> : _Digit_impl<_Base, 0xd>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'D'> : _Digit_impl<_Base, 0xd>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'e'> : _Digit_impl<_Base, 0xe>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'E'> : _Digit_impl<_Base, 0xe>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'f'> : _Digit_impl<_Base, 0xf>
+    { };
+
+  template<unsigned _Base>
+    struct _Digit<_Base, 'F'> : _Digit_impl<_Base, 0xf>
+    { };
+
+
+  template<unsigned _Base>
+    struct _Digit<_Base, '\''> : integral_constant<unsigned, 0>
+    {
+      using __valid = false_type;
+    };
+
+
+
+  template<unsigned long long _Val>
+    using __ull_constant = integral_constant<unsigned long long, _Val>;
+
+  template<unsigned _Base, char _Dig, char... _Digs>
+    struct _Power_help
+    {
+      using __next = typename _Power_help<_Base, _Digs...>::type;
+      using __valid_digit = typename _Digit<_Base, _Dig>::__valid;
+      using type
+ = __ull_constant<__next::value * (__valid_digit{} ? _Base : 1ULL)>;
+    };
+
+  template<unsigned _Base, char _Dig>
+    struct _Power_help<_Base, _Dig>
+    {
+      using __valid_digit = typename _Digit<_Base, _Dig>::__valid;
+      using type = __ull_constant<__valid_digit::value>;
+    };
+
+  template<unsigned _Base, char... _Digs>
+    struct _Power : _Power_help<_Base, _Digs...>::type
+    { };
+
+  template<unsigned _Base>
+    struct _Power<_Base> : __ull_constant<0>
+    { };
+
+
+
+  template<unsigned _Base, unsigned long long _Pow, char _Dig, char... _Digs>
+    struct _Number_help
+    {
+      using __digit = _Digit<_Base, _Dig>;
+      using __valid_digit = typename __digit::__valid;
+      using __next = _Number_help<_Base,
+      __valid_digit::value ? _Pow / _Base : _Pow,
+      _Digs...>;
+      using type = __ull_constant<_Pow * __digit::value + __next::type::value>;
+      static_assert((type::value / _Pow) == __digit::value,
+      "integer literal does not fit in unsigned long long");
+    };
+
+
+  template<unsigned _Base, unsigned long long _Pow, char _Dig, char..._Digs>
+    struct _Number_help<_Base, _Pow, '\'', _Dig, _Digs...>
+    : _Number_help<_Base, _Pow, _Dig, _Digs...>
+    { };
+
+
+  template<unsigned _Base, char _Dig>
+    struct _Number_help<_Base, 1ULL, _Dig>
+    {
+      using type = __ull_constant<_Digit<_Base, _Dig>::value>;
+    };
+
+  template<unsigned _Base, char... _Digs>
+    struct _Number
+    : _Number_help<_Base, _Power<_Base, _Digs...>::value, _Digs...>::type
+    { };
+
+  template<unsigned _Base>
+    struct _Number<_Base>
+    : __ull_constant<0>
+    { };
+
+
+
+  template<char... _Digs>
+    struct _Parse_int;
+
+  template<char... _Digs>
+    struct _Parse_int<'0', 'b', _Digs...>
+    : _Number<2U, _Digs...>::type
+    { };
+
+  template<char... _Digs>
+    struct _Parse_int<'0', 'B', _Digs...>
+    : _Number<2U, _Digs...>::type
+    { };
+
+  template<char... _Digs>
+    struct _Parse_int<'0', 'x', _Digs...>
+    : _Number<16U, _Digs...>::type
+    { };
+
+  template<char... _Digs>
+    struct _Parse_int<'0', 'X', _Digs...>
+    : _Number<16U, _Digs...>::type
+    { };
+
+  template<char... _Digs>
+    struct _Parse_int<'0', _Digs...>
+    : _Number<8U, _Digs...>::type
+    { };
+
+  template<char... _Digs>
+    struct _Parse_int
+    : _Number<10U, _Digs...>::type
+    { };
+
+}
+
+
+namespace __select_int
+{
+  template<unsigned long long _Val, typename... _Ints>
+    struct _Select_int_base;
+
+  template<unsigned long long _Val, typename _IntType, typename... _Ints>
+    struct _Select_int_base<_Val, _IntType, _Ints...>
+    : __conditional_t<(_Val <= __gnu_cxx::__int_traits<_IntType>::__max),
+        integral_constant<_IntType, (_IntType)_Val>,
+        _Select_int_base<_Val, _Ints...>>
+    { };
+
+  template<unsigned long long _Val>
+    struct _Select_int_base<_Val>
+    { };
+
+  template<char... _Digs>
+    using _Select_int = typename _Select_int_base<
+ __parse_int::_Parse_int<_Digs...>::value,
+ unsigned char,
+ unsigned short,
+ unsigned int,
+ unsigned long,
+ unsigned long long
+      >::type;
+
+}
+
+
+}
+# 42 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 2 3
+
+
+
+
+
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
+# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
+       
+# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
+# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 2 3
+
+namespace std
+{
+
+
+
+  namespace filesystem { struct __file_clock; };
+
+
+  namespace chrono
+  {
+
+
+
+
+    template<typename _Rep, typename _Period = ratio<1>>
+      class duration;
+
+
+    template<typename _Clock, typename _Dur = typename _Clock::duration>
+      class time_point;
+
+  }
+# 79 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+  template<typename _CT, typename _Period1, typename _Period2, typename = void>
+    struct __duration_common_type
+    { };
+
+  template<typename _CT, typename _Period1, typename _Period2>
+    struct __duration_common_type<_CT, _Period1, _Period2,
+      __void_t<typename _CT::type>>
+    {
+    private:
+      using __gcd_num = __static_gcd<_Period1::num, _Period2::num>;
+      using __gcd_den = __static_gcd<_Period1::den, _Period2::den>;
+      using __cr = typename _CT::type;
+      using __r = ratio<__gcd_num::value,
+   (_Period1::den / __gcd_den::value) * _Period2::den>;
+
+    public:
+      using type = chrono::duration<__cr, typename __r::type>;
+    };
+
+
+
+
+
+
+
+  template<typename _Rep1, typename _Period1, typename _Rep2, typename _Period2>
+    struct common_type<chrono::duration<_Rep1, _Period1>,
+         chrono::duration<_Rep2, _Period2>>
+    : __duration_common_type<common_type<_Rep1, _Rep2>,
+        typename _Period1::type,
+        typename _Period2::type>
+    { };
+
+
+  template<typename _Rep, typename _Period>
+    struct common_type<chrono::duration<_Rep, _Period>,
+         chrono::duration<_Rep, _Period>>
+    {
+      using type = chrono::duration<typename common_type<_Rep>::type,
+        typename _Period::type>;
+    };
+
+
+  template<typename _Rep, typename _Period>
+    struct common_type<chrono::duration<_Rep, _Period>>
+    {
+      using type = chrono::duration<typename common_type<_Rep>::type,
+        typename _Period::type>;
+    };
+
+
+
+
+
+
+  template<typename _CT, typename _Clock, typename = void>
+    struct __timepoint_common_type
+    { };
+
+  template<typename _CT, typename _Clock>
+    struct __timepoint_common_type<_CT, _Clock, __void_t<typename _CT::type>>
+    {
+      using type = chrono::time_point<_Clock, typename _CT::type>;
+    };
+
+
+
+
+
+
+
+  template<typename _Clock, typename _Duration1, typename _Duration2>
+    struct common_type<chrono::time_point<_Clock, _Duration1>,
+         chrono::time_point<_Clock, _Duration2>>
+    : __timepoint_common_type<common_type<_Duration1, _Duration2>, _Clock>
+    { };
+
+
+  template<typename _Clock, typename _Duration>
+    struct common_type<chrono::time_point<_Clock, _Duration>,
+         chrono::time_point<_Clock, _Duration>>
+    { using type = chrono::time_point<_Clock, _Duration>; };
+
+
+  template<typename _Clock, typename _Duration>
+    struct common_type<chrono::time_point<_Clock, _Duration>>
+    { using type = chrono::time_point<_Clock, _Duration>; };
+
+
+
+
+  namespace chrono
+  {
+
+
+
+
+
+
+    template<typename _ToDur, typename _CF, typename _CR,
+      bool _NumIsOne = false, bool _DenIsOne = false>
+      struct __duration_cast_impl
+      {
+ template<typename _Rep, typename _Period>
+   static constexpr _ToDur
+   __cast(const duration<_Rep, _Period>& __d)
+   {
+     typedef typename _ToDur::rep __to_rep;
+     return _ToDur(static_cast<__to_rep>(static_cast<_CR>(__d.count())
+       * static_cast<_CR>(_CF::num)
+       / static_cast<_CR>(_CF::den)));
+   }
+      };
+
+    template<typename _ToDur, typename _CF, typename _CR>
+      struct __duration_cast_impl<_ToDur, _CF, _CR, true, true>
+      {
+ template<typename _Rep, typename _Period>
+   static constexpr _ToDur
+   __cast(const duration<_Rep, _Period>& __d)
+   {
+     typedef typename _ToDur::rep __to_rep;
+     return _ToDur(static_cast<__to_rep>(__d.count()));
+   }
+      };
+
+    template<typename _ToDur, typename _CF, typename _CR>
+      struct __duration_cast_impl<_ToDur, _CF, _CR, true, false>
+      {
+ template<typename _Rep, typename _Period>
+   static constexpr _ToDur
+   __cast(const duration<_Rep, _Period>& __d)
+   {
+     typedef typename _ToDur::rep __to_rep;
+     return _ToDur(static_cast<__to_rep>(
+       static_cast<_CR>(__d.count()) / static_cast<_CR>(_CF::den)));
+   }
+      };
+
+    template<typename _ToDur, typename _CF, typename _CR>
+      struct __duration_cast_impl<_ToDur, _CF, _CR, false, true>
+      {
+ template<typename _Rep, typename _Period>
+   static constexpr _ToDur
+   __cast(const duration<_Rep, _Period>& __d)
+   {
+     typedef typename _ToDur::rep __to_rep;
+     return _ToDur(static_cast<__to_rep>(
+       static_cast<_CR>(__d.count()) * static_cast<_CR>(_CF::num)));
+   }
+      };
+
+    template<typename _Tp>
+      struct __is_duration
+      : std::false_type
+      { };
+
+    template<typename _Rep, typename _Period>
+      struct __is_duration<duration<_Rep, _Period>>
+      : std::true_type
+      { };
+
+    template<typename _Tp>
+      using __enable_if_is_duration
+ = typename enable_if<__is_duration<_Tp>::value, _Tp>::type;
+
+    template<typename _Tp>
+      using __disable_if_is_duration
+ = typename enable_if<!__is_duration<_Tp>::value, _Tp>::type;
+
+
+    template<typename _Tp>
+      inline constexpr bool __is_duration_v = false;
+    template<typename _Rep, typename _Period>
+      inline constexpr bool __is_duration_v<duration<_Rep, _Period>> = true;
+    template<typename _Tp>
+      inline constexpr bool __is_time_point_v = false;
+    template<typename _Clock, typename _Dur>
+      inline constexpr bool __is_time_point_v<time_point<_Clock, _Dur>> = true;
+# 272 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _ToDur, typename _Rep, typename _Period>
+      [[__nodiscard__]]
+      constexpr __enable_if_is_duration<_ToDur>
+      duration_cast(const duration<_Rep, _Period>& __d)
+      {
+
+ if constexpr (is_same_v<_ToDur, duration<_Rep, _Period>>)
+   return __d;
+ else
+   {
+
+   using __to_period = typename _ToDur::period;
+   using __to_rep = typename _ToDur::rep;
+   using __cf = ratio_divide<_Period, __to_period>;
+   using __cr = typename common_type<__to_rep, _Rep, intmax_t>::type;
+   using __dc = __duration_cast_impl<_ToDur, __cf, __cr,
+         __cf::num == 1, __cf::den == 1>;
+   return __dc::__cast(__d);
+
+   }
+
+      }
+# 306 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _Rep>
+      struct treat_as_floating_point
+      : is_floating_point<_Rep>
+      { };
+
+
+    template <typename _Rep>
+      inline constexpr bool treat_as_floating_point_v =
+ treat_as_floating_point<_Rep>::value;
+
+    template<>
+      inline constexpr bool treat_as_floating_point_v<int> = false;
+    template<>
+      inline constexpr bool treat_as_floating_point_v<long> = false;
+    template<>
+      inline constexpr bool treat_as_floating_point_v<long long> = false;
+    template<>
+      inline constexpr bool treat_as_floating_point_v<float> = true;
+    template<>
+      inline constexpr bool treat_as_floating_point_v<double> = true;
+    template<>
+      inline constexpr bool treat_as_floating_point_v<long double> = true;
+
+
+
+
+    template<typename _Tp>
+      inline constexpr bool is_clock_v = false;
+
+    template<typename _Tp>
+      requires requires {
+ typename _Tp::rep;
+ typename _Tp::period;
+ typename _Tp::duration;
+ typename _Tp::time_point::clock;
+ typename _Tp::time_point::duration;
+ { &_Tp::is_steady } -> same_as<const bool*>;
+ { _Tp::now() } -> same_as<typename _Tp::time_point>;
+ requires same_as<typename _Tp::duration,
+    duration<typename _Tp::rep, typename _Tp::period>>;
+ requires same_as<typename _Tp::time_point::duration,
+    typename _Tp::duration>;
+      }
+    inline constexpr bool is_clock_v<_Tp> = true;
+# 369 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _Tp>
+      struct is_clock
+      : bool_constant<is_clock_v<_Tp>>
+      { };
+# 386 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _ToDur, typename _Rep, typename _Period>
+      [[nodiscard]] constexpr __enable_if_is_duration<_ToDur>
+      floor(const duration<_Rep, _Period>& __d)
+      {
+ auto __to = chrono::duration_cast<_ToDur>(__d);
+ if (__to > __d)
+   return __to - _ToDur{1};
+ return __to;
+      }
+# 406 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _ToDur, typename _Rep, typename _Period>
+      [[nodiscard]] constexpr __enable_if_is_duration<_ToDur>
+      ceil(const duration<_Rep, _Period>& __d)
+      {
+ auto __to = chrono::duration_cast<_ToDur>(__d);
+ if (__to < __d)
+   return __to + _ToDur{1};
+ return __to;
+      }
+# 427 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template <typename _ToDur, typename _Rep, typename _Period>
+      [[nodiscard]] constexpr
+      enable_if_t<
+ __and_<__is_duration<_ToDur>,
+        __not_<treat_as_floating_point<typename _ToDur::rep>>>::value,
+ _ToDur>
+      round(const duration<_Rep, _Period>& __d)
+      {
+ _ToDur __t0 = chrono::floor<_ToDur>(__d);
+ _ToDur __t1 = __t0 + _ToDur{1};
+ auto __diff0 = __d - __t0;
+ auto __diff1 = __t1 - __d;
+ if (__diff0 == __diff1)
+   {
+     if (__t0.count() & 1)
+       return __t1;
+     return __t0;
+   }
+ else if (__diff0 < __diff1)
+   return __t0;
+ return __t1;
+      }
+
+
+
+
+
+
+
+    template<typename _Rep, typename _Period>
+      [[nodiscard]] constexpr
+      enable_if_t<numeric_limits<_Rep>::is_signed, duration<_Rep, _Period>>
+      abs(duration<_Rep, _Period> __d)
+      {
+ if (__d >= __d.zero())
+   return __d;
+ return -__d;
+      }
+
+
+    namespace __detail { using chrono::ceil; }
+# 494 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _Rep>
+      struct duration_values
+      {
+ static constexpr _Rep
+ zero() noexcept
+ { return _Rep(0); }
+
+ static constexpr _Rep
+ max() noexcept
+ { return numeric_limits<_Rep>::max(); }
+
+ static constexpr _Rep
+ min() noexcept
+ { return numeric_limits<_Rep>::lowest(); }
+      };
+
+    template<typename _Rep, typename _Period>
+      class duration
+      {
+ static_assert(!__is_duration<_Rep>::value,
+        "rep cannot be a std::chrono::duration");
+ static_assert(__is_ratio<_Period>::value,
+        "period must be a specialization of std::ratio");
+ static_assert(_Period::num > 0, "period must be positive");
+
+ template<typename _Rep2>
+   using __is_float = treat_as_floating_point<_Rep2>;
+
+ static constexpr intmax_t
+ _S_gcd(intmax_t __m, intmax_t __n) noexcept
+ {
+
+
+
+   do
+     {
+       intmax_t __rem = __m % __n;
+       __m = __n;
+       __n = __rem;
+     }
+   while (__n != 0);
+   return __m;
+
+
+
+
+
+ }
+
+
+
+
+
+ template<typename _R1, typename _R2,
+   intmax_t __gcd1 = _S_gcd(_R1::num, _R2::num),
+   intmax_t __gcd2 = _S_gcd(_R1::den, _R2::den)>
+   using __divide = ratio<(_R1::num / __gcd1) * (_R2::den / __gcd2),
+     (_R1::den / __gcd2) * (_R2::num / __gcd1)>;
+
+
+ template<typename _Period2>
+   using __is_harmonic
+     = __bool_constant<__divide<_Period2, _Period>::den == 1>;
+
+      public:
+
+ using rep = _Rep;
+ using period = typename _Period::type;
+
+
+ constexpr duration() = default;
+
+ duration(const duration&) = default;
+
+
+
+ template<typename _Rep2, typename = _Require<
+   is_convertible<const _Rep2&, rep>,
+   __or_<__is_float<rep>, __not_<__is_float<_Rep2>>>>>
+   constexpr explicit duration(const _Rep2& __rep)
+   : __r(static_cast<rep>(__rep)) { }
+
+ template<typename _Rep2, typename _Period2, typename = _Require<
+   is_convertible<const _Rep2&, rep>,
+   __or_<__is_float<rep>,
+         __and_<__is_harmonic<_Period2>,
+         __not_<__is_float<_Rep2>>>>>>
+   constexpr duration(const duration<_Rep2, _Period2>& __d)
+   : __r(duration_cast<duration>(__d).count()) { }
+
+ ~duration() = default;
+ duration& operator=(const duration&) = default;
+
+
+ constexpr rep
+ count() const
+ { return __r; }
+
+
+
+ constexpr duration<typename common_type<rep>::type, period>
+ operator+() const
+ { return duration<typename common_type<rep>::type, period>(__r); }
+
+ constexpr duration<typename common_type<rep>::type, period>
+ operator-() const
+ { return duration<typename common_type<rep>::type, period>(-__r); }
+
+ constexpr duration&
+ operator++()
+ {
+   ++__r;
+   return *this;
+ }
+
+ constexpr duration
+ operator++(int)
+ { return duration(__r++); }
+
+ constexpr duration&
+ operator--()
+ {
+   --__r;
+   return *this;
+ }
+
+ constexpr duration
+ operator--(int)
+ { return duration(__r--); }
+
+ constexpr duration&
+ operator+=(const duration& __d)
+ {
+   __r += __d.count();
+   return *this;
+ }
+
+ constexpr duration&
+ operator-=(const duration& __d)
+ {
+   __r -= __d.count();
+   return *this;
+ }
+
+ constexpr duration&
+ operator*=(const rep& __rhs)
+ {
+   __r *= __rhs;
+   return *this;
+ }
+
+ constexpr duration&
+ operator/=(const rep& __rhs)
+ {
+   __r /= __rhs;
+   return *this;
+ }
+
+
+ template<typename _Rep2 = rep>
+   constexpr
+   __enable_if_t<!treat_as_floating_point<_Rep2>::value, duration&>
+   operator%=(const rep& __rhs)
+   {
+     __r %= __rhs;
+     return *this;
+   }
+
+ template<typename _Rep2 = rep>
+   constexpr
+   __enable_if_t<!treat_as_floating_point<_Rep2>::value, duration&>
+   operator%=(const duration& __d)
+   {
+     __r %= __d.count();
+     return *this;
+   }
+
+
+ static constexpr duration
+ zero() noexcept
+ { return duration(duration_values<rep>::zero()); }
+
+ static constexpr duration
+ min() noexcept
+ { return duration(duration_values<rep>::min()); }
+
+ static constexpr duration
+ max() noexcept
+ { return duration(duration_values<rep>::max()); }
+
+      private:
+ rep __r;
+      };
+
+
+
+
+
+    template<typename _Rep1, typename _Period1,
+      typename _Rep2, typename _Period2>
+      constexpr typename common_type<duration<_Rep1, _Period1>,
+         duration<_Rep2, _Period2>>::type
+      operator+(const duration<_Rep1, _Period1>& __lhs,
+  const duration<_Rep2, _Period2>& __rhs)
+      {
+ typedef duration<_Rep1, _Period1> __dur1;
+ typedef duration<_Rep2, _Period2> __dur2;
+ typedef typename common_type<__dur1,__dur2>::type __cd;
+ return __cd(__cd(__lhs).count() + __cd(__rhs).count());
+      }
+
+
+    template<typename _Rep1, typename _Period1,
+      typename _Rep2, typename _Period2>
+      constexpr typename common_type<duration<_Rep1, _Period1>,
+         duration<_Rep2, _Period2>>::type
+      operator-(const duration<_Rep1, _Period1>& __lhs,
+  const duration<_Rep2, _Period2>& __rhs)
+      {
+ typedef duration<_Rep1, _Period1> __dur1;
+ typedef duration<_Rep2, _Period2> __dur2;
+ typedef typename common_type<__dur1,__dur2>::type __cd;
+ return __cd(__cd(__lhs).count() - __cd(__rhs).count());
+      }
+# 727 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _Rep1, typename _Rep2,
+      typename _CRep = typename common_type<_Rep1, _Rep2>::type>
+      using __common_rep_t = typename
+ enable_if<is_convertible<const _Rep2&, _CRep>::value, _CRep>::type;
+# 739 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _Rep1, typename _Period, typename _Rep2>
+      constexpr duration<__common_rep_t<_Rep1, _Rep2>, _Period>
+      operator*(const duration<_Rep1, _Period>& __d, const _Rep2& __s)
+      {
+ typedef duration<typename common_type<_Rep1, _Rep2>::type, _Period>
+   __cd;
+ return __cd(__cd(__d).count() * __s);
+      }
+
+    template<typename _Rep1, typename _Rep2, typename _Period>
+      constexpr duration<__common_rep_t<_Rep2, _Rep1>, _Period>
+      operator*(const _Rep1& __s, const duration<_Rep2, _Period>& __d)
+      { return __d * __s; }
+
+    template<typename _Rep1, typename _Period, typename _Rep2>
+      constexpr
+      duration<__common_rep_t<_Rep1, __disable_if_is_duration<_Rep2>>, _Period>
+      operator/(const duration<_Rep1, _Period>& __d, const _Rep2& __s)
+      {
+ typedef duration<typename common_type<_Rep1, _Rep2>::type, _Period>
+   __cd;
+ return __cd(__cd(__d).count() / __s);
+      }
+
+    template<typename _Rep1, typename _Period1,
+      typename _Rep2, typename _Period2>
+      constexpr typename common_type<_Rep1, _Rep2>::type
+      operator/(const duration<_Rep1, _Period1>& __lhs,
+  const duration<_Rep2, _Period2>& __rhs)
+      {
+ typedef duration<_Rep1, _Period1> __dur1;
+ typedef duration<_Rep2, _Period2> __dur2;
+ typedef typename common_type<__dur1,__dur2>::type __cd;
+ return __cd(__lhs).count() / __cd(__rhs).count();
+      }
+
+
+    template<typename _Rep1, typename _Period, typename _Rep2>
+      constexpr
+      duration<__common_rep_t<_Rep1, __disable_if_is_duration<_Rep2>>, _Period>
+      operator%(const duration<_Rep1, _Period>& __d, const _Rep2& __s)
+      {
+ typedef duration<typename common_type<_Rep1, _Rep2>::type, _Period>
+   __cd;
+ return __cd(__cd(__d).count() % __s);
+      }
+
+    template<typename _Rep1, typename _Period1,
+      typename _Rep2, typename _Period2>
+      constexpr typename common_type<duration<_Rep1, _Period1>,
+         duration<_Rep2, _Period2>>::type
+      operator%(const duration<_Rep1, _Period1>& __lhs,
+  const duration<_Rep2, _Period2>& __rhs)
+      {
+ typedef duration<_Rep1, _Period1> __dur1;
+ typedef duration<_Rep2, _Period2> __dur2;
+ typedef typename common_type<__dur1,__dur2>::type __cd;
+ return __cd(__cd(__lhs).count() % __cd(__rhs).count());
+      }
+# 807 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _Rep1, typename _Period1,
+      typename _Rep2, typename _Period2>
+      constexpr bool
+      operator==(const duration<_Rep1, _Period1>& __lhs,
+   const duration<_Rep2, _Period2>& __rhs)
+      {
+ typedef duration<_Rep1, _Period1> __dur1;
+ typedef duration<_Rep2, _Period2> __dur2;
+ typedef typename common_type<__dur1,__dur2>::type __ct;
+ return __ct(__lhs).count() == __ct(__rhs).count();
+      }
+
+    template<typename _Rep1, typename _Period1,
+      typename _Rep2, typename _Period2>
+      constexpr bool
+      operator<(const duration<_Rep1, _Period1>& __lhs,
+  const duration<_Rep2, _Period2>& __rhs)
+      {
+ typedef duration<_Rep1, _Period1> __dur1;
+ typedef duration<_Rep2, _Period2> __dur2;
+ typedef typename common_type<__dur1,__dur2>::type __ct;
+ return __ct(__lhs).count() < __ct(__rhs).count();
+      }
+
+
+    template<typename _Rep1, typename _Period1,
+      typename _Rep2, typename _Period2>
+      requires three_way_comparable<common_type_t<_Rep1, _Rep2>>
+      constexpr auto
+      operator<=>(const duration<_Rep1, _Period1>& __lhs,
+    const duration<_Rep2, _Period2>& __rhs)
+      {
+ using __ct = common_type_t<duration<_Rep1, _Period1>,
+       duration<_Rep2, _Period2>>;
+ return __ct(__lhs).count() <=> __ct(__rhs).count();
+      }
+# 852 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _Rep1, typename _Period1,
+      typename _Rep2, typename _Period2>
+      constexpr bool
+      operator<=(const duration<_Rep1, _Period1>& __lhs,
+   const duration<_Rep2, _Period2>& __rhs)
+      { return !(__rhs < __lhs); }
+
+    template<typename _Rep1, typename _Period1,
+      typename _Rep2, typename _Period2>
+      constexpr bool
+      operator>(const duration<_Rep1, _Period1>& __lhs,
+  const duration<_Rep2, _Period2>& __rhs)
+      { return __rhs < __lhs; }
+
+    template<typename _Rep1, typename _Period1,
+      typename _Rep2, typename _Period2>
+      constexpr bool
+      operator>=(const duration<_Rep1, _Period1>& __lhs,
+   const duration<_Rep2, _Period2>& __rhs)
+      { return !(__lhs < __rhs); }
+# 888 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    using nanoseconds = duration<int64_t, nano>;
+
+
+    using microseconds = duration<int64_t, micro>;
+
+
+    using milliseconds = duration<int64_t, milli>;
+
+
+    using seconds = duration<int64_t>;
+
+
+    using minutes = duration<int64_t, ratio< 60>>;
+
+
+    using hours = duration<int64_t, ratio<3600>>;
+
+
+
+    using days = duration<int64_t, ratio<86400>>;
+
+
+    using weeks = duration<int64_t, ratio<604800>>;
+
+
+    using years = duration<int64_t, ratio<31556952>>;
+
+
+    using months = duration<int64_t, ratio<2629746>>;
+
+
+
+
+    template<typename _Clock, typename _Dur>
+      class time_point
+      {
+ static_assert(__is_duration<_Dur>::value,
+     "duration must be a specialization of std::chrono::duration");
+
+      public:
+ typedef _Clock clock;
+ typedef _Dur duration;
+ typedef typename duration::rep rep;
+ typedef typename duration::period period;
+
+ constexpr time_point() : __d(duration::zero())
+ { }
+
+ constexpr explicit time_point(const duration& __dur)
+ : __d(__dur)
+ { }
+
+
+ template<typename _Dur2,
+   typename = _Require<is_convertible<_Dur2, _Dur>>>
+   constexpr time_point(const time_point<clock, _Dur2>& __t)
+   : __d(__t.time_since_epoch())
+   { }
+
+
+ constexpr duration
+ time_since_epoch() const
+ { return __d; }
+
+
+ constexpr time_point&
+ operator++()
+ {
+   ++__d;
+   return *this;
+ }
+
+ constexpr time_point
+ operator++(int)
+ { return time_point{__d++}; }
+
+ constexpr time_point&
+ operator--()
+ {
+   --__d;
+   return *this;
+ }
+
+ constexpr time_point
+ operator--(int)
+ { return time_point{__d--}; }
+
+
+
+ constexpr time_point&
+ operator+=(const duration& __dur)
+ {
+   __d += __dur;
+   return *this;
+ }
+
+ constexpr time_point&
+ operator-=(const duration& __dur)
+ {
+   __d -= __dur;
+   return *this;
+ }
+
+
+ static constexpr time_point
+ min() noexcept
+ { return time_point(duration::min()); }
+
+ static constexpr time_point
+ max() noexcept
+ { return time_point(duration::max()); }
+
+      private:
+ duration __d;
+      };
+# 1016 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _ToDur, typename _Clock, typename _Dur>
+      [[__nodiscard__]] constexpr
+      __enable_if_t<__is_duration<_ToDur>::value, time_point<_Clock, _ToDur>>
+      time_point_cast(const time_point<_Clock, _Dur>& __t)
+      {
+ typedef time_point<_Clock, _ToDur> __time_point;
+ return __time_point(duration_cast<_ToDur>(__t.time_since_epoch()));
+      }
+# 1038 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _ToDur, typename _Clock, typename _Dur>
+      [[nodiscard]] constexpr
+      enable_if_t<__is_duration_v<_ToDur>, time_point<_Clock, _ToDur>>
+      floor(const time_point<_Clock, _Dur>& __tp)
+      {
+ return time_point<_Clock, _ToDur>{
+     chrono::floor<_ToDur>(__tp.time_since_epoch())};
+      }
+# 1059 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _ToDur, typename _Clock, typename _Dur>
+      [[nodiscard]] constexpr
+      enable_if_t<__is_duration_v<_ToDur>, time_point<_Clock, _ToDur>>
+      ceil(const time_point<_Clock, _Dur>& __tp)
+      {
+ return time_point<_Clock, _ToDur>{
+     chrono::ceil<_ToDur>(__tp.time_since_epoch())};
+      }
+# 1081 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _ToDur, typename _Clock, typename _Dur>
+      [[nodiscard]] constexpr
+      enable_if_t<__is_duration_v<_ToDur>
+      && !treat_as_floating_point_v<typename _ToDur::rep>,
+    time_point<_Clock, _ToDur>>
+      round(const time_point<_Clock, _Dur>& __tp)
+      {
+ return time_point<_Clock, _ToDur>{
+     chrono::round<_ToDur>(__tp.time_since_epoch())};
+      }
+
+
+
+
+
+
+    template<typename _Clock, typename _Dur1,
+      typename _Rep2, typename _Period2>
+      constexpr time_point<_Clock,
+ typename common_type<_Dur1, duration<_Rep2, _Period2>>::type>
+      operator+(const time_point<_Clock, _Dur1>& __lhs,
+  const duration<_Rep2, _Period2>& __rhs)
+      {
+ typedef duration<_Rep2, _Period2> __dur2;
+ typedef typename common_type<_Dur1,__dur2>::type __ct;
+ typedef time_point<_Clock, __ct> __time_point;
+ return __time_point(__lhs.time_since_epoch() + __rhs);
+      }
+
+
+    template<typename _Rep1, typename _Period1,
+      typename _Clock, typename _Dur2>
+      constexpr time_point<_Clock,
+ typename common_type<duration<_Rep1, _Period1>, _Dur2>::type>
+      operator+(const duration<_Rep1, _Period1>& __lhs,
+  const time_point<_Clock, _Dur2>& __rhs)
+      {
+ typedef duration<_Rep1, _Period1> __dur1;
+ typedef typename common_type<__dur1,_Dur2>::type __ct;
+ typedef time_point<_Clock, __ct> __time_point;
+ return __time_point(__rhs.time_since_epoch() + __lhs);
+      }
+
+
+    template<typename _Clock, typename _Dur1,
+      typename _Rep2, typename _Period2>
+      constexpr time_point<_Clock,
+ typename common_type<_Dur1, duration<_Rep2, _Period2>>::type>
+      operator-(const time_point<_Clock, _Dur1>& __lhs,
+  const duration<_Rep2, _Period2>& __rhs)
+      {
+ typedef duration<_Rep2, _Period2> __dur2;
+ typedef typename common_type<_Dur1,__dur2>::type __ct;
+ typedef time_point<_Clock, __ct> __time_point;
+ return __time_point(__lhs.time_since_epoch() -__rhs);
+      }
+
+
+    template<typename _Clock, typename _Dur1, typename _Dur2>
+      constexpr typename common_type<_Dur1, _Dur2>::type
+      operator-(const time_point<_Clock, _Dur1>& __lhs,
+  const time_point<_Clock, _Dur2>& __rhs)
+      { return __lhs.time_since_epoch() - __rhs.time_since_epoch(); }
+
+
+
+
+
+
+
+    template<typename _Clock, typename _Dur1, typename _Dur2>
+      constexpr bool
+      operator==(const time_point<_Clock, _Dur1>& __lhs,
+   const time_point<_Clock, _Dur2>& __rhs)
+      { return __lhs.time_since_epoch() == __rhs.time_since_epoch(); }
+
+
+    template<typename _Clock, typename _Dur1,
+      three_way_comparable_with<_Dur1> _Dur2>
+      constexpr auto
+      operator<=>(const time_point<_Clock, _Dur1>& __lhs,
+    const time_point<_Clock, _Dur2>& __rhs)
+      { return __lhs.time_since_epoch() <=> __rhs.time_since_epoch(); }
+# 1172 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    template<typename _Clock, typename _Dur1, typename _Dur2>
+      constexpr bool
+      operator<(const time_point<_Clock, _Dur1>& __lhs,
+  const time_point<_Clock, _Dur2>& __rhs)
+      { return __lhs.time_since_epoch() < __rhs.time_since_epoch(); }
+
+    template<typename _Clock, typename _Dur1, typename _Dur2>
+      constexpr bool
+      operator<=(const time_point<_Clock, _Dur1>& __lhs,
+   const time_point<_Clock, _Dur2>& __rhs)
+      { return !(__rhs < __lhs); }
+
+    template<typename _Clock, typename _Dur1, typename _Dur2>
+      constexpr bool
+      operator>(const time_point<_Clock, _Dur1>& __lhs,
+  const time_point<_Clock, _Dur2>& __rhs)
+      { return __rhs < __lhs; }
+
+    template<typename _Clock, typename _Dur1, typename _Dur2>
+      constexpr bool
+      operator>=(const time_point<_Clock, _Dur1>& __lhs,
+   const time_point<_Clock, _Dur2>& __rhs)
+      { return !(__lhs < __rhs); }
+# 1217 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+inline namespace _V2 {
+
+
+
+
+
+
+
+    struct system_clock
+    {
+      typedef chrono::nanoseconds duration;
+      typedef duration::rep rep;
+      typedef duration::period period;
+      typedef chrono::time_point<system_clock, duration> time_point;
+
+      static_assert(system_clock::duration::min()
+      < system_clock::duration::zero(),
+      "a clock's minimum duration cannot be less than its epoch");
+
+      static constexpr bool is_steady = false;
+
+      static time_point
+      now() noexcept;
+
+
+      static std::time_t
+      to_time_t(const time_point& __t) noexcept
+      {
+ return std::time_t(duration_cast<chrono::seconds>
+      (__t.time_since_epoch()).count());
+      }
+
+      static time_point
+      from_time_t(std::time_t __t) noexcept
+      {
+ typedef chrono::time_point<system_clock, seconds> __from;
+ return time_point_cast<system_clock::duration>
+        (__from(chrono::seconds(__t)));
+      }
+    };
+# 1265 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    struct steady_clock
+    {
+      typedef chrono::nanoseconds duration;
+      typedef duration::rep rep;
+      typedef duration::period period;
+      typedef chrono::time_point<steady_clock, duration> time_point;
+
+      static constexpr bool is_steady = true;
+
+      static time_point
+      now() noexcept;
+    };
+# 1287 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+    using high_resolution_clock = system_clock;
+
+}
+
+
+
+
+    template<typename _Duration>
+      using sys_time = time_point<system_clock, _Duration>;
+    using sys_seconds = sys_time<seconds>;
+    using sys_days = sys_time<days>;
+
+    using file_clock = ::std::filesystem::__file_clock;
+
+    template<typename _Duration>
+      using file_time = time_point<file_clock, _Duration>;
+
+    template<> struct is_clock<system_clock> : true_type { };
+    template<> struct is_clock<steady_clock> : true_type { };
+    template<> struct is_clock<file_clock> : true_type { };
+
+    template<> inline constexpr bool is_clock_v<system_clock> = true;
+    template<> inline constexpr bool is_clock_v<steady_clock> = true;
+    template<> inline constexpr bool is_clock_v<file_clock> = true;
+
+
+  }
+
+
+  inline namespace literals
+  {
+# 1342 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/chrono.h" 3
+  inline namespace chrono_literals
+  {
+
+
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wliteral-suffix"
+
+    template<typename _Dur, char... _Digits>
+      constexpr _Dur __check_overflow()
+      {
+ using _Val = __parse_int::_Parse_int<_Digits...>;
+ constexpr typename _Dur::rep __repval = _Val::value;
+ static_assert(__repval >= 0 && __repval == _Val::value,
+        "literal value cannot be represented by duration type");
+ return _Dur(__repval);
+      }
+
+
+
+    constexpr chrono::duration<long double, ratio<3600,1>>
+    operator""h(long double __hours)
+    { return chrono::duration<long double, ratio<3600,1>>{__hours}; }
+
+
+    template <char... _Digits>
+      constexpr chrono::hours
+      operator""h()
+      { return __check_overflow<chrono::hours, _Digits...>(); }
+
+
+    constexpr chrono::duration<long double, ratio<60,1>>
+    operator""min(long double __mins)
+    { return chrono::duration<long double, ratio<60,1>>{__mins}; }
+
+
+    template <char... _Digits>
+      constexpr chrono::minutes
+      operator""min()
+      { return __check_overflow<chrono::minutes, _Digits...>(); }
+
+
+    constexpr chrono::duration<long double>
+    operator""s(long double __secs)
+    { return chrono::duration<long double>{__secs}; }
+
+
+    template <char... _Digits>
+      constexpr chrono::seconds
+      operator""s()
+      { return __check_overflow<chrono::seconds, _Digits...>(); }
+
+
+    constexpr chrono::duration<long double, milli>
+    operator""ms(long double __msecs)
+    { return chrono::duration<long double, milli>{__msecs}; }
+
+
+    template <char... _Digits>
+      constexpr chrono::milliseconds
+      operator""ms()
+      { return __check_overflow<chrono::milliseconds, _Digits...>(); }
+
+
+    constexpr chrono::duration<long double, micro>
+    operator""us(long double __usecs)
+    { return chrono::duration<long double, micro>{__usecs}; }
+
+
+    template <char... _Digits>
+      constexpr chrono::microseconds
+      operator""us()
+      { return __check_overflow<chrono::microseconds, _Digits...>(); }
+
+
+    constexpr chrono::duration<long double, nano>
+    operator""ns(long double __nsecs)
+    { return chrono::duration<long double, nano>{__nsecs}; }
+
+
+    template <char... _Digits>
+      constexpr chrono::nanoseconds
+      operator""ns()
+      { return __check_overflow<chrono::nanoseconds, _Digits...>(); }
+
+#pragma GCC diagnostic pop
+
+  }
+  }
+
+  namespace chrono
+  {
+    using namespace literals::chrono_literals;
+  }
+
+
+
+  namespace filesystem
+  {
+    struct __file_clock
+    {
+      using duration = chrono::nanoseconds;
+      using rep = duration::rep;
+      using period = duration::period;
+      using time_point = chrono::time_point<__file_clock>;
+      static constexpr bool is_steady = false;
+
+      static time_point
+      now() noexcept
+      { return _S_from_sys(chrono::system_clock::now()); }
+
+
+      template<typename _Dur>
+ static
+ chrono::file_time<common_type_t<_Dur, chrono::seconds>>
+ from_sys(const chrono::sys_time<_Dur>& __t) noexcept
+ { return _S_from_sys(__t); }
+
+
+      template<typename _Dur>
+ static
+ chrono::sys_time<common_type_t<_Dur, chrono::seconds>>
+ to_sys(const chrono::file_time<_Dur>& __t) noexcept
+ { return _S_to_sys(__t); }
+
+
+    private:
+      using __sys_clock = chrono::system_clock;
+
+
+
+
+      static constexpr chrono::seconds _S_epoch_diff{6437664000};
+
+    protected:
+
+      template<typename _Dur>
+ static
+ chrono::time_point<__file_clock, common_type_t<_Dur, chrono::seconds>>
+ _S_from_sys(const chrono::time_point<__sys_clock, _Dur>& __t) noexcept
+ {
+   using _CDur = common_type_t<_Dur, chrono::seconds>;
+   using __file_time = chrono::time_point<__file_clock, _CDur>;
+   return __file_time{__t.time_since_epoch()} - _S_epoch_diff;
+ }
+
+
+      template<typename _Dur>
+ static
+ chrono::time_point<__sys_clock, common_type_t<_Dur, chrono::seconds>>
+ _S_to_sys(const chrono::time_point<__file_clock, _Dur>& __t) noexcept
+ {
+   using _CDur = common_type_t<_Dur, chrono::seconds>;
+   using __sys_time = chrono::time_point<__sys_clock, _CDur>;
+   return __sys_time{__t.time_since_epoch()} + _S_epoch_diff;
+ }
+    };
+  }
+
+
+
+}
+# 44 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 2 3
+
+
+
+
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unique_lock.h" 1 3
+# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unique_lock.h" 3
+       
+# 34 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unique_lock.h" 3
+# 44 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unique_lock.h" 3
+namespace std
+{
+
+# 59 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/unique_lock.h" 3
+  template<typename _Mutex>
+    class unique_lock
+    {
+    public:
+      typedef _Mutex mutex_type;
+
+      unique_lock() noexcept
+      : _M_device(0), _M_owns(false)
+      { }
+
+      [[__nodiscard__]]
+      explicit unique_lock(mutex_type& __m)
+      : _M_device(std::__addressof(__m)), _M_owns(false)
+      {
+ lock();
+ _M_owns = true;
+      }
+
+      unique_lock(mutex_type& __m, defer_lock_t) noexcept
+      : _M_device(std::__addressof(__m)), _M_owns(false)
+      { }
+
+      [[__nodiscard__]]
+      unique_lock(mutex_type& __m, try_to_lock_t)
+      : _M_device(std::__addressof(__m)), _M_owns(_M_device->try_lock())
+      { }
+
+      [[__nodiscard__]]
+      unique_lock(mutex_type& __m, adopt_lock_t) noexcept
+      : _M_device(std::__addressof(__m)), _M_owns(true)
+      {
+
+      }
+
+      template<typename _Clock, typename _Duration>
+ [[__nodiscard__]]
+ unique_lock(mutex_type& __m,
+      const chrono::time_point<_Clock, _Duration>& __atime)
+ : _M_device(std::__addressof(__m)),
+   _M_owns(_M_device->try_lock_until(__atime))
+ { }
+
+      template<typename _Rep, typename _Period>
+ [[__nodiscard__]]
+ unique_lock(mutex_type& __m,
+      const chrono::duration<_Rep, _Period>& __rtime)
+ : _M_device(std::__addressof(__m)),
+   _M_owns(_M_device->try_lock_for(__rtime))
+ { }
+
+      ~unique_lock()
+      {
+ if (_M_owns)
+   unlock();
+      }
+
+      unique_lock(const unique_lock&) = delete;
+      unique_lock& operator=(const unique_lock&) = delete;
+
+      unique_lock(unique_lock&& __u) noexcept
+      : _M_device(__u._M_device), _M_owns(__u._M_owns)
+      {
+ __u._M_device = 0;
+ __u._M_owns = false;
+      }
+
+      unique_lock& operator=(unique_lock&& __u) noexcept
+      {
+ if(_M_owns)
+   unlock();
+
+ unique_lock(std::move(__u)).swap(*this);
+
+ __u._M_device = 0;
+ __u._M_owns = false;
+
+ return *this;
+      }
+
+      void
+      lock()
+      {
+ if (!_M_device)
+   __throw_system_error(int(errc::operation_not_permitted));
+ else if (_M_owns)
+   __throw_system_error(int(errc::resource_deadlock_would_occur));
+ else
+   {
+     _M_device->lock();
+     _M_owns = true;
+   }
+      }
+
+      [[__nodiscard__]]
+      bool
+      try_lock()
+      {
+ if (!_M_device)
+   __throw_system_error(int(errc::operation_not_permitted));
+ else if (_M_owns)
+   __throw_system_error(int(errc::resource_deadlock_would_occur));
+ else
+   {
+     _M_owns = _M_device->try_lock();
+     return _M_owns;
+   }
+      }
+
+      template<typename _Clock, typename _Duration>
+ [[__nodiscard__]]
+ bool
+ try_lock_until(const chrono::time_point<_Clock, _Duration>& __atime)
+ {
+   if (!_M_device)
+     __throw_system_error(int(errc::operation_not_permitted));
+   else if (_M_owns)
+     __throw_system_error(int(errc::resource_deadlock_would_occur));
+   else
+     {
+       _M_owns = _M_device->try_lock_until(__atime);
+       return _M_owns;
+     }
+ }
+
+      template<typename _Rep, typename _Period>
+ [[__nodiscard__]]
+ bool
+ try_lock_for(const chrono::duration<_Rep, _Period>& __rtime)
+ {
+   if (!_M_device)
+     __throw_system_error(int(errc::operation_not_permitted));
+   else if (_M_owns)
+     __throw_system_error(int(errc::resource_deadlock_would_occur));
+   else
+     {
+       _M_owns = _M_device->try_lock_for(__rtime);
+       return _M_owns;
+     }
+  }
+
+      void
+      unlock()
+      {
+ if (!_M_owns)
+   __throw_system_error(int(errc::operation_not_permitted));
+ else if (_M_device)
+   {
+     _M_device->unlock();
+     _M_owns = false;
+   }
+      }
+
+      void
+      swap(unique_lock& __u) noexcept
+      {
+ std::swap(_M_device, __u._M_device);
+ std::swap(_M_owns, __u._M_owns);
+      }
+
+      mutex_type*
+      release() noexcept
+      {
+ mutex_type* __ret = _M_device;
+ _M_device = 0;
+ _M_owns = false;
+ return __ret;
+      }
+
+      [[__nodiscard__]]
+      bool
+      owns_lock() const noexcept
+      { return _M_owns; }
+
+      explicit operator bool() const noexcept
+      { return owns_lock(); }
+
+      [[__nodiscard__]]
+      mutex_type*
+      mutex() const noexcept
+      { return _M_device; }
+
+    private:
+      mutex_type* _M_device;
+      bool _M_owns;
+    };
+
+
+
+  template<typename _Mutex>
+    inline void
+    swap(unique_lock<_Mutex>& __x, unique_lock<_Mutex>& __y) noexcept
+    { __x.swap(__y); }
+
+
+}
+# 49 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 2 3
+# 60 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
+# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
+       
+# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
+# 61 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 2 3
+
+namespace std
+{
+
+# 75 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+  class __recursive_mutex_base
+  {
+  protected:
+    typedef __gthread_recursive_mutex_t __native_type;
+
+    __recursive_mutex_base(const __recursive_mutex_base&) = delete;
+    __recursive_mutex_base& operator=(const __recursive_mutex_base&) = delete;
+
+
+    __native_type _M_mutex = (pthread_mutex_t)-3;
+
+    __recursive_mutex_base() = default;
+# 99 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+  };
+# 111 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+  class recursive_mutex : private __recursive_mutex_base
+  {
+  public:
+    typedef __native_type* native_handle_type;
+
+    recursive_mutex() = default;
+    ~recursive_mutex() = default;
+
+    recursive_mutex(const recursive_mutex&) = delete;
+    recursive_mutex& operator=(const recursive_mutex&) = delete;
+
+    void
+    lock()
+    {
+      int __e = __gthread_recursive_mutex_lock(&_M_mutex);
+
+
+      if (__e)
+ __throw_system_error(__e);
+    }
+
+    [[__nodiscard__]]
+    bool
+    try_lock() noexcept
+    {
+
+      return !__gthread_recursive_mutex_trylock(&_M_mutex);
+    }
+
+    void
+    unlock()
+    {
+
+      __gthread_recursive_mutex_unlock(&_M_mutex);
+    }
+
+    native_handle_type
+    native_handle() noexcept
+    { return &_M_mutex; }
+  };
+
+
+
+
+  template<typename _Derived>
+    class __timed_mutex_impl
+    {
+    protected:
+      template<typename _Rep, typename _Period>
+ bool
+ _M_try_lock_for(const chrono::duration<_Rep, _Period>& __rtime)
+ {
+
+
+
+   using __clock = chrono::system_clock;
+
+
+   auto __rt = chrono::duration_cast<__clock::duration>(__rtime);
+   if (ratio_greater<__clock::period, _Period>())
+     ++__rt;
+   return _M_try_lock_until(__clock::now() + __rt);
+ }
+
+      template<typename _Duration>
+ bool
+ _M_try_lock_until(const chrono::time_point<chrono::system_clock,
+         _Duration>& __atime)
+ {
+   auto __s = chrono::time_point_cast<chrono::seconds>(__atime);
+   auto __ns = chrono::duration_cast<chrono::nanoseconds>(__atime - __s);
+
+   __gthread_time_t __ts = {
+     static_cast<std::time_t>(__s.time_since_epoch().count()),
+     static_cast<long>(__ns.count())
+   };
+
+   return static_cast<_Derived*>(this)->_M_timedlock(__ts);
+ }
+# 210 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+      template<typename _Clock, typename _Duration>
+ bool
+ _M_try_lock_until(const chrono::time_point<_Clock, _Duration>& __atime)
+ {
+
+   static_assert(chrono::is_clock_v<_Clock>);
+
+
+
+
+   auto __now = _Clock::now();
+   do {
+     auto __rtime = __atime - __now;
+     if (_M_try_lock_for(__rtime))
+       return true;
+     __now = _Clock::now();
+   } while (__atime > __now);
+   return false;
+ }
+    };
+# 240 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+  class timed_mutex
+  : private __mutex_base, public __timed_mutex_impl<timed_mutex>
+  {
+  public:
+    typedef __native_type* native_handle_type;
+
+    timed_mutex() = default;
+    ~timed_mutex() = default;
+
+    timed_mutex(const timed_mutex&) = delete;
+    timed_mutex& operator=(const timed_mutex&) = delete;
+
+    void
+    lock()
+    {
+      int __e = __gthread_mutex_lock(&_M_mutex);
+
+
+      if (__e)
+ __throw_system_error(__e);
+    }
+
+    [[__nodiscard__]]
+    bool
+    try_lock() noexcept
+    {
+
+      return !__gthread_mutex_trylock(&_M_mutex);
+    }
+
+    template <class _Rep, class _Period>
+      [[__nodiscard__]]
+      bool
+      try_lock_for(const chrono::duration<_Rep, _Period>& __rtime)
+      { return _M_try_lock_for(__rtime); }
+
+    template <class _Clock, class _Duration>
+      [[__nodiscard__]]
+      bool
+      try_lock_until(const chrono::time_point<_Clock, _Duration>& __atime)
+      { return _M_try_lock_until(__atime); }
+
+    void
+    unlock()
+    {
+
+      __gthread_mutex_unlock(&_M_mutex);
+    }
+
+    native_handle_type
+    native_handle() noexcept
+    { return &_M_mutex; }
+
+    private:
+      friend class __timed_mutex_impl<timed_mutex>;
+
+      bool
+      _M_timedlock(const __gthread_time_t& __ts)
+      { return !__gthread_mutex_timedlock(&_M_mutex, &__ts); }
+
+
+
+
+
+
+  };
+# 317 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+  class recursive_timed_mutex
+  : private __recursive_mutex_base,
+    public __timed_mutex_impl<recursive_timed_mutex>
+  {
+  public:
+    typedef __native_type* native_handle_type;
+
+    recursive_timed_mutex() = default;
+    ~recursive_timed_mutex() = default;
+
+    recursive_timed_mutex(const recursive_timed_mutex&) = delete;
+    recursive_timed_mutex& operator=(const recursive_timed_mutex&) = delete;
+
+    void
+    lock()
+    {
+      int __e = __gthread_recursive_mutex_lock(&_M_mutex);
+
+
+      if (__e)
+ __throw_system_error(__e);
+    }
+
+    [[__nodiscard__]]
+    bool
+    try_lock() noexcept
+    {
+
+      return !__gthread_recursive_mutex_trylock(&_M_mutex);
+    }
+
+    template <class _Rep, class _Period>
+      [[__nodiscard__]]
+      bool
+      try_lock_for(const chrono::duration<_Rep, _Period>& __rtime)
+      { return _M_try_lock_for(__rtime); }
+
+    template <class _Clock, class _Duration>
+      [[__nodiscard__]]
+      bool
+      try_lock_until(const chrono::time_point<_Clock, _Duration>& __atime)
+      { return _M_try_lock_until(__atime); }
+
+    void
+    unlock()
+    {
+
+      __gthread_recursive_mutex_unlock(&_M_mutex);
+    }
+
+    native_handle_type
+    native_handle() noexcept
+    { return &_M_mutex; }
+
+    private:
+      friend class __timed_mutex_impl<recursive_timed_mutex>;
+
+      bool
+      _M_timedlock(const __gthread_time_t& __ts)
+      { return !__gthread_recursive_mutex_timedlock(&_M_mutex, &__ts); }
+
+
+
+
+
+
+  };
+# 564 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+  namespace __detail
+  {
+
+    template<typename _Lockable>
+      inline int
+      __try_lock_impl(_Lockable& __l)
+      {
+ if (unique_lock<_Lockable> __lock{__l, try_to_lock})
+   {
+     __lock.release();
+     return -1;
+   }
+ else
+   return 0;
+      }
+
+
+
+    template<typename _L0, typename... _Lockables>
+      inline int
+      __try_lock_impl(_L0& __l0, _Lockables&... __lockables)
+      {
+
+ if constexpr ((is_same_v<_L0, _Lockables> && ...))
+   {
+     constexpr int _Np = 1 + sizeof...(_Lockables);
+     unique_lock<_L0> __locks[_Np] = {
+  {__l0, defer_lock}, {__lockables, defer_lock}...
+     };
+     for (int __i = 0; __i < _Np; ++__i)
+       {
+  if (!__locks[__i].try_lock())
+    {
+      const int __failed = __i;
+      while (__i--)
+        __locks[__i].unlock();
+      return __failed;
+    }
+       }
+     for (auto& __l : __locks)
+       __l.release();
+     return -1;
+   }
+ else
+
+ if (unique_lock<_L0> __lock{__l0, try_to_lock})
+   {
+     int __idx = __detail::__try_lock_impl(__lockables...);
+     if (__idx == -1)
+       {
+  __lock.release();
+  return -1;
+       }
+     return __idx + 1;
+   }
+ else
+   return 0;
+      }
+
+  }
+# 636 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+  template<typename _L1, typename _L2, typename... _L3>
+    [[__nodiscard__]]
+    inline int
+    try_lock(_L1& __l1, _L2& __l2, _L3&... __l3)
+    {
+      return __detail::__try_lock_impl(__l1, __l2, __l3...);
+    }
+
+
+  namespace __detail
+  {
+
+
+
+
+
+    template<typename _L0, typename... _L1>
+      void
+      __lock_impl(int& __i, int __depth, _L0& __l0, _L1&... __l1)
+      {
+ while (__i >= __depth)
+   {
+     if (__i == __depth)
+       {
+  int __failed = 1;
+  {
+    unique_lock<_L0> __first(__l0);
+    __failed += __detail::__try_lock_impl(__l1...);
+    if (!__failed)
+      {
+        __i = -1;
+        __first.release();
+        return;
+      }
+  }
+
+  __gthread_yield();
+
+  constexpr auto __n = 1 + sizeof...(_L1);
+  __i = (__depth + __failed) % __n;
+       }
+     else
+       __detail::__lock_impl(__i, __depth + 1, __l1..., __l0);
+   }
+      }
+
+  }
+# 696 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+  template<typename _L1, typename _L2, typename... _L3>
+    void
+    lock(_L1& __l1, _L2& __l2, _L3&... __l3)
+    {
+
+      if constexpr (is_same_v<_L1, _L2> && (is_same_v<_L1, _L3> && ...))
+ {
+   constexpr int _Np = 2 + sizeof...(_L3);
+   unique_lock<_L1> __locks[] = {
+       {__l1, defer_lock}, {__l2, defer_lock}, {__l3, defer_lock}...
+   };
+   int __first = 0;
+   do {
+     __locks[__first].lock();
+     for (int __j = 1; __j < _Np; ++__j)
+       {
+  const int __idx = (__first + __j) % _Np;
+  if (!__locks[__idx].try_lock())
+    {
+      for (int __k = __j; __k != 0; --__k)
+        __locks[(__first + __k - 1) % _Np].unlock();
+      __first = __idx;
+      break;
+    }
+       }
+   } while (!__locks[__first].owns_lock());
+
+   for (auto& __l : __locks)
+     __l.release();
+ }
+      else
+
+ {
+   int __i = 0;
+   __detail::__lock_impl(__i, 0, __l1, __l2, __l3...);
+ }
+    }
+# 743 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+  template<typename... _MutexTypes>
+    class scoped_lock
+    {
+    public:
+
+      [[nodiscard]]
+      explicit scoped_lock(_MutexTypes&... __m) : _M_devices(std::tie(__m...))
+      { std::lock(__m...); }
+
+      [[nodiscard]]
+      explicit scoped_lock(adopt_lock_t, _MutexTypes&... __m) noexcept
+      : _M_devices(std::tie(__m...))
+      { }
+
+      ~scoped_lock()
+      { std::apply([](auto&... __m) { (__m.unlock(), ...); }, _M_devices); }
+
+      scoped_lock(const scoped_lock&) = delete;
+      scoped_lock& operator=(const scoped_lock&) = delete;
+
+    private:
+      tuple<_MutexTypes&...> _M_devices;
+    };
+
+  template<>
+    class scoped_lock<>
+    {
+    public:
+      explicit scoped_lock() = default;
+      explicit scoped_lock(adopt_lock_t) noexcept { }
+      ~scoped_lock() = default;
+
+      scoped_lock(const scoped_lock&) = delete;
+      scoped_lock& operator=(const scoped_lock&) = delete;
+    };
+
+  template<typename _Mutex>
+    class scoped_lock<_Mutex>
+    {
+    public:
+      using mutex_type = _Mutex;
+
+      [[nodiscard]]
+      explicit scoped_lock(mutex_type& __m) : _M_device(__m)
+      { _M_device.lock(); }
+
+      [[nodiscard]]
+      explicit scoped_lock(adopt_lock_t, mutex_type& __m) noexcept
+      : _M_device(__m)
+      { }
+
+      ~scoped_lock()
+      { _M_device.unlock(); }
+
+      scoped_lock(const scoped_lock&) = delete;
+      scoped_lock& operator=(const scoped_lock&) = delete;
+
+    private:
+      mutex_type& _M_device;
+    };
+
+
+
+
+  struct once_flag
+  {
+    constexpr once_flag() noexcept = default;
+
+
+    once_flag(const once_flag&) = delete;
+
+    once_flag& operator=(const once_flag&) = delete;
+
+  private:
+
+
+    __gthread_once_t _M_once = 0;
+
+    struct _Prepare_execution;
+
+    template<typename _Callable, typename... _Args>
+      friend void
+      call_once(once_flag& __once, _Callable&& __f, _Args&&... __args);
+  };
+
+
+
+
+
+  extern __thread void* __once_callable;
+  extern __thread void (*__once_call)();
+
+
+  struct once_flag::_Prepare_execution
+  {
+    template<typename _Callable>
+      explicit
+      _Prepare_execution(_Callable& __c)
+      {
+
+ __once_callable = std::__addressof(__c);
+
+ __once_call = [] { (*static_cast<_Callable*>(__once_callable))(); };
+      }
+
+    ~_Prepare_execution()
+    {
+
+      __once_callable = nullptr;
+      __once_call = nullptr;
+    }
+
+    _Prepare_execution(const _Prepare_execution&) = delete;
+    _Prepare_execution& operator=(const _Prepare_execution&) = delete;
+  };
+# 900 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+  extern "C" void __once_proxy(void);
+
+
+  template<typename _Callable, typename... _Args>
+    void
+    call_once(once_flag& __once, _Callable&& __f, _Args&&... __args)
+    {
+
+      auto __callable = [&] {
+   std::__invoke(std::forward<_Callable>(__f),
+   std::forward<_Args>(__args)...);
+      };
+
+      once_flag::_Prepare_execution __exec(__callable);
+
+
+      if (int __e = __gthread_once(&__once._M_once, &__once_proxy))
+ __throw_system_error(__e);
+    }
+# 1021 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/mutex" 3
+
+}
+# 4 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task_data_race.cpp" 2
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/thread" 1 3
+# 32 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/thread" 3
+       
+# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/thread" 3
+# 42 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/thread" 3
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/stop_token" 1 3
+# 35 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/stop_token" 3
+# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
+# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
+       
+# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
+# 36 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/stop_token" 2 3
+
+
+
+
 # 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/std_thread.h" 1 3
 # 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/std_thread.h" 3
        
@@ -53982,4689 +53977,42 @@ namespace std
 # 372 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/thread" 3
 
 }
-# 4 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task_data_race.cpp" 2
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/condition_variable" 1 3
-# 32 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/condition_variable" 3
-       
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/condition_variable" 3
-# 45 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/condition_variable" 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 1 3
-# 53 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 1 3
-# 53 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/allocated_ptr.h" 1 3
-# 40 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/allocated_ptr.h" 3
-namespace std
-{
-
-
-
-
-  template<typename _Alloc>
-    struct __allocated_ptr
-    {
-      using pointer = typename allocator_traits<_Alloc>::pointer;
-      using value_type = typename allocator_traits<_Alloc>::value_type;
-
-
-      __allocated_ptr(_Alloc& __a, pointer __ptr) noexcept
-      : _M_alloc(std::__addressof(__a)), _M_ptr(__ptr)
-      { }
-
-
-      template<typename _Ptr,
-        typename _Req = _Require<is_same<_Ptr, value_type*>>>
-      __allocated_ptr(_Alloc& __a, _Ptr __ptr)
-      : _M_alloc(std::__addressof(__a)),
- _M_ptr(pointer_traits<pointer>::pointer_to(*__ptr))
-      { }
-
-
-      __allocated_ptr(__allocated_ptr&& __gd) noexcept
-      : _M_alloc(__gd._M_alloc), _M_ptr(__gd._M_ptr)
-      { __gd._M_ptr = nullptr; }
-
-
-      ~__allocated_ptr()
-      {
- if (_M_ptr != nullptr)
-   std::allocator_traits<_Alloc>::deallocate(*_M_alloc, _M_ptr, 1);
-      }
-
-
-      __allocated_ptr&
-      operator=(std::nullptr_t) noexcept
-      {
- _M_ptr = nullptr;
- return *this;
-      }
-
-
-      value_type* get() { return std::__to_address(_M_ptr); }
-
-    private:
-      _Alloc* _M_alloc;
-      pointer _M_ptr;
-    };
-
-
-  template<typename _Alloc>
-    __allocated_ptr<_Alloc>
-    __allocate_guarded(_Alloc& __a)
-    {
-      return { __a, std::allocator_traits<_Alloc>::allocate(__a, 1) };
-    }
-
-
-
-}
-# 54 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 2 3
-
-
-
-
-
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/aligned_buffer.h" 1 3
-# 32 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/aligned_buffer.h" 3
-       
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/aligned_buffer.h" 3
-
-
-
-
-
-
-
-namespace __gnu_cxx
-{
-
-
-
-
-  template<typename _Tp>
-    struct __aligned_membuf
-    {
-
-
-
-
-
-      struct _Tp2 { _Tp _M_t; };
-
-      alignas(__alignof__(_Tp2::_M_t)) unsigned char _M_storage[sizeof(_Tp)];
-
-      __aligned_membuf() = default;
-
-
-      __aligned_membuf(std::nullptr_t) { }
-
-      void*
-      _M_addr() noexcept
-      { return static_cast<void*>(&_M_storage); }
-
-      const void*
-      _M_addr() const noexcept
-      { return static_cast<const void*>(&_M_storage); }
-
-      _Tp*
-      _M_ptr() noexcept
-      { return static_cast<_Tp*>(_M_addr()); }
-
-      const _Tp*
-      _M_ptr() const noexcept
-      { return static_cast<const _Tp*>(_M_addr()); }
-    };
-
-
-
-
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-
-
-
-
-
-  template<typename _Tp>
-    struct __aligned_buffer
-    : std::aligned_storage<sizeof(_Tp), __alignof__(_Tp)>
-    {
-      typename
- std::aligned_storage<sizeof(_Tp), __alignof__(_Tp)>::type _M_storage;
-
-      __aligned_buffer() = default;
-
-
-      __aligned_buffer(std::nullptr_t) { }
-
-      void*
-      _M_addr() noexcept
-      {
-        return static_cast<void*>(&_M_storage);
-      }
-
-      const void*
-      _M_addr() const noexcept
-      {
-        return static_cast<const void*>(&_M_storage);
-      }
-
-      _Tp*
-      _M_ptr() noexcept
-      { return static_cast<_Tp*>(_M_addr()); }
-
-      const _Tp*
-      _M_ptr() const noexcept
-      { return static_cast<const _Tp*>(_M_addr()); }
-    };
-#pragma GCC diagnostic pop
-
-
-}
-# 61 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 2 3
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/concurrence.h" 1 3
-# 32 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/concurrence.h" 3
-       
-# 33 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/concurrence.h" 3
-
-
-
-
-
-
-
-namespace __gnu_cxx
-{
-
-
-
-
-
-
-
-  enum _Lock_policy { _S_single, _S_mutex, _S_atomic };
-
-
-
-  inline const _Lock_policy __default_lock_policy =
-
-
-
-  _S_atomic;
-
-
-
-
-
-
-  class __concurrence_lock_error : public std::exception
-  {
-  public:
-    virtual char const*
-    what() const throw()
-    { return "__gnu_cxx::__concurrence_lock_error"; }
-  };
-
-  class __concurrence_unlock_error : public std::exception
-  {
-  public:
-    virtual char const*
-    what() const throw()
-    { return "__gnu_cxx::__concurrence_unlock_error"; }
-  };
-
-  class __concurrence_broadcast_error : public std::exception
-  {
-  public:
-    virtual char const*
-    what() const throw()
-    { return "__gnu_cxx::__concurrence_broadcast_error"; }
-  };
-
-  class __concurrence_wait_error : public std::exception
-  {
-  public:
-    virtual char const*
-    what() const throw()
-    { return "__gnu_cxx::__concurrence_wait_error"; }
-  };
-
-
-  inline void
-  __throw_concurrence_lock_error()
-  { (throw (__concurrence_lock_error())); }
-
-  inline void
-  __throw_concurrence_unlock_error()
-  { (throw (__concurrence_unlock_error())); }
-
-
-  inline void
-  __throw_concurrence_broadcast_error()
-  { (throw (__concurrence_broadcast_error())); }
-
-  inline void
-  __throw_concurrence_wait_error()
-  { (throw (__concurrence_wait_error())); }
-
-
-  class __mutex
-  {
-  private:
-
-
-
-    __gthread_mutex_t _M_mutex;
-
-
-    __mutex(const __mutex&);
-    __mutex& operator=(const __mutex&);
-
-  public:
-    __mutex()
-    {
-
-      if (__gthread_active_p())
- __gthread_mutex_init_function(&_M_mutex);
-
-    }
-
-
-    ~__mutex()
-    {
-      if (__gthread_active_p())
- __gthread_mutex_destroy(&_M_mutex);
-    }
-
-
-    void lock()
-    {
-
-      if (__gthread_active_p())
- {
-   if (__gthread_mutex_lock(&_M_mutex) != 0)
-     __throw_concurrence_lock_error();
- }
-
-    }
-
-    void unlock()
-    {
-
-      if (__gthread_active_p())
- {
-   if (__gthread_mutex_unlock(&_M_mutex) != 0)
-     __throw_concurrence_unlock_error();
- }
-
-    }
-
-    __gthread_mutex_t* gthread_mutex(void)
-      { return &_M_mutex; }
-  };
-
-  class __recursive_mutex
-  {
-  private:
-
-    __gthread_recursive_mutex_t _M_mutex = (pthread_mutex_t)-3;
-
-
-
-
-    __recursive_mutex(const __recursive_mutex&);
-    __recursive_mutex& operator=(const __recursive_mutex&);
-
-  public:
-    __recursive_mutex()
-    {
-
-
-
-
-    }
-# 199 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/concurrence.h" 3
-    void lock()
-    {
-
-      if (__gthread_active_p())
- {
-   if (__gthread_recursive_mutex_lock(&_M_mutex) != 0)
-     __throw_concurrence_lock_error();
- }
-
-    }
-
-    void unlock()
-    {
-
-      if (__gthread_active_p())
- {
-   if (__gthread_recursive_mutex_unlock(&_M_mutex) != 0)
-     __throw_concurrence_unlock_error();
- }
-
-    }
-
-    __gthread_recursive_mutex_t* gthread_recursive_mutex(void)
-    { return &_M_mutex; }
-  };
-
-
-
-
-  class __scoped_lock
-  {
-  public:
-    typedef __mutex __mutex_type;
-
-  private:
-    __mutex_type& _M_device;
-
-    __scoped_lock(const __scoped_lock&);
-    __scoped_lock& operator=(const __scoped_lock&);
-
-  public:
-    explicit __scoped_lock(__mutex_type& __name) : _M_device(__name)
-    { _M_device.lock(); }
-
-    ~__scoped_lock() throw()
-    { _M_device.unlock(); }
-  };
-
-
-  class __cond
-  {
-  private:
-
-    __gthread_cond_t _M_cond = (pthread_cond_t)-1;
-
-
-
-
-    __cond(const __cond&);
-    __cond& operator=(const __cond&);
-
-  public:
-    __cond()
-    {
-
-
-
-
-    }
-# 277 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/concurrence.h" 3
-    void broadcast()
-    {
-
-      if (__gthread_active_p())
- {
-   if (__gthread_cond_broadcast(&_M_cond) != 0)
-     __throw_concurrence_broadcast_error();
- }
-
-    }
-
-    void wait(__mutex *mutex)
-    {
-
-      {
-   if (__gthread_cond_wait(&_M_cond, mutex->gthread_mutex()) != 0)
-     __throw_concurrence_wait_error();
-      }
-
-    }
-
-    void wait_recursive(__recursive_mutex *mutex)
-    {
-
-      {
-   if (__gthread_cond_wait_recursive(&_M_cond,
-         mutex->gthread_recursive_mutex())
-       != 0)
-     __throw_concurrence_wait_error();
-      }
-
-    }
-  };
-
-
-
-}
-# 63 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 2 3
-
-
-
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/align.h" 1 3
-# 36 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/align.h" 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 1 3
-# 47 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-       
-# 48 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h" 3
-# 37 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/align.h" 2 3
-
-namespace std
-{
-
-# 60 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/align.h" 3
-inline void*
-align(size_t __align, size_t __size, void*& __ptr, size_t& __space) noexcept
-{
-  if (__space < __size)
-    return nullptr;
-  const auto __intptr = reinterpret_cast<uintptr_t>(__ptr);
-  const auto __aligned = (__intptr - 1u + __align) & -__align;
-  const auto __diff = __aligned - __intptr;
-  if (__diff > (__space - __size))
-    return nullptr;
-  else
-    {
-      __space -= __diff;
-      return __ptr = reinterpret_cast<void*>(__aligned);
-    }
-}
-# 88 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/align.h" 3
-  template<size_t _Align, class _Tp>
-    [[nodiscard,__gnu__::__always_inline__]]
-    constexpr _Tp*
-    assume_aligned(_Tp* __ptr) noexcept
-    {
-      static_assert(std::has_single_bit(_Align));
-      if (std::is_constant_evaluated())
- return __ptr;
-      else
- {
-
-
-   ;
-   return static_cast<_Tp*>(__builtin_assume_aligned(__ptr, _Align));
- }
-    }
-
-
-
-}
-# 67 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 2 3
-# 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 1 3
-# 70 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-namespace std
-{
-
-# 81 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template<typename _ValueType, typename _Tp>
-    constexpr bool
-    __check_constructible()
-    {
-
-
-
-
-
-      static_assert(is_constructible<_ValueType, _Tp>::value,
-   "result type must be constructible from input type");
-
-      return true;
-    }
-# 110 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template<typename _InputIterator, typename _ForwardIterator>
-    constexpr
-    _ForwardIterator
-    __do_uninit_copy(_InputIterator __first, _InputIterator __last,
-       _ForwardIterator __result)
-    {
-      _ForwardIterator __cur = __result;
-      try
- {
-   for (; __first != __last; ++__first, (void)++__cur)
-     std::_Construct(std::__addressof(*__cur), *__first);
-   return __cur;
- }
-      catch(...)
- {
-   std::_Destroy(__result, __cur);
-   throw;
- }
-    }
-
-  template<bool _TrivialValueTypes>
-    struct __uninitialized_copy
-    {
-      template<typename _InputIterator, typename _ForwardIterator>
-        static _ForwardIterator
-        __uninit_copy(_InputIterator __first, _InputIterator __last,
-        _ForwardIterator __result)
- { return std::__do_uninit_copy(__first, __last, __result); }
-    };
-
-  template<>
-    struct __uninitialized_copy<true>
-    {
-      template<typename _InputIterator, typename _ForwardIterator>
-        static _ForwardIterator
-        __uninit_copy(_InputIterator __first, _InputIterator __last,
-        _ForwardIterator __result)
-        { return std::copy(__first, __last, __result); }
-    };
-# 161 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template<typename _InputIterator, typename _ForwardIterator>
-    inline _ForwardIterator
-    uninitialized_copy(_InputIterator __first, _InputIterator __last,
-         _ForwardIterator __result)
-    {
-      typedef typename iterator_traits<_InputIterator>::value_type
- _ValueType1;
-      typedef typename iterator_traits<_ForwardIterator>::value_type
- _ValueType2;
-
-
-
-
-      const bool __can_memmove = __is_trivial(_ValueType1);
-
-
-
-
-      using _From = decltype(*__first);
-
-      const bool __assignable
- = __is_trivial(_ValueType2) && __is_assignable(_ValueType2&, _From) && std::__check_constructible<_ValueType2, _From>();
-
-      return std::__uninitialized_copy<__can_memmove && __assignable>::
- __uninit_copy(__first, __last, __result);
-    }
-
-
-
-  template<typename _ForwardIterator, typename _Tp>
-    constexpr void
-    __do_uninit_fill(_ForwardIterator __first, _ForwardIterator __last,
-       const _Tp& __x)
-    {
-      _ForwardIterator __cur = __first;
-      try
- {
-   for (; __cur != __last; ++__cur)
-     std::_Construct(std::__addressof(*__cur), __x);
- }
-      catch(...)
- {
-   std::_Destroy(__first, __cur);
-   throw;
- }
-    }
-
-  template<bool _TrivialValueType>
-    struct __uninitialized_fill
-    {
-      template<typename _ForwardIterator, typename _Tp>
-        static void
-        __uninit_fill(_ForwardIterator __first, _ForwardIterator __last,
-        const _Tp& __x)
- { std::__do_uninit_fill(__first, __last, __x); }
-    };
-
-  template<>
-    struct __uninitialized_fill<true>
-    {
-      template<typename _ForwardIterator, typename _Tp>
-        static void
-        __uninit_fill(_ForwardIterator __first, _ForwardIterator __last,
-        const _Tp& __x)
-        { std::fill(__first, __last, __x); }
-    };
-# 239 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template<typename _ForwardIterator, typename _Tp>
-    inline void
-    uninitialized_fill(_ForwardIterator __first, _ForwardIterator __last,
-         const _Tp& __x)
-    {
-      typedef typename iterator_traits<_ForwardIterator>::value_type
- _ValueType;
-
-
-
-      const bool __can_fill
- = __is_trivial(_ValueType) && __is_assignable(_ValueType&, const _Tp&) && std::__check_constructible<_ValueType, const _Tp&>();
-
-      std::__uninitialized_fill<__can_fill>::
- __uninit_fill(__first, __last, __x);
-    }
-
-
-
-  template<typename _ForwardIterator, typename _Size, typename _Tp>
-    constexpr
-    _ForwardIterator
-    __do_uninit_fill_n(_ForwardIterator __first, _Size __n, const _Tp& __x)
-    {
-      _ForwardIterator __cur = __first;
-      try
- {
-   for (; __n > 0; --__n, (void) ++__cur)
-     std::_Construct(std::__addressof(*__cur), __x);
-   return __cur;
- }
-      catch(...)
- {
-   std::_Destroy(__first, __cur);
-   throw;
- }
-    }
-
-  template<bool _TrivialValueType>
-    struct __uninitialized_fill_n
-    {
-      template<typename _ForwardIterator, typename _Size, typename _Tp>
- static _ForwardIterator
-        __uninit_fill_n(_ForwardIterator __first, _Size __n,
-   const _Tp& __x)
- { return std::__do_uninit_fill_n(__first, __n, __x); }
-    };
-
-  template<>
-    struct __uninitialized_fill_n<true>
-    {
-      template<typename _ForwardIterator, typename _Size, typename _Tp>
- static _ForwardIterator
-        __uninit_fill_n(_ForwardIterator __first, _Size __n,
-   const _Tp& __x)
-        { return std::fill_n(__first, __n, __x); }
-    };
-# 310 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template<typename _ForwardIterator, typename _Size, typename _Tp>
-    inline _ForwardIterator
-    uninitialized_fill_n(_ForwardIterator __first, _Size __n, const _Tp& __x)
-    {
-      typedef typename iterator_traits<_ForwardIterator>::value_type
- _ValueType;
-
-
-
-      const bool __can_fill
- = __is_trivial(_ValueType) && __is_assignable(_ValueType&, const _Tp&) && std::__check_constructible<_ValueType, const _Tp&>()
-
-
-
- && __is_integer<_Size>::__value;
-
-      return __uninitialized_fill_n<__can_fill>::
- __uninit_fill_n(__first, __n, __x);
-    }
-# 340 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template<typename _InputIterator, typename _ForwardIterator,
-    typename _Allocator>
-    constexpr
-    _ForwardIterator
-    __uninitialized_copy_a(_InputIterator __first, _InputIterator __last,
-      _ForwardIterator __result, _Allocator& __alloc)
-    {
-      _ForwardIterator __cur = __result;
-      try
- {
-   typedef __gnu_cxx::__alloc_traits<_Allocator> __traits;
-   for (; __first != __last; ++__first, (void)++__cur)
-     __traits::construct(__alloc, std::__addressof(*__cur), *__first);
-   return __cur;
- }
-      catch(...)
- {
-   std::_Destroy(__result, __cur, __alloc);
-   throw;
- }
-    }
-
-
-  template<typename _InputIterator, typename _ForwardIterator, typename _Tp>
-    constexpr
-    inline _ForwardIterator
-    __uninitialized_copy_a(_InputIterator __first, _InputIterator __last,
-      _ForwardIterator __result, allocator<_Tp>&)
-    {
-
-      if (std::is_constant_evaluated())
- return std::__do_uninit_copy(__first, __last, __result);
-
-      return std::uninitialized_copy(__first, __last, __result);
-    }
-
-
-  template<typename _InputIterator, typename _ForwardIterator,
-    typename _Allocator>
-    constexpr
-    inline _ForwardIterator
-    __uninitialized_move_a(_InputIterator __first, _InputIterator __last,
-      _ForwardIterator __result, _Allocator& __alloc)
-    {
-      return std::__uninitialized_copy_a(std::make_move_iterator(__first),
-      std::make_move_iterator(__last),
-      __result, __alloc);
-    }
-
-  template<typename _InputIterator, typename _ForwardIterator,
-    typename _Allocator>
-    constexpr
-    inline _ForwardIterator
-    __uninitialized_move_if_noexcept_a(_InputIterator __first,
-           _InputIterator __last,
-           _ForwardIterator __result,
-           _Allocator& __alloc)
-    {
-      return std::__uninitialized_copy_a
- (std::__make_move_if_noexcept_iterator(__first),
-  std::__make_move_if_noexcept_iterator(__last), __result, __alloc);
-    }
-
-  template<typename _ForwardIterator, typename _Tp, typename _Allocator>
-    constexpr
-    void
-    __uninitialized_fill_a(_ForwardIterator __first, _ForwardIterator __last,
-      const _Tp& __x, _Allocator& __alloc)
-    {
-      _ForwardIterator __cur = __first;
-      try
- {
-   typedef __gnu_cxx::__alloc_traits<_Allocator> __traits;
-   for (; __cur != __last; ++__cur)
-     __traits::construct(__alloc, std::__addressof(*__cur), __x);
- }
-      catch(...)
- {
-   std::_Destroy(__first, __cur, __alloc);
-   throw;
- }
-    }
-
-
-  template<typename _ForwardIterator, typename _Tp, typename _Tp2>
-    constexpr
-    inline void
-    __uninitialized_fill_a(_ForwardIterator __first, _ForwardIterator __last,
-      const _Tp& __x, allocator<_Tp2>&)
-    {
-
-      if (std::is_constant_evaluated())
- return std::__do_uninit_fill(__first, __last, __x);
-
-      std::uninitialized_fill(__first, __last, __x);
-    }
-
-
-  template<typename _ForwardIterator, typename _Size, typename _Tp,
-    typename _Allocator>
-     constexpr
-    _ForwardIterator
-    __uninitialized_fill_n_a(_ForwardIterator __first, _Size __n,
-        const _Tp& __x, _Allocator& __alloc)
-    {
-      _ForwardIterator __cur = __first;
-      try
- {
-   typedef __gnu_cxx::__alloc_traits<_Allocator> __traits;
-   for (; __n > 0; --__n, (void) ++__cur)
-     __traits::construct(__alloc, std::__addressof(*__cur), __x);
-   return __cur;
- }
-      catch(...)
- {
-   std::_Destroy(__first, __cur, __alloc);
-   throw;
- }
-    }
-
-
-  template<typename _ForwardIterator, typename _Size, typename _Tp,
-    typename _Tp2>
-    constexpr
-    inline _ForwardIterator
-    __uninitialized_fill_n_a(_ForwardIterator __first, _Size __n,
-        const _Tp& __x, allocator<_Tp2>&)
-    {
-
-      if (std::is_constant_evaluated())
- return std::__do_uninit_fill_n(__first, __n, __x);
-
-      return std::uninitialized_fill_n(__first, __n, __x);
-    }
-# 485 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template<typename _InputIterator1, typename _InputIterator2,
-    typename _ForwardIterator, typename _Allocator>
-    inline _ForwardIterator
-    __uninitialized_copy_move(_InputIterator1 __first1,
-         _InputIterator1 __last1,
-         _InputIterator2 __first2,
-         _InputIterator2 __last2,
-         _ForwardIterator __result,
-         _Allocator& __alloc)
-    {
-      _ForwardIterator __mid = std::__uninitialized_copy_a(__first1, __last1,
-          __result,
-          __alloc);
-      try
- {
-   return std::__uninitialized_move_a(__first2, __last2, __mid, __alloc);
- }
-      catch(...)
- {
-   std::_Destroy(__result, __mid, __alloc);
-   throw;
- }
-    }
-
-
-
-
-
-  template<typename _InputIterator1, typename _InputIterator2,
-    typename _ForwardIterator, typename _Allocator>
-    inline _ForwardIterator
-    __uninitialized_move_copy(_InputIterator1 __first1,
-         _InputIterator1 __last1,
-         _InputIterator2 __first2,
-         _InputIterator2 __last2,
-         _ForwardIterator __result,
-         _Allocator& __alloc)
-    {
-      _ForwardIterator __mid = std::__uninitialized_move_a(__first1, __last1,
-          __result,
-          __alloc);
-      try
- {
-   return std::__uninitialized_copy_a(__first2, __last2, __mid, __alloc);
- }
-      catch(...)
- {
-   std::_Destroy(__result, __mid, __alloc);
-   throw;
- }
-    }
-
-
-
-
-  template<typename _ForwardIterator, typename _Tp, typename _InputIterator,
-    typename _Allocator>
-    inline _ForwardIterator
-    __uninitialized_fill_move(_ForwardIterator __result, _ForwardIterator __mid,
-         const _Tp& __x, _InputIterator __first,
-         _InputIterator __last, _Allocator& __alloc)
-    {
-      std::__uninitialized_fill_a(__result, __mid, __x, __alloc);
-      try
- {
-   return std::__uninitialized_move_a(__first, __last, __mid, __alloc);
- }
-      catch(...)
- {
-   std::_Destroy(__result, __mid, __alloc);
-   throw;
- }
-    }
-
-
-
-
-  template<typename _InputIterator, typename _ForwardIterator, typename _Tp,
-    typename _Allocator>
-    inline void
-    __uninitialized_move_fill(_InputIterator __first1, _InputIterator __last1,
-         _ForwardIterator __first2,
-         _ForwardIterator __last2, const _Tp& __x,
-         _Allocator& __alloc)
-    {
-      _ForwardIterator __mid2 = std::__uninitialized_move_a(__first1, __last1,
-           __first2,
-           __alloc);
-      try
- {
-   std::__uninitialized_fill_a(__mid2, __last2, __x, __alloc);
- }
-      catch(...)
- {
-   std::_Destroy(__first2, __mid2, __alloc);
-   throw;
- }
-    }
-# 592 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template<bool _TrivialValueType>
-    struct __uninitialized_default_1
-    {
-      template<typename _ForwardIterator>
-        static void
-        __uninit_default(_ForwardIterator __first, _ForwardIterator __last)
-        {
-   _ForwardIterator __cur = __first;
-   try
-     {
-       for (; __cur != __last; ++__cur)
-  std::_Construct(std::__addressof(*__cur));
-     }
-   catch(...)
-     {
-       std::_Destroy(__first, __cur);
-       throw;
-     }
- }
-    };
-
-  template<>
-    struct __uninitialized_default_1<true>
-    {
-      template<typename _ForwardIterator>
-        static void
-        __uninit_default(_ForwardIterator __first, _ForwardIterator __last)
-        {
-   if (__first == __last)
-     return;
-
-   typename iterator_traits<_ForwardIterator>::value_type* __val
-     = std::__addressof(*__first);
-   std::_Construct(__val);
-   if (++__first != __last)
-     std::fill(__first, __last, *__val);
- }
-    };
-
-  template<bool _TrivialValueType>
-    struct __uninitialized_default_n_1
-    {
-      template<typename _ForwardIterator, typename _Size>
- constexpr
-        static _ForwardIterator
-        __uninit_default_n(_ForwardIterator __first, _Size __n)
-        {
-   _ForwardIterator __cur = __first;
-   try
-     {
-       for (; __n > 0; --__n, (void) ++__cur)
-  std::_Construct(std::__addressof(*__cur));
-       return __cur;
-     }
-   catch(...)
-     {
-       std::_Destroy(__first, __cur);
-       throw;
-     }
- }
-    };
-
-  template<>
-    struct __uninitialized_default_n_1<true>
-    {
-      template<typename _ForwardIterator, typename _Size>
- constexpr
-        static _ForwardIterator
-        __uninit_default_n(_ForwardIterator __first, _Size __n)
-        {
-   if (__n > 0)
-     {
-       typename iterator_traits<_ForwardIterator>::value_type* __val
-  = std::__addressof(*__first);
-       std::_Construct(__val);
-       ++__first;
-       __first = std::fill_n(__first, __n - 1, *__val);
-     }
-   return __first;
- }
-    };
-
-
-
-  template<typename _ForwardIterator>
-    inline void
-    __uninitialized_default(_ForwardIterator __first,
-       _ForwardIterator __last)
-    {
-      typedef typename iterator_traits<_ForwardIterator>::value_type
- _ValueType;
-
-      const bool __assignable = is_copy_assignable<_ValueType>::value;
-
-      std::__uninitialized_default_1<__is_trivial(_ValueType)
-         && __assignable>::
- __uninit_default(__first, __last);
-    }
-
-
-
-  template<typename _ForwardIterator, typename _Size>
-    constexpr
-    inline _ForwardIterator
-    __uninitialized_default_n(_ForwardIterator __first, _Size __n)
-    {
-
-      if (std::is_constant_evaluated())
- return __uninitialized_default_n_1<false>::
-   __uninit_default_n(__first, __n);
-
-
-      typedef typename iterator_traits<_ForwardIterator>::value_type
- _ValueType;
-
-      constexpr bool __can_fill
- = __and_<is_integral<_Size>, is_copy_assignable<_ValueType>>::value;
-
-      return __uninitialized_default_n_1<__is_trivial(_ValueType)
-      && __can_fill>::
- __uninit_default_n(__first, __n);
-    }
-
-
-
-
-
-  template<typename _ForwardIterator, typename _Allocator>
-    void
-    __uninitialized_default_a(_ForwardIterator __first,
-         _ForwardIterator __last,
-         _Allocator& __alloc)
-    {
-      _ForwardIterator __cur = __first;
-      try
- {
-   typedef __gnu_cxx::__alloc_traits<_Allocator> __traits;
-   for (; __cur != __last; ++__cur)
-     __traits::construct(__alloc, std::__addressof(*__cur));
- }
-      catch(...)
- {
-   std::_Destroy(__first, __cur, __alloc);
-   throw;
- }
-    }
-
-
-  template<typename _ForwardIterator, typename _Tp>
-    inline void
-    __uninitialized_default_a(_ForwardIterator __first,
-         _ForwardIterator __last,
-         allocator<_Tp>&)
-    { std::__uninitialized_default(__first, __last); }
-
-
-
-
-
-  template<typename _ForwardIterator, typename _Size, typename _Allocator>
-    constexpr _ForwardIterator
-    __uninitialized_default_n_a(_ForwardIterator __first, _Size __n,
-    _Allocator& __alloc)
-    {
-      _ForwardIterator __cur = __first;
-      try
- {
-   typedef __gnu_cxx::__alloc_traits<_Allocator> __traits;
-   for (; __n > 0; --__n, (void) ++__cur)
-     __traits::construct(__alloc, std::__addressof(*__cur));
-   return __cur;
- }
-      catch(...)
- {
-   std::_Destroy(__first, __cur, __alloc);
-   throw;
- }
-    }
-
-
-
-
-  template<typename _ForwardIterator, typename _Size, typename _Tp>
-    constexpr
-    inline _ForwardIterator
-    __uninitialized_default_n_a(_ForwardIterator __first, _Size __n,
-    allocator<_Tp>&)
-    { return std::__uninitialized_default_n(__first, __n); }
-
-
-  template<bool _TrivialValueType>
-    struct __uninitialized_default_novalue_1
-    {
-      template<typename _ForwardIterator>
- static void
- __uninit_default_novalue(_ForwardIterator __first,
-     _ForwardIterator __last)
- {
-   _ForwardIterator __cur = __first;
-   try
-     {
-       for (; __cur != __last; ++__cur)
-  std::_Construct_novalue(std::__addressof(*__cur));
-     }
-   catch(...)
-     {
-       std::_Destroy(__first, __cur);
-       throw;
-     }
- }
-    };
-
-  template<>
-    struct __uninitialized_default_novalue_1<true>
-    {
-      template<typename _ForwardIterator>
-        static void
-        __uninit_default_novalue(_ForwardIterator, _ForwardIterator)
- {
- }
-    };
-
-  template<bool _TrivialValueType>
-    struct __uninitialized_default_novalue_n_1
-    {
-      template<typename _ForwardIterator, typename _Size>
- static _ForwardIterator
- __uninit_default_novalue_n(_ForwardIterator __first, _Size __n)
- {
-   _ForwardIterator __cur = __first;
-   try
-     {
-       for (; __n > 0; --__n, (void) ++__cur)
-  std::_Construct_novalue(std::__addressof(*__cur));
-       return __cur;
-     }
-   catch(...)
-     {
-       std::_Destroy(__first, __cur);
-       throw;
-     }
- }
-    };
-
-  template<>
-    struct __uninitialized_default_novalue_n_1<true>
-    {
-      template<typename _ForwardIterator, typename _Size>
- static _ForwardIterator
- __uninit_default_novalue_n(_ForwardIterator __first, _Size __n)
- { return std::next(__first, __n); }
-    };
-
-
-
-  template<typename _ForwardIterator>
-    inline void
-    __uninitialized_default_novalue(_ForwardIterator __first,
-        _ForwardIterator __last)
-    {
-      typedef typename iterator_traits<_ForwardIterator>::value_type
- _ValueType;
-
-      std::__uninitialized_default_novalue_1<
- is_trivially_default_constructible<_ValueType>::value>::
- __uninit_default_novalue(__first, __last);
-    }
-
-
-
-  template<typename _ForwardIterator, typename _Size>
-    inline _ForwardIterator
-    __uninitialized_default_novalue_n(_ForwardIterator __first, _Size __n)
-    {
-      typedef typename iterator_traits<_ForwardIterator>::value_type
- _ValueType;
-
-      return __uninitialized_default_novalue_n_1<
- is_trivially_default_constructible<_ValueType>::value>::
- __uninit_default_novalue_n(__first, __n);
-    }
-
-  template<typename _InputIterator, typename _Size,
-    typename _ForwardIterator>
-    _ForwardIterator
-    __uninitialized_copy_n(_InputIterator __first, _Size __n,
-      _ForwardIterator __result, input_iterator_tag)
-    {
-      _ForwardIterator __cur = __result;
-      try
- {
-   for (; __n > 0; --__n, (void) ++__first, ++__cur)
-     std::_Construct(std::__addressof(*__cur), *__first);
-   return __cur;
- }
-      catch(...)
- {
-   std::_Destroy(__result, __cur);
-   throw;
- }
-    }
-
-  template<typename _RandomAccessIterator, typename _Size,
-    typename _ForwardIterator>
-    inline _ForwardIterator
-    __uninitialized_copy_n(_RandomAccessIterator __first, _Size __n,
-      _ForwardIterator __result,
-      random_access_iterator_tag)
-    { return std::uninitialized_copy(__first, __first + __n, __result); }
-
-  template<typename _InputIterator, typename _Size,
-    typename _ForwardIterator>
-    pair<_InputIterator, _ForwardIterator>
-    __uninitialized_copy_n_pair(_InputIterator __first, _Size __n,
-      _ForwardIterator __result, input_iterator_tag)
-    {
-      _ForwardIterator __cur = __result;
-      try
- {
-   for (; __n > 0; --__n, (void) ++__first, ++__cur)
-     std::_Construct(std::__addressof(*__cur), *__first);
-   return {__first, __cur};
- }
-      catch(...)
- {
-   std::_Destroy(__result, __cur);
-   throw;
- }
-    }
-
-  template<typename _RandomAccessIterator, typename _Size,
-    typename _ForwardIterator>
-    inline pair<_RandomAccessIterator, _ForwardIterator>
-    __uninitialized_copy_n_pair(_RandomAccessIterator __first, _Size __n,
-      _ForwardIterator __result,
-      random_access_iterator_tag)
-    {
-      auto __second_res = uninitialized_copy(__first, __first + __n, __result);
-      auto __first_res = std::next(__first, __n);
-      return {__first_res, __second_res};
-    }
-# 946 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template<typename _InputIterator, typename _Size, typename _ForwardIterator>
-    inline _ForwardIterator
-    uninitialized_copy_n(_InputIterator __first, _Size __n,
-    _ForwardIterator __result)
-    { return std::__uninitialized_copy_n(__first, __n, __result,
-      std::__iterator_category(__first)); }
-
-
-  template<typename _InputIterator, typename _Size, typename _ForwardIterator>
-    inline pair<_InputIterator, _ForwardIterator>
-    __uninitialized_copy_n_pair(_InputIterator __first, _Size __n,
-         _ForwardIterator __result)
-    {
-      return
- std::__uninitialized_copy_n_pair(__first, __n, __result,
-      std::__iterator_category(__first));
-    }
-# 973 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template <typename _ForwardIterator>
-    inline void
-    uninitialized_default_construct(_ForwardIterator __first,
-        _ForwardIterator __last)
-    {
-      __uninitialized_default_novalue(__first, __last);
-    }
-# 988 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template <typename _ForwardIterator, typename _Size>
-    inline _ForwardIterator
-    uninitialized_default_construct_n(_ForwardIterator __first, _Size __count)
-    {
-      return __uninitialized_default_novalue_n(__first, __count);
-    }
-
-
-
-
-
-
-
-  template <typename _ForwardIterator>
-    inline void
-    uninitialized_value_construct(_ForwardIterator __first,
-      _ForwardIterator __last)
-    {
-      return __uninitialized_default(__first, __last);
-    }
-# 1016 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template <typename _ForwardIterator, typename _Size>
-    inline _ForwardIterator
-    uninitialized_value_construct_n(_ForwardIterator __first, _Size __count)
-    {
-      return __uninitialized_default_n(__first, __count);
-    }
-# 1031 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template <typename _InputIterator, typename _ForwardIterator>
-    inline _ForwardIterator
-    uninitialized_move(_InputIterator __first, _InputIterator __last,
-         _ForwardIterator __result)
-    {
-      return std::uninitialized_copy
- (std::make_move_iterator(__first),
-  std::make_move_iterator(__last), __result);
-    }
-# 1049 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h" 3
-  template <typename _InputIterator, typename _Size, typename _ForwardIterator>
-    inline pair<_InputIterator, _ForwardIterator>
-    uninitialized_move_n(_InputIterator __first, _Size __count,
-    _ForwardIterator __result)
-    {
-      auto __res = std::__uninitialized_copy_n_pair
- (std::make_move_iterator(__first),
-  __count, __result);
-      return {__res.first.base(), __res.second};
-    }
-
-
-
-
-
-  template<typename _Tp, typename _Up, typename _Allocator>
-    constexpr
-    inline void
-    __relocate_object_a(_Tp* __restrict __dest, _Up* __restrict __orig,
-   _Allocator& __alloc)
-    noexcept(noexcept(std::allocator_traits<_Allocator>::construct(__alloc,
-    __dest, std::move(*__orig)))
-      && noexcept(std::allocator_traits<_Allocator>::destroy(
-       __alloc, std::__addressof(*__orig))))
-    {
-      typedef std::allocator_traits<_Allocator> __traits;
-      __traits::construct(__alloc, __dest, std::move(*__orig));
-      __traits::destroy(__alloc, std::__addressof(*__orig));
-    }
-
-
-
-  template<typename _Tp, typename = void>
-    struct __is_bitwise_relocatable
-    : is_trivial<_Tp> { };
-
-  template <typename _InputIterator, typename _ForwardIterator,
-     typename _Allocator>
-    constexpr
-    inline _ForwardIterator
-    __relocate_a_1(_InputIterator __first, _InputIterator __last,
-     _ForwardIterator __result, _Allocator& __alloc)
-    noexcept(noexcept(std::__relocate_object_a(std::addressof(*__result),
-            std::addressof(*__first),
-            __alloc)))
-    {
-      typedef typename iterator_traits<_InputIterator>::value_type
- _ValueType;
-      typedef typename iterator_traits<_ForwardIterator>::value_type
- _ValueType2;
-      static_assert(std::is_same<_ValueType, _ValueType2>::value,
-   "relocation is only possible for values of the same type");
-      _ForwardIterator __cur = __result;
-      for (; __first != __last; ++__first, (void)++__cur)
- std::__relocate_object_a(std::__addressof(*__cur),
-     std::__addressof(*__first), __alloc);
-      return __cur;
-    }
-
-
-  template <typename _Tp, typename _Up>
-    constexpr
-    inline __enable_if_t<std::__is_bitwise_relocatable<_Tp>::value, _Tp*>
-    __relocate_a_1(_Tp* __first, _Tp* __last,
-     _Tp* __result,
-     [[__maybe_unused__]] allocator<_Up>& __alloc) noexcept
-    {
-      ptrdiff_t __count = __last - __first;
-      if (__count > 0)
- {
-
-   if (std::is_constant_evaluated())
-     {
-
-
-       __gnu_cxx::__normal_iterator<_Tp*, void> __out(__result);
-       __out = std::__relocate_a_1(__first, __last, __out, __alloc);
-       return __out.base();
-     }
-
-   __builtin_memcpy(__result, __first, __count * sizeof(_Tp));
- }
-      return __result + __count;
-    }
-
-
-  template <typename _InputIterator, typename _ForwardIterator,
-     typename _Allocator>
-    constexpr
-    inline _ForwardIterator
-    __relocate_a(_InputIterator __first, _InputIterator __last,
-   _ForwardIterator __result, _Allocator& __alloc)
-    noexcept(noexcept(__relocate_a_1(std::__niter_base(__first),
-         std::__niter_base(__last),
-         std::__niter_base(__result), __alloc)))
-    {
-      return std::__relocate_a_1(std::__niter_base(__first),
-     std::__niter_base(__last),
-     std::__niter_base(__result), __alloc);
-    }
-
-
-
-
-
-
-
-}
-# 68 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 2 3
-
-
-namespace std
-{
-
-
-
- 
-# 75 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 3
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-  template<typename> class auto_ptr;
-#pragma GCC diagnostic pop
-
-
-
-
-
-
-  class bad_weak_ptr : public std::exception
-  {
-  public:
-    virtual char const* what() const noexcept;
-
-    virtual ~bad_weak_ptr() noexcept;
-  };
-
-
-  inline void
-  __throw_bad_weak_ptr()
-  { (throw (bad_weak_ptr())); }
-
-  using __gnu_cxx::_Lock_policy;
-  using __gnu_cxx::__default_lock_policy;
-  using __gnu_cxx::_S_single;
-  using __gnu_cxx::_S_mutex;
-  using __gnu_cxx::_S_atomic;
-
-
-  template<_Lock_policy _Lp>
-    class _Mutex_base
-    {
-    protected:
-
-      enum { _S_need_barriers = 0 };
-    };
-
-  template<>
-    class _Mutex_base<_S_mutex>
-    : public __gnu_cxx::__mutex
-    {
-    protected:
-
-
-
-      enum { _S_need_barriers = 1 };
-    };
-
-  template<_Lock_policy _Lp = __default_lock_policy>
-    class _Sp_counted_base
-    : public _Mutex_base<_Lp>
-    {
-    public:
-      _Sp_counted_base() noexcept
-      : _M_use_count(1), _M_weak_count(1) { }
-
-      virtual
-      ~_Sp_counted_base() noexcept
-      { }
-
-
-
-      virtual void
-      _M_dispose() noexcept = 0;
-
-
-      virtual void
-      _M_destroy() noexcept
-      { delete this; }
-
-      virtual void*
-      _M_get_deleter(const std::type_info&) noexcept = 0;
-
-
-      void
-      _M_add_ref_copy()
-      { __gnu_cxx::__atomic_add_dispatch(&_M_use_count, 1); }
-
-
-      void
-      _M_add_ref_lock()
-      {
- if (!_M_add_ref_lock_nothrow())
-   __throw_bad_weak_ptr();
-      }
-
-
-      bool
-      _M_add_ref_lock_nothrow() noexcept;
-
-
-      void
-      _M_release() noexcept;
-
-
-      void
-      _M_release_last_use() noexcept
-      {
- ;
- _M_dispose();
-
-
-
-
- if (_Mutex_base<_Lp>::_S_need_barriers)
-   {
-     __atomic_thread_fence (4);
-   }
-
-
- ;
- if (__gnu_cxx::__exchange_and_add_dispatch(&_M_weak_count,
-         -1) == 1)
-   {
-     ;
-     _M_destroy();
-   }
-      }
-
-
-      __attribute__((__noinline__))
-      void
-      _M_release_last_use_cold() noexcept
-      { _M_release_last_use(); }
-
-
-      void
-      _M_weak_add_ref() noexcept
-      { __gnu_cxx::__atomic_add_dispatch(&_M_weak_count, 1); }
-
-
-      void
-      _M_weak_release() noexcept
-      {
-
-        ;
- if (__gnu_cxx::__exchange_and_add_dispatch(&_M_weak_count, -1) == 1)
-   {
-            ;
-     if (_Mutex_base<_Lp>::_S_need_barriers)
-       {
-
-
-  __atomic_thread_fence (4);
-       }
-     _M_destroy();
-   }
-      }
-
-      long
-      _M_get_use_count() const noexcept
-      {
-
-
-        return __atomic_load_n(&_M_use_count, 0);
-      }
-
-    private:
-      _Sp_counted_base(_Sp_counted_base const&) = delete;
-      _Sp_counted_base& operator=(_Sp_counted_base const&) = delete;
-
-      _Atomic_word _M_use_count;
-      _Atomic_word _M_weak_count;
-    };
-
-  template<>
-    inline bool
-    _Sp_counted_base<_S_single>::
-    _M_add_ref_lock_nothrow() noexcept
-    {
-      if (_M_use_count == 0)
- return false;
-      ++_M_use_count;
-      return true;
-    }
-
-  template<>
-    inline bool
-    _Sp_counted_base<_S_mutex>::
-    _M_add_ref_lock_nothrow() noexcept
-    {
-      __gnu_cxx::__scoped_lock sentry(*this);
-      if (__gnu_cxx::__exchange_and_add_dispatch(&_M_use_count, 1) == 0)
- {
-   _M_use_count = 0;
-   return false;
- }
-      return true;
-    }
-
-  template<>
-    inline bool
-    _Sp_counted_base<_S_atomic>::
-    _M_add_ref_lock_nothrow() noexcept
-    {
-
-      _Atomic_word __count = _M_get_use_count();
-      do
- {
-   if (__count == 0)
-     return false;
-
-
- }
-      while (!__atomic_compare_exchange_n(&_M_use_count, &__count, __count + 1,
-       true, 4,
-       0));
-      return true;
-    }
-
-  template<>
-    inline void
-    _Sp_counted_base<_S_single>::_M_add_ref_copy()
-    { ++_M_use_count; }
-
-  template<>
-    inline void
-    _Sp_counted_base<_S_single>::_M_release() noexcept
-    {
-      if (--_M_use_count == 0)
-        {
-          _M_dispose();
-          if (--_M_weak_count == 0)
-            _M_destroy();
-        }
-    }
-
-  template<>
-    inline void
-    _Sp_counted_base<_S_mutex>::_M_release() noexcept
-    {
-
-      ;
-      if (__gnu_cxx::__exchange_and_add_dispatch(&_M_use_count, -1) == 1)
- {
-   _M_release_last_use();
- }
-    }
-
-  template<>
-    inline void
-    _Sp_counted_base<_S_atomic>::_M_release() noexcept
-    {
-      ;
-
-      constexpr bool __lock_free
- = __atomic_always_lock_free(sizeof(long long), 0)
- && __atomic_always_lock_free(sizeof(_Atomic_word), 0);
-      constexpr bool __double_word
- = sizeof(long long) == 2 * sizeof(_Atomic_word);
-
-
-      constexpr bool __aligned = __alignof(long long) <= alignof(void*);
-      if constexpr (__lock_free && __double_word && __aligned)
- {
-   constexpr int __wordbits = 8 * sizeof(_Atomic_word);
-   constexpr int __shiftbits = __double_word ? __wordbits : 0;
-   constexpr long long __unique_ref = 1LL + (1LL << __shiftbits);
-   auto __both_counts = reinterpret_cast<long long*>(&_M_use_count);
-
-   ;
-   if (__atomic_load_n(__both_counts, 2) == __unique_ref)
-     {
-
-
-
-
-       _M_weak_count = _M_use_count = 0;
-       ;
-       ;
-       _M_dispose();
-       _M_destroy();
-       return;
-     }
-   if (__gnu_cxx::__exchange_and_add_dispatch(&_M_use_count, -1) == 1)
-     [[__unlikely__]]
-     {
-       _M_release_last_use_cold();
-       return;
-     }
- }
-      else
-
-      if (__gnu_cxx::__exchange_and_add_dispatch(&_M_use_count, -1) == 1)
- {
-   _M_release_last_use();
- }
-    }
-
-  template<>
-    inline void
-    _Sp_counted_base<_S_single>::_M_weak_add_ref() noexcept
-    { ++_M_weak_count; }
-
-  template<>
-    inline void
-    _Sp_counted_base<_S_single>::_M_weak_release() noexcept
-    {
-      if (--_M_weak_count == 0)
-        _M_destroy();
-    }
-
-  template<>
-    inline long
-    _Sp_counted_base<_S_single>::_M_get_use_count() const noexcept
-    { return _M_use_count; }
-
-
-
-  template<typename _Tp, _Lock_policy _Lp = __default_lock_policy>
-    class __shared_ptr;
-
-  template<typename _Tp, _Lock_policy _Lp = __default_lock_policy>
-    class __weak_ptr;
-
-  template<typename _Tp, _Lock_policy _Lp = __default_lock_policy>
-    class __enable_shared_from_this;
-
-  template<typename _Tp>
-    class shared_ptr;
-
-  template<typename _Tp>
-    class weak_ptr;
-
-  template<typename _Tp>
-    struct owner_less;
-
-  template<typename _Tp>
-    class enable_shared_from_this;
-
-  template<_Lock_policy _Lp = __default_lock_policy>
-    class __weak_count;
-
-  template<_Lock_policy _Lp = __default_lock_policy>
-    class __shared_count;
-
-
-  template<typename>
-    class _Sp_atomic;
-
-
-
-  template<typename _Ptr, _Lock_policy _Lp>
-    class _Sp_counted_ptr final : public _Sp_counted_base<_Lp>
-    {
-    public:
-      explicit
-      _Sp_counted_ptr(_Ptr __p) noexcept
-      : _M_ptr(__p) { }
-
-      virtual void
-      _M_dispose() noexcept
-      { delete _M_ptr; }
-
-      virtual void
-      _M_destroy() noexcept
-      { delete this; }
-
-      virtual void*
-      _M_get_deleter(const std::type_info&) noexcept
-      { return nullptr; }
-
-      _Sp_counted_ptr(const _Sp_counted_ptr&) = delete;
-      _Sp_counted_ptr& operator=(const _Sp_counted_ptr&) = delete;
-
-    private:
-      _Ptr _M_ptr;
-    };
-
-  template<>
-    inline void
-    _Sp_counted_ptr<nullptr_t, _S_single>::_M_dispose() noexcept { }
-
-  template<>
-    inline void
-    _Sp_counted_ptr<nullptr_t, _S_mutex>::_M_dispose() noexcept { }
-
-  template<>
-    inline void
-    _Sp_counted_ptr<nullptr_t, _S_atomic>::_M_dispose() noexcept { }
-
-
-
-
-
-
-  template<int _Nm, typename _Tp,
-    bool __use_ebo = !__is_final(_Tp) && __is_empty(_Tp)>
-    struct _Sp_ebo_helper;
-
-
-  template<int _Nm, typename _Tp>
-    struct _Sp_ebo_helper<_Nm, _Tp, true> : private _Tp
-    {
-      explicit _Sp_ebo_helper(const _Tp& __tp) : _Tp(__tp) { }
-      explicit _Sp_ebo_helper(_Tp&& __tp) : _Tp(std::move(__tp)) { }
-
-      static _Tp&
-      _S_get(_Sp_ebo_helper& __eboh) { return static_cast<_Tp&>(__eboh); }
-    };
-
-
-  template<int _Nm, typename _Tp>
-    struct _Sp_ebo_helper<_Nm, _Tp, false>
-    {
-      explicit _Sp_ebo_helper(const _Tp& __tp) : _M_tp(__tp) { }
-      explicit _Sp_ebo_helper(_Tp&& __tp) : _M_tp(std::move(__tp)) { }
-
-      static _Tp&
-      _S_get(_Sp_ebo_helper& __eboh)
-      { return __eboh._M_tp; }
-
-    private:
-      _Tp _M_tp;
-    };
-
-
-  template<typename _Ptr, typename _Deleter, typename _Alloc, _Lock_policy _Lp>
-    class _Sp_counted_deleter final : public _Sp_counted_base<_Lp>
-    {
-      class _Impl : _Sp_ebo_helper<0, _Deleter>, _Sp_ebo_helper<1, _Alloc>
-      {
- typedef _Sp_ebo_helper<0, _Deleter> _Del_base;
- typedef _Sp_ebo_helper<1, _Alloc> _Alloc_base;
-
-      public:
- _Impl(_Ptr __p, _Deleter __d, const _Alloc& __a) noexcept
- : _Del_base(std::move(__d)), _Alloc_base(__a), _M_ptr(__p)
- { }
-
- _Deleter& _M_del() noexcept { return _Del_base::_S_get(*this); }
- _Alloc& _M_alloc() noexcept { return _Alloc_base::_S_get(*this); }
-
- _Ptr _M_ptr;
-      };
-
-    public:
-      using __allocator_type = __alloc_rebind<_Alloc, _Sp_counted_deleter>;
-
-
-      _Sp_counted_deleter(_Ptr __p, _Deleter __d) noexcept
-      : _M_impl(__p, std::move(__d), _Alloc()) { }
-
-
-      _Sp_counted_deleter(_Ptr __p, _Deleter __d, const _Alloc& __a) noexcept
-      : _M_impl(__p, std::move(__d), __a) { }
-
-      ~_Sp_counted_deleter() noexcept { }
-
-      virtual void
-      _M_dispose() noexcept
-      { _M_impl._M_del()(_M_impl._M_ptr); }
-
-      virtual void
-      _M_destroy() noexcept
-      {
- __allocator_type __a(_M_impl._M_alloc());
- __allocated_ptr<__allocator_type> __guard_ptr{ __a, this };
- this->~_Sp_counted_deleter();
-      }
-
-      virtual void*
-      _M_get_deleter(const type_info& __ti [[__gnu__::__unused__]]) noexcept
-      {
-
-
-
-        return __ti == typeid(_Deleter)
-   ? std::__addressof(_M_impl._M_del())
-   : nullptr;
-
-
-
-      }
-
-    private:
-
-
-
-      _Impl _M_impl;
-    };
-
-
-
-  struct _Sp_make_shared_tag
-  {
-  private:
-    template<typename _Tp, typename _Alloc, _Lock_policy _Lp>
-      friend class _Sp_counted_ptr_inplace;
-
-    static const type_info&
-    _S_ti() noexcept
-    {
-      alignas(type_info) static constexpr char __tag[sizeof(type_info)] = { };
-      return reinterpret_cast<const type_info&>(__tag);
-    }
-
-    static bool _S_eq(const type_info&) noexcept;
-  };
-
-  template<typename _Alloc>
-    struct _Sp_alloc_shared_tag
-    {
-      const _Alloc& _M_a;
-    };
-
-  template<typename _Tp, typename _Alloc, _Lock_policy _Lp>
-    class _Sp_counted_ptr_inplace final : public _Sp_counted_base<_Lp>
-    {
-      class _Impl : _Sp_ebo_helper<0, _Alloc>
-      {
- typedef _Sp_ebo_helper<0, _Alloc> _A_base;
-
-      public:
- explicit _Impl(_Alloc __a) noexcept : _A_base(__a) { }
-
- _Alloc& _M_alloc() noexcept { return _A_base::_S_get(*this); }
-
- __gnu_cxx::__aligned_buffer<_Tp> _M_storage;
-      };
-
-    public:
-      using __allocator_type = __alloc_rebind<_Alloc, _Sp_counted_ptr_inplace>;
-
-
-      template<typename... _Args>
- _Sp_counted_ptr_inplace(_Alloc __a, _Args&&... __args)
- : _M_impl(__a)
- {
-
-
-   allocator_traits<_Alloc>::construct(__a, _M_ptr(),
-       std::forward<_Args>(__args)...);
- }
-
-      ~_Sp_counted_ptr_inplace() noexcept { }
-
-      virtual void
-      _M_dispose() noexcept
-      {
- allocator_traits<_Alloc>::destroy(_M_impl._M_alloc(), _M_ptr());
-      }
-
-
-      virtual void
-      _M_destroy() noexcept
-      {
- __allocator_type __a(_M_impl._M_alloc());
- __allocated_ptr<__allocator_type> __guard_ptr{ __a, this };
- this->~_Sp_counted_ptr_inplace();
-      }
-
-    private:
-      friend class __shared_count<_Lp>;
-
-
-
-      virtual void*
-      _M_get_deleter(const std::type_info& __ti) noexcept override
-      {
- auto __ptr = const_cast<typename remove_cv<_Tp>::type*>(_M_ptr());
-
-
-
-
- if (&__ti == &_Sp_make_shared_tag::_S_ti()
-     ||
-
-     __ti == typeid(_Sp_make_shared_tag)
-
-
-
-    )
-   return __ptr;
- return nullptr;
-      }
-
-      _Tp* _M_ptr() noexcept { return _M_impl._M_storage._M_ptr(); }
-
-      _Impl _M_impl;
-    };
-
-
-  struct _Sp_overwrite_tag { };
-
-
-
-
-
-  template<typename _Tp, typename _Alloc, _Lock_policy _Lp>
-    requires is_same_v<typename _Alloc::value_type, _Sp_overwrite_tag>
-    class _Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp> final
-
-
-
-
-    : public _Sp_counted_base<_Lp>
-    {
-      [[no_unique_address]] _Alloc _M_alloc;
-
-      union {
- _Tp _M_obj;
- char _M_unused;
-      };
-
-      friend class __shared_count<_Lp>;
-
-      _Tp* _M_ptr() noexcept { return std::__addressof(_M_obj); }
-
-    public:
-      using __allocator_type = __alloc_rebind<_Alloc, _Sp_counted_ptr_inplace>;
-
-      _Sp_counted_ptr_inplace(const _Alloc& __a)
-      : _M_alloc(__a)
-      {
- ::new((void*)_M_ptr()) _Tp;
-      }
-
-      ~_Sp_counted_ptr_inplace() noexcept { }
-
-      virtual void
-      _M_dispose() noexcept
-      {
- _M_obj.~_Tp();
-      }
-
-
-      virtual void
-      _M_destroy() noexcept
-      {
- using pointer = typename allocator_traits<__allocator_type>::pointer;
- __allocator_type __a(_M_alloc);
- auto __p = pointer_traits<pointer>::pointer_to(*this);
- __allocated_ptr<__allocator_type> __guard_ptr{ __a, __p };
- this->~_Sp_counted_ptr_inplace();
-      }
-
-      void*
-      _M_get_deleter(const std::type_info&) noexcept override
-      { return nullptr; }
-    };
-
-
-
-  struct _Sp_overwrite_tag;
-
-
-  template<typename _Alloc>
-    struct _Sp_counted_array_base
-    {
-      [[no_unique_address]] _Alloc _M_alloc{};
-      size_t _M_n = 0;
-      bool _M_overwrite = false;
-
-      typename allocator_traits<_Alloc>::pointer
-      _M_alloc_array(size_t __tail)
-      {
- return allocator_traits<_Alloc>::allocate(_M_alloc, _M_n + __tail);
-      }
-
-      void
-      _M_dealloc_array(typename allocator_traits<_Alloc>::pointer __p,
-         size_t __tail)
-      {
- allocator_traits<_Alloc>::deallocate(_M_alloc, __p, _M_n + __tail);
-      }
-
-
-      template<typename _Init>
- void
- _M_init(typename allocator_traits<_Alloc>::value_type* __p,
-  _Init __init)
- {
-   using _Tp = remove_pointer_t<_Init>;
-   using _Up = typename allocator_traits<_Alloc>::value_type;
-
-   if constexpr (is_same_v<_Init, _Sp_overwrite_tag>)
-     {
-       std::uninitialized_default_construct_n(__p, _M_n);
-       _M_overwrite = true;
-     }
-   else if (__init == nullptr)
-     std::__uninitialized_default_n_a(__p, _M_n, _M_alloc);
-   else if constexpr (!is_array_v<_Tp>)
-     std::__uninitialized_fill_n_a(__p, _M_n, *__init, _M_alloc);
-   else
-     {
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wunused-local-typedefs"
-       struct _Iter
-       {
-  using value_type = _Up;
-  using difference_type = ptrdiff_t;
-  using pointer = const _Up*;
-  using reference = const _Up&;
-  using iterator_category = forward_iterator_tag;
-
-  const _Up* _M_p;
-  size_t _M_len;
-  size_t _M_pos;
-
-  _Iter& operator++() { ++_M_pos; return *this; }
-  _Iter operator++(int) { auto __i(*this); ++_M_pos; return __i; }
-
-  reference operator*() const { return _M_p[_M_pos % _M_len]; }
-  pointer operator->() const { return _M_p + (_M_pos % _M_len); }
-
-  bool operator==(const _Iter& __i) const
-  { return _M_pos == __i._M_pos; }
-       };
-#pragma GCC diagnostic pop
-
-       _Iter __first{_S_first_elem(__init), sizeof(_Tp) / sizeof(_Up)};
-       _Iter __last = __first;
-       __last._M_pos = _M_n;
-       std::__uninitialized_copy_a(__first, __last, __p, _M_alloc);
-     }
- }
-
-    protected:
-
-      void
-      _M_dispose_array(typename allocator_traits<_Alloc>::value_type* __p)
-      {
- if (_M_overwrite)
-   std::destroy_n(__p, _M_n);
- else
-   {
-     size_t __n = _M_n;
-     while (__n--)
-       allocator_traits<_Alloc>::destroy(_M_alloc, __p + __n);
-   }
-      }
-
-    private:
-      template<typename _Tp>
- static _Tp*
- _S_first_elem(_Tp* __p) { return __p; }
-
-      template<typename _Tp, size_t _Nm>
- static auto
- _S_first_elem(_Tp (*__p)[_Nm]) { return _S_first_elem(*__p); }
-    };
-
-
-
-  template<typename _Alloc, _Lock_policy _Lp>
-    class _Sp_counted_array final
-    : public _Sp_counted_base<_Lp>, _Sp_counted_array_base<_Alloc>
-    {
-      using pointer = typename allocator_traits<_Alloc>::pointer;
-
-      pointer _M_alloc_ptr;
-
-      auto _M_ptr() const noexcept { return std::to_address(_M_alloc_ptr); }
-
-      friend class __shared_count<_Lp>;
-
-    public:
-      _Sp_counted_array(const _Sp_counted_array_base<_Alloc>& __a,
-   pointer __p) noexcept
-      : _Sp_counted_array_base<_Alloc>(__a), _M_alloc_ptr(__p)
-      { }
-
-      ~_Sp_counted_array() = default;
-
-      virtual void
-      _M_dispose() noexcept
-      {
- if (this->_M_n)
-   this->_M_dispose_array(_M_ptr());
-      }
-
-
-      virtual void
-      _M_destroy() noexcept
-      {
- _Sp_counted_array_base<_Alloc> __a = *this;
- pointer __p = _M_alloc_ptr;
- this->~_Sp_counted_array();
- __a._M_dealloc_array(__p, _S_tail());
-      }
-
-
-
-      static constexpr size_t
-      _S_tail()
-      {
-
- using _Tp = typename allocator_traits<_Alloc>::value_type;
-
-
- size_t __bytes = sizeof(_Sp_counted_array);
-
-
- if constexpr (alignof(_Tp) < alignof(_Sp_counted_array))
-   __bytes += alignof(_Sp_counted_array) - alignof(_Tp);
-
- return (__bytes + sizeof(_Tp) - 1) / sizeof(_Tp);
-      }
-
-      void*
-      _M_get_deleter(const std::type_info&) noexcept override
-      { return nullptr; }
-    };
-
-
-
-  struct __sp_array_delete
-  {
-    template<typename _Yp>
-      void operator()(_Yp* __p) const { delete[] __p; }
-  };
-
-  template<_Lock_policy _Lp>
-    class __shared_count
-    {
-
-      template<typename _Tp>
- struct __not_alloc_shared_tag { using type = void; };
-
-      template<typename _Tp>
- struct __not_alloc_shared_tag<_Sp_alloc_shared_tag<_Tp>> { };
-
-
-      template<typename _Alloc>
- struct __not_alloc_shared_tag<_Sp_counted_array_base<_Alloc>> { };
-
-
-    public:
-      constexpr __shared_count() noexcept : _M_pi(0)
-      { }
-
-      template<typename _Ptr>
-        explicit
- __shared_count(_Ptr __p) : _M_pi(0)
- {
-   try
-     {
-       _M_pi = new _Sp_counted_ptr<_Ptr, _Lp>(__p);
-     }
-   catch(...)
-     {
-       delete __p;
-       throw;
-     }
- }
-
-      template<typename _Ptr>
- __shared_count(_Ptr __p, false_type)
- : __shared_count(__p)
- { }
-
-      template<typename _Ptr>
- __shared_count(_Ptr __p, true_type)
- : __shared_count(__p, __sp_array_delete{}, allocator<void>())
- { }
-
-      template<typename _Ptr, typename _Deleter,
-        typename = typename __not_alloc_shared_tag<_Deleter>::type>
- __shared_count(_Ptr __p, _Deleter __d)
- : __shared_count(__p, std::move(__d), allocator<void>())
- { }
-
-      template<typename _Ptr, typename _Deleter, typename _Alloc,
-        typename = typename __not_alloc_shared_tag<_Deleter>::type>
- __shared_count(_Ptr __p, _Deleter __d, _Alloc __a) : _M_pi(0)
- {
-   typedef _Sp_counted_deleter<_Ptr, _Deleter, _Alloc, _Lp> _Sp_cd_type;
-   try
-     {
-       typename _Sp_cd_type::__allocator_type __a2(__a);
-       auto __guard = std::__allocate_guarded(__a2);
-       _Sp_cd_type* __mem = __guard.get();
-       ::new (__mem) _Sp_cd_type(__p, std::move(__d), std::move(__a));
-       _M_pi = __mem;
-       __guard = nullptr;
-     }
-   catch(...)
-     {
-       __d(__p);
-       throw;
-     }
- }
-
-      template<typename _Tp, typename _Alloc, typename... _Args>
- __shared_count(_Tp*& __p, _Sp_alloc_shared_tag<_Alloc> __a,
-         _Args&&... __args)
- {
-   typedef _Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp> _Sp_cp_type;
-   typename _Sp_cp_type::__allocator_type __a2(__a._M_a);
-   auto __guard = std::__allocate_guarded(__a2);
-   _Sp_cp_type* __mem = __guard.get();
-   auto __pi = ::new (__mem)
-     _Sp_cp_type(__a._M_a, std::forward<_Args>(__args)...);
-   __guard = nullptr;
-   _M_pi = __pi;
-   __p = __pi->_M_ptr();
- }
-
-
-      template<typename _Tp, typename _Alloc, typename _Init>
- __shared_count(_Tp*& __p, const _Sp_counted_array_base<_Alloc>& __a,
-         _Init __init)
- {
-   using _Up = remove_all_extents_t<_Tp>;
-   static_assert(is_same_v<_Up, typename _Alloc::value_type>);
-
-   using _Sp_ca_type = _Sp_counted_array<_Alloc, _Lp>;
-   const size_t __tail = _Sp_ca_type::_S_tail();
-
-   struct _Guarded_ptr : _Sp_counted_array_base<_Alloc>
-   {
-     typename allocator_traits<_Alloc>::pointer _M_ptr;
-
-     _Guarded_ptr(_Sp_counted_array_base<_Alloc> __a)
-     : _Sp_counted_array_base<_Alloc>(__a),
-       _M_ptr(this->_M_alloc_array(_Sp_ca_type::_S_tail()))
-     { }
-
-     ~_Guarded_ptr()
-     {
-       if (_M_ptr)
-  this->_M_dealloc_array(_M_ptr, _Sp_ca_type::_S_tail());
-     }
-   };
-
-   _Guarded_ptr __guard{__a};
-   _Up* const __raw = std::to_address(__guard._M_ptr);
-   __guard._M_init(__raw, __init);
-
-   void* __c = __raw + __a._M_n;
-   if constexpr (alignof(_Up) < alignof(_Sp_ca_type))
-     {
-       size_t __space = sizeof(_Up) * __tail;
-       __c = std::align(alignof(_Sp_ca_type), sizeof(_Sp_ca_type),
-          __c, __space);
-     }
-   auto __pi = ::new(__c) _Sp_ca_type(__guard, __guard._M_ptr);
-   __guard._M_ptr = nullptr;
-   _M_pi = __pi;
-   __p = reinterpret_cast<_Tp*>(__raw);
- }
-
-
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-
-      template<typename _Tp>
-        explicit
- __shared_count(std::auto_ptr<_Tp>&& __r);
-#pragma GCC diagnostic pop
-
-
-
-      template<typename _Tp, typename _Del>
-        explicit
- __shared_count(std::unique_ptr<_Tp, _Del>&& __r) : _M_pi(0)
- {
-
-
-   if (__r.get() == nullptr)
-     return;
-
-   using _Ptr = typename unique_ptr<_Tp, _Del>::pointer;
-   using _Del2 = __conditional_t<is_reference<_Del>::value,
-       reference_wrapper<typename remove_reference<_Del>::type>,
-       _Del>;
-   using _Sp_cd_type
-     = _Sp_counted_deleter<_Ptr, _Del2, allocator<void>, _Lp>;
-   using _Alloc = allocator<_Sp_cd_type>;
-   using _Alloc_traits = allocator_traits<_Alloc>;
-   _Alloc __a;
-   _Sp_cd_type* __mem = _Alloc_traits::allocate(__a, 1);
-
-
-
-   _Alloc_traits::construct(__a, __mem, __r.release(),
-       std::forward<_Del>(__r.get_deleter()));
-   _M_pi = __mem;
- }
-
-
-      explicit __shared_count(const __weak_count<_Lp>& __r);
-
-
-      explicit
-      __shared_count(const __weak_count<_Lp>& __r, std::nothrow_t) noexcept;
-
-      ~__shared_count() noexcept
-      {
- if (_M_pi != nullptr)
-   _M_pi->_M_release();
-      }
-
-      __shared_count(const __shared_count& __r) noexcept
-      : _M_pi(__r._M_pi)
-      {
- if (_M_pi != nullptr)
-   _M_pi->_M_add_ref_copy();
-      }
-
-      __shared_count&
-      operator=(const __shared_count& __r) noexcept
-      {
- _Sp_counted_base<_Lp>* __tmp = __r._M_pi;
- if (__tmp != _M_pi)
-   {
-     if (__tmp != nullptr)
-       __tmp->_M_add_ref_copy();
-     if (_M_pi != nullptr)
-       _M_pi->_M_release();
-     _M_pi = __tmp;
-   }
- return *this;
-      }
-
-      void
-      _M_swap(__shared_count& __r) noexcept
-      {
- _Sp_counted_base<_Lp>* __tmp = __r._M_pi;
- __r._M_pi = _M_pi;
- _M_pi = __tmp;
-      }
-
-      long
-      _M_get_use_count() const noexcept
-      { return _M_pi ? _M_pi->_M_get_use_count() : 0; }
-
-      bool
-      _M_unique() const noexcept
-      { return this->_M_get_use_count() == 1; }
-
-      void*
-      _M_get_deleter(const std::type_info& __ti) const noexcept
-      { return _M_pi ? _M_pi->_M_get_deleter(__ti) : nullptr; }
-
-      bool
-      _M_less(const __shared_count& __rhs) const noexcept
-      { return std::less<_Sp_counted_base<_Lp>*>()(this->_M_pi, __rhs._M_pi); }
-
-      bool
-      _M_less(const __weak_count<_Lp>& __rhs) const noexcept
-      { return std::less<_Sp_counted_base<_Lp>*>()(this->_M_pi, __rhs._M_pi); }
-
-
-      friend inline bool
-      operator==(const __shared_count& __a, const __shared_count& __b) noexcept
-      { return __a._M_pi == __b._M_pi; }
-
-    private:
-      friend class __weak_count<_Lp>;
-
-      template<typename> friend class _Sp_atomic;
-
-
-
-
-
-      _Sp_counted_base<_Lp>* _M_pi;
-    };
-
-
-  template<_Lock_policy _Lp>
-    class __weak_count
-    {
-    public:
-      constexpr __weak_count() noexcept : _M_pi(nullptr)
-      { }
-
-      __weak_count(const __shared_count<_Lp>& __r) noexcept
-      : _M_pi(__r._M_pi)
-      {
- if (_M_pi != nullptr)
-   _M_pi->_M_weak_add_ref();
-      }
-
-      __weak_count(const __weak_count& __r) noexcept
-      : _M_pi(__r._M_pi)
-      {
- if (_M_pi != nullptr)
-   _M_pi->_M_weak_add_ref();
-      }
-
-      __weak_count(__weak_count&& __r) noexcept
-      : _M_pi(__r._M_pi)
-      { __r._M_pi = nullptr; }
-
-      ~__weak_count() noexcept
-      {
- if (_M_pi != nullptr)
-   _M_pi->_M_weak_release();
-      }
-
-      __weak_count&
-      operator=(const __shared_count<_Lp>& __r) noexcept
-      {
- _Sp_counted_base<_Lp>* __tmp = __r._M_pi;
- if (__tmp != nullptr)
-   __tmp->_M_weak_add_ref();
- if (_M_pi != nullptr)
-   _M_pi->_M_weak_release();
- _M_pi = __tmp;
- return *this;
-      }
-
-      __weak_count&
-      operator=(const __weak_count& __r) noexcept
-      {
- _Sp_counted_base<_Lp>* __tmp = __r._M_pi;
- if (__tmp != nullptr)
-   __tmp->_M_weak_add_ref();
- if (_M_pi != nullptr)
-   _M_pi->_M_weak_release();
- _M_pi = __tmp;
- return *this;
-      }
-
-      __weak_count&
-      operator=(__weak_count&& __r) noexcept
-      {
- if (_M_pi != nullptr)
-   _M_pi->_M_weak_release();
- _M_pi = __r._M_pi;
-        __r._M_pi = nullptr;
- return *this;
-      }
-
-      void
-      _M_swap(__weak_count& __r) noexcept
-      {
- _Sp_counted_base<_Lp>* __tmp = __r._M_pi;
- __r._M_pi = _M_pi;
- _M_pi = __tmp;
-      }
-
-      long
-      _M_get_use_count() const noexcept
-      { return _M_pi != nullptr ? _M_pi->_M_get_use_count() : 0; }
-
-      bool
-      _M_less(const __weak_count& __rhs) const noexcept
-      { return std::less<_Sp_counted_base<_Lp>*>()(this->_M_pi, __rhs._M_pi); }
-
-      bool
-      _M_less(const __shared_count<_Lp>& __rhs) const noexcept
-      { return std::less<_Sp_counted_base<_Lp>*>()(this->_M_pi, __rhs._M_pi); }
-
-
-      friend inline bool
-      operator==(const __weak_count& __a, const __weak_count& __b) noexcept
-      { return __a._M_pi == __b._M_pi; }
-
-    private:
-      friend class __shared_count<_Lp>;
-
-      template<typename> friend class _Sp_atomic;
-
-
-      _Sp_counted_base<_Lp>* _M_pi;
-    };
-
-
-  template<_Lock_policy _Lp>
-    inline
-    __shared_count<_Lp>::__shared_count(const __weak_count<_Lp>& __r)
-    : _M_pi(__r._M_pi)
-    {
-      if (_M_pi == nullptr || !_M_pi->_M_add_ref_lock_nothrow())
- __throw_bad_weak_ptr();
-    }
-
-
-  template<_Lock_policy _Lp>
-    inline
-    __shared_count<_Lp>::
-    __shared_count(const __weak_count<_Lp>& __r, std::nothrow_t) noexcept
-    : _M_pi(__r._M_pi)
-    {
-      if (_M_pi && !_M_pi->_M_add_ref_lock_nothrow())
- _M_pi = nullptr;
-    }
-
-
-
-
-
-  template<typename _Yp_ptr, typename _Tp_ptr>
-    struct __sp_compatible_with
-    : false_type
-    { };
-
-  template<typename _Yp, typename _Tp>
-    struct __sp_compatible_with<_Yp*, _Tp*>
-    : is_convertible<_Yp*, _Tp*>::type
-    { };
-
-  template<typename _Up, size_t _Nm>
-    struct __sp_compatible_with<_Up(*)[_Nm], _Up(*)[]>
-    : true_type
-    { };
-
-  template<typename _Up, size_t _Nm>
-    struct __sp_compatible_with<_Up(*)[_Nm], const _Up(*)[]>
-    : true_type
-    { };
-
-  template<typename _Up, size_t _Nm>
-    struct __sp_compatible_with<_Up(*)[_Nm], volatile _Up(*)[]>
-    : true_type
-    { };
-
-  template<typename _Up, size_t _Nm>
-    struct __sp_compatible_with<_Up(*)[_Nm], const volatile _Up(*)[]>
-    : true_type
-    { };
-
-
-  template<typename _Up, size_t _Nm, typename _Yp, typename = void>
-    struct __sp_is_constructible_arrN
-    : false_type
-    { };
-
-  template<typename _Up, size_t _Nm, typename _Yp>
-    struct __sp_is_constructible_arrN<_Up, _Nm, _Yp, __void_t<_Yp[_Nm]>>
-    : is_convertible<_Yp(*)[_Nm], _Up(*)[_Nm]>::type
-    { };
-
-
-  template<typename _Up, typename _Yp, typename = void>
-    struct __sp_is_constructible_arr
-    : false_type
-    { };
-
-  template<typename _Up, typename _Yp>
-    struct __sp_is_constructible_arr<_Up, _Yp, __void_t<_Yp[]>>
-    : is_convertible<_Yp(*)[], _Up(*)[]>::type
-    { };
-
-
-  template<typename _Tp, typename _Yp>
-    struct __sp_is_constructible;
-
-
-  template<typename _Up, size_t _Nm, typename _Yp>
-    struct __sp_is_constructible<_Up[_Nm], _Yp>
-    : __sp_is_constructible_arrN<_Up, _Nm, _Yp>::type
-    { };
-
-
-  template<typename _Up, typename _Yp>
-    struct __sp_is_constructible<_Up[], _Yp>
-    : __sp_is_constructible_arr<_Up, _Yp>::type
-    { };
-
-
-  template<typename _Tp, typename _Yp>
-    struct __sp_is_constructible
-    : is_convertible<_Yp*, _Tp*>::type
-    { };
-
-
-
-  template<typename _Tp, _Lock_policy _Lp,
-    bool = is_array<_Tp>::value, bool = is_void<_Tp>::value>
-    class __shared_ptr_access
-    {
-    public:
-      using element_type = _Tp;
-
-      element_type&
-      operator*() const noexcept
-      {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(_M_get() != nullptr), false)) std::__glibcxx_assert_fail(); } while (false);
- return *_M_get();
-      }
-
-      element_type*
-      operator->() const noexcept
-      {
- ;
- return _M_get();
-      }
-
-    private:
-      element_type*
-      _M_get() const noexcept
-      { return static_cast<const __shared_ptr<_Tp, _Lp>*>(this)->get(); }
-    };
-
-
-  template<typename _Tp, _Lock_policy _Lp>
-    class __shared_ptr_access<_Tp, _Lp, false, true>
-    {
-    public:
-      using element_type = _Tp;
-
-      element_type*
-      operator->() const noexcept
-      {
- auto __ptr = static_cast<const __shared_ptr<_Tp, _Lp>*>(this)->get();
- ;
- return __ptr;
-      }
-    };
-
-
-  template<typename _Tp, _Lock_policy _Lp>
-    class __shared_ptr_access<_Tp, _Lp, true, false>
-    {
-    public:
-      using element_type = typename remove_extent<_Tp>::type;
-# 1408 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 3
-      element_type&
-      operator[](ptrdiff_t __i) const noexcept
-      {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(_M_get() != nullptr), false)) std::__glibcxx_assert_fail(); } while (false);
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(!extent<_Tp>::value || __i < extent<_Tp>::value), false)) std::__glibcxx_assert_fail(); } while (false);
- return _M_get()[__i];
-      }
-
-    private:
-      element_type*
-      _M_get() const noexcept
-      { return static_cast<const __shared_ptr<_Tp, _Lp>*>(this)->get(); }
-    };
-
-  template<typename _Tp, _Lock_policy _Lp>
-    class __shared_ptr
-    : public __shared_ptr_access<_Tp, _Lp>
-    {
-    public:
-      using element_type = typename remove_extent<_Tp>::type;
-
-    private:
-
-      template<typename _Yp>
- using _SafeConv
-   = typename enable_if<__sp_is_constructible<_Tp, _Yp>::value>::type;
-
-
-      template<typename _Yp, typename _Res = void>
- using _Compatible = typename
-   enable_if<__sp_compatible_with<_Yp*, _Tp*>::value, _Res>::type;
-
-
-      template<typename _Yp>
- using _Assignable = _Compatible<_Yp, __shared_ptr&>;
-
-
-      template<typename _Yp, typename _Del, typename _Res = void,
-        typename _Ptr = typename unique_ptr<_Yp, _Del>::pointer>
- using _UniqCompatible = __enable_if_t<__and_<
-   __sp_compatible_with<_Yp*, _Tp*>,
-   is_convertible<_Ptr, element_type*>,
-   is_move_constructible<_Del>
-   >::value, _Res>;
-
-
-      template<typename _Yp, typename _Del>
- using _UniqAssignable = _UniqCompatible<_Yp, _Del, __shared_ptr&>;
-
-    public:
-
-
-      using weak_type = __weak_ptr<_Tp, _Lp>;
-
-
-      constexpr __shared_ptr() noexcept
-      : _M_ptr(0), _M_refcount()
-      { }
-
-      template<typename _Yp, typename = _SafeConv<_Yp>>
- explicit
- __shared_ptr(_Yp* __p)
- : _M_ptr(__p), _M_refcount(__p, typename is_array<_Tp>::type())
- {
-   static_assert( !is_void<_Yp>::value, "incomplete type" );
-   static_assert( sizeof(_Yp) > 0, "incomplete type" );
-   _M_enable_shared_from_this_with(__p);
- }
-
-      template<typename _Yp, typename _Deleter, typename = _SafeConv<_Yp>>
- __shared_ptr(_Yp* __p, _Deleter __d)
- : _M_ptr(__p), _M_refcount(__p, std::move(__d))
- {
-   static_assert(__is_invocable<_Deleter&, _Yp*&>::value,
-       "deleter expression d(p) is well-formed");
-   _M_enable_shared_from_this_with(__p);
- }
-
-      template<typename _Yp, typename _Deleter, typename _Alloc,
-        typename = _SafeConv<_Yp>>
- __shared_ptr(_Yp* __p, _Deleter __d, _Alloc __a)
- : _M_ptr(__p), _M_refcount(__p, std::move(__d), std::move(__a))
- {
-   static_assert(__is_invocable<_Deleter&, _Yp*&>::value,
-       "deleter expression d(p) is well-formed");
-   _M_enable_shared_from_this_with(__p);
- }
-
-      template<typename _Deleter>
- __shared_ptr(nullptr_t __p, _Deleter __d)
- : _M_ptr(0), _M_refcount(__p, std::move(__d))
- { }
-
-      template<typename _Deleter, typename _Alloc>
-        __shared_ptr(nullptr_t __p, _Deleter __d, _Alloc __a)
- : _M_ptr(0), _M_refcount(__p, std::move(__d), std::move(__a))
- { }
-
-
-      template<typename _Yp>
- __shared_ptr(const __shared_ptr<_Yp, _Lp>& __r,
-       element_type* __p) noexcept
- : _M_ptr(__p), _M_refcount(__r._M_refcount)
- { }
-
-
-      template<typename _Yp>
- __shared_ptr(__shared_ptr<_Yp, _Lp>&& __r,
-       element_type* __p) noexcept
- : _M_ptr(__p), _M_refcount()
- {
-   _M_refcount._M_swap(__r._M_refcount);
-   __r._M_ptr = nullptr;
- }
-
-      __shared_ptr(const __shared_ptr&) noexcept = default;
-      __shared_ptr& operator=(const __shared_ptr&) noexcept = default;
-      ~__shared_ptr() = default;
-
-      template<typename _Yp, typename = _Compatible<_Yp>>
- __shared_ptr(const __shared_ptr<_Yp, _Lp>& __r) noexcept
- : _M_ptr(__r._M_ptr), _M_refcount(__r._M_refcount)
- { }
-
-      __shared_ptr(__shared_ptr&& __r) noexcept
-      : _M_ptr(__r._M_ptr), _M_refcount()
-      {
- _M_refcount._M_swap(__r._M_refcount);
- __r._M_ptr = nullptr;
-      }
-
-      template<typename _Yp, typename = _Compatible<_Yp>>
- __shared_ptr(__shared_ptr<_Yp, _Lp>&& __r) noexcept
- : _M_ptr(__r._M_ptr), _M_refcount()
- {
-   _M_refcount._M_swap(__r._M_refcount);
-   __r._M_ptr = nullptr;
- }
-
-      template<typename _Yp, typename = _Compatible<_Yp>>
- explicit __shared_ptr(const __weak_ptr<_Yp, _Lp>& __r)
- : _M_refcount(__r._M_refcount)
- {
-
-
-   _M_ptr = __r._M_ptr;
- }
-
-
-      template<typename _Yp, typename _Del,
-        typename = _UniqCompatible<_Yp, _Del>>
- __shared_ptr(unique_ptr<_Yp, _Del>&& __r)
- : _M_ptr(__r.get()), _M_refcount()
- {
-   auto __raw = __to_address(__r.get());
-   _M_refcount = __shared_count<_Lp>(std::move(__r));
-   _M_enable_shared_from_this_with(__raw);
- }
-# 1586 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 3
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-
-      template<typename _Yp, typename = _Compatible<_Yp>>
- __shared_ptr(auto_ptr<_Yp>&& __r);
-#pragma GCC diagnostic pop
-
-
-      constexpr __shared_ptr(nullptr_t) noexcept : __shared_ptr() { }
-
-      template<typename _Yp>
- _Assignable<_Yp>
- operator=(const __shared_ptr<_Yp, _Lp>& __r) noexcept
- {
-   _M_ptr = __r._M_ptr;
-   _M_refcount = __r._M_refcount;
-   return *this;
- }
-
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-      template<typename _Yp>
- _Assignable<_Yp>
- operator=(auto_ptr<_Yp>&& __r)
- {
-   __shared_ptr(std::move(__r)).swap(*this);
-   return *this;
- }
-#pragma GCC diagnostic pop
-
-
-      __shared_ptr&
-      operator=(__shared_ptr&& __r) noexcept
-      {
- __shared_ptr(std::move(__r)).swap(*this);
- return *this;
-      }
-
-      template<class _Yp>
- _Assignable<_Yp>
- operator=(__shared_ptr<_Yp, _Lp>&& __r) noexcept
- {
-   __shared_ptr(std::move(__r)).swap(*this);
-   return *this;
- }
-
-      template<typename _Yp, typename _Del>
- _UniqAssignable<_Yp, _Del>
- operator=(unique_ptr<_Yp, _Del>&& __r)
- {
-   __shared_ptr(std::move(__r)).swap(*this);
-   return *this;
- }
-
-      void
-      reset() noexcept
-      { __shared_ptr().swap(*this); }
-
-      template<typename _Yp>
- _SafeConv<_Yp>
- reset(_Yp* __p)
- {
-
-   do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(__p == nullptr || __p != _M_ptr), false)) std::__glibcxx_assert_fail(); } while (false);
-   __shared_ptr(__p).swap(*this);
- }
-
-      template<typename _Yp, typename _Deleter>
- _SafeConv<_Yp>
- reset(_Yp* __p, _Deleter __d)
- { __shared_ptr(__p, std::move(__d)).swap(*this); }
-
-      template<typename _Yp, typename _Deleter, typename _Alloc>
- _SafeConv<_Yp>
- reset(_Yp* __p, _Deleter __d, _Alloc __a)
-        { __shared_ptr(__p, std::move(__d), std::move(__a)).swap(*this); }
-
-
-      element_type*
-      get() const noexcept
-      { return _M_ptr; }
-
-
-      explicit operator bool() const noexcept
-      { return _M_ptr != nullptr; }
-
-
-      bool
-      unique() const noexcept
-      { return _M_refcount._M_unique(); }
-
-
-      long
-      use_count() const noexcept
-      { return _M_refcount._M_get_use_count(); }
-
-
-      void
-      swap(__shared_ptr<_Tp, _Lp>& __other) noexcept
-      {
- std::swap(_M_ptr, __other._M_ptr);
- _M_refcount._M_swap(__other._M_refcount);
-      }
-# 1698 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 3
-      template<typename _Tp1>
- bool
- owner_before(__shared_ptr<_Tp1, _Lp> const& __rhs) const noexcept
- { return _M_refcount._M_less(__rhs._M_refcount); }
-
-      template<typename _Tp1>
- bool
- owner_before(__weak_ptr<_Tp1, _Lp> const& __rhs) const noexcept
- { return _M_refcount._M_less(__rhs._M_refcount); }
-
-
-    protected:
-
-      template<typename _Alloc, typename... _Args>
- __shared_ptr(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)
- : _M_ptr(), _M_refcount(_M_ptr, __tag, std::forward<_Args>(__args)...)
- { _M_enable_shared_from_this_with(_M_ptr); }
-
-      template<typename _Tp1, _Lock_policy _Lp1, typename _Alloc,
-        typename... _Args>
- friend __shared_ptr<_Tp1, _Lp1>
- __allocate_shared(const _Alloc& __a, _Args&&... __args);
-
-
-
-      template<typename _Alloc, typename _Init = const remove_extent_t<_Tp>*>
- __shared_ptr(const _Sp_counted_array_base<_Alloc>& __a,
-       _Init __init = nullptr)
- : _M_ptr(), _M_refcount(_M_ptr, __a, __init)
- { }
-
-
-
-
-      __shared_ptr(const __weak_ptr<_Tp, _Lp>& __r, std::nothrow_t) noexcept
-      : _M_refcount(__r._M_refcount, std::nothrow)
-      {
- _M_ptr = _M_refcount._M_get_use_count() ? __r._M_ptr : nullptr;
-      }
-
-      friend class __weak_ptr<_Tp, _Lp>;
-
-    private:
-
-      template<typename _Yp>
- using __esft_base_t = decltype(__enable_shared_from_this_base(
-       std::declval<const __shared_count<_Lp>&>(),
-       std::declval<_Yp*>()));
-
-
-      template<typename _Yp, typename = void>
- struct __has_esft_base
- : false_type { };
-
-      template<typename _Yp>
- struct __has_esft_base<_Yp, __void_t<__esft_base_t<_Yp>>>
- : __not_<is_array<_Tp>> { };
-
-      template<typename _Yp, typename _Yp2 = typename remove_cv<_Yp>::type>
- typename enable_if<__has_esft_base<_Yp2>::value>::type
- _M_enable_shared_from_this_with(_Yp* __p) noexcept
- {
-   if (auto __base = __enable_shared_from_this_base(_M_refcount, __p))
-     __base->_M_weak_assign(const_cast<_Yp2*>(__p), _M_refcount);
- }
-
-      template<typename _Yp, typename _Yp2 = typename remove_cv<_Yp>::type>
- typename enable_if<!__has_esft_base<_Yp2>::value>::type
- _M_enable_shared_from_this_with(_Yp*) noexcept
- { }
-
-      void*
-      _M_get_deleter(const std::type_info& __ti) const noexcept
-      { return _M_refcount._M_get_deleter(__ti); }
-
-      template<typename _Tp1, _Lock_policy _Lp1> friend class __shared_ptr;
-      template<typename _Tp1, _Lock_policy _Lp1> friend class __weak_ptr;
-
-      template<typename _Del, typename _Tp1, _Lock_policy _Lp1>
- friend _Del* get_deleter(const __shared_ptr<_Tp1, _Lp1>&) noexcept;
-
-      template<typename _Del, typename _Tp1>
- friend _Del* get_deleter(const shared_ptr<_Tp1>&) noexcept;
-
-
-      friend _Sp_atomic<shared_ptr<_Tp>>;
-
-
-
-
-
-      element_type* _M_ptr;
-      __shared_count<_Lp> _M_refcount;
-    };
-
-
-
-  template<typename _Tp1, typename _Tp2, _Lock_policy _Lp>
-    inline bool
-    operator==(const __shared_ptr<_Tp1, _Lp>& __a,
-        const __shared_ptr<_Tp2, _Lp>& __b) noexcept
-    { return __a.get() == __b.get(); }
-
-  template<typename _Tp, _Lock_policy _Lp>
-    inline bool
-    operator==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
-    { return !__a; }
-
-
-  template<typename _Tp, typename _Up, _Lock_policy _Lp>
-    inline strong_ordering
-    operator<=>(const __shared_ptr<_Tp, _Lp>& __a,
-  const __shared_ptr<_Up, _Lp>& __b) noexcept
-    { return compare_three_way()(__a.get(), __b.get()); }
-
-  template<typename _Tp, _Lock_policy _Lp>
-    inline strong_ordering
-    operator<=>(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
-    {
-      using pointer = typename __shared_ptr<_Tp, _Lp>::element_type*;
-      return compare_three_way()(__a.get(), static_cast<pointer>(nullptr));
-    }
-# 1919 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 3
-  template<typename _Tp, _Lock_policy _Lp>
-    inline void
-    swap(__shared_ptr<_Tp, _Lp>& __a, __shared_ptr<_Tp, _Lp>& __b) noexcept
-    { __a.swap(__b); }
-# 1931 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 3
-  template<typename _Tp, typename _Tp1, _Lock_policy _Lp>
-    inline __shared_ptr<_Tp, _Lp>
-    static_pointer_cast(const __shared_ptr<_Tp1, _Lp>& __r) noexcept
-    {
-      using _Sp = __shared_ptr<_Tp, _Lp>;
-      return _Sp(__r, static_cast<typename _Sp::element_type*>(__r.get()));
-    }
-
-
-
-
-
-
-  template<typename _Tp, typename _Tp1, _Lock_policy _Lp>
-    inline __shared_ptr<_Tp, _Lp>
-    const_pointer_cast(const __shared_ptr<_Tp1, _Lp>& __r) noexcept
-    {
-      using _Sp = __shared_ptr<_Tp, _Lp>;
-      return _Sp(__r, const_cast<typename _Sp::element_type*>(__r.get()));
-    }
-
-
-
-
-
-
-  template<typename _Tp, typename _Tp1, _Lock_policy _Lp>
-    inline __shared_ptr<_Tp, _Lp>
-    dynamic_pointer_cast(const __shared_ptr<_Tp1, _Lp>& __r) noexcept
-    {
-      using _Sp = __shared_ptr<_Tp, _Lp>;
-      if (auto* __p = dynamic_cast<typename _Sp::element_type*>(__r.get()))
- return _Sp(__r, __p);
-      return _Sp();
-    }
-
-
-  template<typename _Tp, typename _Tp1, _Lock_policy _Lp>
-    inline __shared_ptr<_Tp, _Lp>
-    reinterpret_pointer_cast(const __shared_ptr<_Tp1, _Lp>& __r) noexcept
-    {
-      using _Sp = __shared_ptr<_Tp, _Lp>;
-      return _Sp(__r, reinterpret_cast<typename _Sp::element_type*>(__r.get()));
-    }
-
-
-  template<typename _Tp, _Lock_policy _Lp>
-    class __weak_ptr
-    {
-      template<typename _Yp, typename _Res = void>
- using _Compatible = typename
-   enable_if<__sp_compatible_with<_Yp*, _Tp*>::value, _Res>::type;
-
-
-      template<typename _Yp>
- using _Assignable = _Compatible<_Yp, __weak_ptr&>;
-
-    public:
-      using element_type = typename remove_extent<_Tp>::type;
-
-      constexpr __weak_ptr() noexcept
-      : _M_ptr(nullptr), _M_refcount()
-      { }
-
-      __weak_ptr(const __weak_ptr&) noexcept = default;
-
-      ~__weak_ptr() = default;
-# 2013 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h" 3
-      template<typename _Yp, typename = _Compatible<_Yp>>
- __weak_ptr(const __weak_ptr<_Yp, _Lp>& __r) noexcept
- : _M_refcount(__r._M_refcount)
-        { _M_ptr = __r.lock().get(); }
-
-      template<typename _Yp, typename = _Compatible<_Yp>>
- __weak_ptr(const __shared_ptr<_Yp, _Lp>& __r) noexcept
- : _M_ptr(__r._M_ptr), _M_refcount(__r._M_refcount)
- { }
-
-      __weak_ptr(__weak_ptr&& __r) noexcept
-      : _M_ptr(__r._M_ptr), _M_refcount(std::move(__r._M_refcount))
-      { __r._M_ptr = nullptr; }
-
-      template<typename _Yp, typename = _Compatible<_Yp>>
- __weak_ptr(__weak_ptr<_Yp, _Lp>&& __r) noexcept
- : _M_ptr(__r.lock().get()), _M_refcount(std::move(__r._M_refcount))
-        { __r._M_ptr = nullptr; }
-
-      __weak_ptr&
-      operator=(const __weak_ptr& __r) noexcept = default;
-
-      template<typename _Yp>
- _Assignable<_Yp>
- operator=(const __weak_ptr<_Yp, _Lp>& __r) noexcept
- {
-   _M_ptr = __r.lock().get();
-   _M_refcount = __r._M_refcount;
-   return *this;
- }
-
-      template<typename _Yp>
- _Assignable<_Yp>
- operator=(const __shared_ptr<_Yp, _Lp>& __r) noexcept
- {
-   _M_ptr = __r._M_ptr;
-   _M_refcount = __r._M_refcount;
-   return *this;
- }
-
-      __weak_ptr&
-      operator=(__weak_ptr&& __r) noexcept
-      {
- __weak_ptr(std::move(__r)).swap(*this);
- return *this;
-      }
-
-      template<typename _Yp>
- _Assignable<_Yp>
- operator=(__weak_ptr<_Yp, _Lp>&& __r) noexcept
- {
-   _M_ptr = __r.lock().get();
-   _M_refcount = std::move(__r._M_refcount);
-   __r._M_ptr = nullptr;
-   return *this;
- }
-
-      __shared_ptr<_Tp, _Lp>
-      lock() const noexcept
-      { return __shared_ptr<element_type, _Lp>(*this, std::nothrow); }
-
-      long
-      use_count() const noexcept
-      { return _M_refcount._M_get_use_count(); }
-
-      bool
-      expired() const noexcept
-      { return _M_refcount._M_get_use_count() == 0; }
-
-      template<typename _Tp1>
- bool
- owner_before(const __shared_ptr<_Tp1, _Lp>& __rhs) const noexcept
- { return _M_refcount._M_less(__rhs._M_refcount); }
-
-      template<typename _Tp1>
- bool
- owner_before(const __weak_ptr<_Tp1, _Lp>& __rhs) const noexcept
- { return _M_refcount._M_less(__rhs._M_refcount); }
-
-      void
-      reset() noexcept
-      { __weak_ptr().swap(*this); }
-
-      void
-      swap(__weak_ptr& __s) noexcept
-      {
- std::swap(_M_ptr, __s._M_ptr);
- _M_refcount._M_swap(__s._M_refcount);
-      }
-
-    private:
-
-      void
-      _M_assign(_Tp* __ptr, const __shared_count<_Lp>& __refcount) noexcept
-      {
- if (use_count() == 0)
-   {
-     _M_ptr = __ptr;
-     _M_refcount = __refcount;
-   }
-      }
-
-      template<typename _Tp1, _Lock_policy _Lp1> friend class __shared_ptr;
-      template<typename _Tp1, _Lock_policy _Lp1> friend class __weak_ptr;
-      friend class __enable_shared_from_this<_Tp, _Lp>;
-      friend class enable_shared_from_this<_Tp>;
-
-      friend _Sp_atomic<weak_ptr<_Tp>>;
-
-
-      element_type* _M_ptr;
-      __weak_count<_Lp> _M_refcount;
-    };
-
-
-  template<typename _Tp, _Lock_policy _Lp>
-    inline void
-    swap(__weak_ptr<_Tp, _Lp>& __a, __weak_ptr<_Tp, _Lp>& __b) noexcept
-    { __a.swap(__b); }
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-  template<typename _Tp, typename _Tp1>
-    struct _Sp_owner_less : public binary_function<_Tp, _Tp, bool>
-    {
-      bool
-      operator()(const _Tp& __lhs, const _Tp& __rhs) const noexcept
-      { return __lhs.owner_before(__rhs); }
-
-      bool
-      operator()(const _Tp& __lhs, const _Tp1& __rhs) const noexcept
-      { return __lhs.owner_before(__rhs); }
-
-      bool
-      operator()(const _Tp1& __lhs, const _Tp& __rhs) const noexcept
-      { return __lhs.owner_before(__rhs); }
-    };
-#pragma GCC diagnostic pop
-
-  template<>
-    struct _Sp_owner_less<void, void>
-    {
-      template<typename _Tp, typename _Up>
- auto
- operator()(const _Tp& __lhs, const _Up& __rhs) const noexcept
- -> decltype(__lhs.owner_before(__rhs))
- { return __lhs.owner_before(__rhs); }
-
-      using is_transparent = void;
-    };
-
-  template<typename _Tp, _Lock_policy _Lp>
-    struct owner_less<__shared_ptr<_Tp, _Lp>>
-    : public _Sp_owner_less<__shared_ptr<_Tp, _Lp>, __weak_ptr<_Tp, _Lp>>
-    { };
-
-  template<typename _Tp, _Lock_policy _Lp>
-    struct owner_less<__weak_ptr<_Tp, _Lp>>
-    : public _Sp_owner_less<__weak_ptr<_Tp, _Lp>, __shared_ptr<_Tp, _Lp>>
-    { };
-
-
-  template<typename _Tp, _Lock_policy _Lp>
-    class __enable_shared_from_this
-    {
-    protected:
-      constexpr __enable_shared_from_this() noexcept { }
-
-      __enable_shared_from_this(const __enable_shared_from_this&) noexcept { }
-
-      __enable_shared_from_this&
-      operator=(const __enable_shared_from_this&) noexcept
-      { return *this; }
-
-      ~__enable_shared_from_this() { }
-
-    public:
-      __shared_ptr<_Tp, _Lp>
-      shared_from_this()
-      { return __shared_ptr<_Tp, _Lp>(this->_M_weak_this); }
-
-      __shared_ptr<const _Tp, _Lp>
-      shared_from_this() const
-      { return __shared_ptr<const _Tp, _Lp>(this->_M_weak_this); }
-
-
-      __weak_ptr<_Tp, _Lp>
-      weak_from_this() noexcept
-      { return this->_M_weak_this; }
-
-      __weak_ptr<const _Tp, _Lp>
-      weak_from_this() const noexcept
-      { return this->_M_weak_this; }
-
-
-    private:
-      template<typename _Tp1>
- void
- _M_weak_assign(_Tp1* __p, const __shared_count<_Lp>& __n) const noexcept
- { _M_weak_this._M_assign(__p, __n); }
-
-      friend const __enable_shared_from_this*
-      __enable_shared_from_this_base(const __shared_count<_Lp>&,
-         const __enable_shared_from_this* __p)
-      { return __p; }
-
-      template<typename, _Lock_policy>
- friend class __shared_ptr;
-
-      mutable __weak_ptr<_Tp, _Lp> _M_weak_this;
-    };
-
-  template<typename _Tp, _Lock_policy _Lp = __default_lock_policy,
-    typename _Alloc, typename... _Args>
-    inline __shared_ptr<_Tp, _Lp>
-    __allocate_shared(const _Alloc& __a, _Args&&... __args)
-    {
-      static_assert(!is_array<_Tp>::value, "make_shared<T[]> not supported");
-
-      return __shared_ptr<_Tp, _Lp>(_Sp_alloc_shared_tag<_Alloc>{__a},
-        std::forward<_Args>(__args)...);
-    }
-
-  template<typename _Tp, _Lock_policy _Lp = __default_lock_policy,
-    typename... _Args>
-    inline __shared_ptr<_Tp, _Lp>
-    __make_shared(_Args&&... __args)
-    {
-      typedef typename std::remove_const<_Tp>::type _Tp_nc;
-      return std::__allocate_shared<_Tp, _Lp>(std::allocator<_Tp_nc>(),
-           std::forward<_Args>(__args)...);
-    }
-
-
-  template<typename _Tp, _Lock_policy _Lp>
-    struct hash<__shared_ptr<_Tp, _Lp>>
-    : public __hash_base<size_t, __shared_ptr<_Tp, _Lp>>
-    {
-      size_t
-      operator()(const __shared_ptr<_Tp, _Lp>& __s) const noexcept
-      {
- return hash<typename __shared_ptr<_Tp, _Lp>::element_type*>()(
-     __s.get());
-      }
-    };
-
-
-}
-# 54 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 2 3
-
-namespace std
-{
-
-# 68 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-  template<typename _Ch, typename _Tr, typename _Tp, _Lock_policy _Lp>
-    inline std::basic_ostream<_Ch, _Tr>&
-    operator<<(std::basic_ostream<_Ch, _Tr>& __os,
-        const __shared_ptr<_Tp, _Lp>& __p)
-    {
-      __os << __p.get();
-      return __os;
-    }
-
-  template<typename _Del, typename _Tp, _Lock_policy _Lp>
-    inline _Del*
-    get_deleter(const __shared_ptr<_Tp, _Lp>& __p) noexcept
-    {
-
-      return static_cast<_Del*>(__p._M_get_deleter(typeid(_Del)));
-
-
-
-    }
-
-
-
-
-
-  template<typename _Del, typename _Tp>
-    inline _Del*
-    get_deleter(const shared_ptr<_Tp>& __p) noexcept
-    {
-
-      return static_cast<_Del*>(__p._M_get_deleter(typeid(_Del)));
-
-
-
-    }
-
-
-
-
-
-  template<typename _Tp>
-    requires (!is_array_v<_Tp>)
-    using _NonArray = _Tp;
-# 118 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-  template<typename _Tp>
-    requires is_array_v<_Tp> && (extent_v<_Tp> == 0)
-    using _UnboundedArray = _Tp;
-# 129 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-  template<typename _Tp>
-    requires (extent_v<_Tp> != 0)
-    using _BoundedArray = _Tp;
-# 141 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-  template<typename _Tp>
-    requires (!is_array_v<_Tp>) || (extent_v<_Tp> != 0)
-    using _NotUnboundedArray = _Tp;
-# 174 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-  template<typename _Tp>
-    class shared_ptr : public __shared_ptr<_Tp>
-    {
-      template<typename... _Args>
- using _Constructible = typename enable_if<
-   is_constructible<__shared_ptr<_Tp>, _Args...>::value
- >::type;
-
-      template<typename _Arg>
- using _Assignable = typename enable_if<
-   is_assignable<__shared_ptr<_Tp>&, _Arg>::value, shared_ptr&
- >::type;
-
-    public:
-
-
-      using element_type = typename __shared_ptr<_Tp>::element_type;
-
-
-
-
-      using weak_type = weak_ptr<_Tp>;
-
-
-
-
-
-      constexpr shared_ptr() noexcept : __shared_ptr<_Tp>() { }
-
-      shared_ptr(const shared_ptr&) noexcept = default;
-
-
-
-
-
-
-
-      template<typename _Yp, typename = _Constructible<_Yp*>>
- explicit
- shared_ptr(_Yp* __p) : __shared_ptr<_Tp>(__p) { }
-# 228 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-      template<typename _Yp, typename _Deleter,
-        typename = _Constructible<_Yp*, _Deleter>>
- shared_ptr(_Yp* __p, _Deleter __d)
-        : __shared_ptr<_Tp>(__p, std::move(__d)) { }
-# 246 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-      template<typename _Deleter>
- shared_ptr(nullptr_t __p, _Deleter __d)
-        : __shared_ptr<_Tp>(__p, std::move(__d)) { }
-# 265 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-      template<typename _Yp, typename _Deleter, typename _Alloc,
-        typename = _Constructible<_Yp*, _Deleter, _Alloc>>
- shared_ptr(_Yp* __p, _Deleter __d, _Alloc __a)
- : __shared_ptr<_Tp>(__p, std::move(__d), std::move(__a)) { }
-# 285 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-      template<typename _Deleter, typename _Alloc>
- shared_ptr(nullptr_t __p, _Deleter __d, _Alloc __a)
- : __shared_ptr<_Tp>(__p, std::move(__d), std::move(__a)) { }
-# 309 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-      template<typename _Yp>
- shared_ptr(const shared_ptr<_Yp>& __r, element_type* __p) noexcept
- : __shared_ptr<_Tp>(__r, __p) { }
-# 337 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-      template<typename _Yp>
- shared_ptr(shared_ptr<_Yp>&& __r, element_type* __p) noexcept
- : __shared_ptr<_Tp>(std::move(__r), __p) { }
-# 348 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-      template<typename _Yp,
-        typename = _Constructible<const shared_ptr<_Yp>&>>
- shared_ptr(const shared_ptr<_Yp>& __r) noexcept
-        : __shared_ptr<_Tp>(__r) { }
-
-
-
-
-
-
-      shared_ptr(shared_ptr&& __r) noexcept
-      : __shared_ptr<_Tp>(std::move(__r)) { }
-
-
-
-
-
-
-      template<typename _Yp, typename = _Constructible<shared_ptr<_Yp>>>
- shared_ptr(shared_ptr<_Yp>&& __r) noexcept
- : __shared_ptr<_Tp>(std::move(__r)) { }
-# 378 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-      template<typename _Yp, typename = _Constructible<const weak_ptr<_Yp>&>>
- explicit shared_ptr(const weak_ptr<_Yp>& __r)
- : __shared_ptr<_Tp>(__r) { }
-
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-      template<typename _Yp, typename = _Constructible<auto_ptr<_Yp>>>
- shared_ptr(auto_ptr<_Yp>&& __r);
-#pragma GCC diagnostic pop
-
-
-
-
-      template<typename _Yp, typename _Del,
-        typename = _Constructible<unique_ptr<_Yp, _Del>>>
- shared_ptr(unique_ptr<_Yp, _Del>&& __r)
- : __shared_ptr<_Tp>(std::move(__r)) { }
-# 411 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-      constexpr shared_ptr(nullptr_t) noexcept : shared_ptr() { }
-
-      shared_ptr& operator=(const shared_ptr&) noexcept = default;
-
-      template<typename _Yp>
- _Assignable<const shared_ptr<_Yp>&>
- operator=(const shared_ptr<_Yp>& __r) noexcept
- {
-   this->__shared_ptr<_Tp>::operator=(__r);
-   return *this;
- }
-
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-      template<typename _Yp>
- _Assignable<auto_ptr<_Yp>>
- operator=(auto_ptr<_Yp>&& __r)
- {
-   this->__shared_ptr<_Tp>::operator=(std::move(__r));
-   return *this;
- }
-#pragma GCC diagnostic pop
-
-
-      shared_ptr&
-      operator=(shared_ptr&& __r) noexcept
-      {
- this->__shared_ptr<_Tp>::operator=(std::move(__r));
- return *this;
-      }
-
-      template<class _Yp>
- _Assignable<shared_ptr<_Yp>>
- operator=(shared_ptr<_Yp>&& __r) noexcept
- {
-   this->__shared_ptr<_Tp>::operator=(std::move(__r));
-   return *this;
- }
-
-      template<typename _Yp, typename _Del>
- _Assignable<unique_ptr<_Yp, _Del>>
- operator=(unique_ptr<_Yp, _Del>&& __r)
- {
-   this->__shared_ptr<_Tp>::operator=(std::move(__r));
-   return *this;
- }
-
-    private:
-
-      template<typename _Alloc, typename... _Args>
- shared_ptr(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)
- : __shared_ptr<_Tp>(__tag, std::forward<_Args>(__args)...)
- { }
-
-      template<typename _Yp, typename _Alloc, typename... _Args>
- friend shared_ptr<_NonArray<_Yp>>
- allocate_shared(const _Alloc&, _Args&&...);
-
-      template<typename _Yp, typename... _Args>
- friend shared_ptr<_NonArray<_Yp>>
- make_shared(_Args&&...);
-
-
-
-      template<typename _Alloc, typename _Init = const remove_extent_t<_Tp>*>
- shared_ptr(const _Sp_counted_array_base<_Alloc>& __a,
-     _Init __init = nullptr)
- : __shared_ptr<_Tp>(__a, __init)
- { }
-
-      template<typename _Yp, typename _Alloc>
- friend shared_ptr<_UnboundedArray<_Yp>>
- allocate_shared(const _Alloc&, size_t);
-
-      template<typename _Yp>
- friend shared_ptr<_UnboundedArray<_Yp>>
- make_shared(size_t);
-
-      template<typename _Yp, typename _Alloc>
- friend shared_ptr<_UnboundedArray<_Yp>>
- allocate_shared(const _Alloc&, size_t, const remove_extent_t<_Yp>&);
-
-      template<typename _Yp>
- friend shared_ptr<_UnboundedArray<_Yp>>
- make_shared(size_t, const remove_extent_t<_Yp>&);
-
-      template<typename _Yp, typename _Alloc>
- friend shared_ptr<_BoundedArray<_Yp>>
- allocate_shared(const _Alloc&);
-
-      template<typename _Yp>
- friend shared_ptr<_BoundedArray<_Yp>>
- make_shared();
-
-      template<typename _Yp, typename _Alloc>
- friend shared_ptr<_BoundedArray<_Yp>>
- allocate_shared(const _Alloc&, const remove_extent_t<_Yp>&);
-
-      template<typename _Yp>
- friend shared_ptr<_BoundedArray<_Yp>>
- make_shared(const remove_extent_t<_Yp>&);
-
-
-      template<typename _Yp, typename _Alloc>
- friend shared_ptr<_NotUnboundedArray<_Yp>>
- allocate_shared_for_overwrite(const _Alloc&);
-
-      template<typename _Yp>
- friend shared_ptr<_NotUnboundedArray<_Yp>>
- make_shared_for_overwrite();
-
-      template<typename _Yp, typename _Alloc>
- friend shared_ptr<_UnboundedArray<_Yp>>
- allocate_shared_for_overwrite(const _Alloc&, size_t);
-
-      template<typename _Yp>
- friend shared_ptr<_UnboundedArray<_Yp>>
- make_shared_for_overwrite(size_t);
-
-
-
-
-      shared_ptr(const weak_ptr<_Tp>& __r, std::nothrow_t) noexcept
-      : __shared_ptr<_Tp>(__r, std::nothrow) { }
-
-      friend class weak_ptr<_Tp>;
-    };
-
-
-  template<typename _Tp>
-    shared_ptr(weak_ptr<_Tp>) -> shared_ptr<_Tp>;
-  template<typename _Tp, typename _Del>
-    shared_ptr(unique_ptr<_Tp, _Del>) -> shared_ptr<_Tp>;
-
-
-
-
-
-
-
-  template<typename _Tp, typename _Up>
-    [[__nodiscard__]] inline bool
-    operator==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
-    { return __a.get() == __b.get(); }
-
-
-  template<typename _Tp>
-    [[__nodiscard__]] inline bool
-    operator==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
-    { return !__a; }
-
-
-  template<typename _Tp, typename _Up>
-    inline strong_ordering
-    operator<=>(const shared_ptr<_Tp>& __a,
-  const shared_ptr<_Up>& __b) noexcept
-    { return compare_three_way()(__a.get(), __b.get()); }
-
-  template<typename _Tp>
-    inline strong_ordering
-    operator<=>(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
-    {
-      using pointer = typename shared_ptr<_Tp>::element_type*;
-      return compare_three_way()(__a.get(), static_cast<pointer>(nullptr));
-    }
-# 689 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-  template<typename _Tp>
-    inline void
-    swap(shared_ptr<_Tp>& __a, shared_ptr<_Tp>& __b) noexcept
-    { __a.swap(__b); }
-
-
-
-
-  template<typename _Tp, typename _Up>
-    inline shared_ptr<_Tp>
-    static_pointer_cast(const shared_ptr<_Up>& __r) noexcept
-    {
-      using _Sp = shared_ptr<_Tp>;
-      return _Sp(__r, static_cast<typename _Sp::element_type*>(__r.get()));
-    }
-
-
-  template<typename _Tp, typename _Up>
-    inline shared_ptr<_Tp>
-    const_pointer_cast(const shared_ptr<_Up>& __r) noexcept
-    {
-      using _Sp = shared_ptr<_Tp>;
-      return _Sp(__r, const_cast<typename _Sp::element_type*>(__r.get()));
-    }
-
-
-  template<typename _Tp, typename _Up>
-    inline shared_ptr<_Tp>
-    dynamic_pointer_cast(const shared_ptr<_Up>& __r) noexcept
-    {
-      using _Sp = shared_ptr<_Tp>;
-      if (auto* __p = dynamic_cast<typename _Sp::element_type*>(__r.get()))
- return _Sp(__r, __p);
-      return _Sp();
-    }
-
-
-
-
-  template<typename _Tp, typename _Up>
-    inline shared_ptr<_Tp>
-    reinterpret_pointer_cast(const shared_ptr<_Up>& __r) noexcept
-    {
-      using _Sp = shared_ptr<_Tp>;
-      return _Sp(__r, reinterpret_cast<typename _Sp::element_type*>(__r.get()));
-    }
-
-
-
-
-
-
-
-  template<typename _Tp, typename _Up>
-    inline shared_ptr<_Tp>
-    static_pointer_cast(shared_ptr<_Up>&& __r) noexcept
-    {
-      using _Sp = shared_ptr<_Tp>;
-      return _Sp(std::move(__r),
-   static_cast<typename _Sp::element_type*>(__r.get()));
-    }
-
-
-
-  template<typename _Tp, typename _Up>
-    inline shared_ptr<_Tp>
-    const_pointer_cast(shared_ptr<_Up>&& __r) noexcept
-    {
-      using _Sp = shared_ptr<_Tp>;
-      return _Sp(std::move(__r),
-   const_cast<typename _Sp::element_type*>(__r.get()));
-    }
-
-
-
-  template<typename _Tp, typename _Up>
-    inline shared_ptr<_Tp>
-    dynamic_pointer_cast(shared_ptr<_Up>&& __r) noexcept
-    {
-      using _Sp = shared_ptr<_Tp>;
-      if (auto* __p = dynamic_cast<typename _Sp::element_type*>(__r.get()))
- return _Sp(std::move(__r), __p);
-      return _Sp();
-    }
-
-
-
-  template<typename _Tp, typename _Up>
-    inline shared_ptr<_Tp>
-    reinterpret_pointer_cast(shared_ptr<_Up>&& __r) noexcept
-    {
-      using _Sp = shared_ptr<_Tp>;
-      return _Sp(std::move(__r),
-   reinterpret_cast<typename _Sp::element_type*>(__r.get()));
-    }
-# 809 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-  template<typename _Tp>
-    class weak_ptr : public __weak_ptr<_Tp>
-    {
-      template<typename _Arg>
- using _Constructible = typename enable_if<
-   is_constructible<__weak_ptr<_Tp>, _Arg>::value
- >::type;
-
-      template<typename _Arg>
- using _Assignable = typename enable_if<
-   is_assignable<__weak_ptr<_Tp>&, _Arg>::value, weak_ptr&
- >::type;
-
-    public:
-      constexpr weak_ptr() noexcept = default;
-
-      template<typename _Yp,
-        typename = _Constructible<const shared_ptr<_Yp>&>>
- weak_ptr(const shared_ptr<_Yp>& __r) noexcept
- : __weak_ptr<_Tp>(__r) { }
-
-      weak_ptr(const weak_ptr&) noexcept = default;
-
-      template<typename _Yp, typename = _Constructible<const weak_ptr<_Yp>&>>
- weak_ptr(const weak_ptr<_Yp>& __r) noexcept
- : __weak_ptr<_Tp>(__r) { }
-
-      weak_ptr(weak_ptr&&) noexcept = default;
-
-      template<typename _Yp, typename = _Constructible<weak_ptr<_Yp>>>
- weak_ptr(weak_ptr<_Yp>&& __r) noexcept
- : __weak_ptr<_Tp>(std::move(__r)) { }
-
-      weak_ptr&
-      operator=(const weak_ptr& __r) noexcept = default;
-
-      template<typename _Yp>
- _Assignable<const weak_ptr<_Yp>&>
- operator=(const weak_ptr<_Yp>& __r) noexcept
- {
-   this->__weak_ptr<_Tp>::operator=(__r);
-   return *this;
- }
-
-      template<typename _Yp>
- _Assignable<const shared_ptr<_Yp>&>
- operator=(const shared_ptr<_Yp>& __r) noexcept
- {
-   this->__weak_ptr<_Tp>::operator=(__r);
-   return *this;
- }
-
-      weak_ptr&
-      operator=(weak_ptr&& __r) noexcept = default;
-
-      template<typename _Yp>
- _Assignable<weak_ptr<_Yp>>
- operator=(weak_ptr<_Yp>&& __r) noexcept
- {
-   this->__weak_ptr<_Tp>::operator=(std::move(__r));
-   return *this;
- }
-
-      shared_ptr<_Tp>
-      lock() const noexcept
-      { return shared_ptr<_Tp>(*this, std::nothrow); }
-    };
-
-
-  template<typename _Tp>
-    weak_ptr(shared_ptr<_Tp>) -> weak_ptr<_Tp>;
-
-
-
-
-
-  template<typename _Tp>
-    inline void
-    swap(weak_ptr<_Tp>& __a, weak_ptr<_Tp>& __b) noexcept
-    { __a.swap(__b); }
-
-
-
-  template<typename _Tp = void>
-    struct owner_less;
-
-
-  template<>
-    struct owner_less<void> : _Sp_owner_less<void, void>
-    { };
-
-
-  template<typename _Tp>
-    struct owner_less<shared_ptr<_Tp>>
-    : public _Sp_owner_less<shared_ptr<_Tp>, weak_ptr<_Tp>>
-    { };
-
-
-  template<typename _Tp>
-    struct owner_less<weak_ptr<_Tp>>
-    : public _Sp_owner_less<weak_ptr<_Tp>, shared_ptr<_Tp>>
-    { };
-
-
-
-
-
-
-  template<typename _Tp>
-    class enable_shared_from_this
-    {
-    protected:
-      constexpr enable_shared_from_this() noexcept { }
-
-      enable_shared_from_this(const enable_shared_from_this&) noexcept { }
-
-      enable_shared_from_this&
-      operator=(const enable_shared_from_this&) noexcept
-      { return *this; }
-
-      ~enable_shared_from_this() { }
-
-    public:
-      shared_ptr<_Tp>
-      shared_from_this()
-      { return shared_ptr<_Tp>(this->_M_weak_this); }
-
-      shared_ptr<const _Tp>
-      shared_from_this() const
-      { return shared_ptr<const _Tp>(this->_M_weak_this); }
-
-
-
-
-
-
-      weak_ptr<_Tp>
-      weak_from_this() noexcept
-      { return this->_M_weak_this; }
-
-      weak_ptr<const _Tp>
-      weak_from_this() const noexcept
-      { return this->_M_weak_this; }
-
-
-
-    private:
-      template<typename _Tp1>
- void
- _M_weak_assign(_Tp1* __p, const __shared_count<>& __n) const noexcept
- { _M_weak_this._M_assign(__p, __n); }
-
-
-      friend const enable_shared_from_this*
-      __enable_shared_from_this_base(const __shared_count<>&,
-         const enable_shared_from_this* __p)
-      { return __p; }
-
-      template<typename, _Lock_policy>
- friend class __shared_ptr;
-
-      mutable weak_ptr<_Tp> _M_weak_this;
-    };
-# 986 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-  template<typename _Tp, typename _Alloc, typename... _Args>
-    inline shared_ptr<_NonArray<_Tp>>
-    allocate_shared(const _Alloc& __a, _Args&&... __args)
-    {
-      return shared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc>{__a},
-        std::forward<_Args>(__args)...);
-    }
-# 1001 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr.h" 3
-  template<typename _Tp, typename... _Args>
-    inline shared_ptr<_NonArray<_Tp>>
-    make_shared(_Args&&... __args)
-    {
-      using _Alloc = allocator<void>;
-      _Alloc __a;
-      return shared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc>{__a},
-        std::forward<_Args>(__args)...);
-    }
-
-
-
-  template<typename _Tp, typename _Alloc = allocator<void>>
-    auto
-    __make_shared_arr_tag(size_t __n, const _Alloc& __a = _Alloc()) noexcept
-    {
-      using _Up = remove_all_extents_t<_Tp>;
-      using _UpAlloc = __alloc_rebind<_Alloc, _Up>;
-      size_t __s = sizeof(remove_extent_t<_Tp>) / sizeof(_Up);
-      if (__builtin_mul_overflow(__s, __n, &__n))
- std::__throw_bad_array_new_length();
-      return _Sp_counted_array_base<_UpAlloc>{_UpAlloc(__a), __n};
-    }
-
-
-  template<typename _Tp, typename _Alloc>
-    inline shared_ptr<_UnboundedArray<_Tp>>
-    allocate_shared(const _Alloc& __a, size_t __n)
-    {
-      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n, __a));
-    }
-
-  template<typename _Tp>
-    inline shared_ptr<_UnboundedArray<_Tp>>
-    make_shared(size_t __n)
-    {
-      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n));
-    }
-
-  template<typename _Tp, typename _Alloc>
-    inline shared_ptr<_UnboundedArray<_Tp>>
-    allocate_shared(const _Alloc& __a, size_t __n,
-      const remove_extent_t<_Tp>& __u)
-    {
-      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n, __a),
-        std::__addressof(__u));
-    }
-
-  template<typename _Tp>
-    inline shared_ptr<_UnboundedArray<_Tp>>
-    make_shared(size_t __n, const remove_extent_t<_Tp>& __u)
-    {
-      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n),
-        std::__addressof(__u));
-    }
-
-
-  template<typename _Tp, typename _Alloc = allocator<void>>
-    auto
-    __make_shared_arrN_tag(const _Alloc& __a = _Alloc()) noexcept
-    {
-      using _Up = remove_all_extents_t<_Tp>;
-      using _UpAlloc = __alloc_rebind<_Alloc, _Up>;
-      size_t __n = sizeof(_Tp) / sizeof(_Up);
-      return _Sp_counted_array_base<_UpAlloc>{_UpAlloc(__a), __n};
-    }
-
-
-  template<typename _Tp, typename _Alloc>
-    inline shared_ptr<_BoundedArray<_Tp>>
-    allocate_shared(const _Alloc& __a)
-    {
-      return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>(__a));
-    }
-
-  template<typename _Tp>
-    inline shared_ptr<_BoundedArray<_Tp>>
-    make_shared()
-    {
-      return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>());
-    }
-
-  template<typename _Tp, typename _Alloc>
-    inline shared_ptr<_BoundedArray<_Tp>>
-    allocate_shared(const _Alloc& __a, const remove_extent_t<_Tp>& __u)
-    {
-      return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>(__a),
-        std::__addressof(__u));
-    }
-
-  template<typename _Tp>
-    inline shared_ptr<_BoundedArray<_Tp>>
-    make_shared(const remove_extent_t<_Tp>& __u)
-    {
-      return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>(),
-        std::__addressof(__u));
-    }
-
-
-  template<typename _Tp, typename _Alloc>
-    inline shared_ptr<_NotUnboundedArray<_Tp>>
-    allocate_shared_for_overwrite(const _Alloc& __a)
-    {
-      if constexpr (is_array_v<_Tp>)
- return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>(__a),
-          _Sp_overwrite_tag{});
-      else
- {
-
-
-   using _Alloc2 = __alloc_rebind<_Alloc, _Sp_overwrite_tag>;
-   _Alloc2 __a2 = __a;
-   return shared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc2>{__a2});
- }
-    }
-
-  template<typename _Tp>
-    inline shared_ptr<_NotUnboundedArray<_Tp>>
-    make_shared_for_overwrite()
-    {
-      if constexpr (is_array_v<_Tp>)
- return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>(),
-          _Sp_overwrite_tag{});
-      else
- {
-   using _Alloc = allocator<_Sp_overwrite_tag>;
-   return shared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc>{{}});
- }
-    }
-
-  template<typename _Tp, typename _Alloc>
-    inline shared_ptr<_UnboundedArray<_Tp>>
-    allocate_shared_for_overwrite(const _Alloc& __a, size_t __n)
-    {
-      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n, __a),
-        _Sp_overwrite_tag{});
-    }
-
-  template<typename _Tp>
-    inline shared_ptr<_UnboundedArray<_Tp>>
-    make_shared_for_overwrite(size_t __n)
-    {
-      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n),
-        _Sp_overwrite_tag{});
-    }
-
-
-
-
-  template<typename _Tp>
-    struct hash<shared_ptr<_Tp>>
-    : public __hash_base<size_t, shared_ptr<_Tp>>
-    {
-      size_t
-      operator()(const shared_ptr<_Tp>& __s) const noexcept
-      {
- return std::hash<typename shared_ptr<_Tp>::element_type*>()(__s.get());
-      }
-    };
-
-
-  template<typename _Tp>
-    static constexpr bool __is_shared_ptr = false;
-  template<typename _Tp>
-    static constexpr bool __is_shared_ptr<shared_ptr<_Tp>> = true;
-
-
-
-
-
-
-  namespace __detail::__variant
-  {
-    template<typename> struct _Never_valueless_alt;
-
-
-
-    template<typename _Tp>
-      struct _Never_valueless_alt<std::shared_ptr<_Tp>>
-      : std::true_type
-      { };
-
-
-
-    template<typename _Tp>
-      struct _Never_valueless_alt<std::weak_ptr<_Tp>>
-      : std::true_type
-      { };
-  }
-
-
-
-}
-# 46 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/condition_variable" 2 3
-# 54 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/condition_variable" 3
-namespace std
-{
-
-# 67 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/condition_variable" 3
-  enum class cv_status { no_timeout, timeout };
-
-
-  class condition_variable
-  {
-    using steady_clock = chrono::steady_clock;
-    using system_clock = chrono::system_clock;
-
-
-
-    using __clock_t = system_clock;
-
-
-    __condvar _M_cond;
-
-  public:
-    typedef __gthread_cond_t* native_handle_type;
-
-    condition_variable() noexcept;
-    ~condition_variable() noexcept;
-
-    condition_variable(const condition_variable&) = delete;
-    condition_variable& operator=(const condition_variable&) = delete;
-
-    void
-    notify_one() noexcept;
-
-    void
-    notify_all() noexcept;
-
-    void
-    wait(unique_lock<mutex>& __lock);
-
-    template<typename _Predicate>
-      void
-      wait(unique_lock<mutex>& __lock, _Predicate __p)
-      {
- while (!__p())
-   wait(__lock);
-      }
-# 116 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/condition_variable" 3
-    template<typename _Duration>
-      cv_status
-      wait_until(unique_lock<mutex>& __lock,
-   const chrono::time_point<system_clock, _Duration>& __atime)
-      { return __wait_until_impl(__lock, __atime); }
-
-    template<typename _Clock, typename _Duration>
-      cv_status
-      wait_until(unique_lock<mutex>& __lock,
-   const chrono::time_point<_Clock, _Duration>& __atime)
-      {
-
- static_assert(chrono::is_clock_v<_Clock>);
-
- using __s_dur = typename __clock_t::duration;
- const typename _Clock::time_point __c_entry = _Clock::now();
- const __clock_t::time_point __s_entry = __clock_t::now();
- const auto __delta = __atime - __c_entry;
- const auto __s_atime = __s_entry +
-   chrono::__detail::ceil<__s_dur>(__delta);
-
- if (__wait_until_impl(__lock, __s_atime) == cv_status::no_timeout)
-   return cv_status::no_timeout;
-
-
-
- if (_Clock::now() < __atime)
-   return cv_status::no_timeout;
- return cv_status::timeout;
-      }
-
-    template<typename _Clock, typename _Duration, typename _Predicate>
-      bool
-      wait_until(unique_lock<mutex>& __lock,
-   const chrono::time_point<_Clock, _Duration>& __atime,
-   _Predicate __p)
-      {
- while (!__p())
-   if (wait_until(__lock, __atime) == cv_status::timeout)
-     return __p();
- return true;
-      }
-
-    template<typename _Rep, typename _Period>
-      cv_status
-      wait_for(unique_lock<mutex>& __lock,
-        const chrono::duration<_Rep, _Period>& __rtime)
-      {
- using __dur = typename steady_clock::duration;
- return wait_until(__lock,
-     steady_clock::now() +
-     chrono::__detail::ceil<__dur>(__rtime));
-      }
-
-    template<typename _Rep, typename _Period, typename _Predicate>
-      bool
-      wait_for(unique_lock<mutex>& __lock,
-        const chrono::duration<_Rep, _Period>& __rtime,
-        _Predicate __p)
-      {
- using __dur = typename steady_clock::duration;
- return wait_until(__lock,
-     steady_clock::now() +
-     chrono::__detail::ceil<__dur>(__rtime),
-     std::move(__p));
-      }
-
-    native_handle_type
-    native_handle()
-    { return _M_cond.native_handle(); }
-
-  private:
-# 210 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/condition_variable" 3
-    template<typename _Dur>
-      cv_status
-      __wait_until_impl(unique_lock<mutex>& __lock,
-   const chrono::time_point<system_clock, _Dur>& __atime)
-      {
- auto __s = chrono::time_point_cast<chrono::seconds>(__atime);
- auto __ns = chrono::duration_cast<chrono::nanoseconds>(__atime - __s);
-
- __gthread_time_t __ts =
-   {
-     static_cast<std::time_t>(__s.time_since_epoch().count()),
-     static_cast<long>(__ns.count())
-   };
-
- _M_cond.wait_until(*__lock.mutex(), __ts);
-
- return (system_clock::now() < __atime
-  ? cv_status::no_timeout : cv_status::timeout);
-      }
-  };
-
-  void
-  notify_all_at_thread_exit(condition_variable&, unique_lock<mutex>);
-
-  struct __at_thread_exit_elt
-  {
-    __at_thread_exit_elt* _M_next;
-    void (*_M_cb)(void*);
-  };
-
-inline namespace _V2 {
-
-
-
-  class condition_variable_any
-  {
-
-
-
-    using __clock_t = chrono::system_clock;
-
-    condition_variable _M_cond;
-    shared_ptr<mutex> _M_mutex;
-
-
-    template<typename _Lock>
-      struct _Unlock
-      {
- explicit _Unlock(_Lock& __lk) : _M_lock(__lk) { __lk.unlock(); }
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
- ~_Unlock() noexcept(false)
- {
-   if (uncaught_exception())
-     {
-       try
-       { _M_lock.lock(); }
-       catch(const __cxxabiv1::__forced_unwind&)
-       { throw; }
-       catch(...)
-       { }
-     }
-   else
-     _M_lock.lock();
- }
-#pragma GCC diagnostic pop
-
- _Unlock(const _Unlock&) = delete;
- _Unlock& operator=(const _Unlock&) = delete;
-
- _Lock& _M_lock;
-      };
-
-  public:
-    condition_variable_any() : _M_mutex(std::make_shared<mutex>()) { }
-    ~condition_variable_any() = default;
-
-    condition_variable_any(const condition_variable_any&) = delete;
-    condition_variable_any& operator=(const condition_variable_any&) = delete;
-
-    void
-    notify_one() noexcept
-    {
-      lock_guard<mutex> __lock(*_M_mutex);
-      _M_cond.notify_one();
-    }
-
-    void
-    notify_all() noexcept
-    {
-      lock_guard<mutex> __lock(*_M_mutex);
-      _M_cond.notify_all();
-    }
-
-    template<typename _Lock>
-      void
-      wait(_Lock& __lock)
-      {
- shared_ptr<mutex> __mutex = _M_mutex;
- unique_lock<mutex> __my_lock(*__mutex);
- _Unlock<_Lock> __unlock(__lock);
-
-
- unique_lock<mutex> __my_lock2(std::move(__my_lock));
- _M_cond.wait(__my_lock2);
-      }
-
-
-    template<typename _Lock, typename _Predicate>
-      void
-      wait(_Lock& __lock, _Predicate __p)
-      {
- while (!__p())
-   wait(__lock);
-      }
-
-    template<typename _Lock, typename _Clock, typename _Duration>
-      cv_status
-      wait_until(_Lock& __lock,
-   const chrono::time_point<_Clock, _Duration>& __atime)
-      {
- shared_ptr<mutex> __mutex = _M_mutex;
- unique_lock<mutex> __my_lock(*__mutex);
- _Unlock<_Lock> __unlock(__lock);
-
-
- unique_lock<mutex> __my_lock2(std::move(__my_lock));
- return _M_cond.wait_until(__my_lock2, __atime);
-      }
-
-    template<typename _Lock, typename _Clock,
-      typename _Duration, typename _Predicate>
-      bool
-      wait_until(_Lock& __lock,
-   const chrono::time_point<_Clock, _Duration>& __atime,
-   _Predicate __p)
-      {
- while (!__p())
-   if (wait_until(__lock, __atime) == cv_status::timeout)
-     return __p();
- return true;
-      }
-
-    template<typename _Lock, typename _Rep, typename _Period>
-      cv_status
-      wait_for(_Lock& __lock, const chrono::duration<_Rep, _Period>& __rtime)
-      { return wait_until(__lock, __clock_t::now() + __rtime); }
-
-    template<typename _Lock, typename _Rep,
-      typename _Period, typename _Predicate>
-      bool
-      wait_for(_Lock& __lock,
-        const chrono::duration<_Rep, _Period>& __rtime, _Predicate __p)
-      { return wait_until(__lock, __clock_t::now() + __rtime, std::move(__p)); }
-
-
-    template <class _Lock, class _Predicate>
-    bool wait(_Lock& __lock,
-              stop_token __stoken,
-              _Predicate __p)
-    {
-      if (__stoken.stop_requested())
-        {
-          return __p();
-        }
-
-      std::stop_callback __cb(__stoken, [this] { notify_all(); });
-      shared_ptr<mutex> __mutex = _M_mutex;
-      while (!__p())
-        {
-          unique_lock<mutex> __my_lock(*__mutex);
-          if (__stoken.stop_requested())
-            {
-              return false;
-            }
-
-
-          _Unlock<_Lock> __unlock(__lock);
-          unique_lock<mutex> __my_lock2(std::move(__my_lock));
-          _M_cond.wait(__my_lock2);
-        }
-      return true;
-    }
-
-    template <class _Lock, class _Clock, class _Duration, class _Predicate>
-    bool wait_until(_Lock& __lock,
-                    stop_token __stoken,
-                    const chrono::time_point<_Clock, _Duration>& __abs_time,
-                    _Predicate __p)
-    {
-      if (__stoken.stop_requested())
-        {
-          return __p();
-        }
-
-      std::stop_callback __cb(__stoken, [this] { notify_all(); });
-      shared_ptr<mutex> __mutex = _M_mutex;
-      while (!__p())
-        {
-          bool __stop;
-          {
-            unique_lock<mutex> __my_lock(*__mutex);
-            if (__stoken.stop_requested())
-              {
-                return false;
-              }
-            _Unlock<_Lock> __u(__lock);
-            unique_lock<mutex> __my_lock2(std::move(__my_lock));
-            const auto __status = _M_cond.wait_until(__my_lock2, __abs_time);
-            __stop = (__status == std::cv_status::timeout) || __stoken.stop_requested();
-          }
-          if (__stop)
-            {
-              return __p();
-            }
-        }
-      return true;
-    }
-
-    template <class _Lock, class _Rep, class _Period, class _Predicate>
-    bool wait_for(_Lock& __lock,
-                  stop_token __stoken,
-                  const chrono::duration<_Rep, _Period>& __rel_time,
-                  _Predicate __p)
-    {
-      auto __abst = std::chrono::steady_clock::now() + __rel_time;
-      return wait_until(__lock,
-                        std::move(__stoken),
-                        __abst,
-                        std::move(__p));
-    }
-
-  };
-
-}
-
-
-
-}
 # 5 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task_data_race.cpp" 2
 
 
 # 6 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task_data_race.cpp"
 using namespace std;
 
-struct Node {
+struct Number {
     int data;
-    Node* prev;
-    Node* next;
+    atomic<Number*> prev;
+    atomic<Number*> next;
 
-    Node(int val) : data(val), prev(nullptr), next(nullptr) {}
+    Number(int val) : data(val), prev(nullptr), next(nullptr) {}
 };
 
 class DoublyLinkedList {
 private:
-    Node* head;
-    Node* tail;
+    atomic<Number*> head;
+    atomic<Number*> tail;
     mutable mutex mtx;
 
 public:
     DoublyLinkedList() : head(nullptr), tail(nullptr) {}
 
     void insertAtEnd(int value) {
-        lock_guard<mutex> lock(mtx);
+        Number* newNumber = new Number(value);
 
-        Node* newNode = new Node(value);
-        if (!head) {
-            head = tail = newNode;
+        lock_guard<mutex> lock(mtx);
+        Number* oldTail = tail.load();
+
+        if (!oldTail) {
+            head.store(newNumber);
+            tail.store(newNumber);
         } else {
-            tail->next = newNode;
-            newNode->prev = tail;
-            tail = newNode;
+            oldTail->next.store(newNumber);
+            newNumber->prev.store(oldTail);
+            tail.store(newNumber);
         }
     }
 
@@ -58672,93 +54020,57 @@ public:
         lock_guard<mutex> lock(mtx);
 
         cout << "List from head to tail: ";
-        Node* temp = head;
+        Number* temp = head.load();
         while (temp) {
             cout << temp->data << " ";
-            temp = temp->next;
+            temp = temp->next.load();
         }
         cout << endl;
 
         cout << "List from tail to head: ";
-        temp = tail;
+        temp = tail.load();
         while (temp) {
             cout << temp->data << " ";
-            temp = temp->prev;
+            temp = temp->prev.load();
         }
         cout << endl;
     }
 
-    void deleteElement(int value) {
+    bool deleteElement(int value) {
         lock_guard<mutex> lock(mtx);
 
-        Node* temp = head;
+        Number* temp = head.load();
         while (temp) {
             if (temp->data == value) {
-                if (temp->prev) temp->prev->next = temp->next;
-                if (temp->next) temp->next->prev = temp->prev;
+                Number* prevNumber = temp->prev.load();
+                Number* nextNumber = temp->next.load();
 
-                if (temp == head) head = temp->next;
-                if (temp == tail) tail = temp->prev;
+                if (prevNumber) prevNumber->next.store(nextNumber);
+                if (nextNumber) nextNumber->prev.store(prevNumber);
+
+                if (temp == head.load()) head.store(nextNumber);
+                if (temp == tail.load()) tail.store(prevNumber);
 
                 delete temp;
-                return;
+                return true;
             }
-            temp = temp->next;
+            temp = temp->next.load();
         }
-    }
-
-    void insertBefore(int newValue, int existingValue) {
-        lock_guard<mutex> lock(mtx);
-
-        Node* temp = head;
-        while (temp) {
-            if (temp->data == existingValue) {
-                Node* newNode = new Node(newValue);
-                newNode->next = temp;
-                newNode->prev = temp->prev;
-
-                if (temp->prev) temp->prev->next = newNode;
-                temp->prev = newNode;
-
-                if (temp == head) head = newNode;
-                return;
-            }
-            temp = temp->next;
-        }
-    }
-
-    void insertAfter(int newValue, int existingValue) {
-        lock_guard<mutex> lock(mtx);
-
-        Node* temp = head;
-        while (temp) {
-            if (temp->data == existingValue) {
-                Node* newNode = new Node(newValue);
-                newNode->prev = temp;
-                newNode->next = temp->next;
-
-                if (temp->next) temp->next->prev = newNode;
-                temp->next = newNode;
-
-                if (temp == tail) tail = newNode;
-                return;
-            }
-            temp = temp->next;
-        }
+        return false;
     }
 
     bool isSymmetric() const {
         lock_guard<mutex> lock(mtx);
 
-        Node* left = head;
-        Node* right = tail;
+        Number* left = head.load();
+        Number* right = tail.load();
 
         while (left && right) {
             if (left->data != right->data) {
                 return false;
             }
-            left = left->next;
-            right = right->prev;
+            left = left->next.load();
+            right = right->prev.load();
         }
 
         return left == nullptr && right == nullptr;
@@ -58766,10 +54078,10 @@ public:
 
     ~DoublyLinkedList() {
         lock_guard<mutex> lock(mtx);
-        Node* temp = head;
+        Number* temp = head.load();
         while (temp) {
-            Node* toDelete = temp;
-            temp = temp->next;
+            Number* toDelete = temp;
+            temp = temp->next.load();
             delete toDelete;
         }
     }
@@ -58789,27 +54101,16 @@ void testInsert(DoublyLinkedList& list) {
 
 void testDelete(DoublyLinkedList& list) {
     int value;
-    cout << "Enter the value to delete: ";
-    cin >> value;
-    list.deleteElement(value);
-}
-
-void testInsertBefore(DoublyLinkedList& list) {
-    int newValue, existingValue;
-    cout << "Enter new value to insert: ";
-    cin >> newValue;
-    cout << "Enter existing value before which to insert: ";
-    cin >> existingValue;
-    list.insertBefore(newValue, existingValue);
-}
-
-void testInsertAfter(DoublyLinkedList& list) {
-    int newValue, existingValue;
-    cout << "Enter new value to insert: ";
-    cin >> newValue;
-    cout << "Enter existing value after which to insert: ";
-    cin >> existingValue;
-    list.insertAfter(newValue, existingValue);
+    while (true) {
+        cout << "Enter the value to delete: ";
+        cin >> value;
+        if (list.deleteElement(value)) {
+            cout << "Element " << value << " deleted successfully.\n";
+            break;
+        } else {
+            cout << "Error: Element " << value << " not found in the list. Try again.\n";
+        }
+    }
 }
 
 void testSymmetry(DoublyLinkedList& list) {
@@ -58826,16 +54127,6 @@ int main() {
 
     thread t2(testDelete, ref(list));
     t2.join();
-
-    list.display();
-
-    thread t3(testInsertBefore, ref(list));
-    t3.join();
-
-    list.display();
-
-    thread t4(testInsertAfter, ref(list));
-    t4.join();
 
     list.display();
 

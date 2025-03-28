@@ -58,7 +58,7 @@ public:
         cout << endl;
     }
 
-    void deleteElement(int value) {
+    bool deleteElement(int value) {
         lock_guard<mutex> lock(mtx);
 
         Number* temp = head.load();
@@ -74,10 +74,11 @@ public:
                 if (temp == tail.load()) tail.store(prevNumber);
 
                 delete temp;
-                return;
+                return true;
             }
             temp = temp->next.load();
         }
+        return false;
     }
 
     bool isSymmetric() const {
@@ -122,9 +123,16 @@ void testInsert(DoublyLinkedList& list) {
 
 void testDelete(DoublyLinkedList& list) {
     int value;
-    cout << "Enter the value to delete: ";
-    cin >> value;
-    list.deleteElement(value);
+    while (true) {
+        cout << "Enter the value to delete: ";
+        cin >> value;
+        if (list.deleteElement(value)) {
+            cout << "Element " << value << " deleted successfully.\n";
+            break;
+        } else {
+            cout << "Error: Element " << value << " not found in the list. Try again.\n";
+        }
+    }
 }
 
 void testSymmetry(DoublyLinkedList& list) {
