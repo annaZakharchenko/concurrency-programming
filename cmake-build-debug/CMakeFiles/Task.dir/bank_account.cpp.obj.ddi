@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles\\Task.dir\\bank_account.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

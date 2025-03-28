@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "task_data_race.cpp",
+			"path" : "bank_account.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
