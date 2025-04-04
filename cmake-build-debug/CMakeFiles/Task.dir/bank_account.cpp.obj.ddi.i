@@ -92638,13 +92638,20 @@ void testAccountOperations() {
     BankAccount account1(1000);
     BankAccount account2(500);
 
+    cout << "Balance account1 : " << account1.getBalance() << endl;
+    cout << "Balance account2 : " << account2.getBalance() << endl;
+
     thread t1(&BankAccount::deposit, &account1, 500);
     thread t2(&BankAccount::withdraw, &account1, 200);
+    thread t4(&BankAccount::deposit, &account1, 300);
+    thread t5(&BankAccount::withdraw, &account1, 1500);
     thread t3(&BankAccount::transfer, &account1, ref(account2), 300);
 
     t1.join();
     t2.join();
     t3.join();
+    t4.join();
+    t5.join();
 }
 
 int main() {
