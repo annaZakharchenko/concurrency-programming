@@ -3,4 +3,4 @@ project(Practice1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Task bank_account.cpp)
+add_executable(Task findMode.cpp)

@@ -49,22 +49,22 @@ cmake_ninja_workdir = C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice
 
 build cmake_object_order_depends_target_Task: phony || .
 
-build CMakeFiles/Task.dir/bank_account.cpp.obj.ddi: CXX_SCAN__Task_Debug C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/bank_account.cpp || cmake_object_order_depends_target_Task
-  DEP_FILE = CMakeFiles\Task.dir\bank_account.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Task.dir\bank_account.cpp.obj.ddi
+build CMakeFiles/Task.dir/findMode.cpp.obj.ddi: CXX_SCAN__Task_Debug C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/findMode.cpp || cmake_object_order_depends_target_Task
+  DEP_FILE = CMakeFiles\Task.dir\findMode.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Task.dir\findMode.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\Task.dir\bank_account.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Task.dir\bank_account.cpp.obj.ddi.i
+  OBJ_FILE = CMakeFiles\Task.dir\findMode.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Task.dir\findMode.cpp.obj.ddi.i
 
-build CMakeFiles/Task.dir/bank_account.cpp.obj: CXX_COMPILER__Task_scanned_Debug C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/bank_account.cpp | CMakeFiles/Task.dir/bank_account.cpp.obj.modmap || cmake_object_order_depends_target_Task CMakeFiles/Task.dir/CXX.dd
-  DEP_FILE = CMakeFiles\Task.dir\bank_account.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Task.dir\bank_account.cpp.obj.modmap
+build CMakeFiles/Task.dir/findMode.cpp.obj: CXX_COMPILER__Task_scanned_Debug C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/findMode.cpp | CMakeFiles/Task.dir/findMode.cpp.obj.modmap || cmake_object_order_depends_target_Task CMakeFiles/Task.dir/CXX.dd
+  DEP_FILE = CMakeFiles\Task.dir\findMode.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Task.dir\findMode.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Task.dir
   OBJECT_FILE_DIR = CMakeFiles\Task.dir
   dyndep = CMakeFiles/Task.dir/CXX.dd
 
-build CMakeFiles/Task.dir/CXX.dd | C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task.dir/CXXModules.json CMakeFiles/Task.dir/bank_account.cpp.obj.modmap: CXX_DYNDEP__Task_Debug CMakeFiles/Task.dir/bank_account.cpp.obj.ddi | C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task.dir/CXXDependInfo.json
+build CMakeFiles/Task.dir/CXX.dd | C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task.dir/CXXModules.json CMakeFiles/Task.dir/findMode.cpp.obj.modmap: CXX_DYNDEP__Task_Debug CMakeFiles/Task.dir/findMode.cpp.obj.ddi | C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -74,7 +74,7 @@ build CMakeFiles/Task.dir/CXX.dd | C$:/Users/Hp/Programming/С++/ConcurrentProce
 #############################################
 # Link the executable Task.exe
 
-build Task.exe: CXX_EXECUTABLE_LINKER__Task_Debug CMakeFiles/Task.dir/bank_account.cpp.obj
+build Task.exe: CXX_EXECUTABLE_LINKER__Task_Debug CMakeFiles/Task.dir/findMode.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Task.dir
