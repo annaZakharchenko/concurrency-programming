@@ -1,5 +1,5 @@
-CMakeFiles\Task1.dir\task1.cpp.obj.ddi: \
- C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task1.cpp \
+CMakeFiles\Task.dir\task.cpp.obj.ddi: \
+ C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task.cpp \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/requires_hosted.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

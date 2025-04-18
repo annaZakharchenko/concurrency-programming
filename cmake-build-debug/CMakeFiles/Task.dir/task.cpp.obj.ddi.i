@@ -1,8 +1,8 @@
-# 0 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task1.cpp"
+# 0 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task.cpp"
 # 1 "C:\\Users\\Hp\\Programming\\С++\\ConcurrentProcesses\\Practice1\\cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task1.cpp"
+# 1 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task.cpp"
 # 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream" 1 3
 # 36 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream" 3
        
@@ -42465,7 +42465,7 @@ namespace std
 # 85 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream" 3
 
 }
-# 2 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task1.cpp" 2
+# 2 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task.cpp" 2
 # 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector" 1 3
 # 58 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector" 3
        
@@ -47374,7 +47374,7 @@ namespace std
     }
 
 }
-# 3 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task1.cpp" 2
+# 3 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task.cpp" 2
 # 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/future" 1 3
 # 32 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/future" 3
        
@@ -64771,7 +64771,7 @@ namespace std
 
 
 }
-# 4 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task1.cpp" 2
+# 4 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task.cpp" 2
 # 1 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/algorithm" 1 3
 # 58 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/algorithm" 3
        
@@ -75408,10 +75408,10 @@ lexicographical_compare(_ExecutionPolicy&& __exec, _ForwardIterator1 __first1, _
 
 }
 # 86 "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/algorithm" 2 3
-# 5 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task1.cpp" 2
+# 5 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task.cpp" 2
 
 
-# 6 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task1.cpp"
+# 6 "C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task.cpp"
 using namespace std;
 
 vector<int> parallelQuickSort(vector<int> vec) {

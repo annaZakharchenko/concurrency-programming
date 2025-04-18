@@ -41,92 +41,48 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Task1
+# Object build statements for EXECUTABLE target Task
 
 
 #############################################
-# Order-only phony target for Task1
+# Order-only phony target for Task
 
-build cmake_object_order_depends_target_Task1: phony || .
+build cmake_object_order_depends_target_Task: phony || .
 
-build CMakeFiles/Task1.dir/task1.cpp.obj.ddi: CXX_SCAN__Task1_Debug C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task1.cpp || cmake_object_order_depends_target_Task1
-  DEP_FILE = CMakeFiles\Task1.dir\task1.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Task1.dir\task1.cpp.obj.ddi
+build CMakeFiles/Task.dir/task.cpp.obj.ddi: CXX_SCAN__Task_Debug C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task.cpp || cmake_object_order_depends_target_Task
+  DEP_FILE = CMakeFiles\Task.dir\task.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Task.dir\task.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\Task1.dir\task1.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Task1.dir\task1.cpp.obj.ddi.i
+  OBJ_FILE = CMakeFiles\Task.dir\task.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Task.dir\task.cpp.obj.ddi.i
 
-build CMakeFiles/Task1.dir/task1.cpp.obj: CXX_COMPILER__Task1_scanned_Debug C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task1.cpp | CMakeFiles/Task1.dir/task1.cpp.obj.modmap || cmake_object_order_depends_target_Task1 CMakeFiles/Task1.dir/CXX.dd
-  DEP_FILE = CMakeFiles\Task1.dir\task1.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Task1.dir\task1.cpp.obj.modmap
+build CMakeFiles/Task.dir/task.cpp.obj: CXX_COMPILER__Task_scanned_Debug C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task.cpp | CMakeFiles/Task.dir/task.cpp.obj.modmap || cmake_object_order_depends_target_Task CMakeFiles/Task.dir/CXX.dd
+  DEP_FILE = CMakeFiles\Task.dir\task.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Task.dir\task.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Task1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Task1.dir
-  dyndep = CMakeFiles/Task1.dir/CXX.dd
+  OBJECT_DIR = CMakeFiles\Task.dir
+  OBJECT_FILE_DIR = CMakeFiles\Task.dir
+  dyndep = CMakeFiles/Task.dir/CXX.dd
 
-build CMakeFiles/Task1.dir/CXX.dd | C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task1.dir/CXXModules.json CMakeFiles/Task1.dir/task1.cpp.obj.modmap: CXX_DYNDEP__Task1_Debug CMakeFiles/Task1.dir/task1.cpp.obj.ddi | C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task1.dir/CXXDependInfo.json
+build CMakeFiles/Task.dir/CXX.dd | C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task.dir/CXXModules.json CMakeFiles/Task.dir/task.cpp.obj.modmap: CXX_DYNDEP__Task_Debug CMakeFiles/Task.dir/task.cpp.obj.ddi | C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task.dir/CXXDependInfo.json
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Task1
+# Link build statements for EXECUTABLE target Task
 
 
 #############################################
-# Link the executable Task1.exe
+# Link the executable Task.exe
 
-build Task1.exe: CXX_EXECUTABLE_LINKER__Task1_Debug CMakeFiles/Task1.dir/task1.cpp.obj
+build Task.exe: CXX_EXECUTABLE_LINKER__Task_Debug CMakeFiles/Task.dir/task.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Task1.dir
+  OBJECT_DIR = CMakeFiles\Task.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Task1.exe
-  TARGET_IMPLIB = libTask1.dll.a
-  TARGET_PDB = Task1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Task2
-
-
-#############################################
-# Order-only phony target for Task2
-
-build cmake_object_order_depends_target_Task2: phony || .
-
-build CMakeFiles/Task2.dir/task2.cpp.obj.ddi: CXX_SCAN__Task2_Debug C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task2.cpp || cmake_object_order_depends_target_Task2
-  DEP_FILE = CMakeFiles\Task2.dir\task2.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Task2.dir\task2.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\Task2.dir\task2.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Task2.dir\task2.cpp.obj.ddi.i
-
-build CMakeFiles/Task2.dir/task2.cpp.obj: CXX_COMPILER__Task2_scanned_Debug C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/task2.cpp | CMakeFiles/Task2.dir/task2.cpp.obj.modmap || cmake_object_order_depends_target_Task2 CMakeFiles/Task2.dir/CXX.dd
-  DEP_FILE = CMakeFiles\Task2.dir\task2.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Task2.dir\task2.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Task2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Task2.dir
-  dyndep = CMakeFiles/Task2.dir/CXX.dd
-
-build CMakeFiles/Task2.dir/CXX.dd | C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task2.dir/CXXModules.json CMakeFiles/Task2.dir/task2.cpp.obj.modmap: CXX_DYNDEP__Task2_Debug CMakeFiles/Task2.dir/task2.cpp.obj.ddi | C$:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task2.dir/CXXDependInfo.json
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Task2
-
-
-#############################################
-# Link the executable Task2.exe
-
-build Task2.exe: CXX_EXECUTABLE_LINKER__Task2_Debug CMakeFiles/Task2.dir/task2.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Task2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Task2.exe
-  TARGET_IMPLIB = libTask2.dll.a
-  TARGET_PDB = Task2.exe.dbg
+  TARGET_FILE = Task.exe
+  TARGET_IMPLIB = libTask.dll.a
+  TARGET_PDB = Task.exe.dbg
 
 
 #############################################
@@ -154,9 +110,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Task1: phony Task1.exe
-
-build Task2: phony Task2.exe
+build Task: phony Task.exe
 
 # =============================================================================
 # Folder targets.
@@ -166,7 +120,7 @@ build Task2: phony Task2.exe
 #############################################
 # Folder: C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug
 
-build all: phony Task1.exe Task2.exe
+build all: phony Task.exe
 
 # =============================================================================
 # Built-in targets

@@ -15,8 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -31,8 +30,7 @@
 					"name" : "Practice1",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -40,16 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Task1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Task1-Debug-ebc1335cb74cc1d07c2b.json",
-					"name" : "Task1",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Task2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Task2-Debug-d1c290b1bb5ade07fbe5.json",
-					"name" : "Task2",
+					"id" : "Task::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Task-Debug-5210a1a2fabb3677e08d.json",
+					"name" : "Task",
 					"projectIndex" : 0
 				}
 			]
