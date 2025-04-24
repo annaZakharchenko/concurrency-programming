@@ -23,7 +23,7 @@
 57	1638	7648671115646077	CMakeFiles/Task.dir/task_data_race.cpp.obj.ddi	6c82a509c51b0ccd
 7	263	7654674443611440	CMakeFiles/Task.dir/bank_account.cpp.obj.ddi	3eba38b6d59a4cf
 197	231	7642641060933469	C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task2_1.dir/CXXModules.json	f3506687013fafb6
-623	717	7660719422538211	C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task.dir/CXXModules.json	7a22d8287100e974
+297	364	7666783329892662	C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task.dir/CXXModules.json	59c0f508021ec13f
 233	986	7642641061292220	CMakeFiles/Task2_1.dir/task2_1.cpp.obj	760efa5fcf7340f6
 242	281	7630502556195895	C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task3.dir/CXXModules.json	d4110549b82b8c02
 987	1082	7642641068829096	Task2_1.exe	e6489a312e61b26e
@@ -36,7 +36,7 @@
 689	795	7666778414916530	CMakeFiles/Task2.dir/task2.cpp.obj.modmap	97b9e820ca4ad32b
 313	375	7642641250508912	CMakeFiles/Task2_2.dir/task2_2.cpp.obj.modmap	dea45dfa4562ebb1
 276	358	7642639560509410	C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task1_1.dir/CXXModules.json	9707b5d843e22f4c
-623	717	7660719422538211	CMakeFiles/Task.dir/CXX.dd	7a22d8287100e974
+297	364	7666783329892662	CMakeFiles/Task.dir/CXX.dd	59c0f508021ec13f
 377	1524	7642641251150194	CMakeFiles/Task2_2.dir/task2_2.cpp.obj	810f8fb17e314a89
 1134	1235	7642639568309621	Task1_1.exe	ff49a1b35768899
 2253	2613	7666778430558189	Task2.exe	4720b13fcd1c19a
@@ -59,15 +59,12 @@
 276	358	7642639560509410	CMakeFiles/Task1_1.dir/task1_1.cpp.obj.modmap	9707b5d843e22f4c
 368	1133	7642639560654404	CMakeFiles/Task1_1.dir/task1_1.cpp.obj	24158006fc58e5e5
 1682	2519	7648671131899105	CMakeFiles/Task.dir/task_data_race.cpp.obj	23f002273caa5046
-2325	2696	7660719439558588	Task.exe	5229fdf99bbe9fe0
-39	912	7666783215211159	build.ninja	f4ff681766b3fb17
+2158	2338	7666783348508224	Task.exe	edee94012f31bda4
+39	912	7671853359231068	build.ninja	f4ff681766b3fb17
 263	311	7654674446156713	CMakeFiles/Task.dir/bank_account.cpp.obj.modmap	5e759b7ba1377ccf
 313	1786	7654674446652932	CMakeFiles/Task.dir/bank_account.cpp.obj	721030c972c44604
 623	717	7660719422538211	CMakeFiles/Task.dir/findMode.cpp.obj.modmap	7a22d8287100e974
 726	2324	7660719423565954	CMakeFiles/Task.dir/findMode.cpp.obj	796bf47adbdd6140
 33	296	7666783327255012	CMakeFiles/Task.dir/task.cpp.obj.ddi	f6c27bcdee5659f5
-297	364	7666783329892662	CMakeFiles/Task.dir/CXX.dd	59c0f508021ec13f
-297	364	7666783329892662	C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task.dir/CXXModules.json	59c0f508021ec13f
 297	364	7666783329892662	CMakeFiles/Task.dir/task.cpp.obj.modmap	59c0f508021ec13f
 373	2154	7666783330660872	CMakeFiles/Task.dir/task.cpp.obj	66bdf462435e97b7
-2158	2338	7666783348508224	Task.exe	edee94012f31bda4
