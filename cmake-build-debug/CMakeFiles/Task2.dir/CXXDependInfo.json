@@ -5,6 +5,7 @@
 	"compiler-simulate-id" : "",
 	"config" : "Debug",
 	"cxx-modules" : {},
+	"database-info" : null,
 	"dir-cur-bld" : "C:/Users/Hp/Programming/\u0421++/ConcurrentProcesses/Practice1/cmake-build-debug",
 	"dir-cur-src" : "C:/Users/Hp/Programming/\u0421++/ConcurrentProcesses/Practice1",
 	"dir-top-bld" : "C:/Users/Hp/Programming/\u0421++/ConcurrentProcesses/Practice1/cmake-build-debug",
@@ -14,5 +15,13 @@
 	"include-dirs" : [],
 	"language" : "CXX",
 	"linked-target-dirs" : [],
-	"module-dir" : "C:/Users/Hp/Programming/\u0421++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task2.dir"
+	"module-dir" : "C:/Users/Hp/Programming/\u0421++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task2.dir",
+	"sources" : 
+	{
+		"CMakeFiles/Task2.dir/task2.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/Hp/Programming/\u0421++/ConcurrentProcesses/Practice1/task2.cpp"
+		}
+	}
 }
