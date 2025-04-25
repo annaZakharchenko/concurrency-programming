@@ -9,12 +9,12 @@ vector<int> parallelQuickSort(vector<int> vec) {
     if (vec.size() <= 1)
         return vec;
 
-    int pivot = vec[vec.size() / 2];
+    int middle = vec[vec.size() / 2];
     vector<int> less, greater;
 
     for (int i = 0; i < vec.size(); ++i) {
         if (i == vec.size() / 2) continue;
-        if (vec[i] < pivot)
+        if (vec[i] < middle)
             less.push_back(vec[i]);
         else
             greater.push_back(vec[i]);
@@ -29,14 +29,14 @@ vector<int> parallelQuickSort(vector<int> vec) {
     vector<int> result;
     result.reserve(less.size() + 1 + greater.size());
     result.insert(result.end(), less.begin(), less.end());
-    result.push_back(pivot);
+    result.push_back(middle);
     result.insert(result.end(), greater.begin(), greater.end());
 
     return result;
 }
 
 int main() {
-    vector<int> data = {10, 3, 5, 1, 4, 8, 2, 9, 6, 7};
+    vector<int> data = {10, 3, 5, 1, 6, 4, 8, 2, 9, 7};
 
     cout << "Original array: ";
     for (int x : data) cout << x << " ";

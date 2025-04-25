@@ -75445,7 +75445,7 @@ vector<int> parallelQuickSort(vector<int> vec) {
 }
 
 int main() {
-    vector<int> data = {10, 3, 5, 1, 4, 8, 2, 9, 6, 7};
+    vector<int> data = {10, 3, 5, 1, 6, 4, 8, 2, 9, 7};
 
     cout << "Original array: ";
     for (int x : data) cout << x << " ";
