@@ -71,3 +71,15 @@
 395	482	7671898559872338	CMakeFiles/Task2.dir/task2.cpp.obj.modmap	97b9e820ca4ad32b
 494	1846	7671898560853512	CMakeFiles/Task2.dir/task2.cpp.obj	af6c6c378053847b
 1846	2123	7671898574378671	Task2.exe	4720b13fcd1c19a
+44	1320	7671913746333057	CMakeFiles/Task2.dir/task2.cpp.obj.ddi	fd69f63a8a470a0e
+1320	1369	7671913759084354	CMakeFiles/Task2.dir/CXX.dd	97b9e820ca4ad32b
+1320	1369	7671913759084354	C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task2.dir/CXXModules.json	97b9e820ca4ad32b
+1320	1369	7671913759084354	CMakeFiles/Task2.dir/task2.cpp.obj.modmap	97b9e820ca4ad32b
+1370	2967	7671913759594605	CMakeFiles/Task2.dir/task2.cpp.obj	af6c6c378053847b
+2968	3211	7671913775564998	Task2.exe	4720b13fcd1c19a
+27	229	7671913946204096	CMakeFiles/Task1.dir/task1.cpp.obj.ddi	dc351665c409973
+230	281	7671913948223554	CMakeFiles/Task1.dir/CXX.dd	f112aa3f136ab4b7
+230	281	7671913948223554	C:/Users/Hp/Programming/С++/ConcurrentProcesses/Practice1/cmake-build-debug/CMakeFiles/Task1.dir/CXXModules.json	f112aa3f136ab4b7
+230	281	7671913948223554	CMakeFiles/Task1.dir/task1.cpp.obj.modmap	f112aa3f136ab4b7
+295	1209	7671913948874937	CMakeFiles/Task1.dir/task1.cpp.obj	565e0b634bea07d5
+1210	1294	7671913958026462	Task1.exe	a96f7e145fad8cc3
