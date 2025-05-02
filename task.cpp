@@ -1,52 +1,77 @@
 #include <iostream>
 #include <vector>
-#include <future>
-#include <algorithm>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
+#include <chrono>
 
 using namespace std;
 
-vector<int> parallelQuickSort(vector<int> vec) {
-    if (vec.size() <= 1)
-        return vec;
+int pot = 0;
+int H;
+const int n_bees = 3;
+int bear_eats = 0;
 
-    int middle = vec[vec.size() / 2];
-    vector<int> less, greater;
+mutex mtx;
+condition_variable pot_full;
+condition_variable pot_empty;
 
-    for (int i = 0; i < vec.size(); ++i) {
-        if (i == vec.size() / 2) continue;
-        if (vec[i] < middle)
-            less.push_back(vec[i]);
-        else
-            greater.push_back(vec[i]);
+bool bear_awake = false;
+
+void bee(int id) {
+    while (true) {
+        this_thread::sleep_for(chrono::milliseconds(300));
+
+        unique_lock<mutex> lock(mtx);
+
+        if (bear_eats >= 2) break;
+
+        while (pot == H) {
+            pot_empty.wait(lock);
+            if (bear_eats >= 2) return;
+        }
+
+        pot++;
+        cout << "Bee " << id << " brought honey. Pot: " << pot << "/" << H << endl;
+
+        if (pot == H) {
+            cout << "Bee " << id << " wakes up the bear!" << endl;
+            bear_awake = true;
+            pot_full.notify_one();
+        }
     }
+    cout << "Bee " << id << " finished work.\n";
+}
 
-    auto futureLess = async(launch::async, parallelQuickSort, less);
-    auto futureGreater = async(launch::async, parallelQuickSort, greater);
+void bear() {
+    while (bear_eats < 2) {
+        unique_lock<mutex> lock(mtx);
+        pot_full.wait(lock, [] { return bear_awake; });
 
-    less = futureLess.get();
-    greater = futureGreater.get();
+        cout << "Bear woke up and ate all the honey!" << endl;
+        pot = 0;
+        bear_awake = false;
+        bear_eats++;
 
-    vector<int> result;
-    result.reserve(less.size() + 1 + greater.size());
-    result.insert(result.end(), less.begin(), less.end());
-    result.push_back(middle);
-    result.insert(result.end(), greater.begin(), greater.end());
-
-    return result;
+        pot_empty.notify_all();
+    }
+    cout << "Bear ate honey twice and fell asleep forever.\n";
 }
 
 int main() {
-    vector<int> data = {10, 3, 5, 1, 6, 4, 8, 2, 9, 7};
+    cout << "Enter the pot capacity (H): ";
+    cin >> H;
 
-    cout << "Original array: ";
-    for (int x : data) cout << x << " ";
-    cout << endl;
+    thread bear_thread(bear);
+    vector<thread> bee_threads;
 
-    vector<int> sorted = parallelQuickSort(data);
+    for (int i = 0; i < n_bees; ++i) {
+        bee_threads.emplace_back(bee, i + 1);
+    }
 
-    cout << "Sorted array: ";
-    for (int x : sorted) cout << x << " ";
-    cout << endl;
+    for (auto& t : bee_threads) t.join();
+    bear_thread.join();
 
+    cout << "Program completed.\n";
     return 0;
 }
